@@ -1,5 +1,5 @@
 #set up file
-setwd("/home/sean/Documents/rstuff/fantasy")
+setwd("/home/sean/Documents/rstuff/fantasy2017")
 library(dplyr)
 library(reshape2)
 
@@ -11,7 +11,10 @@ results <- read.csv("./history/historicalresults.csv") %>%
 results[1:540, 4] <- c(rep(2010, 18), rep(2011, 18), rep(2012, 18))
 
 #convert to lowercase
-results$Category <- tolower(results$Category)
+results$Category <- tolower(results$Category) 
+
+#reorder columsn to match 2014 and 2015
+results <- select(results, Category, Value, Year, Points)
 
 ######################################
 #####read in the 2014 results#########
@@ -49,9 +52,9 @@ standings.2015[standings.2015$Category %in% c("era", "whip"),"Points"] <- 19-sta
 ######################################
 ##### Merge All Results Together######
 ######################################
-results <- rbind(results, standings.2014, standings.2015)
-
-
+results <- bind_rows(results, standings.2014, standings.2015) %>%
+      #filter out rows from 2013 that seem to be outliers
+      filter(!(Year==2013 & Category %in% c("r", "rbi", "hr")))
 
 ######################################
 #####Graphs and Analysis go Here######
@@ -66,8 +69,8 @@ catplot
 
 ###Regression Time####
 
-#filter out 1 point and 18 point recipients (skew results)
-regress <- results %>% filter(Points > 1 & Points < 18)
+#filter out 1, 2, 17 and 18 point recipients (skew results)
+regress <- results %>% filter(Points > 2 & Points < 17)
 
 #run the regression for each category
 regress <- regress %>% group_by(Category) %>%
