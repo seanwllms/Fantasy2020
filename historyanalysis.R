@@ -66,7 +66,7 @@ catplot <- ggplot(results, aes(x=Value, y=Points)) +
       geom_point() +
       facet_wrap(~ Category, ncol=2, scales="free_x")
 
-ggsave("catplot.png", catplot, width=600, height = 800)
+ggsave("catplot.png", catplot, width=6, height = 8)
 
 ###Regression Time####
 

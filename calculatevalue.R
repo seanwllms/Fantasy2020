@@ -1,4 +1,4 @@
-setwd("/home/sean/Documents/rstuff/fantasy")
+setwd("/home/sean/Documents/rstuff/fantasy2017")
 library(dplyr)
 
 ###Load the coefficients data frame
