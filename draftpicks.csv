@@ -1,507 +1,205 @@
 team,player,salary,position
-ottawa,Salvador Perez,21,C
-ottawa,Jonathan Schoop,4,2B
-ottawa,Todd Frazier,14,3B
-ottawa,Jose Bautista,29,OF
-ottawa,Kevin Pillar,4,OF
-ottawa,Gregory Polanco,24,OF
-ottawa,Jake Odorizzi,13,P
-ottawa,Jaime Garcia,4,P
-ottawa,Daniel Norris,4,P
-ottawa,Mike Fiers,11,P
-ottawa,Santiago Casilla,10,P
-bellevegas,Brian McCann,21,C
-bellevegas,Jose Abreu,28,1B
-bellevegas,Josh Donaldson,16,3B
-bellevegas,Albert Pujols,26,CI
-bellevegas,Chris Davis,28,OF
-bellevegas,David Peralta,6,OF
-bellevegas,Joey Gallo,8,OF
-bellevegas,Melky Cabrera,13,OF
-bellevegas,Steven Matz,4,P
-bellevegas,Luis Severino,4,P
-bellevegas,Michael Wacha,14,P
-bellevegas,Matt Moore,6,P
-bellevegas,Mike Leake,13,P
-bellevegas,Brad Ziegler,17,P
+ottawa,Freddie Freeman,22,1B
+ottawa,Hernan Perez,11,3B
+ottawa,Jean Segura,15,SS
+ottawa,Todd Frazier,19,CI
+ottawa,Kendrys Morales,11,DH
+ottawa,Mark Trumbo,21,OF
+ottawa,Danny Salazar,16,P
+ottawa,Jon Gray,12,P
+ottawa,Matt Moore,11,P
+ottawa,Daniel Norris,9,P
+bellevegas,Javier Baez,14,2B
+bellevegas,Travis Shaw,4,3B
+bellevegas,Didi Gregorius,7,SS
+bellevegas,Jurickson Profar,4,MI
+bellevegas,Colin McHugh,4,P
+bellevegas,Rick Porcello,6,P
+bellevegas,Steven Matz,9,P
+bellevegas,Luis Severino,9,P
+bellevegas,Adam Ottavino,4,P
+bellevegas,Cody Allen,14,P
 bellevegas,Josh Bell,0,B
-rippe,Kolten Wong,9,2B
-rippe,Manny Machado,19,3B
-rippe,Troy Tulowitzki,28,SS
-rippe,Matt Carpenter,14,CI
-rippe,Mike Trout,34,OF
-rippe,A.J. Pollock,17,OF
-rippe,Christian Yelich,14,OF
-rippe,Byron Buxton,4,OF
-rippe,Gerrit Cole,14,P
-rippe,Jacob deGrom,9,P
-rippe,Adam Wainwright,5,P
-rippe,David Price,30,P
-rippe,Jeff Samardzija,15,P
-rippe,Joe Ross,8,P
+bellevegas,AJ Reed,4,B
+rippe,Carlos Correia,9,SS
+rippe,Bryce Harper,24,OF
+rippe,A.J. Pollock,22,OF
+rippe,Christian Yelich,19,OF
+rippe,J.D. Martinez,19,OF
+rippe,Byron Buxton,9,OF
+rippe,Michael Fulmer,4,P
+rippe,Julio Urias,4,P
+rippe,Edwin Diaz,5,P
+rippe,Zach Britton,12,P
+rippe,J.P. Crawford,0,B
 rippe,Aaron Judge,0,B
-rippe,Hunter Harvey,1,B
-isotopes,Stephen Vogt,11,C
-isotopes,Kendrys Morales,6,DH
-isotopes,Lorenzo Cain,10,OF
-isotopes,Josh Reddick,12,OF
-isotopes,Hunter Pence,26,OF
-isotopes,Jose Fernandez,15,P
-isotopes,Sonny Gray,16,P
-isotopes,Yordano Ventura,10,P
-isotopes,Kevin Gausman,9,P
-isotopes,Patrick Corbin,4,P
-isotopes,Joaquin Benoit,12,P
+isotopes,Neil Walker,8,2B
+isotopes,Corey Seager,6,3B
+isotopes,Trea Turner,6,SS
+isotopes,Keon Broxton,4,OF
+isotopes,Nomar Mazara,4,OF
+isotopes,Matt Holliday,7,OF
+isotopes,Noah Syndergaard,9,P
+isotopes,Danny Duffy,7,P
+isotopes,Dylan Bundy,4,P
+isotopes,Brandon Maurer,4,P
 isotopes,Lucas Giolito,0,B
-isotopes,Nomar Mazara,0,B
-deano,George Springer,9,OF
-deano,Ender Inciarte,4,OF
-deano,Andrew McCutchen,34,OF
-deano,Will Smith,4,P
-deano,Max Scherzer,35,P
-deano,Yu Darvish,4,P
-deano,Felix Hernandez,32,P
-deano,Jon Lester,29,P
-deano,Cody Allen,9,P
-deano,Wade Davis,9,P
-deano,Trevor Rosenthal,14,P
-deano,Roberto Osuna,5,P
-deano,Manuel Margot,0,B
-deano,Jameson Taillon,0,B
-hermanos,Mark Teixeira,5,1B
-hermanos,Adrian Beltre,25,3B
-hermanos,Matt Duffy,4,CI
-hermanos,Curtis Granderson,14,OF
-hermanos,Michael Taylor,4,OF
-hermanos,Carlos Gonzalez,28,OF
-hermanos,Hisashi Iwakuma,21,P
-hermanos,J.A. Happ,4,P
-hermanos,John Lackey,13,P
-hermanos,Francisco Liriano,25,P
-hermanos,Jason Grilli,5,P
-hermanos,Francisco Rodriguez,11,P
-hermanos,Aroldis Chapman,25,P
-bears,Kyle Schwarber,4,C
-bears,Joey Votto,25,1B
-bears,Javier Baez,9,2B
-bears,Mookie Betts,23,OF
-bears,Starling Marte,19,OF
-bears,Billy Burns,14,OF
-bears,Domingo Santana,4,OF
-bears,Adam Eaton,22,OF
-bears,Jake Arrieta,10,P
-bears,Carlos Martinez,9,P
-bears,Carlos Rodon,4,P
-bears,Ian Kennedy,10,P
-bears,Corey Seager,0,B
-marmaduke,Paul Goldschmidt,33,1B
-marmaduke,Maikel Franco,11,3B
-marmaduke,Carlos Correa,4,SS
-marmaduke,Kevin Kiermaier,9,OF
-marmaduke,Billy Hamilton,9,OF
-marmaduke,Aaron Altherr,4,OF
-marmaduke,Adam Jones,30,OF
-marmaduke,Tyson Ross,14,P
-marmaduke,Marco Estrada,9,P
-marmaduke,Arodys Vizcaino,4,P
-marmaduke,Adam Conley,4,P
-marmaduke,Ryan McMahon,0,B
-pk dodgers,Francisco Cervelli,9,C
-pk dodgers,Byung-ho Park,15,1B
-pk dodgers,Dee Gordon,9,2B
-pk dodgers,Jung-ho Kang,7,SS
-pk dodgers,Yasiel Puig,14,OF
-pk dodgers,Enrique Hernandez,6,OF
-pk dodgers,Carl Crawford,1,OF
-pk dodgers,Mike Bolsinger,7,P
-pk dodgers,Clayton Kershaw,37,P
-pk dodgers,Jason Hammel,9,P
-pk dodgers,Andrew Heaney,5,P
-pk dodgers,Nate Karns,4,P
-pk dodgers,Scott Kazmir,16,P
-pk dodgers,David Robertson,18,P
-pk dodgers,Trayce Thompson,0,B
-pk dodgers,Hector Olivera,0,B
-balco,C.J. Cron,9,1B
-balco,Logan Forsythe,14,2B
-balco,Justin Turner,4,3B
-balco,Wilmer Flores,4,SS
-balco,Brandon Phillips,12,MI
-balco,Yoenis Cespedes,28,OF
-balco,Michael Conforto,4,OF
-balco,Eddie Rosario,7,OF
-balco,Jorge Soler,9,OF
-balco,Colby Rasmus,12,OF
-balco,Jesse Winker,0,B
-pasadena,Anthony Rizzo,24,1B
-pasadena,Jose Altuve,21,2B
-pasadena,Anthony Rendon,14,MI
-pasadena,Edwin Encarnacion,32,CI
-pasadena,Miguel Cabrera,38,DH
-pasadena,Bryce Harper,19,OF
-pasadena,Joc Pederson,9,OF
-pasadena,Kris Bryant,9,OF
-pasadena,Dallas Keuchel,9,P
-pasadena,Danny Salazar,11,P
-pasadena,Corey Kluber,15,P
-pasadena,Trea Turner,2,B
-pasadena,J.P. Crawford,0,B
-jobu,Russell Martin,15,C
-jobu,Justin Smoak,4,1B
-jobu,Robinson Cano,25,2B
-jobu,Noah Syndergaard,4,P
-jobu,Collin McHugh,9,P
-jobu,Edinson Volquez,10,P
-jobu,Jose Quintana,14,P
-jobu,Tanner Roark,9,P
-jobu,Mark Melancon,25,P
-jobu,Zach Britton,7,P
-jobu,Sean Newcomb,0,B
-dembums,Prince Fielder,24,1B
-dembums,Alex Rodriguez,5,DH
-dembums,Giancarlo Stanton,29,OF
-dembums,Nelson Cruz,24,OF
-dembums,Charlie Blackmon,9,OF
-dembums,Corey Dickerson,10,OF
-dembums,Jackie Bradley Jr.,4,OF
-dembums,Chris Sale,29,P
-dembums,Johnny Cueto,24,P
-dembums,Michael Pineda,10,P
-counsel,Welington Castillo,6,C
-counsel,Yoan Moncada,10,2B
-counsel,Xander Bogaerts,14,SS
-counsel,Joe Panik,5,MI
-counsel,Michael Brantley,20,OF
-counsel,Archie Bradley,4,P
-counsel,Carlos Carrasco,20,P
-counsel,Jonathan Gray,7,P
-counsel,Matt Harvey,19,P
-counsel,Madison Bumgarner,35,P
-counsel,Shawn Tolleson,9,P
-counsel,Orlando Arcia,0,B
-sturgeon,Buster Posey,29,C
-sturgeon,Lucas Duda,24,1B
-sturgeon,Rougned Odor,8,2B
-sturgeon,Nolan Arenado,14,3B
-sturgeon,Eric Hosmer,26,CI
-sturgeon,Randal Grichuk,4,OF
-sturgeon,Stephen Piscotty,12,OF
-sturgeon,Chris Archer,15,P
-sturgeon,A.J. Ramos,4,P
-sturgeon,Ken Giles,6,P
-sturgeon,Hector Rondon,7,P
-sturgeon,Peter O'Brien,0,B
-sturgeon,Tim Anderson,0,B
-baycity,Yasmani Grandal,11,C
-baycity,Blake Swihart,5,C
-baycity,Jason Kipnis,19,2B
-baycity,Eduardo Escobar,4,SS
-baycity,Francisco Lindor,4,MI
-baycity,Trevor Plouffe,7,CI
-baycity,Miguel Sano,4,DH
-baycity,Justin Upton,31,OF
-baycity,Lance McCullers,10,P
-baycity,Stephen Strasburg,29,P
-baycity,Marcus Stroman,9,P
-baycity,Zack Wheeler,14,P
-baycity,Tyler Glasnow,0,B
-deener,Adrian Gonzalez,38,1B
-deener,DJ LeMahieu,5,2B
-deener,Mike Moustakas,5,3B
-deener,Mitch Moreland,4,CI
-deener,David Ortiz,41,DH
-deener,Cameron Maybin,4,OF
-deener,Ben Revere,14,OF
-deener,Anthony DeSclafani,4,P
-deener,Jeurys Familia,4,P
-deener,Craig Kimbrel,33,P
-d&s,Mark Canha,4,1B
-d&s,Brian Dozier,14,2B
-d&s,Luis Valbuena,4,3B
-d&s,Brandon Crawford,4,SS
-d&s,J.D. Martinez,14,OF
-d&s,Erasmo Ramirez,7,P
-d&s,Garrett Richards,14,P
-d&s,Zack Greinke,33,P
-d&s,Brad Boxberger,11,P
-d&s,Andrew Miller,6,P
-d&s,Kenta Maeda,0,B
-d&s,Julio Urias,0,B
-deano,Kenley Jansen,23,P
-ottawa,Kole Calhoun,21,OF
-ottawa,Mark Trumbo,18,1B
-dembums,Huston Street,19,P
-bellevegas,Travis d'Arnaud,15,C
-bellevegas,Dellin Betances,10,P
-marmaduke,Matt Adams,11,CI
-marmaduke,Masahiro Tanaka,17,P
-pk dodgers,Yan Gomes,16,C
-counsel,Jay Bruce,20,OF
-bears,Carlos Gomez,28,OF
-sturgeon,Delino Deshields,16,OF
-pk dodgers,Alex Wood,13,P
-deener,Ervin Santana,10,P
-d&s,Cole Hamels,22,P
-pk dodgers,Angel Pagan,3,OF
-pasadena,Jason Heyward,27,OF
-counsel,Gerardo Parra,17,OF
-isotopes,Ben Zobrist,18,2B
-baycity,Darren O'Day,3,P
-d&s,Hanley Ramirez,24,OF
-ottawa,Taijuan Walker,15,P
-isotopes,Chris Tillman,4,P
-d&s,Matt Holliday,17,OF
-bears,Jonathan Lucroy,17,C
-deener,Dustin Pedroia,13,MI
-sturgeon,J.T. Realmuto,17,C
-sturgeon,Alex Reyes,4,P
-counsel,Derek Norris,15,C
-d&s,Jarrod Dyson,16,OF
-bears,Brett Anderson,10,P
-rippe,Tony Watson,4,P
-isotopes,Jose Reyes,13,SS
-bellevegas,Jon Singleton,4,DH
-bellevegas,Glen Perkins,16,P
-dembums,Brett Gardner,23,OF
-deano,Jacoby Ellsbury,18,OF
-balco,Shin-Soo Choo,22,OF
-deener,Michael Bourn,1,OF
-pk dodgers,Alexei Ramirez,12,MI
-isotopes,Matt Wieters,13,C
-jobu,Elvis Andrus,12,SS
-dembums,Wilson Ramos,10,C
-pk dodgers,James Shields,19,P
-baycity,Freddie Freeman,19,1B
-deano,James McCann,9,C
-hermanos,Yadier Molina,12,C
-ottawa,Jean Segura,12,SS
-pk dodgers,Scott Van Slyke,1,OF
-jobu,Andre Ethier,12,OF
-jobu,Dexter Fowler,19,OF
-jobu,Ryan Braun,35,OF
-rippe,Ubaldo Jimenez,5,P
-d&s,Matt Kemp,18,OF
-pk dodgers,Mikie Mahtook,4,OF
-bears,Jordan Zimmermann,16,P
-pk dodgers,Danny Valencia,9,3B
-isotopes,Evan Longoria,20,3B
-rippe,Avisail Garcia,13,OF
-deener,Vance Worley,1,P
-jobu,Jimmy Paredes,4,DH
-jobu,Ian Kinsler,19,MI
-hermanos,Jedd Gyorko,7,2B
-marmaduke,Brett Lawrie,11,2B
-baycity,Rusney Castillo,11,OF
-balco,Kyle Seager,24,CI
-isotopes,Alex Gordon,19,OF
-sturgeon,Steven Souza,17,OF
-counsel,Koji Uehara,4,P
-balco,Jonathan Papelbon,18,P
-jobu,Cody Asche,3,OF
-balco,Carter Capps,12,P
-jobu,Yunel Escobar,9,3B
-sturgeon,A.J. Reed,5,DH
-marmaduke,Marcell Ozuna,13,OF
-ottawa,Drew Smyly,16,P
-balco,Evan Gattis,25,DH
-marmaduke,Khris Davis,20,OF
-rippe,Chris Owings,2,MI
-rippe,Domonic Brown,1,OF
-d&s,Justin Bour,15,CI
-rippe,Nick Markakis,7,DH
-hermanos,Starlin Castro,10,SS
-hermanos,Addison Russell,13,MI
-pk dodgers,Chase Utley,1,DH
-deener,Luke Gregerson,7,P
-marmaduke,Sean Doolittle,25,P
-deano,Robinson Chirinos,4,C
-deener,Justin Verlander,12,P
-counsel,Pedro Alvarez,6,1B
-d&s,Ian Desmond,19,MI
-baycity,Denard Span,13,OF
-deener,Brandon Finnegan,5,P
-deano,Logan Morrison,4,1B
-balco,Chris Iannetta,4,C
-pasadena,Josh Harrison,10,3B
-deener,Joakim Soria,2,P
-ottawa,Raisel Iglesias,13,P
-hermanos,Carlos Beltran,8,OF
-deener,Nick Hundley,8,C
-dembums,Devin Mesoraco,9,C
-marmaduke,Wei-Yin Chen,14,P
-baycity,Alex Guerrero,2,3B
-baycity,Kyle Gibson,2,P
-baycity,Andrew Cashner,7,P
-jobu,Tyler Flowers,8,C
-balco,Drew Storen,3,P
-counsel,Chase Headley,9,3B
-pk dodgers,Adam Lind,9,CI
-ottawa,Aaron Hicks,6,OF
-hermanos,Miguel Montero,6,C
-isotopes,David Hernandez,7,P
-pk dodgers,Steve Cishek,10,P
-jobu,Tyler Clippard,2,P
-d&s,Homer Bailey,4,P
-jobu,Jimmy Nelson,8,P
-deener,Jhonny Peralta,10,SS
-bellevegas,Jose Iglesias,4,SS
-sturgeon,Henderson Alvarez,3,P
-bears,Alcides Escobar,6,SS
-bears,Carlos Santana,12,CI
-baycity,Phil Hughes,2,P
-bears,Aaron Nola,7,P
-dembums,Daniel Murphy,10,3B
-bears,David Wright,6,3B
-sturgeon,Yovani Gallardo,4,P
-deano,Andrelton Simmons,3,SS
-baycity,Leonys Martin,3,OF
-baycity,Nori Aoki,6,OF
-isotopes,Kris Medlen,4,P
-ottawa,Didi Gregorius,4,MI
-baycity,Yasmany Tomas,17,OF
-pasadena,Josh Phegley,2,C
-sturgeon,Ketel Marte,10,SS
-sturgeon,Wil Myers,10,OF
-isotopes,Brandon Moss,12,1B
-sturgeon,Shelby Miller,7,P
-dembums,Jake Peavy,3,P
-deener,Tom Murphy,3,C
-deener,Rich Hill,4,P
-isotopes,Brandon Belt,8,OF
-deano,Pablo Sandoval,4,3B
-counsel,Chris Colabello,4,OF
-isotopes,Gio Gonzalez,7,P
-baycity,Hyun-Jin Ryu,8,P
-counsel,Josh Hamilton,3,OF
-pasadena,Jayson Werth,6,OF
-d&s,Victor Martinez,2,DH
-bellevegas,Adeiny Hechavarria,1,MI
-rippe,Michael Fulmer,1,P
-jobu,Dalton Pompey,3,OF
-marmaduke,Neil Walker,5,MI
-counsel,R.A. Dickey,4,P
-counsel,Ryan Zimmerman,7,CI
-sturgeon,Marcus Semien,5,MI
-balco,Pedro Strop,3,P
-bellevegas,Brad Miller,2,2B
-jobu,Austin Jackson,3,OF
-ottawa,Nick Castellanos,6,CI
-counsel,Tony Sipp,1,P
-hermanos,Eduardo Rodriguez,5,P
-baycity,Jake McGee,4,P
-deener,Lonnie Chisenhall,1,OF
-sturgeon,Trevor Bauer,2,P
-bellevegas,Rajai Davis,1,OF
-rippe,Ryan Howard,1,1B
-isotopes,Erick Aybar,2,MI
-dembums,Devon Travis,2,2B
-d&s,Carson Smith,2,P
-balco,J.J. Hoover,4,P
-marmaduke,Kyle Hendricks,5,P
-rippe,A.J. Pierzynski,3,C
-counsel,Nathan Eovaldi,3,P
-dembums,Hunter Strickland,2,P
-hermanos,Howie Kendrick,3,DH
-hermanos,Chris Coghlan,9,OF
-sturgeon,Vincent Velasquez,1,P
-deener,Darin Ruf,1,OF
-d&s,Brett Cecil,1,P
-deano,Yangervis Solarte,2,CI
-bellevegas,Jace Peterson,1,OF
-d&s,Dioner Navarro,2,C
-ottawa,Jake Lamb,2,DH
-deano,Joe Mauer,1,DH
-counsel,Seth Smith,5,OF
-dembums,Jerad Eickhoff,2,P
-marmaduke,John Jaso,1,DH
-balco,Curt Casali,1,C
-pasadena,Cameron Rupp,1,C
-jobu,Jorge de la Rosa,1,P
-d&s,Julio Teheran,5,P
-counsel,Chris Carter,6,DH
-deener,Alex Rios,1,OF
-d&s,Kurt Suzuki,1,C
-ottawa,JR Murphy,1,C
-bellevegas,Colby Lewis,1,P
-rippe,Caleb Joseph,1,C
-isotopes,Preston Tucker,1,OF
-deano,Asdrubal Cabrera,1,2B
-hermanos,Doug Fister,1,P
-ottawa,Jeremy Jeffress,2,P
-pasadena,Rick Porcello,3,P
-balco,Luke Hochevar,1,P
-marmaduke,Clay Buchholz,4,P
-jobu,Martin Prado,1,CI
-dembums,Dansby Swanson,1,SS
-d&s,Abraham Almonte,1,OF
-balco,Fernando Rodney,4,P
-ottawa,Hector Santiago,2,P
-dembums,Blake Snell,2,P
-isotopes,Jed Lowrie,1,CI
-deano,Scooter Gennett,1,MI
-bears,Cesar Hernandez,1,MI
-marmaduke,Robbie Ray,1,P
-balco,Hansel Robles,1,P
-pasadena,Lewis Brinson,1,OF
-dembums,Jorge Mateo,1,MI
-ottawa,Hyun-Soo Kim,1,OF
-hermanos,Nick Swisher,1,OF
-bellevegas,Anibal Sanchez,1,P
-rippe,Kevin Siegrist,1,P
-deano,Desmond Jennings,1,OF
-hermanos,Seung-Hwan Oh,1,P
-dembums,Ben Paulsen,2,CI
-marmaduke,Willson Contreras,1,C
-balco,Yimi Garcia,1,P
-pasadena,John Lamb,1,P
-dembums,Anderson Espinoza,1,P
-deano,Marlon Byrd,1,OF
-bears,Adam Duvall,1,DH
-marmaduke,Andrew Susac,1,C
-balco,Keone Kela,1,P
-pasadena,Eugenio Suarez,1,SS
-dembums,Frances Martes,1,P
-bears,Jesse Hahn,1,P
-pasadena,Kyle Zimmer,1,P
-bears,Taylor Jungmann,1,P
-pasadena,Alex Cobb,1,P
-bears,Adam Warren,1,P
-pasadena,Rubby de la Rosa,1,P
-pasadena,Derek Holland,1,P
-pasadena,Jumbo Diaz,1,P
-sturgeon,Odubel Herrera,4,OF
-ottawa,Max Kepler,0,B
-dembums,Andrew Benintendi,0,B
-hermanos,James Loney,0,B
-deener,Billy Butler,0,B
-counsel,Corey Spangenberg,0,B
-deener,Franklin Gutierrez,0,B
-hermanos,Adonis Garcia,0,B
-marmaduke,Rafael Devers,0,B
-balco,Trevor Story,0,B
-dembums,Brock Holt,0,B
-bellevegas,Mike Napoli,0,B
-ottawa,Jose Peraza,0,B
-jobu,Justin Morneau,0,B
-bears,Gary Sanchez,0,B
-bears,Johnathan Villar,0,B
-jobu,Johnny Giavotella,0,B
-pk dodgers,Yasiel Sierra,0,B
-ottawa,Austin Meadows,0,B
-bellevegas,Jurickson Profar,0,B
-rippe,Yonder Alonso,0,B
-dembums,Greg Bird,0,B
-pasadena,Yulieski Gourriel,0,B
-balco,Bradley Zimmer,0,B
-isotopes,Nick Williams,0,B
-deano,Kevin Maitan,0,B
+isotopes,Victor Robles,0,B
+deano,Eduardo Nunez,5,SS
+deano,Asdrubal Cabrera,4,MI
+deano,Hunter Pence,9,OF
+deano,Mookie Betts,28,OF
+deano,Yu Darvish,9,P
+deano,Jon Lester,32,P
+deano,Max Scherzer,40,P
+deano,Jameson Taillon,4,P
+deano,Wade Davis,14,P
+deano,Roberto Osuna,10,P
+deano,Mkevin Maitan,0,B
+hermanos,Sandy Leon,4,C
+hermanos,Starlin Castro,13,2B
+hermanos,Jedd Gyorko,10,3B
+hermanos,Addison Russell,16,SS
+hermanos,Ryon Healey,7,CI
+hermanos,Carlos Beltran,11,OF
+hermanos,Carlos Martinez,14,P
+hermanos,J.A. Happ,9,P
+hermanos,Francisco Rodriguez,16,P
+hermanos,Seung Hwan Oh,4,P
+hermanos,Brady Aiken,0,B
+bears,Gary Sanchez,4,C
+bears,Trevor Story,4,SS
+bears,Jonathan Villar,4,MI
+bears,Starling Marte,24,OF
+bears,George Springer,14,OF
+bears,Adam Duvall,4,OF
+bears,Jake Arrieta,15,P
+bears,Chris Archer,20,P
+bears,Robbie Ray,4,P
+bears,Ozzie Albies,0,B
+marmaduke,Willson Contreras,4,C
+marmaduke,Paul Goldschmidt,38,1B
+marmaduke,Matt Carpenter,18,2B
+marmaduke,Billy Hamilton,14,OF
+marmaduke,Marcel Ozuna,16,OF
+marmaduke,Jacob deGrom,14,P
+marmaduke,Kyle Hendricks,8,P
+marmaduke,Rich Hill,7,P
+marmaduke,James Paxton,6,P
+marmaduke,Ken Giles,11,P
 marmaduke,Brendan Rodgers,0,B
-hermanos,Tyler Lyons,0,B
-deener,Michael Saunders,0,B
-counsel,Socrates Brito,0,B
-d&s,Drew Hutchison ,0,B
-sturgeon,Anthony Gose,0,B
-baycity,Mark Reynolds,0,B
-baycity,David Dahl,0,B
-sturgeon,Brett Phillips,0,B
-d&s,Derek Dietrich,0,B
+pk dodgers,Tony Wolters,4,C
+pk dodgers,Dee Gordon,14,2B
+pk dodgers,Jung Ho Kang,12,3B
+pk dodgers,Travis Jankowski,7,OF
+pk dodgers,Yasiel Puig,19,OF
+pk dodgers,David Peralta,11,OF
+pk dodgers,Dan Straily,8,P
+pk dodgers,Nathan Karns,9,P
+pk dodgers,Clayton Kershaw,42,P
+pk dodgers,Tom Koehler,7,P
+pk dodgers,Cody Bellinger,0,B
+pk dodgers,Tyler Austin,0,B
+balco,Evan Gattis,28,C
+balco,Jonathan Lucroy,20,C
+balco,C.J. Cron,14,1B
+balco,Logan Forsythe,19,2B
+balco,Yulieski Gurriel,4,3B
+balco,Justin Turner,9,CI
+balco,Carlos Santana,15,DH
+balco,Michael Conforto,9,OF
+balco,Tyler Naquin,4,OF
+balco,Domingo Santana,9,OF
+pasadena,Anthony Rizzo,29,1B
+pasadena,Jose Altuve,26,2B
+pasadena,Josh Donaldson,21,3B
+pasadena,Manny Machado,24,3B
+pasadena,Brad Miller,5,MI
+pasadena,Kris Bryant,14,OF
+pasadena,Corey Kluber,20,P
+pasadena,Aaron Sanchez,4,P
+pasadena,Kelvin Herrera,5,P
+pasadena,Dellin Betances,13,P
+pasadena,Jose De Leon,0,B
+jobu,Martin Prado,4,3B
+jobu,Dexter Fowler,22,OF
+jobu,Kevin Gausman,14,P
+jobu,Kendall Graveman,4,P
+jobu,Jose Quintana,19,P
+jobu,Justin Verlander,15,P
+jobu,Nick Wittgren,4,P
+jobu,Tony Watson,7,P
+jobu,Lewis Brinson,0,B
+dembums,Daniel Murphy,13,1B
+dembums,Devon Travis,5,2B
+dembums,Dansby Swanson,4,SS
+dembums,Charlie Blackmon,14,OF
+dembums,Nelson Cruz,29,OF
+dembums,Giancarlo Stanton,34,OF
+dembums,Jackie Bradley Jr.,9,OF
+dembums,Chris Sale,34,P
+dembums,Jared Eickhoff,5,P
+dembums,Alex Colome,4,P
+dembums,Andrew Benintendi,0,B
+dembums,Jorge Mateo,0,B
+counsel,Jacob Nottingham,4,C
+counsel,Stephen Vogt,16,C
+counsel,Jonathan Schoop,9,2B
+counsel,Alex Bregman,4,3B
+counsel,Xander Bogaerts,19,SS
+counsel,Joe Panik,9,MI
+counsel,Orlando Arcia,4,DH
+counsel,Randall Grichuk,9,OF
+counsel,Alex Reyes,7,P
+counsel,Koji Uehara,7,P
+counsel,Yoan Moncada,9,B
+counsel,Gleybar Torres,0,B
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+sturgeon,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+baycity,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+deener,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+d&s,,,
+marmaduke,Miguel Cabrera,40,CI
