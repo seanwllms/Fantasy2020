@@ -1,128 +1,98 @@
 #### Current Standings
 
-    ## Source: local data frame [18 x 7]
-    ## 
-    ##     team_name spent  left picks.left total_points hit.points pitch.points
-    ##         (chr) (dbl) (dbl)      (int)        (dbl)      (dbl)        (dbl)
-    ## 1       deano   260     0          0        116.7       42.5         74.2
-    ## 2    pasadena   258     2          0        113.5       67.7         45.8
-    ## 3       rippe   259     1          0        108.0       55.5         52.5
-    ## 4       bears   260     0          0        106.5       62.1         44.4
-    ## 5   marmaduke   260     0          0        104.6       53.7         50.9
-    ## 6    isotopes   260     0          0         99.3       49.6         49.7
-    ## 7    sturgeon   254     6          0         98.3       58.7         39.6
-    ## 8     dembums   256     4          0         95.6       48.7         46.9
-    ## 9     baycity   244    16          0         93.5       48.8         44.7
-    ## 10        d&s   260     0          0         93.0       42.9         50.1
-    ## 11     ottawa   257     3          0         92.4       45.2         47.2
-    ## 12 bellevegas   260     0          0         91.7       49.5         42.2
-    ## 13       jobu   261    -1          0         90.3       38.6         51.7
-    ## 14      balco   227    33          0         88.2       40.8         47.4
-    ## 15 pk dodgers   254     6          0         86.6       30.1         56.5
-    ## 16   hermanos   264    -4          0         86.5       37.3         49.2
-    ## 17     deener   231    29          0         85.7       43.0         42.7
-    ## 18    counsel   253     7          0         83.5       32.8         50.7
+    ##     team_name spent left picks.left total_points hit.points pitch.points
+    ## 1       deano   171   89         14         78.6       22.2         56.4
+    ## 2   marmaduke   176   84         14         73.7       36.0         37.7
+    ## 3    isotopes   104  156         13         72.6       41.4         31.2
+    ## 4       rippe   127  133         15         71.4       39.0         32.4
+    ## 5    pasadena   140  120         16         70.8       39.2         31.6
+    ## 6         d&s   150  110         15         68.2       30.4         37.8
+    ## 7       bears   131  129         13         65.7       36.5         29.2
+    ## 8     dembums   170   90         14         62.6       38.7         23.9
+    ## 9  pk dodgers   176   84         12         56.3       24.2         32.1
+    ## 10      balco   159  101         14         55.3       37.3         18.0
+    ## 11       jobu   116  144         16         54.9       13.8         41.1
+    ## 12    baycity   132  128         15         53.2       17.8         35.4
+    ## 13   sturgeon    94  166         15         52.8       34.8         18.0
+    ## 14     ottawa   147  113         15         51.8       26.6         25.2
+    ## 15 bellevegas   100  160         14         45.8       16.0         29.8
+    ## 16   hermanos   104  156         15         44.8       14.0         30.8
+    ## 17    counsel    88  172         15         40.3       20.6         19.7
+    ## 18     deener    79  181         16         33.7       15.1         18.6
 
 #### Top Remaining Pitchers
 
-    ##                 name         Team  IP  ERA WHIP   K SV  W   pts   dlr
-    ## 1      Daniel Hudson Diamondbacks  65 3.19 1.19  69 12  3  1.27  3.49
-    ## 2       Jesse Chavez    Blue Jays 140 3.89 1.27 122  0  9  0.94  2.60
-    ## 3  Jeremy Hellickson     Phillies 179 4.18 1.28 148  0  9  0.88  2.43
-    ## 4        C.J. Wilson       Angels 178 4.04 1.34 146  0 10  0.71  1.95
-    ## 5   Mike Foltynewicz       Braves 137 3.88 1.30 137  1  7  0.70  1.93
-    ## 6          Mat Latos              159 4.01 1.29 126  0  9  0.67  1.84
-    ## 7         Wade Miley     Mariners 175 4.00 1.33 133  0 10  0.63  1.74
-    ## 8        Josh Tomlin      Indians 124 3.80 1.20  99  0  7  0.59  1.64
-    ## 9        Jason Motte      Rockies  65 4.42 1.37  53 17  3  0.47  1.30
-    ## 10     Bartolo Colon         Mets 123 3.83 1.20  87  0  7  0.32  0.89
-    ## 11      Martin Perez      Rangers 172 4.03 1.35 121  0 10  0.17  0.46
-    ## 12     Tony Cingrani         Reds  65 3.23 1.23  75  6  3  0.15  0.42
-    ## 13      Shawn Kelley    Nationals  65 3.16 1.19  71  5  3  0.08  0.23
-    ## 14       CC Sabathia      Yankees 141 4.13 1.29 113  0  8  0.06  0.17
-    ## 15      Mark Buehrle              200 4.16 1.33 109  0 11  0.01  0.02
-    ## 16       Sergio Romo       Giants  65 2.81 1.10  66  2  3 -0.01 -0.04
-    ## 17    Yusmeiro Petit    Nationals 119 4.02 1.25  97  0  7 -0.04 -0.10
-    ## 18    Matthew Wisler       Braves 173 4.27 1.34 132  0  9 -0.14 -0.38
-    ## 19        Jeff Locke      Pirates 148 4.01 1.36 113  0  9 -0.15 -0.41
-    ## 20       Ryan Madson    Athletics  65 3.37 1.22  60  6  3 -0.19 -0.51
+    ##               name         Team  IP  ERA WHIP   K SV  W  pts   dlr
+    ## 1      David Price      Red Sox 208 3.46 1.12 200  0 15 6.60 18.18
+    ## 2  Carlos Carrasco      Indians 193 3.32 1.14 197  0 14 6.11 16.81
+    ## 3     Johnny Cueto       Giants 209 3.19 1.14 185  0 13 6.01 16.54
+    ## 4    Craig Kimbrel      Red Sox  65 3.01 1.13  87 32  4 5.52 15.19
+    ## 5    Mark Melancon       Giants  65 2.85 1.12  62 31  4 4.96 13.65
+    ## 6     Shawn Kelley    Nationals  65 3.13 1.11  78 28  4 4.66 12.83
+    ## 7    Cam Bedrosian       Angels  65 3.15 1.20  75 29  4 4.43 12.20
+    ## 8  Masahiro Tanaka      Yankees 205 3.82 1.18 174  0 13 4.25 11.70
+    ## 9   Matt Shoemaker       Angels 194 3.77 1.16 169  0 12 4.13 11.37
+    ## 10    Zack Greinke Diamondbacks 196 3.66 1.19 171  0 12 4.02 11.07
+    ## 11     Gerrit Cole      Pirates 189 3.61 1.20 173  0 12 3.99 10.98
+    ## 12 Jeff Samardzija       Giants 192 3.64 1.19 164  0 12 3.89 10.70
+    ## 13  Michael Pineda      Yankees 152 3.44 1.12 158  0 10 3.84 10.57
+    ## 14    Corey Knebel      Brewers  65 3.49 1.24  77 28  3 3.72 10.25
+    ## 15 Arodys Vizcaino       Braves  65 3.36 1.27  75 26  3 3.29  9.07
+    ## 16 Fernando Rodney Diamondbacks  65 3.54 1.31  67 28  3 3.24  8.91
+    ## 17      Aaron Nola     Phillies 166 3.58 1.19 156  0 10 3.13  8.60
+    ## 18     John Lackey         Cubs 180 3.88 1.20 164  0 11 3.11  8.56
+    ## 19     Drew Storen         Reds  65 3.71 1.21  62 25  3 2.90  7.98
+    ## 20    Wei-Yin Chen      Marlins 177 3.80 1.19 143  0 11 2.89  7.95
 
-#### Top Remaining Hitters (DH)
+#### Top Remaining Hitters
 
-    ##                name      Team  AB  R HR RBI SB   AVG   pts   dlr
-    ## 1  Cory Spangenberg    Padres 546 61  8  47 19 0.260  3.57  9.84
-    ## 2      David Freese           432 49 13  54  2 0.259  1.72  4.73
-    ## 3      Jose Ramirez   Indians 291 34  4  29 14 0.258  1.14  3.14
-    ## 4     Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
-    ## 5       Zack Cozart      Reds 462 46 10  48  6 0.245  0.90  2.49
-    ## 6      Jordy Mercer   Pirates 424 41  8  46  3 0.256  0.71  1.96
-    ## 7     Jimmy Rollins           368 44  8  35 11 0.237  0.50  1.37
-    ## 8   Jonathan Villar   Brewers 251 27  6  26 17 0.239  0.44  1.21
-    ## 9     Oswaldo Arcia     Twins 299 38 15  45  2 0.253  0.40  1.11
-    ## 10  Marwin Gonzalez    Astros 317 36  7  35  5 0.252  0.20  0.56
-    ## 11     Gregory Bird   Yankees 242 34 13  38  1 0.265  0.11  0.31
-    ## 12    Brandon Guyer      Rays 293 35  6  31  7 0.260  0.07  0.20
-    ## 13       Juan Uribe           272 29  7  32  2 0.260  0.02  0.04
-    ## 14       Tommy Pham Cardinals 271 33  6  30  5 0.265 -0.01 -0.01
-    ## 15     Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
-    ## 16  Christian Colon    Royals 221 24  3  22  6 0.264 -0.13 -0.36
-    ## 17       J.J. Hardy   Orioles 416 42 11  45  1 0.239 -0.14 -0.40
-    ## 18    Freddy Galvis  Phillies 384 34  7  38  4 0.246 -0.20 -0.55
-    ## 19    Danny Santana     Twins 185 20  2  18  8 0.264 -0.20 -0.55
-    ## 20    Gregor Blanco    Giants 264 28  4  27  8 0.261 -0.24 -0.67
-
-#### Top Remaining Catchers
-
-    ##                     name      Team  AB  R HR RBI SB   AVG   pts   dlr
-    ## 1          Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
-    ## 2           Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
-    ## 3           Carlos Perez    Angels 262 26  4  27  2 0.244 -0.25 -0.70
-    ## 4      Christian Vazquez   Red Sox  99 12  2  11  2 0.261 -0.42 -1.15
-    ## 5        Steve Clevenger  Mariners 128 13  2  13  1 0.259 -0.56 -1.54
-    ## 6  Jarrod Saltalamacchia    Tigers 204 26  8  27  1 0.227 -0.89 -2.45
-    ## 7            Carlos Ruiz  Phillies 205 19  3  20  1 0.243 -0.92 -2.54
-    ## 8            Brayan Pena Cardinals 127 12  1  12  1 0.254 -0.97 -2.66
-    ## 9          Austin Barnes   Dodgers  40  4  1   5  1 0.256 -1.29 -3.55
-    ## 10        Dustin Garneau   Rockies 138 15  4  16  1 0.238 -1.32 -3.63
-    ## 11           Tomas Telis   Marlins  28  3  0   3  0 0.258 -1.49 -4.11
-    ## 12          Josmil Pinto     Twins  30  4  1   4  0 0.255 -1.50 -4.12
-    ## 13         Ramon Cabrera      Reds  84  7  1   8  0 0.250 -1.56 -4.28
-    ## 14          Ryan Hanigan   Red Sox 130 15  2  13  1 0.238 -1.59 -4.38
-    ## 15         Chris Stewart   Pirates 125 10  1  11  1 0.243 -1.62 -4.46
-    ## 16            A.J. Ellis   Dodgers 182 19  4  20  1 0.226 -1.71 -4.71
-    ## 17         Chris Gimenez   Rangers 117 13  2  13  1 0.235 -1.80 -4.96
-    ## 18       Tucker Barnhart      Reds 118 11  2  11  1 0.237 -1.81 -4.99
-    ## 19        Kevin Plawecki      Mets 136 12  3  14  0 0.235 -1.83 -5.04
-    ## 20           Hank Conger      Rays 182 19  6  20  1 0.220 -1.84 -5.05
+    ##               name      Team  AB  R HR RBI SB   AVG  pts   dlr
+    ## 1  Carlos Gonzalez   Rockies 556 82 29  96  3 0.286 8.60 23.67
+    ## 2   Kyle Schwarber      Cubs 466 76 27  74  6 0.264 8.20 22.57
+    ## 3    Robinson Cano  Mariners 580 79 24  89  3 0.289 7.70 21.21
+    ## 4    Adrian Beltre   Rangers 536 75 22  85  2 0.294 7.65 21.06
+    ## 5       Ryan Braun   Brewers 489 70 24  76 12 0.280 7.27 20.02
+    ## 6     Justin Upton    Tigers 530 78 27  84 10 0.260 7.11 19.56
+    ## 7      DJ LeMahieu   Rockies 570 84  9  59 13 0.308 7.05 19.41
+    ## 8   Hanley Ramirez   Red Sox 474 71 23  82  6 0.282 6.94 19.09
+    ## 9       Joey Votto      Reds 507 87 23  77  6 0.288 6.92 19.05
+    ## 10      Adam Jones   Orioles 578 79 27  83  3 0.270 6.83 18.81
+    ## 11   Evan Longoria      Rays 577 77 26  87  3 0.263 6.80 18.71
+    ## 12      Jose Abreu White Sox 563 78 27  90  2 0.282 6.78 18.65
+    ## 13 Gregory Polanco   Pirates 549 77 18  71 19 0.265 6.77 18.65
+    ## 14   Maikel Franco  Phillies 547 71 26  84  2 0.272 6.71 18.48
+    ## 15 Yoenis Cespedes      Mets 542 74 28  87  4 0.264 6.70 18.44
+    ## 16  Anthony Rendon Nationals 526 78 18  73  9 0.276 6.68 18.40
+    ## 17     Kyle Seager  Mariners 536 76 24  82  4 0.268 6.67 18.37
+    ## 18      Adam Eaton Nationals 570 85 10  55 14 0.288 6.18 17.01
+    ## 19     Eric Hosmer    Royals 573 77 22  85  5 0.278 6.11 16.83
+    ## 20  Dustin Pedroia   Red Sox 566 84 12  65  7 0.290 6.07 16.71
 
 #### Data entry errors
 
-    ##               player       team       error
-    ## 1      Hunter Harvey      rippe not matched
-    ## 2      Manuel Margot      deano not matched
-    ## 3       Ryan McMahon  marmaduke not matched
-    ## 4      Byung-ho Park pk dodgers not matched
-    ## 5       Jesse Winker      balco not matched
-    ## 6       Sean Newcomb       jobu not matched
-    ## 7       Yoan Moncada    counsel not matched
-    ## 8        Kenta Maeda        d&s not matched
-    ## 9     Dansby Swanson    dembums not matched
-    ## 10       Jorge Mateo    dembums not matched
-    ## 11      Hyun-Soo Kim     ottawa not matched
-    ## 12     Seung-Hwan Oh   hermanos not matched
-    ## 13 Anderson Espinoza    dembums not matched
-    ## 14    Frances Martes    dembums not matched
-    ## 15 Andrew Benintendi    dembums not matched
-    ## 16 Corey Spangenberg    counsel not matched
-    ## 17     Rafael Devers  marmaduke not matched
-    ## 18      Gary Sanchez      bears not matched
-    ## 19  Johnathan Villar      bears not matched
-    ## 20     Yasiel Sierra pk dodgers not matched
-    ## 21    Austin Meadows     ottawa not matched
-    ## 22         Greg Bird    dembums not matched
-    ## 23 Yulieski Gourriel   pasadena not matched
-    ## 24    Bradley Zimmer      balco not matched
-    ## 25      Kevin Maitan      deano not matched
-    ## 26   Brendan Rodgers  marmaduke not matched
-    ## 27   Drew Hutchison         d&s not matched
-    ## 28        David Dahl    baycity not matched
+    ##              player       team       error
+    ## 1      Colin McHugh bellevegas not matched
+    ## 2           AJ Reed bellevegas not matched
+    ## 3     Victor Robles   isotopes not matched
+    ## 4     Mkevin Maitan      deano not matched
+    ## 5       Ryon Healey   hermanos not matched
+    ## 6       Brady Aiken   hermanos not matched
+    ## 7      Ozzie Albies      bears not matched
+    ## 8   Brendan Rodgers  marmaduke not matched
+    ## 9      Nathan Karns pk dodgers not matched
+    ## 10   Cody Bellinger pk dodgers not matched
+    ## 11   Jared Eickhoff    dembums not matched
+    ## 12 Jacob Nottingham    counsel not matched
+    ## 13  Randall Grichuk    counsel not matched
+    ## 14   Gleybar Torres    counsel not matched
+    ## 15        Greg Bird   sturgeon not matched
+    ## 16      David Dahl    sturgeon not matched
+    ## 17   Harrison Bader   sturgeon not matched
+    ## 18     Aldemys Diaz    baycity not matched
+    ## 19    Rafael Devers    baycity not matched
+    ## 20    D.J. LeMahieu     deener not matched
+    ## 21  Nick Descalfini     deener not matched
+    ## 22     Sean Newcomb     deener not matched
+    ## 23         A.J. Puk     deener not matched
+    ## 24      Eric Thames      bears not matched
+    ## 25     Zach Greinke    dembums not matched

@@ -4,7 +4,7 @@ output: md_document
 ---
 
 ```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-setwd("/home/sean/Documents/rstuff/fantasy")
+setwd("/home/sean/Documents/rstuff/fantasy2017")
 source("compileleague.R")
 ```
 
@@ -26,22 +26,13 @@ toppitch <- filter(pitcher_projections, status != "drafted") %>%
 toppitch[1:20,]
 ```
 
-####Top Remaining Hitters (DH)
+####Top Remaining Hitters
 ```{r, echo = FALSE}
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
 
 data.frame(topdh[1:20,])
-```
-
-####Top Remaining Catchers
-```{r, echo = FALSE}
-topcatch <- filter(hitter_projections, status != "drafted" & position == "catcher") %>%
-      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
-
-data.frame(topcatch[1:20,])
 ```
 
 ####Data entry errors
