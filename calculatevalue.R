@@ -1,5 +1,7 @@
 setwd("/home/sean/Documents/rstuff/fantasy2017")
 library(dplyr)
+library(purrr)
+library(readr)
 
 ###Load the coefficients data frame
 load("coefs.rda")
@@ -35,17 +37,32 @@ names(replacement_hitters) <- c("position",
                                 "avg")
 
 #list of file names
-filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
+filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
+filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
+filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+
+files <- list(fans=filelocs_fans, depth=filelocs_depth, steam=filelocs_steam)
+
 
 #read in hitterdata
-hitterdata <- lapply(filelocs, read.csv, header=TRUE, stringsAsFactors = FALSE)
+hitterdata <- at_depth(files, 2, read_csv) %>%
+      at_depth(2, select, 1, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid) %>%
+      at_depth(2, setNames, c("name", "Team", "AB", "PA", "R","HR", "RBI", "SB", "AVG", "OBP", "playerid")) %>%
+      at_depth(2, mutate, 
+               HR_ab = HR/AB,
+               R_ab = R/AB,
+               RBI_ab = RBI/AB,
+               SB_ab = SB/AB
+               )
 
-#keep only variables I care about
-hitterdata <- lapply(hitterdata, select, Name, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid)
+#create variable for each projection system
+hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
+hitterdata$steamer <- map(hitterdata$fans, mutate, proj="steamer")
+hitterdata$depth <- map(hitterdata$fans, mutate, proj="depthcharts")
 
-#rename columns
-hitterdata <- lapply(hitterdata, function(x) {colnames(x)[1] <- "name" 
-                                              return(x)})
+first.base.proj <- bind_rows(hitterdata[[1]][[1]],
+                              hitterdata[[2]][[1]],
+                              hitterdata[[3]][[1]])
 
 #create projection dataframes for each position
 grab.repl <- function(pos) {
