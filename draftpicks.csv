@@ -13,14 +13,14 @@ bellevegas,Javier Baez,14,2B
 bellevegas,Travis Shaw,4,3B
 bellevegas,Didi Gregorius,7,SS
 bellevegas,Jurickson Profar,4,MI
-bellevegas,Colin McHugh,4,P
+bellevegas,Collin McHugh,4,P
 bellevegas,Rick Porcello,6,P
 bellevegas,Steven Matz,9,P
 bellevegas,Luis Severino,9,P
 bellevegas,Adam Ottavino,4,P
 bellevegas,Cody Allen,14,P
 bellevegas,Josh Bell,0,B
-bellevegas,AJ Reed,4,B
+bellevegas,A.J. Reed,4,B
 rippe,Carlos Correa,9,SS
 rippe,Bryce Harper,24,OF
 rippe,A.J. Pollock,22,OF
@@ -55,12 +55,12 @@ deano,Max Scherzer,40,P
 deano,Jameson Taillon,4,P
 deano,Wade Davis,14,P
 deano,Roberto Osuna,10,P
-deano,Mkevin Maitan,0,B
+deano,Kevin Maitan,0,B
 hermanos,Sandy Leon,4,C
 hermanos,Starlin Castro,13,2B
 hermanos,Jedd Gyorko,10,3B
 hermanos,Addison Russell,16,SS
-hermanos,Ryon Healey,7,CI
+hermanos,Ryon Healy,7,CI
 hermanos,Carlos Beltran,11,OF
 hermanos,Carlos Martinez,14,P
 hermanos,J.A. Happ,9,P
@@ -95,7 +95,7 @@ pk dodgers,Travis Jankowski,7,OF
 pk dodgers,Yasiel Puig,19,OF
 pk dodgers,David Peralta,11,OF
 pk dodgers,Dan Straily,8,P
-pk dodgers,Nathan Karns,9,P
+pk dodgers,Nate Karns,9,P
 pk dodgers,Clayton Kershaw,42,P
 pk dodgers,Tom Koehler,7,P
 pk dodgers,Cody Bellinger,0,B
@@ -138,7 +138,7 @@ dembums,Nelson Cruz,29,OF
 dembums,Giancarlo Stanton,34,OF
 dembums,Jackie Bradley Jr.,9,OF
 dembums,Chris Sale,34,P
-dembums,Jared Eickhoff,5,P
+dembums,Jerad Eickhoff,5,P
 dembums,Alex Colome,4,P
 dembums,Andrew Benintendi,0,B
 dembums,Jorge Mateo,0,B
@@ -149,12 +149,12 @@ counsel,Alex Bregman,4,3B
 counsel,Xander Bogaerts,19,SS
 counsel,Joe Panik,9,MI
 counsel,Orlando Arcia,4,DH
-counsel,Randall Grichuk,9,OF
+counsel,Randal Grichuk,9,OF
 counsel,Alex Reyes,7,P
 counsel,Koji Uehara,7,P
 counsel,Yoan Moncada,9,B
-counsel,Gleybar Torres,0,B
-sturgeon,Greg Bird,6,1B
+counsel,Gleyber Torres,0,B
+sturgeon,Gregory Bird,6,1B
 sturgeon,Rougned Odor,13,2B
 sturgeon,Nolan Arenado,19,3B
 sturgeon,Tim Anderson,4,SS
@@ -163,11 +163,11 @@ sturgeon,Jake Lamb,5,CI
 sturgeon,Wil Myers,13,DH
 sturgeon,Odubel Herrera,9,OF
 sturgeon,Stephen Piscotty,17,OF
-sturgeon,David Dahl ,4,OF
+sturgeon,David Dahl,4,OF
 sturgeon,Harrison Bader,0,B
 sturgeon,Franklin Barreto,0,B
 baycity,Miguel Sano,9,3B
-baycity,Aldemys Diaz,4,SS
+baycity,Aledmys Diaz,4,SS
 baycity,Francisco Lindor,9,MI
 baycity,Max Kepler,4,OF
 baycity,Joc Pederson,14,OF
@@ -178,12 +178,12 @@ baycity,Tyler Glasnow,4,P
 baycity,A.J. Ramos,0,B
 baycity,Rafael Devers,0,B
 deener,Tom Murphy,6,C
-deener,D.J. LeMahieu,10,2B
+deener,DJ LeMahieu,10,2B
 deener,Nick Castellanos,9,3b
 deener,Mike Moustakas,10,CI
 deener,Cameron Maybin,9,OF
 deener,Manuel Margot,4,OF
-deener,Nick Descalfini,9,P
+deener,Anthony DeSclafani,9,P
 deener,Brandon Finnegan,8,P
 deener,Jeurys Familia,9,P
 deener,Sean Newcomb,0,B
@@ -204,7 +204,7 @@ bears,Joey Gallo,6,3B
 bears,Eric Thames,18,OF
 deener,Troy Tulowitzki,14,SS
 jobu,Aroldis Chapman,27,P
-dembums,Zach Greinke,19,P
+dembums,Zack Greinke,19,P
 bears,Adrian Gonzalez,14,1B
 balco,Andrew McCutchen,28,OF
 marmaduke,Miguel Cabrera,40,CI
