@@ -6,6 +6,8 @@ output: md_document
 ```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 setwd("/home/sean/Documents/rstuff/fantasy2017")
 source("compileleague.R")
+library(dplyr)
+library(purrr)
 ```
 
 ####Current Standings
@@ -19,24 +21,25 @@ standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_
 
 ####Top Remaining Pitchers
 ```{r, echo = FALSE}
-library(knitr)
 toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
 
-kable(toppitch[1:20,], digits = 2, format=)
-
-#toppitch[1:20,]
+toppitch[1:20,]
 ```
 
 ####Top Remaining Hitters
 ```{r, echo = FALSE}
+round_zero_vars <- c("AB", "R", "HR", "RBI", "SB")
+round_three_vars <- c("AVG")
+
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
+      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr) %>%
+      map_at(round_zero_vars, round, 0) %>%
+      map_at(round_three_vars, round, 3) 
 
-kable(topdh[1:20,], digits = 2, format=)
-
+data.frame(topdh)[1:20,]
 ```
 
 ####Data entry errors
