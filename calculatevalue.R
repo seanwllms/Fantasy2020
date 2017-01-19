@@ -62,7 +62,21 @@ hitterdata$depth <- map(hitterdata$fans, mutate, proj="depthcharts")
 
 first.base.proj <- bind_rows(hitterdata[[1]][[1]],
                               hitterdata[[2]][[1]],
-                              hitterdata[[3]][[1]])
+                              hitterdata[[3]][[1]]) %>%
+      mutate(position = "first_base") 
+
+
+#create vector of positions.
+positions <- c("first_base",
+               "second_base",
+               "third_base",
+               "catcher",
+               "dh",
+               "outfield",
+               "shortstop"
+               )
+
+for (position in )
 
 #create projection dataframes for each position
 grab.repl <- function(pos) {
