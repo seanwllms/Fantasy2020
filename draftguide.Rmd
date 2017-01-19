@@ -24,7 +24,7 @@ toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
 
-kable(toppitch[1:20,], digits = 1)
+kable(toppitch[1:20,], digits = 2, format=)
 
 #toppitch[1:20,]
 ```
@@ -35,7 +35,8 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
 
-data.frame(topdh[1:20,])
+kable(topdh[1:20,], digits = 2, format=)
+
 ```
 
 ####Data entry errors
