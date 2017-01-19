@@ -25,55 +25,258 @@
 <table>
 <thead>
 <tr class="header">
-<th align="right">Sepal.Length</th>
-<th align="right">Sepal.Width</th>
-<th align="right">Petal.Length</th>
-<th align="right">Petal.Width</th>
-<th align="left">Species</th>
+<th align="left">name</th>
+<th align="left">Team</th>
+<th align="right">IP</th>
+<th align="right">ERA</th>
+<th align="right">WHIP</th>
+<th align="right">K</th>
+<th align="right">SV</th>
+<th align="right">W</th>
+<th align="right">pts</th>
+<th align="right">dlr</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.7</td>
-<td align="right">3.2</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.6</td>
+<td align="left">Shawn Kelley</td>
+<td align="left">Nationals</td>
+<td align="right">65</td>
 <td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.0</td>
-<td align="right">3.6</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
+<td align="right">1.1</td>
+<td align="right">78</td>
+<td align="right">28</td>
+<td align="right">4</td>
+<td align="right">4.7</td>
+<td align="right">12.8</td>
 </tr>
 <tr class="even">
-<td align="right">5.4</td>
+<td align="left">Cam Bedrosian</td>
+<td align="left">Angels</td>
+<td align="right">65</td>
+<td align="right">3.1</td>
+<td align="right">1.2</td>
+<td align="right">75</td>
+<td align="right">29</td>
+<td align="right">4</td>
+<td align="right">4.4</td>
+<td align="right">12.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Matt Shoemaker</td>
+<td align="left">Angels</td>
+<td align="right">194</td>
+<td align="right">3.8</td>
+<td align="right">1.2</td>
+<td align="right">169</td>
+<td align="right">0</td>
+<td align="right">12</td>
+<td align="right">4.1</td>
+<td align="right">11.4</td>
+</tr>
+<tr class="even">
+<td align="left">Gerrit Cole</td>
+<td align="left">Pirates</td>
+<td align="right">189</td>
+<td align="right">3.6</td>
+<td align="right">1.2</td>
+<td align="right">173</td>
+<td align="right">0</td>
+<td align="right">12</td>
+<td align="right">4.0</td>
+<td align="right">11.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Jeff Samardzija</td>
+<td align="left">Giants</td>
+<td align="right">192</td>
+<td align="right">3.6</td>
+<td align="right">1.2</td>
+<td align="right">164</td>
+<td align="right">0</td>
+<td align="right">12</td>
 <td align="right">3.9</td>
-<td align="right">1.7</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
+<td align="right">10.7</td>
+</tr>
+<tr class="even">
+<td align="left">Michael Pineda</td>
+<td align="left">Yankees</td>
+<td align="right">152</td>
+<td align="right">3.4</td>
+<td align="right">1.1</td>
+<td align="right">158</td>
+<td align="right">0</td>
+<td align="right">10</td>
+<td align="right">3.8</td>
+<td align="right">10.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Corey Knebel</td>
+<td align="left">Brewers</td>
+<td align="right">65</td>
+<td align="right">3.5</td>
+<td align="right">1.2</td>
+<td align="right">77</td>
+<td align="right">28</td>
+<td align="right">3</td>
+<td align="right">3.7</td>
+<td align="right">10.2</td>
+</tr>
+<tr class="even">
+<td align="left">Fernando Rodney</td>
+<td align="left">Diamondbacks</td>
+<td align="right">65</td>
+<td align="right">3.5</td>
+<td align="right">1.3</td>
+<td align="right">67</td>
+<td align="right">28</td>
+<td align="right">3</td>
+<td align="right">3.2</td>
+<td align="right">8.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Aaron Nola</td>
+<td align="left">Phillies</td>
+<td align="right">166</td>
+<td align="right">3.6</td>
+<td align="right">1.2</td>
+<td align="right">156</td>
+<td align="right">0</td>
+<td align="right">10</td>
+<td align="right">3.1</td>
+<td align="right">8.6</td>
+</tr>
+<tr class="even">
+<td align="left">Drew Storen</td>
+<td align="left">Reds</td>
+<td align="right">65</td>
+<td align="right">3.7</td>
+<td align="right">1.2</td>
+<td align="right">62</td>
+<td align="right">25</td>
+<td align="right">3</td>
+<td align="right">2.9</td>
+<td align="right">8.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Wei-Yin Chen</td>
+<td align="left">Marlins</td>
+<td align="right">177</td>
+<td align="right">3.8</td>
+<td align="right">1.2</td>
+<td align="right">143</td>
+<td align="right">0</td>
+<td align="right">11</td>
+<td align="right">2.9</td>
+<td align="right">8.0</td>
+</tr>
+<tr class="even">
+<td align="left">Tyler Skaggs</td>
+<td align="left">Angels</td>
+<td align="right">149</td>
+<td align="right">3.5</td>
+<td align="right">1.2</td>
+<td align="right">147</td>
+<td align="right">0</td>
+<td align="right">10</td>
+<td align="right">2.7</td>
+<td align="right">7.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Glen Perkins</td>
+<td align="left">Twins</td>
+<td align="right">65</td>
+<td align="right">3.8</td>
+<td align="right">1.2</td>
+<td align="right">62</td>
+<td align="right">24</td>
+<td align="right">3</td>
+<td align="right">2.7</td>
+<td align="right">7.4</td>
+</tr>
+<tr class="even">
+<td align="left">Drew Smyly</td>
+<td align="left">Mariners</td>
+<td align="right">168</td>
+<td align="right">3.9</td>
+<td align="right">1.2</td>
+<td align="right">156</td>
+<td align="right">0</td>
+<td align="right">10</td>
+<td align="right">2.7</td>
+<td align="right">7.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Ryan Madson</td>
+<td align="left">Athletics</td>
+<td align="right">65</td>
+<td align="right">3.9</td>
+<td align="right">1.3</td>
+<td align="right">56</td>
+<td align="right">26</td>
+<td align="right">3</td>
+<td align="right">2.6</td>
+<td align="right">7.2</td>
+</tr>
+<tr class="even">
+<td align="left">Sam Dyson</td>
+<td align="left">Rangers</td>
+<td align="right">65</td>
+<td align="right">3.6</td>
+<td align="right">1.3</td>
+<td align="right">56</td>
+<td align="right">26</td>
+<td align="right">3</td>
+<td align="right">2.6</td>
+<td align="right">7.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Vince Velasquez</td>
+<td align="left">Phillies</td>
+<td align="right">157</td>
+<td align="right">3.8</td>
+<td align="right">1.2</td>
+<td align="right">170</td>
+<td align="right">0</td>
+<td align="right">9</td>
+<td align="right">2.6</td>
+<td align="right">7.1</td>
+</tr>
+<tr class="even">
+<td align="left">Hector Neris</td>
+<td align="left">Phillies</td>
+<td align="right">65</td>
+<td align="right">3.6</td>
+<td align="right">1.2</td>
+<td align="right">73</td>
+<td align="right">21</td>
+<td align="right">3</td>
+<td align="right">2.5</td>
+<td align="right">6.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Gio Gonzalez</td>
+<td align="left">Nationals</td>
+<td align="right">165</td>
+<td align="right">3.7</td>
+<td align="right">1.3</td>
+<td align="right">153</td>
+<td align="right">0</td>
+<td align="right">11</td>
+<td align="right">2.4</td>
+<td align="right">6.5</td>
+</tr>
+<tr class="even">
+<td align="left">Marcus Stroman</td>
+<td align="left">Blue Jays</td>
+<td align="right">166</td>
+<td align="right">3.7</td>
+<td align="right">1.2</td>
+<td align="right">136</td>
+<td align="right">0</td>
+<td align="right">11</td>
+<td align="right">2.3</td>
+<td align="right">6.3</td>
 </tr>
 </tbody>
 </table>

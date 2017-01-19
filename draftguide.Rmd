@@ -23,8 +23,8 @@ library(knitr)
 toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
-kable(head(iris))
-#kable(toppitch[1:20,], digits = 1, align = c(rep("l",2),))
+
+kable(toppitch[1:20,], digits = 1)
 
 #toppitch[1:20,]
 ```
