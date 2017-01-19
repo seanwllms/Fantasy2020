@@ -1,72 +1,127 @@
 #### Current Standings
 
     ##     team_name spent left picks.left total_points hit.points pitch.points
-    ## 1       deano   231   29         12         90.6       34.2         56.4
-    ## 2       rippe   169   91         13         80.3       47.9         32.4
-    ## 3    sturgeon   174   86         12         79.0       58.7         20.3
-    ## 4    isotopes   157  103         12         77.2       46.0         31.2
-    ## 5       bears   186   74         10         77.1       43.5         33.6
-    ## 6     baycity   228   32         10         74.0       31.3         42.7
-    ## 7    pasadena   155  105         15         73.8       39.2         34.6
-    ## 8   marmaduke   176   84         14         73.7       36.0         37.7
-    ## 9     dembums   170   90         14         70.7       38.7         32.0
-    ## 10        d&s   150  110         15         68.2       30.4         37.8
-    ## 11 bellevegas   180   80         10         65.2       20.5         44.7
-    ## 12      balco   206   54         12         64.6       42.1         22.5
-    ## 13       jobu   136  124         15         61.4       13.8         47.6
-    ## 14   hermanos   164   96         13         60.8       16.6         44.2
-    ## 15 pk dodgers   194   66          9         58.8       25.3         33.5
-    ## 16    counsel   149  111         13         55.4       35.7         19.7
-    ## 17     ottawa   147  113         15         51.8       26.6         25.2
-    ## 18     deener    79  181         16         42.6       20.2         22.4
+    ## 1       deano   231   29         12         83.9       27.5         56.4
+    ## 2     baycity   228   32         10         77.7       35.0         42.7
+    ## 3       bears   186   74         10         76.3       42.7         33.6
+    ## 4       rippe   169   91         13         74.1       41.7         32.4
+    ## 5    isotopes   157  103         12         73.0       41.8         31.2
+    ## 6    sturgeon   174   86         12         71.8       51.5         20.3
+    ## 7  bellevegas   180   80         10         68.6       23.9         44.7
+    ## 8   marmaduke   176   84         14         67.2       29.5         37.7
+    ## 9     dembums   170   90         14         64.8       32.8         32.0
+    ## 10   pasadena   155  105         15         64.4       29.8         34.6
+    ## 11        d&s   150  110         15         61.8       24.0         37.8
+    ## 12      balco   206   54         12         61.8       39.3         22.5
+    ## 13 pk dodgers   194   66          9         61.0       27.5         33.5
+    ## 14   hermanos   164   96         13         59.9       15.7         44.2
+    ## 15       jobu   136  124         15         58.0       10.4         47.6
+    ## 16    counsel   149  111         13         50.6       30.9         19.7
+    ## 17     ottawa   147  113         15         49.9       24.7         25.2
+    ## 18     deener    88  172         15         40.6       18.2         22.4
 
 #### Top Remaining Pitchers
 
-    ##               name         Team  IP  ERA WHIP   K SV  W  pts   dlr
-    ## 1     Shawn Kelley    Nationals  65 3.13 1.11  78 28  4 4.66 12.83
-    ## 2    Cam Bedrosian       Angels  65 3.15 1.20  75 29  4 4.43 12.20
-    ## 3   Matt Shoemaker       Angels 194 3.77 1.16 169  0 12 4.13 11.37
-    ## 4      Gerrit Cole      Pirates 189 3.61 1.20 173  0 12 3.99 10.98
-    ## 5  Jeff Samardzija       Giants 192 3.64 1.19 164  0 12 3.89 10.70
-    ## 6   Michael Pineda      Yankees 152 3.44 1.12 158  0 10 3.84 10.57
-    ## 7     Corey Knebel      Brewers  65 3.49 1.24  77 28  3 3.72 10.25
-    ## 8  Fernando Rodney Diamondbacks  65 3.54 1.31  67 28  3 3.24  8.91
-    ## 9       Aaron Nola     Phillies 166 3.58 1.19 156  0 10 3.13  8.60
-    ## 10     Drew Storen         Reds  65 3.71 1.21  62 25  3 2.90  7.98
-    ## 11    Wei-Yin Chen      Marlins 177 3.80 1.19 143  0 11 2.89  7.95
-    ## 12    Tyler Skaggs       Angels 149 3.52 1.21 147  0 10 2.73  7.52
-    ## 13    Glen Perkins        Twins  65 3.81 1.21  62 24  3 2.68  7.37
-    ## 14      Drew Smyly     Mariners 168 3.93 1.19 156  0 10 2.67  7.36
-    ## 15     Ryan Madson    Athletics  65 3.86 1.28  56 26  3 2.62  7.20
-    ## 16       Sam Dyson      Rangers  65 3.64 1.32  56 26  3 2.58  7.11
-    ## 17 Vince Velasquez     Phillies 157 3.85 1.21 170  0  9 2.58  7.10
-    ## 18    Hector Neris     Phillies  65 3.58 1.22  73 21  3 2.46  6.79
-    ## 19    Gio Gonzalez    Nationals 165 3.67 1.28 153  0 11 2.36  6.50
-    ## 20  Marcus Stroman    Blue Jays 166 3.67 1.25 136  0 11 2.30  6.32
+<table>
+<thead>
+<tr class="header">
+<th align="right">Sepal.Length</th>
+<th align="right">Sepal.Width</th>
+<th align="right">Petal.Length</th>
+<th align="right">Petal.Width</th>
+<th align="left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.7</td>
+<td align="right">3.2</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.6</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.0</td>
+<td align="right">3.6</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.7</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+</tbody>
+</table>
 
 #### Top Remaining Hitters
 
-    ##               name      Team  AB  R HR RBI SB   AVG  pts   dlr
-    ## 1   Kyle Schwarber      Cubs 466 76 27  74  6 0.264 8.20 22.57
-    ## 2    Adrian Beltre   Rangers 536 75 22  85  2 0.294 7.65 21.06
-    ## 3     Justin Upton    Tigers 530 78 27  84 10 0.260 7.11 19.56
-    ## 4       Adam Jones   Orioles 578 79 27  83  3 0.270 6.83 18.81
-    ## 5    Evan Longoria      Rays 577 77 26  87  3 0.263 6.80 18.71
-    ## 6  Gregory Polanco   Pirates 549 77 18  71 19 0.265 6.77 18.65
-    ## 7    Maikel Franco  Phillies 547 71 26  84  2 0.272 6.71 18.48
-    ## 8       Adam Eaton Nationals 570 85 10  55 14 0.288 6.18 17.01
-    ## 9      Eric Hosmer    Royals 573 77 22  85  5 0.278 6.11 16.83
-    ## 10    Lorenzo Cain    Royals 528 67 12  64 17 0.283 6.04 16.63
-    ## 11     Khris Davis Athletics 531 74 30  89  3 0.247 6.03 16.60
-    ## 12    Jason Kipnis   Indians 562 83 15  67 13 0.267 5.93 16.34
-    ## 13    Kole Calhoun    Angels 578 82 21  75  4 0.262 5.69 15.66
-    ## 14  Salvador Perez    Royals 477 56 20  67  1 0.264 5.66 15.57
-    ## 15   Melky Cabrera White Sox 549 69 14  69  2 0.289 5.22 14.36
-    ## 16  Ender Inciarte    Braves 574 73  7  47 19 0.279 5.03 13.85
-    ## 17    Josh Reddick    Astros 458 63 19  68  7 0.268 4.89 13.47
-    ## 18   Albert Pujols    Angels 473 65 25  79  3 0.267 4.79 13.20
-    ## 19   Marcus Semien Athletics 532 69 20  69  9 0.249 4.71 12.97
-    ## 20 Victor Martinez    Tigers 526 72 21  80  1 0.282 4.69 12.91
+    ##               name      Team       AB        R        HR      RBI
+    ## 1   Kyle Schwarber      Cubs 482.0000 80.80350 27.135069 78.55882
+    ## 2    Adrian Beltre   Rangers 561.0000 80.69692 23.164986 89.59298
+    ## 3     Justin Upton    Tigers 556.0000 82.97501 28.778362 89.65216
+    ## 4  Gregory Polanco   Pirates 570.0000 79.78391 19.742833 74.77022
+    ## 5    Maikel Franco  Phillies 562.6667 74.37904 26.374794 86.74998
+    ## 6       Adam Jones   Orioles 593.3333 79.62829 26.984534 82.31210
+    ## 7      Eric Hosmer    Royals 588.0000 81.03514 23.197732 87.97804
+    ## 8    Evan Longoria      Rays 573.5000 76.07692 25.857143 86.02198
+    ## 9     Lorenzo Cain    Royals 543.3333 71.34653 12.611024 65.44566
+    ## 10    Jason Kipnis   Indians 571.0000 88.19032 15.814187 69.85420
+    ## 11     Khris Davis Athletics 552.0000 75.70508 30.458172 89.73406
+    ## 12  Salvador Perez    Royals 507.6667 60.35129 21.033983 69.51209
+    ## 13    Josh Reddick    Astros 489.6667 70.48306 19.942257 76.29452
+    ## 14    Kole Calhoun    Angels 589.0000 85.20659 20.205638 75.23102
+    ## 15      Adam Eaton Nationals 572.0000 82.42595  9.498988 53.02817
+    ## 16   Marcus Semien Athletics 563.6667 73.42062 22.275904 76.76955
+    ## 17   Shin-Soo Choo   Rangers 453.5000 80.00000 17.750000 62.75000
+    ## 18   Josh Harrison   Pirates 513.6667 58.13909  7.800858 56.77328
+    ## 19  Ender Inciarte    Braves 584.6667 72.93635  6.433684 45.51120
+    ## 20 Victor Martinez    Tigers 550.3333 73.67264 21.527058 83.05446
+    ##            SB       AVG  pts   dlr
+    ## 1   5.2254303 0.2650000 8.62 23.73
+    ## 2   2.0453498 0.2940000 8.26 22.74
+    ## 3   9.4189076 0.2586667 7.66 21.08
+    ## 4  20.1018400 0.2660000 7.43 20.47
+    ## 5   2.9778728 0.2713333 7.12 19.59
+    ## 6   3.5965721 0.2703333 6.91 19.02
+    ## 7   4.9155753 0.2820000 6.76 18.60
+    ## 8   2.4835165 0.2630000 6.64 18.27
+    ## 9  17.6086729 0.2863333 6.61 18.21
+    ## 10 13.2718039 0.2693333 6.54 18.02
+    ## 11  3.5288187 0.2490000 6.35 17.48
+    ## 12  0.6876640 0.2650000 6.10 16.80
+    ## 13  8.0027039 0.2713333 6.01 16.56
+    ## 14  4.2251101 0.2653333 5.96 16.42
+    ## 15 13.4886641 0.2876667 5.84 16.07
+    ## 16 10.2751708 0.2493333 5.68 15.63
+    ## 17 10.0000000 0.2600000 5.25 14.45
+    ## 18 17.0355392 0.2826667 5.17 14.22
+    ## 19 19.1985578 0.2833333 5.14 14.14
+    ## 20  0.6843305 0.2840000 5.03 13.86
 
 #### Data entry errors
 
@@ -84,4 +139,3 @@
     ## 11     Sean Newcomb     deener not matched
     ## 12         A.J. Puk     deener not matched
     ## 13      Eric Thames      bears not matched
-    ## 14   Melkey Cabrera    baycity not matched

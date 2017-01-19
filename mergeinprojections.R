@@ -41,7 +41,7 @@ for (team in teams) {
       pitchers[pitchers$roster_spot %in% undrafted.pitchers$roster_spot, 7:12] <- undrafted.pitchers[,7:12]
       
       #merge hitters and pitchers
-      temp <- rbind_list(hitters, pitchers)
+      temp <- bind_rows(hitters, pitchers)
       
       assign(team, temp)
       

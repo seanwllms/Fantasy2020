@@ -19,11 +19,14 @@ standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_
 
 ####Top Remaining Pitchers
 ```{r, echo = FALSE}
+library(knitr)
 toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
+kable(head(iris))
+#kable(toppitch[1:20,], digits = 1, align = c(rep("l",2),))
 
-toppitch[1:20,]
+#toppitch[1:20,]
 ```
 
 ####Top Remaining Hitters

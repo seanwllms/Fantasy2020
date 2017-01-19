@@ -36,7 +36,7 @@ names(replacement_hitters) <- c("position",
                                 "sb",
                                 "avg")
 
-#list of file names
+#make lists of file names
 filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
 filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
 filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
@@ -49,21 +49,85 @@ hitterdata <- at_depth(files, 2, read_csv) %>%
       at_depth(2, select, 1, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid) %>%
       at_depth(2, setNames, c("name", "Team", "AB", "PA", "R","HR", "RBI", "SB", "AVG", "OBP", "playerid")) %>%
       at_depth(2, mutate, 
-               HR_ab = HR/AB,
-               R_ab = R/AB,
-               RBI_ab = RBI/AB,
-               SB_ab = SB/AB
-               )
+               HR_pa = HR/PA,
+               R_pa = R/PA,
+               RBI_pa = RBI/PA,
+               SB_pa = SB/PA,
+               playerid = as.character(playerid))
 
 #create variable for each projection system
 hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
-hitterdata$steamer <- map(hitterdata$fans, mutate, proj="steamer")
-hitterdata$depth <- map(hitterdata$fans, mutate, proj="depthcharts")
+hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
+hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
 
-first.base.proj <- bind_rows(hitterdata[[1]][[1]],
-                              hitterdata[[2]][[1]],
-                              hitterdata[[3]][[1]]) %>%
-      mutate(position = "first_base") 
+#create vector of positions.
+positions <- c("first_base",
+               "second_base",
+               "third_base",
+               "catcher",
+               "dh",
+               "outfield",
+               "shortstop")
+
+
+#loop through vector and average projections across each system
+for (pos in 1:7) {
+      
+      position_name <- positions[pos]
+      
+      #merge all of the projection systems
+      raw_pos_data <- bind_rows(
+            hitterdata[[1]][[pos]],
+            hitterdata[[2]][[pos]],
+            hitterdata[[3]][[pos]]
+      )
+      
+      #grab the plate appearances for the depth charts projections
+      at_bats <- filter(raw_pos_data, proj=="depthcharts") %>%
+            mutate(depthpa = PA) %>%
+            select(playerid, depthpa)
+      
+      #average across projection systems
+      temp <- group_by(raw_pos_data, playerid) %>%
+            summarise(AB = mean(AB),
+                  PA = mean(PA),
+                   R_ab = mean(R_pa),
+                   HR_ab = mean(HR_pa),
+                   RBI_ab = mean(RBI_pa),
+                   SB_ab = mean(SB_pa),
+                   AVG = mean(AVG),
+                   OBP = mean(OBP)) %>%
+            
+            #merge in the PA projections
+            left_join(at_bats) %>%
+            #use depth charts PA if available
+            mutate(PA = ifelse(is.na(depthpa), PA, depthpa)) %>%
+            #multiply rate based projections by PA
+            mutate(R = R_ab*PA, 
+                   HR = HR_ab*PA,
+                   RBI = RBI_ab*PA,
+                   SB = SB_ab*PA) %>%
+            select(playerid, PA, AB, R, HR, RBI, SB, AVG, OBP)
+      
+      #join averaged data with all names in all 3 projection systems
+      results <- select(raw_pos_data, name, Team, playerid) %>% distinct %>%
+            left_join(temp)
+      
+      replacement <- filter(replacement_hitters, position==position_name)
+      names(replacement)[2:6] <- sapply(names(replacement)[2:6], paste, ".repl", sep="")
+      
+      results <- cbind(results, replacement)
+      
+      #make name for position projection df      
+      dfname <- paste(position_name, "_proj", sep="")
+      
+      #save it
+      assign(dfname, results) 
+      
+      #remove temp variables
+      remove("temp", "raw_pos_data", "at_bats", "results", "dfname")
+}
+
 
 
 #create vector of positions.
@@ -73,55 +137,24 @@ positions <- c("first_base",
                "catcher",
                "dh",
                "outfield",
-               "shortstop"
-               )
+               "shortstop")
 
-for (position in )
-
-#create projection dataframes for each position
-grab.repl <- function(pos) {
-      temp <- filter(replacement_hitters, position==pos)
-      names(temp)[2:6] <- sapply(names(temp)[2:6], paste, ".repl", sep="")
-      return(temp)
-}
-
-      #1b
-      first.base.proj <- cbind(hitterdata[[1]], grab.repl("first_base"))
-      
-      #2b
-      second.base.proj <- cbind(hitterdata[[2]], grab.repl("second_base"))
-      
-      #3b
-      third.base.proj <- cbind(hitterdata[[3]], grab.repl("third_base"))
-      
-      #C
-      catcher.proj <- cbind(hitterdata[[4]], grab.repl("catcher"))
-      
-      #dh
-      dh.proj <- cbind(hitterdata[[5]], grab.repl("dh"))
-      
-      #of
-      of.proj <- cbind(hitterdata[[6]], grab.repl("outfield"))
-      
-      #SS
-      shortstop.proj <- cbind(hitterdata[[7]], grab.repl("shortstop"))
-      
 #build all positional projections into a list
-hitter_projections <- list(first.base.proj,
-                    second.base.proj,
-                    third.base.proj,
-                    catcher.proj,
-                    dh.proj,
-                    of.proj,
-                    shortstop.proj)
+hitter_projections <- list(first_base_proj,
+                    second_base_proj,
+                    third_base_proj,
+                    catcher_proj,
+                    dh_proj,
+                    outfield_proj,
+                    shortstop_proj)
 
 #convert coefficients frame to a normal data frame
 coefs.for.calc <- as.numeric(coefs$estimate)
-
 names(coefs.for.calc) <- coefs$Category
 
 #create function to calculate value for a position
 calculate.value <- function(df) {
+      
       mutate(df, 
              marginal.hr = HR - hr.repl, 
              marginal.runs = R - runs.repl,
@@ -163,10 +196,10 @@ hitter_projections <- hitter_projections %>%
       filter(dollar.value==max.points) %>%
       ungroup() %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, playerid, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
+      select(name, Team, position, playerid, PA, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
       mutate( marginal.total.points = round(marginal.total.points, 2),
               dollar.value = round(dollar.value, 2)) %>%
-      filter(AB > 1)
+      filter(PA > 1)
 
 
 ################################################################
