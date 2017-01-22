@@ -197,8 +197,9 @@ hitter_projections <- hitter_projections %>%
       ungroup() %>%
       arrange(desc(dollar.value)) %>%
       select(name, Team, position, playerid, PA, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
-      mutate( marginal.total.points = round(marginal.total.points, 2),
-              dollar.value = round(dollar.value, 2)) %>%
+      mutate(PA = round(PA), R = round(R), HR=round(HR), RBI=round(RBI), SB=round(SB), AVG =round(avg, 3),
+             marginal.total.points = round(marginal.total.points, 2),
+             dollar.value = round(dollar.value, 2)) %>%
       filter(PA > 1)
 
 
@@ -206,9 +207,25 @@ hitter_projections <- hitter_projections %>%
 ################PITCHER STUFF LIVES HERE########################
 ################################################################
 
+#read in files for all of the systems
+projection_systems <- c("depthcharts", "steamer", "fans")
+make_pitchers <- function(x) {
+      paste("./", x, "/pitchers.csv", sep="")
+}
+pitcher_projections <- map(projection_systems, make_pitchers) %>%
+      at_depth(2, read_csv)
+
+for (x in 1:length(projection_systems)) {
+      sys <- projection_systems[x]
+      names(pitcher_projections)[x] <- sys
+      pitcher_projections[[sys]] <- mutate(pitcher_projections[[sys]], proj=sys)
+      remove("sys")
+}
+
+depth_ip <- filter(pitcher_projections$depthcharts, )
+
 #read in projections
 pitcher_projections <- read.csv("./steamer/pitchers.csv", stringsAsFactors=FALSE)
-
 #keep only relevant columns
 pitcher_projections <- select(pitcher_projections,Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
       mutate(position = "pitcher")

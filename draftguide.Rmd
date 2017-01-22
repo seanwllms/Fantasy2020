@@ -31,15 +31,30 @@ toppitch[1:20,]
 ####Top Remaining Hitters
 ```{r, echo = FALSE}
 round_zero_vars <- c("AB", "R", "HR", "RBI", "SB")
-round_three_vars <- c("AVG")
+round_three_vars <- c("AVG",  "pts", "dlr")
 
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr) %>%
+      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)  %>%
+      arrange(-dlr) %>%
       map_at(round_zero_vars, round, 0) %>%
-      map_at(round_three_vars, round, 3) 
+      map_at(round_three_vars, round, 3)
 
 data.frame(topdh)[1:20,]
+```
+
+####Top Remaining OF
+```{r, echo = FALSE}
+topof <- filter(hitter_projections, status != "drafted") %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(name, Team, position, AB, R, HR, RBI, SB, AVG, pts, dlr) %>%
+      filter(position=="outfield") %>%
+      select(-position) %>%
+      arrange(-dlr) %>%
+      map_at(round_zero_vars, round, 0) %>%
+      map_at(round_three_vars, round, 3)
+
+data.frame(topof)[1:20,]
 ```
 
 ####Data entry errors
