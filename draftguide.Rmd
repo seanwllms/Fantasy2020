@@ -7,7 +7,6 @@ output: md_document
 setwd("/home/sean/Documents/rstuff/fantasy2017")
 source("compileleague.R")
 library(dplyr)
-library(purrr)
 ```
 
 ####Current Standings
@@ -35,10 +34,8 @@ round_three_vars <- c("AVG",  "pts", "dlr")
 
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)  %>%
-      arrange(-dlr) %>%
-      map_at(round_zero_vars, round, 0) %>%
-      map_at(round_three_vars, round, 3)
+      select(name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
+      arrange(-dlr)
 
 data.frame(topdh)[1:20,]
 ```
@@ -47,12 +44,10 @@ data.frame(topdh)[1:20,]
 ```{r, echo = FALSE}
 topof <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, position, AB, R, HR, RBI, SB, AVG, pts, dlr) %>%
+      select(name, Team, position, PA, R, HR, RBI, SB, AVG, pts, dlr) %>%
       filter(position=="outfield") %>%
       select(-position) %>%
-      arrange(-dlr) %>%
-      map_at(round_zero_vars, round, 0) %>%
-      map_at(round_three_vars, round, 3)
+      arrange(-dlr) 
 
 data.frame(topof)[1:20,]
 ```

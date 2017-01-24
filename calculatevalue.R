@@ -188,16 +188,21 @@ hitter_projections <- lapply(hitter_projections, calculate.value)
 #merge projections for different positions together.
 hitter_projections <- do.call(rbind, hitter_projections)
 
-#get player's strongest position
-hitter_projections <- hitter_projections %>%
+#Calculate player's strongest position
+best_position <- hitter_projections %>%
       group_by(playerid) %>%
-      mutate(times.appears = n(), max.points = max(dollar.value)) %>%
-      filter(position != "dh" | times.appears==1) %>%
-      filter(dollar.value==max.points) %>%
-      ungroup() %>%
+      mutate(max_value = max(dollar.value),
+             is_best = max_value==dollar.value) %>%
+      filter(is_best) %>%
+      mutate(bestpos = position) %>%
+      select(playerid, bestpos)
+
+hitter_projections <- hitter_projections %>%
+      left_join(best_position, by=c("playerid")) %>%
+      filter(position == bestpos) %>%
       arrange(desc(dollar.value)) %>%
       select(name, Team, position, playerid, PA, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
-      mutate(PA = round(PA), R = round(R), HR=round(HR), RBI=round(RBI), SB=round(SB), AVG =round(avg, 3),
+      mutate(AB=round(AB),PA = round(PA), R = round(R), HR=round(HR), RBI=round(RBI), SB=round(SB), AVG =round(AVG, 3),
              marginal.total.points = round(marginal.total.points, 2),
              dollar.value = round(dollar.value, 2)) %>%
       filter(PA > 1)
@@ -206,23 +211,27 @@ hitter_projections <- hitter_projections %>%
 ################################################################
 ################PITCHER STUFF LIVES HERE########################
 ################################################################
+# 
+# #read in files for all of the systems
+# projection_systems <- c("depthcharts", "steamer", "fans")
+# make_pitchers <- function(x) {
+#       paste("./", x, "/pitchers.csv", sep="")
+# }
+# 
+# pitcher_projections <- map(projection_systems, make_pitchers) %>%
+#       at_depth(2, read_csv) %>%
+#       lapply(tbl_df)
+# 
+# #assign list of projection systems a name
+# for (proj in 1:length(projection_systems)) {
+#       sys <- projection_systems[[proj]]
+#       names(pitcher_projections)[proj] <- sys
+#       pitcher_projections[[sys]] <- mutate(pitcher_projections[[sys]], proj=sys)
+# }
+# 
+# 
 
-#read in files for all of the systems
-projection_systems <- c("depthcharts", "steamer", "fans")
-make_pitchers <- function(x) {
-      paste("./", x, "/pitchers.csv", sep="")
-}
-pitcher_projections <- map(projection_systems, make_pitchers) %>%
-      at_depth(2, read_csv)
 
-for (x in 1:length(projection_systems)) {
-      sys <- projection_systems[x]
-      names(pitcher_projections)[x] <- sys
-      pitcher_projections[[sys]] <- mutate(pitcher_projections[[sys]], proj=sys)
-      remove("sys")
-}
-
-depth_ip <- filter(pitcher_projections$depthcharts, )
 
 #read in projections
 pitcher_projections <- read.csv("./steamer/pitchers.csv", stringsAsFactors=FALSE)
