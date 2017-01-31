@@ -5,7 +5,7 @@
 "4","2B",26,"Jose Altuve","Astros","second_base","5417",644,603,95,16,78,28,0.316,11.26,30.99,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",24,"Manny Machado","Orioles","third_base","11493",630,590,93,32,99,7,0.294,10.79,29.7,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",21,"Josh Donaldson","Blue Jays","third_base","5038",630,552,98,32,98,4,0.279,9.82,27.04,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","CI",17,"Albert Pujols","Angels","first_base","1177",574,516,71,26,84,3,0.265,5.38,14.81,"drafted",NA,NA,NA,NA,NA,NA
 "8","MI",5,"Brad Miller","Rays","shortstop","12775",595,534,72,23,75,8,0.251,5.4,14.85,"drafted",NA,NA,NA,NA,NA,NA
 "9","OF1",14,"Kris Bryant","Cubs","third_base","15429",630,561,97,33,98,9,0.279,10.41,28.67,"drafted",NA,NA,NA,NA,NA,NA
 "10","OF2",18,"Lorenzo Cain","Royals","outfield","9077",595,541,73,13,65,18,0.287,6.77,18.64,"drafted",NA,NA,NA,NA,NA,NA
@@ -19,7 +19,7 @@
 "18","P3",5,"Kelvin Herrera","Royals","pitcher","6033",NA,NA,NA,NA,NA,NA,NA,5,13.75,"drafted",65,3.12,1.14,33,3,70
 "19","P4",13,"Dellin Betances","Yankees","pitcher","6216",NA,NA,NA,NA,NA,NA,NA,1.33,3.65,"drafted",65,2.42,1.01,2,4,98
 "20","P5",15,"Matt Harvey","Mets","pitcher","11713",NA,NA,NA,NA,NA,NA,NA,2.25,6.21,"drafted",141,3.65,1.17,0,9,130
-"21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"21","P6",7,"Joe Ross","Nationals","pitcher","12972",NA,NA,NA,NA,NA,NA,NA,1.55,4.26,"drafted",146,3.91,1.25,0,10,128
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
