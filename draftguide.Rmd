@@ -59,4 +59,5 @@ drafterrors
 
 ```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 write.csv(pasadena, "pasadena.csv")
+write.csv(marmaduke, "marmaduke.csv")
 ```

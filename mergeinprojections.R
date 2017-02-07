@@ -37,8 +37,8 @@ for (team in teams) {
       undrafted.pitchers[,c("IP","ERA","WHIP","SV","W","K")] <- sapply(replacement_pitcher, rep, nrow(undrafted.pitchers))
       
       #insert replacement level stats in hitters and pitchers df
-      hitters[hitters$roster_spot %in% undrafted.hitters$roster_spot, 7:12] <- undrafted.hitters[,7:12]
-      pitchers[pitchers$roster_spot %in% undrafted.pitchers$roster_spot, 7:12] <- undrafted.pitchers[,7:12]
+      hitters[hitters$roster_spot %in% undrafted.hitters$roster_spot, c("AB","R","HR","RBI","SB","AVG")] <- undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")]
+      pitchers[pitchers$roster_spot %in% undrafted.pitchers$roster_spot, c("IP","ERA","WHIP","SV","W","K")] <- undrafted.pitchers[,c("IP","ERA","WHIP","SV","W","K")]
       
       #merge hitters and pitchers
       temp <- bind_rows(hitters, pitchers)

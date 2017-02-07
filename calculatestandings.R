@@ -17,7 +17,7 @@ for (team in teams) {
                       spent = sum(salary, na.rm=TRUE),
                       left = 260-sum(salary, na.rm=TRUE), 
                       picks.left = sum(salary == 0 & name =="")
-                      ) %>%
+            ) %>%
             mutate(team_name = team) %>%
             select(team_name, spent, left, picks.left, R, HR, RBI, SB, AVG, ERA, WHIP, K, SV, W)
       

@@ -1,6 +1,6 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "3","1B",29,"Anthony Rizzo","Cubs","first_base","3473",637,549,92,31,103,6,0.284,9.11,25.07,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",26,"Jose Altuve","Astros","second_base","5417",644,603,95,16,78,28,0.316,11.26,30.99,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",24,"Manny Machado","Orioles","third_base","11493",630,590,93,32,99,7,0.294,10.79,29.7,"drafted",NA,NA,NA,NA,NA,NA
@@ -9,11 +9,11 @@
 "8","MI",5,"Brad Miller","Rays","shortstop","12775",595,534,72,23,75,8,0.251,5.4,14.85,"drafted",NA,NA,NA,NA,NA,NA
 "9","OF1",14,"Kris Bryant","Cubs","third_base","15429",630,561,97,33,98,9,0.279,10.41,28.67,"drafted",NA,NA,NA,NA,NA,NA
 "10","OF2",18,"Lorenzo Cain","Royals","outfield","9077",595,541,73,13,65,18,0.287,6.77,18.64,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",0,"",NA,NA,NA,NA,400,36,6,30,8.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"12","OF4",0,"",NA,NA,NA,NA,400,36,6,30,8.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","OF3",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","OF4",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",20,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,6.97,19.19,"drafted",211,3.36,1.12,0,14,221
 "17","P2",4,"Aaron Sanchez","Blue Jays","pitcher","11490",NA,NA,NA,NA,NA,NA,NA,1.69,4.66,"drafted",202,4,1.35,0,12,171
 "18","P3",5,"Kelvin Herrera","Royals","pitcher","6033",NA,NA,NA,NA,NA,NA,NA,5,13.75,"drafted",65,3.12,1.14,33,3,70
