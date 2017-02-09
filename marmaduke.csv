@@ -1,0 +1,26 @@
+"","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
+"1","C1",4,"Willson Contreras","Cubs","catcher","11609",490,430,57,15,63,5,0.273,5.87,16.17,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",38,"Paul Goldschmidt","Diamondbacks","first_base","9218",658,539,92,28,99,20,0.294,10.58,29.12,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",18,"Matt Carpenter","Cardinals","third_base","8090",630,553,90,19,73,4,0.269,6.46,17.77,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",0,"",NA,NA,NA,NA,400,46,7,40,7,0.235,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","3B",0,"",NA,NA,NA,NA,400,37,9,38,3,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","CI",40,"Miguel Cabrera","Tigers","first_base","1744",644,570,97,30,102,2,0.312,10,27.53,"drafted",NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",14,"Billy Hamilton","Reds","outfield","10199",525,522,58,5,37,51,0.254,5.97,16.43,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",16,"Marcell Ozuna","Marlins","outfield","10324",623,539,72,22,84,4,0.27,6.09,16.76,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",28,"Gregory Polanco","Pirates","outfield","12907",630,572,82,20,74,20,0.267,7.52,20.7,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",9,"Michael Saunders","Phillies","outfield","9981",555,464,65,19,71,3,0.246,3.61,9.93,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",11,"Ender Inciarte","Braves","outfield","4922",616,582,72,6,45,20,0.283,5.12,14.08,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",6,"Lucas Duda","Mets","first_base","2502",575,443,72,26,80,1,0.245,3.97,10.93,"drafted",NA,NA,NA,NA,NA,NA
+"16","P1",14,"Jacob deGrom","Mets","pitcher","10954",NA,NA,NA,NA,NA,NA,NA,4.89,13.45,"drafted",190,3.49,1.16,0,12,187
+"17","P2",8,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,3.97,10.92,"drafted",174,3.51,1.17,0,12,155
+"18","P3",7,"Rich Hill","Dodgers","pitcher","4806",NA,NA,NA,NA,NA,NA,NA,3.98,10.95,"drafted",145,3.12,1.15,0,10,163
+"19","P4",6,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,3.62,9.97,"drafted",171,3.43,1.2,0,11,161
+"20","P5",11,"Ken Giles","Astros","pitcher","12910",NA,NA,NA,NA,NA,NA,NA,5.29,14.55,"drafted",65,2.93,1.1,30,4,85
+"21","P6",13,"Matt Shoemaker","Angels","pitcher","4776",NA,NA,NA,NA,NA,NA,NA,4.13,11.37,"drafted",194,3.77,1.16,0,12,169
+"22","P7",4,"Fernando Rodney","Diamondbacks","pitcher","494",NA,NA,NA,NA,NA,NA,NA,3.24,8.91,"drafted",65,3.54,1.31,28,3,67
+"23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
