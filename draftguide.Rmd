@@ -29,9 +29,6 @@ toppitch[1:20,]
 
 ####Top Remaining Hitters
 ```{r, echo = FALSE}
-round_zero_vars <- c("AB", "R", "HR", "RBI", "SB")
-round_three_vars <- c("AVG",  "pts", "dlr")
-
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
@@ -40,13 +37,12 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 data.frame(topdh)[1:20,]
 ```
 
-####Top Remaining OF
+####Top Remaining Marmaduke Targets
 ```{r, echo = FALSE}
 topof <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, position, PA, R, HR, RBI, SB, AVG, pts, dlr) %>%
-      filter(position=="outfield") %>%
-      select(-position) %>%
+      select(name, position, PA, R, HR, RBI, SB, AVG, pts, dlr) %>%
+      filter(position %in% c("catcher", "shortstop", "second_base","third_base")) %>%
       arrange(-dlr) 
 
 data.frame(topof)[1:20,]
