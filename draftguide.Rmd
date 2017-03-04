@@ -24,7 +24,7 @@ toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
 
-toppitch[1:20,]
+data.frame(toppitch[1:20,])
 ```
 
 ####Top Remaining Hitters
@@ -37,16 +37,6 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 data.frame(topdh)[1:20,]
 ```
 
-####Top Remaining Marmaduke Targets
-```{r, echo = FALSE}
-topof <- filter(hitter_projections, status != "drafted") %>%
-      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, position, PA, R, HR, RBI, SB, AVG, pts, dlr) %>%
-      filter(position %in% c("catcher", "shortstop", "second_base","third_base")) %>%
-      arrange(-dlr) 
-
-data.frame(topof)[1:20,]
-```
 
 ####Data entry errors
 ```{r, echo = FALSE}

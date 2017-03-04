@@ -40,8 +40,11 @@ names(replacement_hitters) <- c("position",
 filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
 filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
 filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 
-files <- list(fans=filelocs_fans, depth=filelocs_depth, steam=filelocs_steam)
+
+files <- list(fans=filelocs_fans, depth=filelocs_depth, steam=filelocs_steam, zips=filelocs_zips, atc=filelocs_atc)
 
 
 #read in hitterdata
@@ -59,6 +62,8 @@ hitterdata <- at_depth(files, 2, read_csv) %>%
 hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
 hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
 hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
+hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
+hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
 
 #create vector of positions.
 positions <- c("first_base",
@@ -79,7 +84,9 @@ for (pos in 1:7) {
       raw_pos_data <- bind_rows(
             hitterdata[[1]][[pos]],
             hitterdata[[2]][[pos]],
-            hitterdata[[3]][[pos]]
+            hitterdata[[3]][[pos]],
+            hitterdata[[4]][[pos]],
+            hitterdata[[5]][[pos]]
       )
       
       #grab the plate appearances for the depth charts projections
@@ -211,35 +218,61 @@ hitter_projections <- hitter_projections %>%
 ################################################################
 ################PITCHER STUFF LIVES HERE########################
 ################################################################
-# 
-# #read in files for all of the systems
-# projection_systems <- c("depthcharts", "steamer", "fans")
-# make_pitchers <- function(x) {
-#       paste("./", x, "/pitchers.csv", sep="")
-# }
-# 
-# pitcher_projections <- map(projection_systems, make_pitchers) %>%
-#       at_depth(2, read_csv) %>%
-#       lapply(tbl_df)
-# 
-# #assign list of projection systems a name
-# for (proj in 1:length(projection_systems)) {
-#       sys <- projection_systems[[proj]]
-#       names(pitcher_projections)[proj] <- sys
-#       pitcher_projections[[sys]] <- mutate(pitcher_projections[[sys]], proj=sys)
-# }
-# 
-# 
+
+#read in files for all of the systems other than ZIPS (which doesn't do saves)
+projection_systems <- c("depthcharts", "steamer", "fans", "atc")
+pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
+      map(read_csv) %>%
+      setNames(projection_systems) %>%
+      at_depth(1, select, 1, playerid, Team, IP, ERA, WHIP, SO, SV, W) %>%
+      at_depth(1, setNames, c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W"))
 
 
+#assign list of projection systems a name
+for (system in 1:length(projection_systems)) {
+      system_name <- projection_systems[[system]]
+      pitcher_proj[[system_name]] <- mutate(pitcher_proj[[system_name]], 
+                                            proj=system_name, 
+                                            playerid = as.character(playerid))
+}
 
-#read in projections
-pitcher_projections <- read.csv("./steamer/pitchers.csv", stringsAsFactors=FALSE)
-#keep only relevant columns
-pitcher_projections <- select(pitcher_projections,Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
-      mutate(position = "pitcher")
+#group everything together
+pitcher_proj <- bind_rows(pitcher_proj)
 
-names(pitcher_projections)[c(1, 7)] <- c("name", "K")
+#read in zips data separately
+zips_proj <- read_csv("./zips/pitchers.csv") %>%
+      mutate(SV=NA, proj="zips") %>%
+      select(1, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>%
+      setNames(c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W", "proj"))
+pitcher_proj <- rbind(pitcher_proj, zips_proj)
+remove(zips_proj)
+
+#get vector of innings pitched
+innings <- filter(pitcher_proj, proj=="depthcharts") %>%
+      mutate(depthip = IP) %>%
+      select(name, Team, playerid, depthip)
+
+#spread per ip numbers across depth charts IP
+pitcher_proj <- mutate(pitcher_proj,
+                       K_IP = K/IP,
+                       SV_IP = SV/IP,
+                       W_IP = W/IP) %>%
+      group_by(playerid) %>%
+      summarise(ERA = mean(ERA),
+                WHIP = mean(WHIP),
+                K_IP = mean(K/IP),
+                SV_IP = mean(SV/IP, na.rm=TRUE),
+                W_IP = mean(W/IP))
+
+pitcher_proj <- left_join(innings, pitcher_proj) %>%
+      mutate(IP = depthip,
+             ERA = round(ERA, 2),
+             WHIP = round(WHIP, 2),
+             K = round(K_IP*IP, 0),
+             SV = round(SV_IP*IP, 0),
+             W = round(W_IP*IP, 0), 
+             position = "pitcher") %>%
+      select(name, Team, IP, W, ERA, SV, K, WHIP, playerid, position)
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
@@ -247,7 +280,7 @@ replacement.pitcher <- c(3.761429,1.284286,5.523810,2.952381,88.714286)
 names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
 
 #calculate marginal values and points
-pitcher_projections <- pitcher_projections %>%
+pitcher_projections <- pitcher_proj %>%
       mutate(
             marginal.ERA = ERA - replacement.pitcher["ERA.repl"],
             marginal.WHIP = WHIP - replacement.pitcher["WHIP.repl"],
