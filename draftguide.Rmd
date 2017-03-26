@@ -4,7 +4,7 @@ output: md_document
 ---
 
 ```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-setwd("/home/sean/Documents/rstuff/fantasy2017")
+setwd("~/Documents/rstuff/fantasy2017")
 source("compileleague.R")
 library(dplyr)
 ```
