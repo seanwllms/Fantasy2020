@@ -1,4 +1,4 @@
-setwd("/home/sean/Documents/rstuff/fantasy2017")
+
 library(dplyr)
 library(purrr)
 library(readr)
@@ -39,12 +39,18 @@ names(replacement_hitters) <- c("position",
 #make lists of file names
 filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
 filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
-filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
-filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
-filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+#filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+#filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+#filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 
 
-files <- list(fans=filelocs_fans, depth=filelocs_depth, steam=filelocs_steam, zips=filelocs_zips, atc=filelocs_atc)
+files <- list(
+              #fans=filelocs_fans, 
+              depth=filelocs_depth, 
+              steam=filelocs_steam 
+              #zips=filelocs_zips, 
+              #atc=filelocs_atc
+              )
 
 
 #read in hitterdata
@@ -61,9 +67,9 @@ hitterdata <- at_depth(files, 2, read_csv) %>%
 #create variable for each projection system
 hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
 hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
-hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
-hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
-hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+#hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
+#hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
+#hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
 
 #create vector of positions.
 positions <- c("first_base",
@@ -83,10 +89,11 @@ for (pos in 1:7) {
       #merge all of the projection systems
       raw_pos_data <- bind_rows(
             hitterdata[[1]][[pos]],
-            hitterdata[[2]][[pos]],
-            hitterdata[[3]][[pos]],
-            hitterdata[[4]][[pos]],
-            hitterdata[[5]][[pos]]
+            hitterdata[[2]][[pos]]
+            #,
+            #hitterdata[[3]][[pos]],
+            #hitterdata[[4]][[pos]],
+            #hitterdata[[5]][[pos]]
       )
       
       #grab the plate appearances for the depth charts projections
@@ -220,7 +227,12 @@ hitter_projections <- hitter_projections %>%
 ################################################################
 
 #read in files for all of the systems other than ZIPS (which doesn't do saves)
-projection_systems <- c("depthcharts", "steamer", "fans", "atc")
+projection_systems <- c("depthcharts", 
+                        "steamer"
+                        #, 
+                        #"fans", 
+                        #"atc"
+                        )
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
       map(read_csv) %>%
       setNames(projection_systems) %>%
@@ -239,13 +251,13 @@ for (system in 1:length(projection_systems)) {
 #group everything together
 pitcher_proj <- bind_rows(pitcher_proj)
 
-#read in zips data separately
-zips_proj <- read_csv("./zips/pitchers.csv") %>%
-      mutate(SV=NA, proj="zips") %>%
-      select(1, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>%
-      setNames(c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W", "proj"))
-pitcher_proj <- rbind(pitcher_proj, zips_proj)
-remove(zips_proj)
+# #read in zips data separately
+# zips_proj <- read_csv("./zips/pitchers.csv") %>%
+#       mutate(SV=NA, proj="zips") %>%
+#       select(1, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>%
+#       setNames(c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W", "proj"))
+# pitcher_proj <- rbind(pitcher_proj, zips_proj)
+# remove(zips_proj)
 
 #get vector of innings pitched
 innings <- filter(pitcher_proj, proj=="depthcharts") %>%

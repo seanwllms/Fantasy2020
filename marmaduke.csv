@@ -1,26 +1,26 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",4,"Willson Contreras","Cubs","catcher","11609",490,433,57,15,62,5,0.27,5.63,15.49,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",1,"Christian Bethancourt","Padres","catcher","10028",325,281,31,8,36,4,0.247,1.31,3.6,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",38,"Paul Goldschmidt","Diamondbacks","first_base","9218",658,543,93,27,97,20,0.292,10.35,28.49,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",18,"Matt Carpenter","Cardinals","third_base","8090",630,545,89,19,73,3,0.269,6.26,17.24,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",1,"Andrelton Simmons","Angels","shortstop","10847",630,543,62,9,61,9,0.269,3.91,10.77,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",1,"Jhonny Peralta","Cardinals","third_base","1738",525,458,53,14,59,2,0.26,2.86,7.89,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",40,"Miguel Cabrera","Tigers","first_base","1744",644,561,92,30,101,1,0.308,9.49,26.13,"drafted",NA,NA,NA,NA,NA,NA
-"8","MI",1,"Willy Adames","Rays","shortstop","sa736655",7,6,1,0,1,0,0.232,-5.62,-15.47,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",14,"Billy Hamilton","Reds","outfield","10199",525,508,62,6,35,54,0.252,6.31,17.37,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",16,"Marcell Ozuna","Marlins","outfield","10324",623,554,73,22,82,3,0.269,5.95,16.38,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",28,"Gregory Polanco","Pirates","outfield","12907",525,507,67,16,63,17,0.264,5.46,15.03,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",9,"Michael Saunders","Phillies","outfield","9981",555,472,66,20,67,4,0.246,3.61,9.93,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",11,"Ender Inciarte","Braves","outfield","4922",616,573,76,6,43,20,0.284,5.25,14.46,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",4,"Scott Schebler","Reds","outfield","12225",518,454,61,19,69,7,0.254,4.17,11.47,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",6,"Lucas Duda","Mets","first_base","2502",540,440,68,25,79,2,0.244,3.64,10.03,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",14,"Jacob deGrom","Mets","pitcher","10954",NA,NA,NA,NA,NA,NA,NA,4.98,13.7,"drafted",182,3.29,1.16,0,12,181
-"17","P2",8,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,4.7,12.94,"drafted",172,3.33,1.14,0,13,153
-"18","P3",7,"Rich Hill","Dodgers","pitcher","4806",NA,NA,NA,NA,NA,NA,NA,4.06,11.19,"drafted",140,3.09,1.15,0,11,156
-"19","P4",6,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,3.11,8.57,"drafted",170,3.62,1.23,0,11,163
-"20","P5",11,"Ken Giles","Astros","pitcher","12910",NA,NA,NA,NA,NA,NA,NA,5.84,16.09,"drafted",65,2.9,1.12,33,4,90
-"21","P6",13,"Matt Shoemaker","Angels","pitcher","4776",NA,NA,NA,NA,NA,NA,NA,4.04,11.11,"drafted",193,3.82,1.19,0,13,172
-"22","P7",4,"Fernando Rodney","Diamondbacks","pitcher","494",NA,NA,NA,NA,NA,NA,NA,2.55,7.02,"drafted",65,3.91,1.38,25,4,68
-"23","P8",2,"Grant Dayton","Dodgers","pitcher","11203",NA,NA,NA,NA,NA,NA,NA,0.39,1.06,"drafted",65,2.9,1.07,1,4,83
-"24","P9",2,"Mike Foltynewicz","Braves","pitcher","10811",NA,NA,NA,NA,NA,NA,NA,0.8,2.19,"drafted",152,4.13,1.32,0,9,146
-"25","P10",1,"Alex Wood","Dodgers","pitcher","13781",NA,NA,NA,NA,NA,NA,NA,0.31,0.86,"drafted",114,3.72,1.26,0,7,101
+"1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",43,"Paul Goldschmidt","Diamondbacks","first_base","9218",657,542,98,31,98,16,0.291,9.87,27.18,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","SS",5,"Ketel Marte","Diamondbacks","shortstop","13613",542,491,61,8,56,11,0.288,4.68,12.88,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",9,"Alex Bregman","Astros","third_base","17678",615,545,85,23,83,12,0.278,7.92,21.81,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",19,"Billy Hamilton","Reds","outfield","10199",566,512,66,7,42,49,0.242,5.97,16.43,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",21,"Marcell Ozuna","Cardinals","outfield","10324",587,528,79,29,94,2,0.291,7.67,21.11,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","OF4",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","P1",4,"Sean Doolittle","Nationals","pitcher","1581",NA,NA,NA,NA,NA,NA,NA,4.1,11.3,"drafted",65,3.35,1.11,25,4,78
+"17","P2",13,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,1.95,5.36,"drafted",173,4.03,1.29,0,12,144
+"18","P3",21,"Aaron Nola","Phillies","pitcher","16149",NA,NA,NA,NA,NA,NA,NA,3.82,10.52,"drafted",180,3.74,1.21,0,11,187
+"19","P4",11,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,4.16,11.45,"drafted",176,3.53,1.21,0,12,178
+"20","P5",4,"Alex Wood","Dodgers","pitcher","13781",NA,NA,NA,NA,NA,NA,NA,2.24,6.18,"drafted",140,3.54,1.24,0,10,135
+"21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102

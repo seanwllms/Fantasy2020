@@ -1,5 +1,4 @@
 #set up file
-setwd("/home/sean/Documents/rstuff/fantasy2017")
 library(dplyr)
 library(reshape2)
 

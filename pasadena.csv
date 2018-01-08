@@ -1,26 +1,26 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",1,"Chance Sisco",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"2","C2",2,"James McCann","Tigers","catcher","12859",416,367,39,9,44,2,0.243,1.67,4.59,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",29,"Anthony Rizzo","Cubs","first_base","3473",637,546,91,32,103,7,0.282,9,24.76,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",26,"Jose Altuve","Astros","second_base","5417",644,597,92,16,77,30,0.317,11.35,31.24,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",24,"Manny Machado","Orioles","third_base","11493",630,581,92,32,94,7,0.292,10.42,28.68,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",21,"Josh Donaldson","Blue Jays","third_base","5038",630,545,96,32,98,5,0.277,9.77,26.89,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",17,"Albert Pujols","Angels","first_base","1177",609,544,75,29,97,3,0.264,6.39,17.58,"drafted",NA,NA,NA,NA,NA,NA
-"8","MI",5,"Brad Miller","Rays","shortstop","12775",595,541,71,22,73,8,0.251,5.08,13.99,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",14,"Kris Bryant","Cubs","third_base","15429",630,552,97,32,99,9,0.278,10.33,28.44,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",18,"Lorenzo Cain","Royals","outfield","9077",546,511,65,11,61,18,0.286,5.89,16.22,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",5,"Mitch Haniger","Mariners","outfield","14274",525,463,59,18,62,7,0.248,3.35,9.23,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",1,"Bradley Zimmer",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"13","OF5",1,"Hyun Soo Kim","Orioles","outfield","18718",420,384,50,11,44,4,0.288,3,8.25,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",1,"Matt Joyce","Athletics","outfield","3353",469,390,55,14,52,3,0.234,1.04,2.87,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",6,"Eugenio Suarez","Reds","third_base","12552",595,531,66,20,71,9,0.252,4.93,13.56,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",20,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,8.08,22.25,"drafted",216,3.25,1.11,0,16,232
-"17","P2",4,"Aaron Sanchez","Blue Jays","pitcher","11490",NA,NA,NA,NA,NA,NA,NA,4.03,11.1,"drafted",205,3.58,1.26,0,14,177
-"18","P3",5,"Kelvin Herrera","Royals","pitcher","6033",NA,NA,NA,NA,NA,NA,NA,5.09,14.01,"drafted",65,2.86,1.11,32,3,71
-"19","P4",13,"Dellin Betances","Yankees","pitcher","6216",NA,NA,NA,NA,NA,NA,NA,1.46,4.02,"drafted",65,2.4,1.04,3,4,101
-"20","P5",15,"Matt Harvey","Mets","pitcher","11713",NA,NA,NA,NA,NA,NA,NA,2.02,5.55,"drafted",145,3.67,1.2,0,9,130
-"21","P6",7,"Joe Ross","Nationals","pitcher","12972",NA,NA,NA,NA,NA,NA,NA,1.95,5.38,"drafted",148,3.74,1.24,0,10,134
-"22","P7",9,"Sean Manaea","Athletics","pitcher","15873",NA,NA,NA,NA,NA,NA,NA,1.87,5.15,"drafted",161,3.88,1.26,0,10,146
-"23","P8",1,"Jeanmar Gomez","Phillies","pitcher","9033",NA,NA,NA,NA,NA,NA,NA,0.03,0.08,"drafted",65,4.3,1.4,16,3,46
-"24","P9",1,"Joe Musgrove","Astros","pitcher","12970",NA,NA,NA,NA,NA,NA,NA,-0.47,-1.29,"drafted",84,4.04,1.2,0,6,74
-"25","P10",2,"Tyler Anderson","Rockies","pitcher","12880",NA,NA,NA,NA,NA,NA,NA,0.67,1.83,"drafted",171,4.12,1.37,0,11,142
+"1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",0,"",NA,NA,NA,NA,400,45,10,43,2,0.257,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","SS",0,"",NA,NA,NA,NA,400,46,7,40,7,0.235,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","3B",0,"",NA,NA,NA,NA,400,37,9,38,3,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","OF2",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","OF3",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","OF4",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","P1",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"17","P2",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"18","P3",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102

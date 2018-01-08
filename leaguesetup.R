@@ -4,7 +4,7 @@
 
 #list of teams
 teams <- c("marmaduke",
-           "pk dodgers",
+           "pkdodgers",
            "ottawa",
            "isotopes",
            "jobu",
@@ -13,13 +13,13 @@ teams <- c("marmaduke",
            "deano",
            "dembums",
            "bellevegas",
-           "baycity",
+           "chicago",
            "balco",
            "sturgeon",
            "rippe",
            "pasadena",
            "deener",
-           "counsel",
+           "vero",
            "bears")
 
 positions <- c("C1","C2","1B","2B","SS","3B","CI","MI","OF1","OF2","OF3","OF4","OF5","OF6","DH",
