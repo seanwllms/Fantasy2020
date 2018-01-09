@@ -1,7 +1,7 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
 "1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",0,"",NA,NA,NA,NA,400,45,10,43,2,0.257,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",4,"Matt Olson","Athletics","outfield","14344",599,516,79,32,84,3,0.236,4.81,13.23,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",634,577,75,12,70,21,0.279,6.94,19.1,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",24,"Kris Bryant","Cubs","third_base","15429",666,559,106,33,97,8,0.285,10.17,27.99,"drafted",NA,NA,NA,NA,NA,NA
