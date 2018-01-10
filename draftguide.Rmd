@@ -36,9 +36,22 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 data.frame(topdh)[1:20,]
 ```
 
+####Dollars vs. projected points
+```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
+library(ggplot2)
+library(ggrepel)
+ggplot(standings.output, aes(x=spent, y=total_points)) + 
+  geom_point() +
+  theme_minimal() +
+  xlab("Dollars Spent") +
+  ylab("Projected Points")+
+  geom_smooth(method = lm, se = FALSE, size = .4)+
+  geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
+  
+```
 
 ####Data entry errors
-```{r, echo = FALSE}
+```{r, echo = FALSE,}
 drafterrors
 ```
 
