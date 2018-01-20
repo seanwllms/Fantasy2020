@@ -1,24 +1,24 @@
 #### Current Standings
 
     ##     team_name spent left picks.left total_points hit.points pitch.points
-    ## 1       rippe   214   46         11         90.7       56.5         34.2
-    ## 2       bears   183   77         11         87.0       61.6         25.4
-    ## 3     dembums   208   52         14         86.7       58.5         28.2
-    ## 4  bellevegas   246   14          5         85.9       46.9         39.0
-    ## 5   marmaduke   214   46         11         85.4       52.0         33.4
-    ## 6         dsb   231   29         12         83.6       50.4         33.2
-    ## 7    isotopes   204   56          9         82.3       49.5         32.8
-    ## 8       deano   240   20         12         81.6       43.3         38.3
-    ## 9   bookhouse   194   66         11         80.8       42.1         38.7
-    ## 10  pkdodgers   215   45          7         76.2       42.6         33.6
-    ## 11     ottawa   182   78         10         73.7       41.0         32.7
-    ## 12   sturgeon   176   84         13         70.0       38.2         31.8
-    ## 13   hermanos   216   44         11         69.9       35.4         34.5
-    ## 14      balco   190   70         10         69.7       47.0         22.7
-    ## 15       vero   202   58         11         69.5       38.6         30.9
-    ## 16   pasadena   155  105         15         65.6       38.5         27.1
-    ## 17       jobu   163   97         12         62.8       23.4         39.4
-    ## 18     deener   117  143         14         44.9       25.0         19.9
+    ## 1  bellevegas   336  -76          5        112.7       70.8         41.9
+    ## 2       rippe   214   46         11         95.0       60.2         34.8
+    ## 3       bears   183   77         11         90.6       65.2         25.4
+    ## 4     dembums   208   52         14         90.0       61.6         28.4
+    ## 5   marmaduke   214   46         11         88.6       53.6         35.0
+    ## 6         dsb   231   29         12         88.1       53.2         34.9
+    ## 7    isotopes   204   56          9         87.1       52.5         34.6
+    ## 8   bookhouse   194   66         11         84.9       43.8         41.1
+    ## 9       deano   240   20         12         84.5       45.2         39.3
+    ## 10  pkdodgers   215   45          7         79.5       45.9         33.6
+    ## 11     ottawa   182   78         10         76.3       43.6         32.7
+    ## 12   hermanos   216   44         11         73.7       37.7         36.0
+    ## 13       vero   202   58         11         71.8       40.3         31.5
+    ## 14   sturgeon   176   84         13         71.7       39.4         32.3
+    ## 15      balco   190   70         10         71.6       48.9         22.7
+    ## 16   pasadena   155  105         15         70.6       43.5         27.1
+    ## 17       jobu   163   97         12         66.9       25.2         41.7
+    ## 18     deener   117  143         14         46.8       26.9         19.9
 
 #### Top Remaining Pitchers
 
@@ -32,113 +32,113 @@
     ## 7     Danny Salazar      Indians 124 3.51 1.20 152  0  9 2.59  7.13
     ## 8       Tyler Lyons    Cardinals  65 3.70 1.21  68 22  3 2.55  7.01
     ## 9      Alex Claudio      Rangers  65 3.97 1.38  48 27  3 2.22  6.11
-    ## 10 Santiago Casilla    Athletics  65 4.33 1.37  60 25  3 1.98  5.45
-    ## 11  Jameson Taillon      Pirates 160 3.88 1.27 148  0 10 1.91  5.25
-    ## 12      Blake Snell         Rays 157 3.78 1.32 163  0 10 1.89  5.19
-    ## 13      Juan Minaya    White Sox  65 4.80 1.44  62 27  3 1.87  5.16
-    ## 14     Brad Ziegler      Marlins  65 4.00 1.47  43 27  3 1.76  4.83
-    ## 15    Rick Porcello      Red Sox 182 4.43 1.27 152  0 11 1.49  4.10
-    ## 16     Hyun-Jin Ryu      Dodgers 141 3.98 1.29 124  0 10 1.13  3.10
-    ## 17      Ryan Madson    Nationals  65 3.26 1.18  70 10  4 1.08  2.98
-    ## 18      Danny Duffy       Royals 180 4.32 1.31 157  0 10 1.07  2.94
-    ## 19     Tyler Skaggs       Angels 154 4.13 1.31 138  0 10 1.04  2.87
-    ## 20      Luiz Gohara       Braves 130 3.72 1.32 141  0  8 1.01  2.79
+    ## 10    Rick Porcello      Red Sox 182 4.25 1.25 154  0 11 1.99  5.49
+    ## 11 Santiago Casilla    Athletics  65 4.33 1.37  60 25  3 1.98  5.45
+    ## 12  Jameson Taillon      Pirates 160 3.88 1.27 148  0 10 1.91  5.25
+    ## 13      Blake Snell         Rays 157 3.78 1.32 163  0 10 1.89  5.19
+    ## 14      Juan Minaya    White Sox  65 4.80 1.44  62 27  3 1.87  5.16
+    ## 15     Brad Ziegler      Marlins  65 4.00 1.47  43 27  3 1.76  4.83
+    ## 16        J.A. Happ    Blue Jays 171 4.11 1.30 154  0 11 1.70  4.67
+    ## 17      Sean Manaea    Athletics 173 4.16 1.33 149  0 11 1.21  3.34
+    ## 18     Hyun-Jin Ryu      Dodgers 141 3.98 1.29 124  0 10 1.13  3.10
+    ## 19  Felix Hernandez     Mariners 162 4.24 1.32 141  0 11 1.10  3.03
+    ## 20      Ryan Madson    Nationals  65 3.26 1.18  70 10  4 1.08  2.98
 
 #### Top Remaining Hitters
 
-    ##                name         Team  PA  R HR RBI SB   AVG  pts   dlr
-    ## 1       DJ LeMahieu      Rockies 661 87 10  64 10 0.310 7.03 19.34
-    ## 2   Xander Bogaerts      Red Sox 628 79 16  77 10 0.289 6.96 19.17
-    ## 3      Lorenzo Cain         <NA> 599 74 15  69 16 0.288 6.72 18.49
-    ## 4       Jean Segura     Mariners 628 79 14  59 21 0.275 6.58 18.10
-    ## 5        David Dahl      Rockies 534 67 19  74 13 0.284 6.38 17.57
-    ## 6     Jorge Polanco        Twins 628 73 15  74 13 0.273 6.01 16.54
-    ## 7  Michael Brantley      Indians 505 65 15  68 10 0.292 5.74 15.81
-    ## 8      Josh Reddick       Astros 558 74 19  74  7 0.278 5.68 15.64
-    ## 9     David Peralta Diamondbacks 594 75 17  69  8 0.281 5.61 15.46
-    ## 10    Wilmer Flores         Mets 543 64 25  77  3 0.273 5.58 15.36
-    ## 11   Hanley Ramirez      Red Sox 584 77 26  88  4 0.268 5.57 15.34
-    ## 12    Maikel Franco     Phillies 565 69 26  83  1 0.265 5.53 15.22
-    ## 13    J.T. Realmuto      Marlins 503 54 13  60  7 0.275 5.46 15.03
-    ## 14   Dustin Pedroia      Red Sox 604 79 12  64  6 0.289 5.33 14.67
-    ## 15    Dexter Fowler    Cardinals 632 86 17  64 11 0.259 5.24 14.41
-    ## 16 Delino DeShields      Rangers 596 74 10  52 31 0.247 5.22 14.36
-    ## 17      Mark Trumbo      Orioles 569 73 31  86  1 0.254 5.11 14.06
-    ## 18      Neil Walker         <NA> 588 73 22  77  3 0.270 5.10 14.04
-    ## 19     Kole Calhoun       Angels 648 83 22  76  4 0.257 5.03 13.85
-    ## 20  Gregory Polanco      Pirates 554 66 18  69 12 0.267 4.99 13.72
+    ##                 name         Team  PA  R HR RBI SB   AVG  pts   dlr
+    ## 1    Xander Bogaerts      Red Sox 630 77 16  80 12 0.292 7.38 20.33
+    ## 2        Jean Segura     Mariners 616 82 13  61 22 0.284 7.26 19.98
+    ## 3       Lorenzo Cain         <NA> 595 79 14  67 18 0.290 7.10 19.55
+    ## 4        DJ LeMahieu      Rockies 665 87 10  65 10 0.310 7.08 19.49
+    ## 5         David Dahl      Rockies 545 69 20  75 13 0.284 6.59 18.13
+    ## 6      Jorge Polanco        Twins 644 73 16  75 14 0.274 6.23 17.15
+    ## 7      Wilmer Flores         Mets 560 66 26  80  3 0.273 5.85 16.10
+    ## 8     Hanley Ramirez      Red Sox 595 79 27  89  4 0.270 5.76 15.84
+    ## 9   Michael Brantley      Indians 504 65 15  68 10 0.292 5.73 15.77
+    ## 10     Maikel Franco     Phillies 574 70 27  84  1 0.265 5.67 15.61
+    ## 11     David Peralta Diamondbacks 595 76 17  69  8 0.281 5.62 15.48
+    ## 12     Dexter Fowler    Cardinals 623 87 18  69 11 0.262 5.62 15.46
+    ## 13     J.T. Realmuto      Marlins 512 55 14  61  7 0.275 5.58 15.37
+    ## 14      Josh Reddick       Astros 560 71 17  72  6 0.282 5.42 14.93
+    ## 15       Mark Trumbo      Orioles 581 74 31  87  1 0.254 5.31 14.62
+    ## 16    Dustin Pedroia      Red Sox 595 73 12  66  5 0.294 5.28 14.55
+    ## 17       Neil Walker         <NA> 595 74 22  78  3 0.270 5.20 14.32
+    ## 18  Delino DeShields      Rangers 595 74 10  52 31 0.247 5.19 14.29
+    ## 19 Teoscar Hernandez    Blue Jays 581 75 22  75 14 0.246 5.16 14.21
+    ## 20     Marcus Semien    Athletics 595 73 21  70 13 0.252 5.14 14.14
 
 #### Top Remaining MI
 
     ##                name         Team  PA  R HR RBI SB   AVG  pts   dlr
-    ## 1       DJ LeMahieu      Rockies 661 87 10  64 10 0.310 7.03 19.34
-    ## 2   Xander Bogaerts      Red Sox 628 79 16  77 10 0.289 6.96 19.17
-    ## 3       Jean Segura     Mariners 628 79 14  59 21 0.275 6.58 18.10
-    ## 4     Jorge Polanco        Twins 628 73 15  74 13 0.273 6.01 16.54
-    ## 5    Dustin Pedroia      Red Sox 604 79 12  64  6 0.289 5.33 14.67
-    ## 6       Neil Walker         <NA> 588 73 22  77  3 0.270 5.10 14.04
-    ## 7     Marcus Semien    Athletics 586 74 21  69 11 0.251 4.98 13.70
-    ## 8       Ian Kinsler       Angels 610 79 18  63 11 0.255 4.69 12.92
-    ## 9      Jason Kipnis      Indians 568 75 15  62 10 0.260 4.33 11.91
-    ## 10 Asdrubal Cabrera         Mets 591 69 19  67  4 0.261 4.18 11.50
-    ## 11     Raul Mondesi       Royals 542 56 14  56 28 0.239 4.08 11.23
-    ## 12      Kolten Wong    Cardinals 568 64 13  62  9 0.269 4.06 11.19
-    ## 13  Troy Tulowitzki    Blue Jays 529 63 22  68  2 0.261 3.90 10.72
-    ## 14    Jose Iglesias       Tigers 560 59  7  54 12 0.274 3.74 10.30
-    ## 15        Joe Panik       Giants 577 65 11  57  4 0.279 3.60  9.90
-    ## 16 Brandon Phillips         <NA> 490 55 10  52 10 0.279 3.50  9.64
-    ## 17  Addison Russell         Cubs 504 60 19  67  4 0.252 3.31  9.11
-    ## 18     Devon Travis    Blue Jays 444 54 12  52  7 0.274 3.14  8.64
-    ## 19      Brad Miller         Rays 547 65 19  65  7 0.239 3.11  8.55
-    ## 20     Chris Owings Diamondbacks 472 49 10  52 13 0.263 3.09  8.50
+    ## 1   Xander Bogaerts      Red Sox 630 77 16  80 12 0.292 7.38 20.33
+    ## 2       Jean Segura     Mariners 616 82 13  61 22 0.284 7.26 19.98
+    ## 3       DJ LeMahieu      Rockies 665 87 10  65 10 0.310 7.08 19.49
+    ## 4     Jorge Polanco        Twins 644 73 16  75 14 0.274 6.23 17.15
+    ## 5    Dustin Pedroia      Red Sox 595 73 12  66  5 0.294 5.28 14.55
+    ## 6       Neil Walker         <NA> 595 74 22  78  3 0.270 5.20 14.32
+    ## 7     Marcus Semien    Athletics 595 73 21  70 13 0.252 5.14 14.14
+    ## 8       Kolten Wong    Cardinals 588 70 13  68 11 0.272 4.90 13.48
+    ## 9       Ian Kinsler       Angels 595 81 18  61 11 0.260 4.83 13.29
+    ## 10     Raul Mondesi       Royals 574 60 14  60 29 0.239 4.64 12.76
+    ## 11     Jason Kipnis      Indians 560 74 15  61 10 0.260 4.21 11.60
+    ## 12    Jose Iglesias       Tigers 595 63  8  58 12 0.274 4.18 11.50
+    ## 13 Asdrubal Cabrera         Mets 595 67 18  68  4 0.262 4.08 11.23
+    ## 14        Joe Panik       Giants 581 68 10  58  4 0.281 3.81 10.49
+    ## 15     Devon Travis    Blue Jays 455 59 12  52  7 0.282 3.62  9.97
+    ## 16  Addison Russell         Cubs 525 63 19  69  5 0.251 3.56  9.79
+    ## 17 Brandon Phillips         <NA> 490 55 10  52 10 0.279 3.50  9.62
+    ## 18  Troy Tulowitzki    Blue Jays 546 62 20  67  1 0.259 3.49  9.60
+    ## 19      Brad Miller         Rays 560 66 20  66  7 0.239 3.30  9.08
+    ## 20     Chris Owings Diamondbacks 485 51 11  54 13 0.263 3.28  9.03
 
 #### Top Remaining C
 
     ##                  name      Team  PA  R HR RBI SB   AVG  pts   dlr
-    ## 1       J.T. Realmuto   Marlins 503 54 13  60  7 0.275 5.46 15.03
-    ## 2        Wilson Ramos      Rays 468 51 20  61  1 0.253 4.04 11.13
-    ## 3   Robinson Chirinos   Rangers 490 60 21  63  3 0.232 3.91 10.77
-    ## 4        Jason Castro     Twins 548 62 16  60  3 0.231 3.34  9.20
-    ## 5   Christian Vazquez   Red Sox 427 46  6  45  6 0.265 3.32  9.14
-    ## 6     Jonathan Lucroy      <NA> 408 45 10  47  2 0.268 3.25  8.95
-    ## 7        James McCann    Tigers 462 47 12  52  2 0.248 2.77  7.64
-    ## 8        Matt Wieters Nationals 433 45 13  52  1 0.246 2.56  7.05
-    ## 9      Russell Martin Blue Jays 433 51 17  52  2 0.230 2.43  6.68
-    ## 10    Travis d'Arnaud      Mets 370 39 13  46  1 0.253 2.39  6.58
-    ## 11 Francisco Cervelli   Pirates 373 37  5  37  3 0.266 2.13  5.86
-    ## 12     Chris Iannetta   Rockies 310 38 12  40  1 0.255 2.08  5.73
-    ## 13      Austin Hedges    Padres 426 40 17  49  3 0.230 1.88  5.19
-    ## 14      Bruce Maxwell Athletics 398 41  7  39  2 0.249 1.56  4.31
-    ## 15       Stephen Vogt   Brewers 252 29 10  33  1 0.258 1.28  3.51
-    ## 16   Martin Maldonado    Angels 427 44 13  46  2 0.224 1.25  3.44
-    ## 17    Tucker Barnhart      Reds 335 32  6  33  2 0.255 1.12  3.08
-    ## 18        Kurt Suzuki    Braves 276 27  8  32  1 0.255 0.88  2.41
-    ## 19       Caleb Joseph   Orioles 305 33  8  34  2 0.237 0.44  1.22
-    ## 20    Steve Clevenger      <NA> 248 24  4  25  2 0.257 0.29  0.79
+    ## 1       J.T. Realmuto   Marlins 512 55 14  61  7 0.275 5.58 15.37
+    ## 2   Robinson Chirinos   Rangers 515 64 22  66  4 0.232 4.31 11.86
+    ## 3   Christian Vazquez   Red Sox 448 52  7  50  6 0.273 4.25 11.69
+    ## 4        Wilson Ramos      Rays 480 53 20  62  1 0.253 4.21 11.60
+    ## 5        Jason Castro     Twins 576 65 15  62  2 0.232 3.45  9.51
+    ## 6     Jonathan Lucroy      <NA> 416 46 10  47  2 0.268 3.35  9.22
+    ## 7        James McCann    Tigers 480 49 13  54  2 0.248 2.99  8.24
+    ## 8      Russell Martin Blue Jays 448 53 17  55  3 0.231 2.72  7.48
+    ## 9     Travis d'Arnaud      Mets 384 41 14  48  1 0.253 2.57  7.08
+    ## 10       Matt Wieters Nationals 448 46 13  51  1 0.245 2.51  6.91
+    ## 11 Francisco Cervelli   Pirates 384 38  6  38  3 0.266 2.25  6.19
+    ## 12     Chris Iannetta   Rockies 320 39 13  41  1 0.255 2.23  6.14
+    ## 13      Austin Hedges    Padres 448 42 17  52  3 0.230 2.17  5.97
+    ## 14      Bruce Maxwell Athletics 416 42  8  41  2 0.249 1.76  4.85
+    ## 15   Martin Maldonado    Angels 448 47 13  47  2 0.225 1.41  3.88
+    ## 16       Stephen Vogt   Brewers 256 29 10  33  1 0.258 1.34  3.69
+    ## 17    Tucker Barnhart      Reds 352 33  7  35  2 0.255 1.30  3.58
+    ## 18        Kurt Suzuki    Braves 286 28  8  33  1 0.255 1.00  2.75
+    ## 19       Caleb Joseph   Orioles 320 34  9  35  2 0.237 0.63  1.74
+    ## 20      Roberto Perez   Indians 320 37  9  35  3 0.228 0.44  1.21
 
 #### Top Remaining OF
 
     ##                 name         Team  PA  R HR RBI SB   AVG  pts   dlr
-    ## 1       Lorenzo Cain         <NA> 599 74 15  69 16 0.288 6.72 18.49
-    ## 2         David Dahl      Rockies 534 67 19  74 13 0.284 6.38 17.57
-    ## 3   Michael Brantley      Indians 505 65 15  68 10 0.292 5.74 15.81
-    ## 4       Josh Reddick       Astros 558 74 19  74  7 0.278 5.68 15.64
-    ## 5      David Peralta Diamondbacks 594 75 17  69  8 0.281 5.61 15.46
-    ## 6      Dexter Fowler    Cardinals 632 86 17  64 11 0.259 5.24 14.41
-    ## 7   Delino DeShields      Rangers 596 74 10  52 31 0.247 5.22 14.36
-    ## 8        Mark Trumbo      Orioles 569 73 31  86  1 0.254 5.11 14.06
-    ## 9       Kole Calhoun       Angels 648 83 22  76  4 0.257 5.03 13.85
-    ## 10   Gregory Polanco      Pirates 554 66 18  69 12 0.267 4.99 13.72
-    ## 11      Steve Pearce    Blue Jays 596 77 27  81  2 0.254 4.89 13.46
-    ## 12      Raimel Tapia      Rockies 472 53  8  53 16 0.296 4.81 13.24
-    ## 13       Austin Hays      Orioles 508 63 19  65  6 0.277 4.62 12.72
-    ## 14     Yasmany Tomas Diamondbacks 510 62 24  75  3 0.266 4.45 12.26
-    ## 15 Teoscar Hernandez    Blue Jays 567 69 19  67 16 0.241 4.37 12.03
-    ## 16      Hunter Pence       Giants 588 66 19  72  4 0.264 4.16 11.44
-    ## 17     Mikie Mahtook       Tigers 614 68 16  70  7 0.259 4.11 11.33
-    ## 18     Jason Heyward         Cubs 546 64 14  64  8 0.267 3.99 10.98
-    ## 19       Jose Pirela       Padres 558 61 15  60 10 0.263 3.78 10.40
-    ## 20      Brandon Moss       Royals 574 69 29  78  3 0.231 3.56  9.80
+    ## 1       Lorenzo Cain         <NA> 595 79 14  67 18 0.290 7.10 19.55
+    ## 2         David Dahl      Rockies 545 69 20  75 13 0.284 6.59 18.13
+    ## 3   Michael Brantley      Indians 504 65 15  68 10 0.292 5.73 15.77
+    ## 4      David Peralta Diamondbacks 595 76 17  69  8 0.281 5.62 15.48
+    ## 5      Dexter Fowler    Cardinals 623 87 18  69 11 0.262 5.62 15.46
+    ## 6       Josh Reddick       Astros 560 71 17  72  6 0.282 5.42 14.93
+    ## 7        Mark Trumbo      Orioles 581 74 31  87  1 0.254 5.31 14.62
+    ## 8   Delino DeShields      Rangers 595 74 10  52 31 0.247 5.19 14.29
+    ## 9  Teoscar Hernandez    Blue Jays 581 75 22  75 14 0.246 5.16 14.21
+    ## 10      Raimel Tapia      Rockies 490 55  8  55 16 0.296 5.09 14.01
+    ## 11   Gregory Polanco      Pirates 560 66 18  69 12 0.267 5.08 13.99
+    ## 12      Kole Calhoun       Angels 644 81 21  78  4 0.259 5.07 13.96
+    ## 13      Steve Pearce    Blue Jays 609 77 25  82  2 0.257 4.94 13.61
+    ## 14       Austin Hays      Orioles 525 65 19  67  7 0.277 4.89 13.47
+    ## 15     Yasmany Tomas Diamondbacks 525 63 24  78  3 0.266 4.70 12.93
+    ## 16     Mikie Mahtook       Tigers 630 70 17  72  8 0.259 4.34 11.94
+    ## 17      Hunter Pence       Giants 595 67 19  73  4 0.264 4.25 11.71
+    ## 18     Jason Heyward         Cubs 560 62 14  64  9 0.266 3.90 10.75
+    ## 19      Brandon Moss       Royals 595 71 30  81  3 0.231 3.89 10.72
+    ## 20      Jarrod Dyson         <NA> 455 49  6  43 29 0.262 3.82 10.53
 
 #### Dollars vs. projected points
 

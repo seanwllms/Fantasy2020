@@ -1,16 +1,16 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
 "1","C1",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",4,"Matt Olson","Athletics","outfield","14344",599,516,79,32,84,3,0.236,4.81,13.23,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",4,"Matt Olson","Athletics","outfield","14344",616,530,86,33,93,3,0.241,5.91,16.27,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",634,577,75,12,70,21,0.279,6.94,19.1,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",24,"Kris Bryant","Cubs","third_base","15429",666,559,106,33,97,8,0.285,10.17,27.99,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",644,595,74,13,70,23,0.283,7.21,19.85,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",24,"Kris Bryant","Cubs","third_base","15429",672,566,109,34,105,7,0.288,10.76,29.62,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",24,"J.D. Martinez",NA,"outfield","6184",620,550,87,38,105,3,0.277,8.56,23.57,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",8,"Mitch Haniger","Mariners","outfield","14274",602,536,73,21,72,7,0.253,4.53,12.46,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",4,"Bradley Zimmer","Indians","outfield","16221",508,449,61,14,57,23,0.24,3.85,10.59,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",9,"Max Kepler","Twins","outfield","12144",548,488,68,19,71,6,0.261,4.43,12.19,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",24,"J.D. Martinez",NA,"outfield","6184",630,542,95,38,111,4,0.284,9.7,26.69,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",8,"Mitch Haniger","Mariners","outfield","14274",609,528,79,23,80,8,0.262,5.71,15.73,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",4,"Bradley Zimmer","Indians","outfield","16221",525,477,63,16,61,25,0.246,4.76,13.1,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",9,"Max Kepler","Twins","outfield","12144",560,489,69,20,72,7,0.26,4.48,12.35,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA

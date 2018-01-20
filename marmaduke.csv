@@ -1,23 +1,23 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",16,"Yadier Molina","Cardinals","catcher","7007",538,494,58,12,65,6,0.277,5.78,15.92,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",16,"Yadier Molina","Cardinals","catcher","7007",547,490,57,13,63,5,0.277,5.55,15.27,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",43,"Paul Goldschmidt","Diamondbacks","first_base","9218",657,542,98,31,98,16,0.291,9.87,27.18,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",43,"Paul Goldschmidt","Diamondbacks","first_base","9218",665,552,99,33,106,17,0.295,10.7,29.47,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",5,"Ketel Marte","Diamondbacks","shortstop","13613",542,491,61,8,56,11,0.288,4.68,12.88,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",9,"Alex Bregman","Astros","third_base","17678",615,545,85,23,83,12,0.278,7.92,21.81,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",16,"Evan Longoria","Giants","third_base","9368",632,576,75,24,84,4,0.267,6.14,16.89,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",5,"Ketel Marte","Diamondbacks","shortstop","13613",560,491,63,9,58,12,0.288,4.92,13.54,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",9,"Alex Bregman","Astros","third_base","17678",630,567,86,22,85,14,0.282,8.42,23.19,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",16,"Evan Longoria","Giants","third_base","9368",630,576,75,24,84,4,0.267,6.1,16.79,"drafted",NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",19,"Billy Hamilton","Reds","outfield","10199",566,512,66,7,42,49,0.242,5.97,16.43,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",21,"Marcell Ozuna","Cardinals","outfield","10324",587,528,79,29,94,2,0.291,7.67,21.11,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",16,"Odubel Herrera","Phillies","outfield","11476",629,567,74,15,67,14,0.276,5.75,15.82,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",19,"Billy Hamilton","Reds","outfield","10199",560,512,56,6,42,51,0.247,5.98,16.47,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",21,"Marcell Ozuna","Cardinals","outfield","10324",595,528,80,30,95,2,0.291,7.81,21.49,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",16,"Odubel Herrera","Phillies","outfield","11476",630,567,74,15,67,14,0.276,5.76,15.86,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"15","DH",16,"Adrian Beltre","Rangers","third_base","639",618,556,80,23,91,2,0.287,7.31,20.13,"drafted",NA,NA,NA,NA,NA,NA
+"15","DH",16,"Adrian Beltre","Rangers","third_base","639",623,556,80,24,91,2,0.287,7.38,20.32,"drafted",NA,NA,NA,NA,NA,NA
 "16","P1",4,"Sean Doolittle","Nationals","pitcher","1581",NA,NA,NA,NA,NA,NA,NA,4.1,11.3,"drafted",65,3.35,1.11,25,4,78
-"17","P2",13,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,1.95,5.36,"drafted",173,4.03,1.29,0,12,144
+"17","P2",13,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,3.17,8.72,"drafted",173,3.77,1.24,0,13,149
 "18","P3",21,"Aaron Nola","Phillies","pitcher","16149",NA,NA,NA,NA,NA,NA,NA,3.82,10.52,"drafted",180,3.74,1.21,0,11,187
-"19","P4",11,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,4.16,11.45,"drafted",176,3.53,1.21,0,12,178
+"19","P4",11,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,5.01,13.78,"drafted",176,3.39,1.18,0,13,182
 "20","P5",4,"Alex Wood","Dodgers","pitcher","13781",NA,NA,NA,NA,NA,NA,NA,2.24,6.18,"drafted",140,3.54,1.24,0,10,135
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102

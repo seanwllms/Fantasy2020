@@ -39,13 +39,13 @@ names(replacement_hitters) <- c("position",
 #make lists of file names
 filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
 filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
-#filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 #filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 #filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 
 
 files <- list(
-              #fans=filelocs_fans, 
+              fans=filelocs_fans, 
               depth=filelocs_depth, 
               steam=filelocs_steam 
               #zips=filelocs_zips, 
@@ -67,7 +67,7 @@ hitterdata <- at_depth(files, 2, read_csv) %>%
 #create variable for each projection system
 hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
 hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
-#hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
+hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
 #hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
 #hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
 
@@ -89,9 +89,8 @@ for (pos in 1:7) {
       #merge all of the projection systems
       raw_pos_data <- bind_rows(
             hitterdata[[1]][[pos]],
-            hitterdata[[2]][[pos]]
-            #,
-            #hitterdata[[3]][[pos]],
+            hitterdata[[2]][[pos]],
+            hitterdata[[3]][[pos]]
             #hitterdata[[4]][[pos]],
             #hitterdata[[5]][[pos]]
       )
@@ -228,9 +227,8 @@ hitter_projections <- hitter_projections %>%
 
 #read in files for all of the systems other than ZIPS (which doesn't do saves)
 projection_systems <- c("depthcharts", 
-                        "steamer"
-                        #, 
-                        #"fans", 
+                        "steamer",
+                        "fans"
                         #"atc"
                         )
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
