@@ -7,10 +7,10 @@
     ## 4   marmaduke   214   46         11         89.5       54.0         35.5
     ## 5  bellevegas   246   14          5         89.5       49.7         39.8
     ## 6         dsb   231   29         12         88.4       53.5         34.9
-    ## 7    isotopes   204   56          9         87.4       53.2         34.2
-    ## 8       deano   240   20         12         84.1       44.8         39.3
-    ## 9   bookhouse   194   66         11         83.0       43.4         39.6
-    ## 10     ottawa   182   78         10         80.4       44.0         36.4
+    ## 7      ottawa   182   78         10         88.0       51.6         36.4
+    ## 8    isotopes   204   56          9         87.4       53.2         34.2
+    ## 9       deano   240   20         12         84.1       44.8         39.3
+    ## 10  bookhouse   194   66         11         83.0       43.4         39.6
     ## 11  pkdodgers   215   45          7         79.6       45.9         33.7
     ## 12   hermanos   216   44         11         74.0       37.5         36.5
     ## 13       vero   202   58         11         72.7       40.7         32.0
@@ -64,9 +64,9 @@
     ## 15     Josh Reddick       Astros 560 69 17  72  6 0.282 5.33 14.66
     ## 16   Dustin Pedroia      Red Sox 595 70 12  67  6 0.293 5.27 14.50
     ## 17      Mark Trumbo      Orioles 581 74 31  87  1 0.253 5.25 14.45
-    ## 18 Delino DeShields      Rangers 595 74 10  51 31 0.247 5.21 14.33
-    ## 19      Neil Walker         <NA> 595 74 22  77  3 0.270 5.16 14.20
-    ## 20    Marcus Semien    Athletics 595 74 21  68 13 0.252 5.11 14.07
+    ## 18      Neil Walker         <NA> 595 74 22  77  3 0.270 5.16 14.20
+    ## 19    Marcus Semien    Athletics 595 74 21  68 13 0.252 5.11 14.07
+    ## 20        Jay Bruce         Mets 623 76 31  90  3 0.241 5.08 13.97
 
 #### Top Remaining MI
 
@@ -127,18 +127,18 @@
     ## 6   Gregory Polanco      Pirates 595 68 19  75 13 0.268 5.58 15.35
     ## 7      Josh Reddick       Astros 560 69 17  72  6 0.282 5.33 14.66
     ## 8       Mark Trumbo      Orioles 581 74 31  87  1 0.253 5.25 14.45
-    ## 9  Delino DeShields      Rangers 595 74 10  51 31 0.247 5.21 14.33
-    ## 10        Jay Bruce         Mets 623 76 31  90  3 0.241 5.08 13.97
-    ## 11     Raimel Tapia      Rockies 490 54  8  55 16 0.296 5.02 13.83
-    ## 12     Kole Calhoun       Angels 644 79 21  79  4 0.259 5.00 13.76
-    ## 13      Austin Hays      Orioles 525 65 19  68  7 0.277 4.96 13.64
-    ## 14    Yasmany Tomas Diamondbacks 525 63 24  78  4 0.265 4.68 12.89
-    ## 15    Mikie Mahtook       Tigers 630 69 16  72  8 0.259 4.26 11.74
-    ## 16     Hunter Pence       Giants 595 64 19  74  4 0.264 4.13 11.37
-    ## 17     Jarrod Dyson         <NA> 455 49  6  43 29 0.263 3.91 10.76
-    ## 18     Brandon Moss       Royals 595 70 30  82  3 0.231 3.89 10.70
-    ## 19     Steve Pearce    Blue Jays 539 67 22  73  2 0.257 3.86 10.63
-    ## 20    Jason Heyward         Cubs 560 61 14  63  9 0.266 3.85 10.61
+    ## 9         Jay Bruce         Mets 623 76 31  90  3 0.241 5.08 13.97
+    ## 10     Raimel Tapia      Rockies 490 54  8  55 16 0.296 5.02 13.83
+    ## 11     Kole Calhoun       Angels 644 79 21  79  4 0.259 5.00 13.76
+    ## 12      Austin Hays      Orioles 525 65 19  68  7 0.277 4.96 13.64
+    ## 13    Yasmany Tomas Diamondbacks 525 63 24  78  4 0.265 4.68 12.89
+    ## 14    Mikie Mahtook       Tigers 630 69 16  72  8 0.259 4.26 11.74
+    ## 15     Hunter Pence       Giants 595 64 19  74  4 0.264 4.13 11.37
+    ## 16     Jarrod Dyson         <NA> 455 49  6  43 29 0.263 3.91 10.76
+    ## 17     Brandon Moss       Royals 595 70 30  82  3 0.231 3.89 10.70
+    ## 18     Steve Pearce    Blue Jays 539 67 22  73  2 0.257 3.86 10.63
+    ## 19    Jason Heyward         Cubs 560 61 14  63  9 0.266 3.85 10.61
+    ## 20      Jose Pirela       Padres 560 61 16  60 10 0.263 3.81 10.50
 
 #### Dollars vs. projected points
 
@@ -151,8 +151,7 @@
     ## 2           Nick Senzel  sturgeon not matched
     ## 3           Alec Hansen pkdodgers not matched
     ## 4        Michael Kopech pkdodgers not matched
-    ## 5      Delino Deshields    ottawa not matched
-    ## 6 Vladimir Guerrero Jr.    ottawa not matched
-    ## 7          Kolby Allard      jobu not matched
-    ## 8          Kevin Maitan     deano not matched
-    ## 9             John Jaso  isotopes not matched
+    ## 5 Vladimir Guerrero Jr.    ottawa not matched
+    ## 6          Kolby Allard      jobu not matched
+    ## 7          Kevin Maitan     deano not matched
+    ## 8             John Jaso  isotopes not matched
