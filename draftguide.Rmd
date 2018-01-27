@@ -80,13 +80,13 @@ ggplot(standings.output, aes(x=spent, y=total_points)) +
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 library(ggplot2)
 library(ggrepel)
-ggplot(standings.output, aes(x=spent, y=picks.left)) + 
+ggplot(standings.output, aes(x=picks.left, y=total_points)) + 
   geom_point() +
   theme_minimal() +
-  xlab("Dollars Spent") +
-  ylab("Remaining Picks")+
+  xlab("Remaining Picks") +
+  ylab("Projected Points")+
   geom_smooth(method = lm, se = FALSE, size = .4)+
-  geom_text_repel(aes(x=spent, y=picks.left, label = team_name)) 
+  geom_text_repel(aes(x=picks.left, y=total_points, label = team_name)) 
   
 ```
 
