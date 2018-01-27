@@ -76,6 +76,19 @@ ggplot(standings.output, aes(x=spent, y=total_points)) +
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
   
 ```
+####Dollars vs. Remaining Picks
+```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
+library(ggplot2)
+library(ggrepel)
+ggplot(standings.output, aes(x=spent, y=picks.left)) + 
+  geom_point() +
+  theme_minimal() +
+  xlab("Dollars Spent") +
+  ylab("Remaining Picks")+
+  geom_smooth(method = lm, se = FALSE, size = .4)+
+  geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
+  
+```
 
 ####Data entry errors
 ```{r, echo = FALSE,}
