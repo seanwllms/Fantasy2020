@@ -86,7 +86,7 @@ ggplot(standings.output, aes(x=spent, y=picks.left)) +
   xlab("Dollars Spent") +
   ylab("Remaining Picks")+
   geom_smooth(method = lm, se = FALSE, size = .4)+
-  geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
+  geom_text_repel(aes(x=spent, y=picks.left, label = team_name)) 
   
 ```
 
