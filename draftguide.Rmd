@@ -76,7 +76,9 @@ ggplot(standings.output, aes(x=spent, y=total_points)) +
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
   
 ```
-####Dollars vs. Remaining Picks
+
+####Remaining Picks vs. projected points
+
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 library(ggplot2)
 library(ggrepel)

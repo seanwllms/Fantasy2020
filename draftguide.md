@@ -143,7 +143,9 @@
 #### Dollars vs. projected points
 
 ![](draftguide_files/figure-markdown_strict/unnamed-chunk-8-1.png)
-\#\#\#\#Dollars vs. Remaining Picks
+
+#### Remaining Picks vs. projected points
+
 ![](draftguide_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 #### Data entry errors
