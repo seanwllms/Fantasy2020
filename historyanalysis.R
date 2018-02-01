@@ -55,6 +55,8 @@ results <- bind_rows(results, standings.2014, standings.2015) %>%
       #filter out rows from 2013 that seem to be outliers
       filter(!(Year==2013 & Category %in% c("r", "rbi", "hr")))
 
+save(results, file="historicalresults.rda")
+
 ######################################
 #####Graphs and Analysis go Here######
 ######################################

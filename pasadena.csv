@@ -2,7 +2,7 @@
 "1","C1",16,"J.T. Realmuto","Marlins","catcher","11739",512,414,55,14,61,7,0.275,5.56,15.31,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",7,"Jonathan Lucroy",NA,"catcher","7870",416,326,46,10,47,2,0.269,3.35,9.21,"drafted",NA,NA,NA,NA,NA,NA
 "3","1B",4,"Matt Olson","Athletics","outfield","14344",616,534,86,34,95,3,0.241,5.92,16.29,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","2B",8,"Ian Kinsler","Angels","second_base","6195",595,548,80,18,62,11,0.26,4.86,13.37,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",644,599,75,12,70,23,0.283,7.32,20.16,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",24,"Kris Bryant","Cubs","third_base","15429",672,565,108,34,105,7,0.288,10.76,29.63,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -12,7 +12,7 @@
 "11","OF3",4,"Bradley Zimmer","Indians","outfield","16221",525,486,62,16,61,24,0.246,4.69,12.92,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",9,"Max Kepler","Twins","outfield","12144",560,474,67,20,72,7,0.26,4.42,12.17,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",18,"Lorenzo Cain",NA,"outfield","9077",595,556,82,14,64,19,0.29,7.12,19.61,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",12,"Kole Calhoun","Angels","outfield","11200",644,539,79,21,79,4,0.259,5,13.76,"drafted",NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",25,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,7.52,20.71,"drafted",194,3.27,1.09,0,14,224
 "17","P2",6,"Zack Godley","Diamondbacks","pitcher","14862",NA,NA,NA,NA,NA,NA,NA,-0.4,-1.11,"drafted",113,4.05,1.35,0,7,108
