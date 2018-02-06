@@ -286,7 +286,11 @@ pitcher_proj <- left_join(innings, pitcher_proj) %>%
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
-replacement.pitcher <- c(3.761429,1.284286,5.523810,2.952381,88.714286)
+replacement.pitcher <- c(4.12,
+                         1.336,
+                         4,
+                         4,
+                         63)
 names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
 
 #calculate marginal values and points

@@ -25,27 +25,27 @@ Fantasy 2018
 
 #### Top Remaining Pitchers
 
-    ##                 name         Team  IP  ERA WHIP   K SV  W   pts   dlr
-    ## 1     Brad Boxberger Diamondbacks  65 4.10 1.34  74 27  3  2.86  7.87
-    ## 2        Juan Minaya    White Sox  65 4.79 1.44  62 27  3  1.88  5.17
-    ## 3          J.A. Happ    Blue Jays 171 4.11 1.29 154  0 11  1.80  4.95
-    ## 4       Brad Ziegler      Marlins  65 3.99 1.47  43 27  3  1.76  4.85
-    ## 5       Tyler Skaggs       Angels 154 4.13 1.31 138  0 10  1.04  2.87
-    ## 6   Santiago Casilla    Athletics  65 4.33 1.37  60 19  3  0.93  2.56
-    ## 7        Ryan Madson    Nationals  65 3.26 1.18  70  9  4  0.91  2.50
-    ## 8        Brett Cecil    Cardinals  65 3.50 1.23  66 12  3  0.78  2.14
-    ## 9      Julio Teheran       Braves 179 4.40 1.32 152  0 10  0.75  2.08
-    ## 10     Marco Estrada    Blue Jays 183 4.70 1.33 165  0 11  0.74  2.03
-    ## 11    Dinelson Lamet       Padres 140 4.16 1.35 157  0  8  0.62  1.70
-    ## 12 Jordan Montgomery      Yankees 170 4.50 1.36 153  0 11  0.57  1.58
-    ## 13   Clayton Richard       Padres 191 3.94 1.39 140  0 10  0.31  0.85
-    ## 14        Pat Neshek     Phillies  65 3.92 1.18  68  9  3  0.27  0.75
-    ## 15      Jose De Leon         Rays 137 4.40 1.32 138  0  8  0.22  0.61
-    ## 16        Jake Faria         Rays 139 4.28 1.34 140  0  8  0.22  0.60
-    ## 17      Nick Pivetta     Phillies 157 4.51 1.36 155  0  9  0.21  0.57
-    ## 18  Brandon McCarthy       Braves 156 4.30 1.35 137  0  9  0.18  0.49
-    ## 19       Dan Straily      Marlins 182 4.62 1.34 162  0  9  0.16  0.44
-    ## 20       Jakob Junis       Royals 171 4.68 1.32 141  0  9 -0.05 -0.15
+    ##                 name         Team  IP  ERA WHIP   K SV  W  pts   dlr
+    ## 1     Brad Boxberger Diamondbacks  65 4.10 1.34  74 27  3 4.00 11.00
+    ## 2          J.A. Happ    Blue Jays 171 4.11 1.29 154  0 11 3.55  9.77
+    ## 3        Juan Minaya    White Sox  65 4.79 1.44  62 27  3 3.02  8.31
+    ## 4       Brad Ziegler      Marlins  65 3.99 1.47  43 27  3 2.90  7.98
+    ## 5       Tyler Skaggs       Angels 154 4.13 1.31 138  0 10 2.69  7.41
+    ## 6      Marco Estrada    Blue Jays 183 4.70 1.33 165  0 11 2.56  7.04
+    ## 7      Julio Teheran       Braves 179 4.40 1.32 152  0 10 2.55  7.02
+    ## 8  Jordan Montgomery      Yankees 170 4.50 1.36 153  0 11 2.32  6.38
+    ## 9     Dinelson Lamet       Padres 140 4.16 1.35 157  0  8 2.19  6.02
+    ## 10   Clayton Richard       Padres 191 3.94 1.39 140  0 10 2.17  5.98
+    ## 11  Santiago Casilla    Athletics  65 4.33 1.37  60 19  3 2.07  5.69
+    ## 12       Ryan Madson    Nationals  65 3.26 1.18  70  9  4 2.05  5.63
+    ## 13       Dan Straily      Marlins 182 4.62 1.34 162  0  9 1.98  5.44
+    ## 14       Brett Cecil    Cardinals  65 3.50 1.23  66 12  3 1.91  5.27
+    ## 15      Nick Pivetta     Phillies 157 4.51 1.36 155  0  9 1.88  5.17
+    ## 16  Brandon McCarthy       Braves 156 4.30 1.35 137  0  9 1.84  5.07
+    ## 17        Jake Faria         Rays 139 4.28 1.34 140  0  8 1.78  4.91
+    ## 18      Jose De Leon         Rays 137 4.40 1.32 138  0  8 1.78  4.89
+    ## 19       Jakob Junis       Royals 171 4.68 1.32 141  0  9 1.70  4.67
+    ## 20         Ivan Nova      Pirates 165 4.36 1.33 121  0  9 1.60  4.41
 
 #### Top Remaining Hitters
 
