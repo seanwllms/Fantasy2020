@@ -167,7 +167,7 @@ for (pos in 1:7) {
       #join averaged data with all names in all 3 projection systems
       results <- select(raw_pos_data, name, Team, playerid) %>% distinct %>%
             left_join(temp) %>% 
-        filter(Team != "pecotaflag")
+        filter(Team != "pecotaflag" | is.na(Team))
       
       replacement <- filter(replacement_hitters, position==position_name)
       names(replacement)[2:6] <- sapply(names(replacement)[2:6], paste, ".repl", sep="")
