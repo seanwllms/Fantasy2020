@@ -1,7 +1,5 @@
 
-library(dplyr)
-library(purrr)
-library(readr)
+library(tidyverse)
 
 ###Load the coefficients data frame
 load("coefs.rda")
@@ -64,12 +62,50 @@ hitterdata <- at_depth(files, 2, read_csv) %>%
                SB_pa = SB/PA,
                playerid = as.character(playerid))
 
+####################################
+############   PECOTA   ############
+####################################
+#read in PECOTA data and rename variables to line up
+library(readxl)
+pecotahit<- read_xls("./pecota/pecotafeb2018.xls",
+                     sheet = "Hitters") %>% 
+  mutate(name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
+  rename(Team = TEAM) %>% 
+  select(name, BPID, Team, AB, PA, R,HR, RBI, SB, AVG, OBP) %>% 
+  mutate(Team = "pecotaflag")
+
+#crosswalk PECOTA to BP
+if (file.exists("./pecota/crosswalk.rda")) {
+  load("./pecota/crosswalk.rda")
+} else {
+  crosswalk <- read_csv(url("http://crunchtimebaseball.com/master.csv")) %>%
+    rename(name = fg_name, playerid=fg_id, BPID = bp_id) %>% 
+    select(name, playerid, BPID)
+  save(crosswalk, file="./pecota/crosswalk.rda")
+}
+
+pecotahit <- left_join(pecotahit, crosswalk) %>% 
+  select(-BPID) %>% 
+  mutate(HR_pa = HR/PA,
+         R_pa = R/PA,
+         RBI_pa = RBI/PA,
+         SB_pa = SB/PA,
+         playerid = as.character(playerid),
+         proj="pecota") %>% 
+  filter(!is.na(playerid))
+          
+  
+
 #create variable for each projection system
 hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
 hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
 hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
 #hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
 #hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+
+
+
+
 
 #create vector of positions.
 positions <- c("first_base",
@@ -90,10 +126,16 @@ for (pos in 1:7) {
       raw_pos_data <- bind_rows(
             hitterdata[[1]][[pos]],
             hitterdata[[2]][[pos]],
-            hitterdata[[3]][[pos]]
+            hitterdata[[3]][[pos]],
+            pecotahit
             #hitterdata[[4]][[pos]],
             #hitterdata[[5]][[pos]]
-      )
+      ) %>% 
+      group_by(playerid) %>% 
+      mutate(count = n()) %>%
+      ungroup() %>% 
+      filter(count > 1 | proj !="pecota") %>% 
+      select(-count)
       
       #grab the plate appearances for the depth charts projections
       at_bats <- filter(raw_pos_data, proj=="depthcharts") %>%
@@ -124,7 +166,8 @@ for (pos in 1:7) {
       
       #join averaged data with all names in all 3 projection systems
       results <- select(raw_pos_data, name, Team, playerid) %>% distinct %>%
-            left_join(temp)
+            left_join(temp) %>% 
+        filter(Team != "pecotaflag")
       
       replacement <- filter(replacement_hitters, position==position_name)
       names(replacement)[2:6] <- sapply(names(replacement)[2:6], paste, ".repl", sep="")
@@ -141,16 +184,6 @@ for (pos in 1:7) {
       remove("temp", "raw_pos_data", "at_bats", "results", "dfname")
 }
 
-
-
-#create vector of positions.
-positions <- c("first_base",
-               "second_base",
-               "third_base",
-               "catcher",
-               "dh",
-               "outfield",
-               "shortstop")
 
 #build all positional projections into a list
 hitter_projections <- list(first_base_proj,
@@ -238,6 +271,26 @@ pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitcher
       at_depth(1, setNames, c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W"))
 
 
+####################################
+############   PECOTA   ############
+####################################
+#read in PECOTA data and rename variables to line up
+pecotapitch <- read_xls("./pecota/pecotafeb2018.xls",
+                     sheet = "Pitchers") %>% 
+  mutate(name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
+  rename(Team = TEAM, K = SO) %>% 
+  select(name, BPID, Team, IP, ERA, WHIP, K, SV, W) %>% 
+  mutate(Team = "pecotaflag",
+         proj = "pecota") 
+
+
+
+pecotapitch <- left_join(pecotapitch, crosswalk) %>% 
+  select(-BPID) %>% 
+  filter(!is.na(playerid)) %>% 
+  mutate()
+
+
 #assign list of projection systems a name
 for (system in 1:length(projection_systems)) {
       system_name <- projection_systems[[system]]
@@ -245,6 +298,8 @@ for (system in 1:length(projection_systems)) {
                                             proj=system_name, 
                                             playerid = as.character(playerid))
 }
+
+pitcher_proj[["pecota"]] <- pecotapitch
 
 #group everything together
 pitcher_proj <- bind_rows(pitcher_proj)

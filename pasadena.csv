@@ -1,23 +1,23 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",16,"J.T. Realmuto","Marlins","catcher","11739",512,414,55,14,61,7,0.275,5.56,15.31,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",7,"Jonathan Lucroy",NA,"catcher","7870",416,326,46,10,47,2,0.269,3.35,9.21,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",4,"Matt Olson","Athletics","outfield","14344",616,534,86,34,95,3,0.241,5.92,16.29,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",8,"Ian Kinsler","Angels","second_base","6195",595,548,80,18,62,11,0.26,4.86,13.37,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",644,599,75,12,70,23,0.283,7.32,20.16,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",24,"Kris Bryant","Cubs","third_base","15429",672,565,108,34,105,7,0.288,10.76,29.63,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",16,"J.T. Realmuto","Marlins","catcher","11739",512,454,59,14,58,7,0.274,5.63,15.51,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",7,"Jonathan Lucroy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",4,"Matt Olson","Athletics","outfield","14344",616,527,85,33,95,2,0.238,5.64,15.52,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",8,"Ian Kinsler","Angels","second_base","6195",595,560,79,17,61,11,0.258,4.66,12.82,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",19,"Elvis Andrus","Rangers","shortstop","8709",644,606,75,12,68,24,0.282,7.17,19.75,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",24,"Kris Bryant","Cubs","third_base","15429",672,558,109,33,103,8,0.286,10.59,29.16,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",24,"J.D. Martinez",NA,"outfield","6184",630,528,95,39,113,4,0.284,9.77,26.89,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",8,"Mitch Haniger","Mariners","outfield","14274",609,514,76,22,81,8,0.262,5.62,15.46,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",4,"Bradley Zimmer","Indians","outfield","16221",525,486,62,16,61,24,0.246,4.69,12.92,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",9,"Max Kepler","Twins","outfield","12144",560,474,67,20,72,7,0.26,4.42,12.17,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",18,"Lorenzo Cain",NA,"outfield","9077",595,556,82,14,64,19,0.29,7.12,19.61,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",12,"Kole Calhoun","Angels","outfield","11200",644,539,79,21,79,4,0.259,5,13.76,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",24,"J.D. Martinez",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","OF2",8,"Mitch Haniger","Mariners","outfield","14274",609,507,78,23,81,7,0.262,5.72,15.73,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",4,"Bradley Zimmer","Indians","outfield","16221",525,474,64,16,60,25,0.242,4.68,12.87,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",9,"Max Kepler","Twins","outfield","12144",560,489,68,19,72,7,0.259,4.34,11.96,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",18,"Lorenzo Cain",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",12,"Kole Calhoun","Angels","outfield","11200",644,548,78,21,79,4,0.259,4.96,13.67,"drafted",NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",25,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,9.4,25.89,"drafted",194,3.27,1.09,0,14,224
-"17","P2",6,"Zack Godley","Diamondbacks","pitcher","14862",NA,NA,NA,NA,NA,NA,NA,1.01,2.79,"drafted",113,4.05,1.35,0,7,108
-"18","P3",32,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,7.2,19.81,"drafted",178,3.48,1.15,0,13,191
-"19","P4",9,"Danny Duffy","Royals","pitcher","3542",NA,NA,NA,NA,NA,NA,NA,2.85,7.85,"drafted",180,4.32,1.31,0,10,156
+"16","P1",25,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,9.44,25.99,"drafted",194,3.17,1.1,0,14,224
+"17","P2",6,"Zack Godley","Diamondbacks","pitcher","14862",NA,NA,NA,NA,NA,NA,NA,1.31,3.62,"drafted",113,3.98,1.32,0,7,110
+"18","P3",32,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,7.1,19.56,"drafted",178,3.41,1.17,0,13,192
+"19","P4",9,"Danny Duffy","Royals","pitcher","3542",NA,NA,NA,NA,NA,NA,NA,2.68,7.38,"drafted",180,4.35,1.32,0,10,155
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
