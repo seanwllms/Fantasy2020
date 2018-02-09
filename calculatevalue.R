@@ -39,15 +39,15 @@ filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c
 filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
 filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 #filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
-#filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
 
 
 files <- list(
               fans=filelocs_fans, 
               depth=filelocs_depth, 
-              steam=filelocs_steam 
+              steam=filelocs_steam, 
               #zips=filelocs_zips, 
-              #atc=filelocs_atc
+              atc=filelocs_atc
               )
 
 
@@ -101,7 +101,7 @@ hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
 hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
 hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
 #hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
-#hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
 
 
 

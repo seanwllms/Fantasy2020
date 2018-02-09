@@ -1,25 +1,25 @@
 "","roster_spot","salary","name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",16,"Yadier Molina","Cardinals","catcher","7007",550,466,56,12,60,5,0.276,5.35,14.72,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",16,"Yadier Molina","Cardinals","catcher","7007",550,464,57,12,60,5,0.276,5.38,14.82,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",43,"Paul Goldschmidt","Diamondbacks","first_base","9218",665,547,100,32,105,18,0.293,10.63,29.26,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",5,"Kolten Wong","Cardinals","second_base","12532",588,458,68,13,66,12,0.269,4.68,12.89,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",5,"Ketel Marte","Diamondbacks","shortstop","13613",560,460,61,8,57,12,0.284,4.58,12.61,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",9,"Alex Bregman","Astros","third_base","17678",630,576,88,22,83,14,0.28,8.3,22.84,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",16,"Evan Longoria","Giants","third_base","9368",630,518,74,23,83,4,0.265,5.76,15.87,"drafted",NA,NA,NA,NA,NA,NA
-"8","MI",9,"Jorge Polanco","Twins","shortstop","13152",644,549,74,16,73,14,0.271,6.07,16.7,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",19,"Billy Hamilton","Reds","outfield","10199",560,514,59,6,43,53,0.246,6.33,17.42,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",21,"Marcell Ozuna","Cardinals","outfield","10324",616,546,81,29,94,3,0.286,7.48,20.59,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",16,"Odubel Herrera","Phillies","outfield","11476",630,551,77,16,68,15,0.277,6.09,16.77,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",18,"David Dahl","Rockies","outfield","13744",545,392,69,20,72,14,0.277,6.21,17.08,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",43,"Paul Goldschmidt","Diamondbacks","first_base","9218",658,545,99,31,103,18,0.293,10.37,28.54,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",5,"Kolten Wong","Cardinals","second_base","12532",588,456,67,13,66,12,0.269,4.58,12.6,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",5,"Ketel Marte","Diamondbacks","shortstop","13613",560,483,59,8,59,11,0.284,4.51,12.4,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",9,"Alex Bregman","Astros","third_base","17678",630,575,88,22,82,13,0.278,8.08,22.25,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",16,"Evan Longoria","Giants","third_base","9368",630,553,75,22,85,3,0.266,5.9,16.24,"drafted",NA,NA,NA,NA,NA,NA
+"8","MI",9,"Jorge Polanco","Twins","shortstop","13152",644,540,74,16,74,14,0.27,6.06,16.69,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",19,"Billy Hamilton","Reds","outfield","10199",560,525,60,6,41,53,0.246,6.2,17.08,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",21,"Marcell Ozuna","Cardinals","outfield","10324",616,557,82,29,95,2,0.287,7.64,21.03,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",16,"Odubel Herrera","Phillies","outfield","11476",630,564,77,16,72,14,0.28,6.31,17.38,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",18,"David Dahl","Rockies","outfield","13744",545,386,69,19,72,13,0.277,6.09,16.75,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,36,6,30,8.9,0.254,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"15","DH",16,"Adrian Beltre","Rangers","third_base","639",623,559,79,23,88,2,0.289,7.17,19.75,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",4,"Sean Doolittle","Nationals","pitcher","1581",NA,NA,NA,NA,NA,NA,NA,5.72,15.76,"drafted",65,3.64,1.17,30,4,77
-"17","P2",13,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,4.81,13.23,"drafted",173,3.79,1.23,0,12,152
-"18","P3",21,"Aaron Nola","Phillies","pitcher","16149",NA,NA,NA,NA,NA,NA,NA,6.24,17.17,"drafted",180,3.64,1.2,0,12,192
-"19","P4",11,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,6.47,17.82,"drafted",176,3.41,1.21,0,13,183
-"20","P5",4,"Alex Wood","Dodgers","pitcher","13781",NA,NA,NA,NA,NA,NA,NA,4.14,11.4,"drafted",140,3.43,1.22,0,10,137
-"21","P6",2,"Daniel Norris","Tigers","pitcher","13475",NA,NA,NA,NA,NA,NA,NA,0.29,0.79,"drafted",167,4.68,1.47,0,9,143
+"15","DH",16,"Adrian Beltre","Rangers","third_base","639",623,542,81,23,89,2,0.292,7.43,20.46,"drafted",NA,NA,NA,NA,NA,NA
+"16","P1",4,"Sean Doolittle","Nationals","pitcher","1581",NA,NA,NA,NA,NA,NA,NA,5.76,15.85,"drafted",65,3.62,1.17,30,4,78
+"17","P2",13,"Kyle Hendricks","Cubs","pitcher","12049",NA,NA,NA,NA,NA,NA,NA,4.63,12.75,"drafted",173,3.83,1.24,0,12,151
+"18","P3",21,"Aaron Nola","Phillies","pitcher","16149",NA,NA,NA,NA,NA,NA,NA,6.4,17.61,"drafted",180,3.6,1.19,0,12,192
+"19","P4",11,"James Paxton","Mariners","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,6.58,18.12,"drafted",176,3.42,1.2,0,13,184
+"20","P5",4,"Alex Wood","Dodgers","pitcher","13781",NA,NA,NA,NA,NA,NA,NA,3.99,10.98,"drafted",131,3.38,1.21,0,10,129
+"21","P6",2,"Daniel Norris","Tigers","pitcher","13475",NA,NA,NA,NA,NA,NA,NA,0.04,0.1,"drafted",167,4.74,1.49,0,9,144
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
