@@ -36,17 +36,6 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 data.frame(topdh)[1:20,]
 ```
 
-
-
-####Top Remaining C
-```{r, echo = FALSE}
-filter(hitter_projections, status != "drafted" & position =="catcher") %>%
-      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
-      arrange(-dlr) %>% 
-  filter(row_number() <21)
-```
-
 ####Top Remaining OF
 ```{r, echo = FALSE}
 filter(hitter_projections, status != "drafted" & position == "outfield") %>%
