@@ -12,7 +12,7 @@ Fantasy 2018
     ## 6    pasadena   259    1          0        104.9       67.0         37.9
     ## 7         dsb   271  -11          0        101.3       58.2         43.1
     ## 8     dembums   255    5          0        101.1       61.5         39.6
-    ## 9       deano   259    1          1        100.7       50.8         49.9
+    ## 9       deano   260    0          0         98.4       48.5         49.9
     ## 10       jobu   260    0          0         98.2       42.3         55.9
     ## 11      balco   253    7          0         96.9       55.3         41.6
     ## 12  bookhouse   255    5          1         95.4       48.1         47.3
@@ -69,7 +69,7 @@ Fantasy 2018
     ## 17     Steve Pearce Blue Jays 396 49 16  52  1 0.258 1.64  4.52
     ## 18    Chase Headley    Padres 502 51 10  49  5 0.250 1.61  4.43
     ## 19    Paulo Orlando    Royals 492 48  8  44 10 0.258 1.59  4.38
-    ## 20  Alcides Escobar    Royals 516 50  5  42 10 0.256 1.46  4.02
+    ## 20   Derek Dietrich   Marlins 447 52 13  50  1 0.249 1.48  4.08
 
 #### Top Remaining OF
 
@@ -102,24 +102,24 @@ Fantasy 2018
     ## # A tibble: 18 x 4
     ##    rowname    total_points value   delta
     ##    <chr>             <dbl> <dbl>   <dbl>
-    ##  1 isotopes          110    97.2  13.3  
-    ##  2 bears             114   102    12.3  
-    ##  3 marmaduke         112   102    10.2  
-    ##  4 rippe             110   100     9.38 
-    ##  5 deener             87.7  82.1   5.61 
-    ##  6 ottawa            108   104     3.97 
-    ##  7 pasadena          105   102     3.34 
-    ##  8 dembums           101    98.7   2.42 
-    ##  9 balco              96.9  97.2 - 0.337
-    ## 10 deano             101   102   - 0.865
-    ## 11 bookhouse          95.4  98.7 - 3.28 
-    ## 12 vero               89.7  93.6 - 3.93 
-    ## 13 jobu               98.2 102   - 4.09 
-    ## 14 sturgeon           82.9  87.9 - 4.96 
-    ## 15 pkdodgers          80.0  88.6 - 8.58 
-    ## 16 dsb               101   110   - 8.92 
-    ## 17 bellevegas         91.1 101   - 9.74 
-    ## 18 hermanos           84.3 100   -15.8
+    ##  1 isotopes          110    97.1  13.4  
+    ##  2 bears             114   101    12.6  
+    ##  3 marmaduke         112   102    10.5  
+    ##  4 rippe             110    99.9   9.58 
+    ##  5 deener             87.7  82.2   5.50 
+    ##  6 ottawa            108   103     4.23 
+    ##  7 pasadena          105   101     3.56 
+    ##  8 dembums           101    98.5   2.60 
+    ##  9 balco              96.9  97.1 - 0.187
+    ## 10 bookhouse          95.4  98.5 - 3.10 
+    ## 11 deano              98.4 102   - 3.65 
+    ## 12 vero               89.7  93.5 - 3.84 
+    ## 13 jobu               98.2 102   - 3.85 
+    ## 14 sturgeon           82.9  87.9 - 4.97 
+    ## 15 dsb               101   110   - 8.55 
+    ## 16 pkdodgers          80.0  88.6 - 8.58 
+    ## 17 bellevegas         91.1 101   - 9.53 
+    ## 18 hermanos           84.3  99.9 -15.6
 
 #### Remaining Picks vs. projected points
 
