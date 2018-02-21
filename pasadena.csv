@@ -5,7 +5,7 @@
 "4","2B",8,"Ian Kinsler","Angels","second_base","6195",595,569,80,17,60,12,0.258,4.74,13.06,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",14,"Carlos Correa","Astros","shortstop","14162",651,549,94,30,104,9,0.292,9.93,27.34,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",24,"Kris Bryant","Cubs","third_base","15429",658,550,106,33,101,8,0.286,10.33,28.44,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","CI",1,"Luis Robert",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",19,"Elvis Andrus","Rangers","shortstop","8709",644,606,79,12,67,24,0.282,7.37,20.3,"drafted",NA,NA,NA,NA,NA,NA
 "9","OF1",24,"J.D. Martinez",NA,"outfield","6184",630,502,92,37,110,4,0.282,9.37,25.8,"drafted",NA,NA,NA,NA,NA,NA
 "10","OF2",8,"Mitch Haniger","Mariners","outfield","14274",609,509,78,23,81,8,0.263,5.8,15.97,"drafted",NA,NA,NA,NA,NA,NA
@@ -13,7 +13,7 @@
 "12","OF4",9,"Max Kepler","Twins","outfield","12144",560,489,68,20,73,7,0.259,4.44,12.21,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",18,"Lorenzo Cain","Brewers","outfield","9077",602,546,79,15,65,19,0.284,6.85,18.86,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",12,"Kole Calhoun","Angels","outfield","11200",644,554,78,21,80,4,0.26,5.05,13.92,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",1,"Colin Moran","Pirates","third_base","16909",434,342,46,13,52,2,0.26,1.88,5.17,"drafted",NA,NA,NA,NA,NA,NA
 "16","P1",25,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,10.01,27.56,"drafted",194,3.13,1.08,0,15,225
 "17","P2",6,"Zack Godley","Diamondbacks","pitcher","14862",NA,NA,NA,NA,NA,NA,NA,1.17,3.21,"drafted",113,4.02,1.34,0,7,111
 "18","P3",32,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,7.5,20.65,"drafted",178,3.42,1.16,0,14,194
@@ -22,5 +22,5 @@
 "21","P6",5,"Tyler Chatwood","Cubs","pitcher","4338",NA,NA,NA,NA,NA,NA,NA,0.93,2.56,"drafted",137,4.31,1.42,0,9,119
 "22","P7",1,"German Marquez","Rockies","pitcher","15038",NA,NA,NA,NA,NA,NA,NA,1.58,4.35,"drafted",140,4.46,1.35,0,9,131
 "23","P8",4,"Tyler Glasnow","Pirates","pitcher","14374",NA,NA,NA,NA,NA,NA,NA,0.6,1.65,"drafted",85,3.81,1.33,0,5,101
-"24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
-"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
+"24","P9",1,"Seung Hwan Oh","Rangers","pitcher","18719",NA,NA,NA,NA,NA,NA,NA,0.53,1.45,"drafted",65,4.73,1.36,11,3,61
+"25","P10",3,"Daniel Mengden","Athletics","pitcher","16980",NA,NA,NA,NA,NA,NA,NA,-1.99,-5.47,"drafted",55,4.92,1.43,0,3,45

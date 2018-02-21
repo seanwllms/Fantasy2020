@@ -35,32 +35,41 @@ names(replacement_hitters) <- c("position",
                                 "avg")
 
 #make lists of file names
-filelocs_steam <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
-filelocs_depth <- sapply("./depthcharts/", paste, list.files("./depthcharts"), sep="")[c(1:6,8)]
-filelocs_fans <- sapply("./fans/", paste, list.files("./fans"), sep="")[c(1:6,8)]
-#filelocs_zips <- sapply("./zips/", paste, list.files("./fans"), sep="")[c(1:6,8)]
-filelocs_atc <- sapply("./atc/", paste, list.files("./fans"), sep="")[c(1:6,8)]
+projections <- c("steamer", "depthcharts", "fans", "zips", "atc")
+# 
+# filelocs <- map(projections, function(x) list.files(paste0("./", x, "/"))) 
+#   
 
+getfiles <- function(proj) {
+  folder <- paste0("./", proj, "/")
+  filelist <- list.files(folder)[c(1:6,8)]
+  map(filelist, function(x) paste0(folder, x))
+}
 
-files <- list(
-              fans=filelocs_fans, 
-              depth=filelocs_depth, 
-              steam=filelocs_steam, 
-              #zips=filelocs_zips, 
-              atc=filelocs_atc
-              )
-
+files <- map(projections, getfiles) %>% 
+  modify_depth(2, read_csv) 
 
 #read in hitterdata
-hitterdata <- at_depth(files, 2, read_csv) %>%
-      at_depth(2, select, 1, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid) %>%
-      at_depth(2, setNames, c("name", "Team", "AB", "PA", "R","HR", "RBI", "SB", "AVG", "OBP", "playerid")) %>%
-      at_depth(2, mutate, 
+hitterdata <- files %>% 
+  #modify_depth(2, read_csv) %>% 
+  modify_depth(2, select, 1, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid) %>%
+  modify_depth(2, setNames, c("name", "Team", "AB", "PA", "R","HR", "RBI", "SB", "AVG", "OBP", "playerid")) %>%
+  modify_depth(2, mutate, 
                HR_pa = HR/PA,
                R_pa = R/PA,
                RBI_pa = RBI/PA,
                SB_pa = SB/PA,
-               playerid = as.character(playerid))
+               playerid = as.character(playerid)) 
+
+names(hitterdata) <- projections
+
+#create variable for each projection system
+hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
+hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
+hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
+hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
+hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+
 
 ####################################
 ############   PECOTA   ############
@@ -93,18 +102,12 @@ pecotahit <- left_join(pecotahit, crosswalk) %>%
          playerid = as.character(playerid),
          proj="pecota") %>% 
   filter(!is.na(playerid))
-          
-  
-
-#create variable for each projection system
-hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
-hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
-hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
-#hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
-hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+        
 
 
-
+####################################
+##### AGGREGAGE PROJECTIONS ########
+####################################
 
 
 #create vector of positions.
@@ -127,9 +130,9 @@ for (pos in 1:7) {
             hitterdata[[1]][[pos]],
             hitterdata[[2]][[pos]],
             hitterdata[[3]][[pos]],
-            pecotahit
-            #hitterdata[[4]][[pos]],
-            #hitterdata[[5]][[pos]]
+            pecotahit,
+            hitterdata[[4]][[pos]],
+            hitterdata[[5]][[pos]]
       ) %>% 
       group_by(playerid) %>% 
       mutate(count = n()) %>%
@@ -261,8 +264,8 @@ hitter_projections <- hitter_projections %>%
 #read in files for all of the systems other than ZIPS (which doesn't do saves)
 projection_systems <- c("depthcharts", 
                         "steamer",
-                        "fans"
-                        #"atc"
+                        "fans",
+                        "atc"
                         )
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
       map(read_csv) %>%
