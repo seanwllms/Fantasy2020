@@ -14,7 +14,7 @@ vero,Gregory Bird,9,1B,kept
 vero,Yoan Moncada,12,2B,kept
 vero,Nolan Arenado,23,3B,kept
 vero,Orlando Arcia,9,SS,kept
-vero,Nick Castellanos,14,OF,kept
+vero,Nick Castellanos,14,CI,kept
 vero,Gleyber Torres,0,B,kept
 vero,Kyle Barraclough,6,P,kept
 vero,Gio Gonzalez,11,P,kept
@@ -73,7 +73,7 @@ pkdodgers,Austin Barnes,4,C,kept
 pkdodgers,Dee Gordon,19,2B,kept
 pkdodgers,Matt Davidson,9,3B,kept
 pkdodgers,Andrelton Simmons,4,SS,kept
-pkdodgers,Cesar Hernandez,10,2B,kept
+pkdodgers,Cesar Hernandez,10,MI,kept
 pkdodgers,Cody Bellinger,4,OF,kept
 pkdodgers,Jorge Bonifacio,5,OF,kept
 pkdodgers,Scott Schebler,7,OF,kept
@@ -92,7 +92,6 @@ ottawa,Raisel Iglesias,12,P,kept
 ottawa,Vladimir Guerrero Jr.,0,B,kept
 ottawa,Anthony Alford,0,B,kept
 pasadena,Matt Olson,4,1B,kept
-dsb,Rich Hill,12,P,kept
 vero,Nick Castellanos,14,CI,kept
 ottawa,Zack Greinke,22,P,kept
 jobu,Yonder Alonso,4,1B,kept
@@ -226,7 +225,7 @@ dsb,Stephen Strasburg,35,P,01/11/18
 vero,Joc Pederson,13,OF,01/11/18
 marmaduke,Evan Longoria,16,CI,01/11/18
 marmaduke,Yadier Molina,16,C,01/11/18
-vero,Anthony Rizzo,38,CI,01/11/18
+vero,Anthony Rizzo,38,DH,01/11/18
 bellevegas,Andrew McCutchen,30,OF,01/12/18
 jobu,Madison Bumgarner,33,P,01/12/18
 rippe,Adam Eaton,17,OF,01/12/18
@@ -357,7 +356,7 @@ bears,Dellin Betances,5,P,02/01/18
 isotopes,Josh Harrison,10,MI,02/01/18
 bookhouse,Josh Reddick,8,OF,02/02/18
 bookhouse,Matt Wieters,5,C,02/02/18
-deener,Troy Tulowitzki,4,DH,02/02/18
+deener,Troy Tulowitzki,4,MI,02/02/18
 sturgeon,Archie Bradley,12,P,02/02/18
 bears,Jason Kipnis,10,DH,02/02/18
 vero,Jason Vargas,1,P,02/02/18
@@ -367,7 +366,7 @@ deener,Julio Teheran,6,P,02/05/18
 sturgeon,Joakim Soria,4,P,02/05/18
 dembums,Ichiro Suzuki,1,OF,02/05/18
 hermanos,Nick Markakis,3,OF,02/05/18
-bookhouse,Cameron Maybin,5,OF,02/05/18
+bookhouse,Cameron Maybin,5,DH,02/05/18
 ottawa,Jordan Montgomery,6,P,02/05/18
 bookhouse,Chris Owings,3,MI,02/05/18
 isotopes,Carlos Gonzalez,7,OF,02/05/18
@@ -390,7 +389,7 @@ rippe,Chad Green,4,P,02/07/18
 balco,Josh Hader,5,P,02/08/18
 isotopes,Russell Martin,3,C,02/08/18
 rippe,Jason Castro,2,C,02/08/18
-sturgeon,Jose Pirela,1,P,02/08/18
+sturgeon,Jose Pirela,1,OF,02/08/18
 deener,Albert Pujols,5,DH,02/08/18
 isotopes,Yasmany Tomas,3,DH,02/08/18
 pasadena,Eduardo Rodriguez,4,P,02/08/18
@@ -417,7 +416,7 @@ dembums,Zach Davies,2,P,02/13/18
 isotopes,Ryan Madson,1,P,02/13/18
 marmaduke,Mikie Mahtook,2,OF,02/13/18
 sturgeon,Jose Martinez,7,OF,02/13/18
-rippe,Melky Cabrera,2,OF,02/13/18
+rippe,Melky Cabrera,2,DH,02/13/18
 pasadena,German Marquez,1,P,02/13/18
 dsb,Nick Hundley,1,C,02/14/18
 sturgeon,Vince Velasquez,4,P,02/14/18
@@ -461,7 +460,7 @@ pasadena,Colin Moran,1,DH,02/20/18
 dsb,Teoscar Hernandez,1,OF,02/20/18
 hermanos,Leury Garcia,1,OF,02/20/18
 deano,Pedro Strop,1,P,02/20/18
-rippe,Brenden McKay,1,DH,02/20/18
+rippe,Brenden McKay,1,P,02/20/18
 pasadena,Luis Robert,1,CI,02/20/18
 dsb,Michael Pineda,1,P,02/20/18
 deano,Dan Straily,1,P,02/20/18
@@ -473,3 +472,4 @@ deano,Ivan Nova,1,P,02/20/18
 dsb,Jordan Luplow,1,OF,02/20/18
 deano,Clint Frazier,1,OF,02/20/18
 deano,Yangervis Solarte,1,CI,02/20/18
+hermanos,Danny Jansen,1,C,02/20/18

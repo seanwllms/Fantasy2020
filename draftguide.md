@@ -4,24 +4,24 @@ Fantasy 2018
 #### Current Standings
 
     ##     team_name spent left picks.left total_points hit.points pitch.points
-    ## 1       bears   259    1          0        113.9       68.3         45.6
-    ## 2   marmaduke   260    0          0        112.5       70.8         41.7
-    ## 3    isotopes   253    7          0        110.5       63.9         46.6
-    ## 4       rippe   257    3          1        109.5       66.3         43.2
+    ## 1       rippe   259    1          0        115.8       71.4         44.4
+    ## 2       bears   259    1          0        113.9       68.3         45.6
+    ## 3   marmaduke   260    0          0        112.5       70.8         41.7
+    ## 4    isotopes   253    7          0        110.5       63.9         46.6
     ## 5      ottawa   262   -2          0        107.7       60.6         47.1
     ## 6    pasadena   259    1          0        104.9       67.0         37.9
-    ## 7         dsb   271  -11          0        101.3       58.2         43.1
-    ## 8     dembums   255    5          0        101.1       61.5         39.6
-    ## 9       deano   260    0          0         98.4       48.5         49.9
-    ## 10       jobu   260    0          0         98.2       42.3         55.9
+    ## 7     dembums   255    5          0        101.1       61.5         39.6
+    ## 8       deano   260    0          0         98.4       48.5         49.9
+    ## 9        jobu   260    0          0         98.2       42.3         55.9
+    ## 10        dsb   260    0          0         98.2       58.2         40.0
     ## 11      balco   253    7          0         96.9       55.3         41.6
-    ## 12  bookhouse   255    5          1         95.4       48.1         47.3
+    ## 12  bookhouse   260    0          0         95.7       48.4         47.3
     ## 13 bellevegas   258    2          0         91.1       49.5         41.6
-    ## 14       vero   248   12          1         89.7       45.6         44.1
-    ## 15     deener   232   28          1         87.7       51.1         36.6
-    ## 16   hermanos   257    3          1         84.3       42.8         41.5
-    ## 17   sturgeon   240   20          1         82.9       33.1         49.8
-    ## 18  pkdodgers   241   19          1         80.0       38.5         41.5
+    ## 14       vero   251    9          0         90.2       46.1         44.1
+    ## 15     deener   236   24          0         89.5       52.9         36.6
+    ## 16  pkdodgers   260    0          0         87.3       45.8         41.5
+    ## 17   sturgeon   244   16          0         86.3       34.7         51.6
+    ## 18   hermanos   258    2          0         84.0       42.5         41.5
 
 #### Top Remaining Pitchers
 
@@ -102,24 +102,24 @@ Fantasy 2018
     ## # A tibble: 18 x 4
     ##    rowname    total_points value   delta
     ##    <chr>             <dbl> <dbl>   <dbl>
-    ##  1 isotopes          110    97.1  13.4  
-    ##  2 bears             114   101    12.6  
-    ##  3 marmaduke         112   102    10.5  
-    ##  4 rippe             110    99.9   9.58 
-    ##  5 deener             87.7  82.2   5.50 
-    ##  6 ottawa            108   103     4.23 
-    ##  7 pasadena          105   101     3.56 
-    ##  8 dembums           101    98.5   2.60 
-    ##  9 balco              96.9  97.1 - 0.187
-    ## 10 bookhouse          95.4  98.5 - 3.10 
-    ## 11 deano              98.4 102   - 3.65 
-    ## 12 vero               89.7  93.5 - 3.84 
-    ## 13 jobu               98.2 102   - 3.85 
-    ## 14 sturgeon           82.9  87.9 - 4.97 
-    ## 15 dsb               101   110   - 8.55 
-    ## 16 pkdodgers          80.0  88.6 - 8.58 
-    ## 17 bellevegas         91.1 101   - 9.53 
-    ## 18 hermanos           84.3  99.9 -15.6
+    ##  1 rippe             116   101    14.9  
+    ##  2 isotopes          110    97.2  13.3  
+    ##  3 bears             114   101    13.0  
+    ##  4 marmaduke         112   101    11.0  
+    ##  5 ottawa            108   103     5.00 
+    ##  6 pasadena          105   101     4.03 
+    ##  7 dembums           101    98.4   2.66 
+    ##  8 deener             89.5  86.8   2.65 
+    ##  9 balco              96.9  97.2 - 0.315
+    ## 10 deano              98.4 101   - 3.08 
+    ## 11 jobu               98.2 101   - 3.28 
+    ## 12 dsb                98.2 101   - 3.28 
+    ## 13 sturgeon           86.3  91.7 - 5.43 
+    ## 14 bookhouse          95.7 101   - 5.78 
+    ## 15 vero               90.2  96.0 - 5.80 
+    ## 16 bellevegas         91.1 100   - 9.16 
+    ## 17 pkdodgers          87.3 101   -14.2  
+    ## 18 hermanos           84.0 100   -16.3
 
 #### Remaining Picks vs. projected points
 
