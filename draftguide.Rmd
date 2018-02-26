@@ -49,13 +49,15 @@ filter(hitter_projections, status != "drafted" & position == "outfield") %>%
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 library(ggplot2)
 library(ggrepel)
-ggplot(standings.output, aes(x=spent, y=total_points)) + 
+plot1 <- ggplot(standings.output, aes(x=spent, y=total_points)) + 
   geom_point() +
   theme_minimal() +
   xlab("Dollars Spent") +
   ylab("Projected Points")+
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
+
+#plot1 
 
 model <- predict(lm(total_points ~ spent, data = standings.output)) %>% 
   tbl_df() %>% 

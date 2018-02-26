@@ -97,33 +97,7 @@ Fantasy 2018
 
 #### Dollars vs. projected points
 
-![](draftguide_files/figure-markdown_github/unnamed-chunk-6-1.png)
-
-    ## # A tibble: 18 x 4
-    ##    rowname    total_points value   delta
-    ##    <chr>             <dbl> <dbl>   <dbl>
-    ##  1 rippe             116   101    14.9  
-    ##  2 isotopes          110    97.2  13.3  
-    ##  3 bears             114   101    13.0  
-    ##  4 marmaduke         112   101    11.0  
-    ##  5 ottawa            108   103     5.00 
-    ##  6 pasadena          105   101     4.03 
-    ##  7 dembums           101    98.4   2.66 
-    ##  8 deener             89.5  86.8   2.65 
-    ##  9 balco              96.9  97.2 - 0.315
-    ## 10 deano              98.4 101   - 3.08 
-    ## 11 jobu               98.2 101   - 3.28 
-    ## 12 dsb                98.2 101   - 3.28 
-    ## 13 sturgeon           86.3  91.7 - 5.43 
-    ## 14 bookhouse          95.7 101   - 5.78 
-    ## 15 vero               90.2  96.0 - 5.80 
-    ## 16 bellevegas         91.1 100   - 9.16 
-    ## 17 pkdodgers          87.3 101   -14.2  
-    ## 18 hermanos           84.0 100   -16.3
-
 #### Remaining Picks vs. projected points
-
-![](draftguide_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 #### Data entry errors
 
