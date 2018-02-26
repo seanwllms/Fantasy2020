@@ -67,7 +67,7 @@ delta <- select(standings.output, total_points) %>%
   mutate(delta = total_points - value) %>% 
   arrange(-delta)
 
-delta
+#delta
 ```
 
 ####Remaining Picks vs. projected points
@@ -75,13 +75,15 @@ delta
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 library(ggplot2)
 library(ggrepel)
-ggplot(standings.output, aes(x=picks.left, y=total_points)) + 
+plot <- ggplot(standings.output, aes(x=picks.left, y=total_points)) + 
   geom_point() +
   theme_minimal() +
   xlab("Remaining Picks") +
   ylab("Projected Points")+
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=picks.left, y=total_points, label = team_name)) 
+
+#plot
   
 ```
 
