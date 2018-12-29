@@ -1,5 +1,4 @@
-
-library(dplyr)
+library(tidyverse)
 
 #load in coefficients file
 if (!file.exists("coefs.rda")) {
@@ -21,7 +20,7 @@ source("draftpicks.R")
 
 #merge in projections
 source("mergeinprojections.R")
-
+  
 #calculate standings
 source("calculatestandings.R")
 

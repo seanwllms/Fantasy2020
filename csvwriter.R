@@ -5,7 +5,7 @@ write.csv(hitter_projections, file = "hitter_projections.csv")
 #create file for best remaining players
 hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, marginal.total.points, dollar.value, status)
+      select(Name, Team, position, marginal.total.points, dollar.value, status)
 
 hitterpitcher <- filter(hitterpitcher, status != "drafted" & dollar.value > -5)
 

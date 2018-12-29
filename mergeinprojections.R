@@ -25,12 +25,12 @@ for (team in teams) {
       pitchers <- temp[pitcher_positions,]
       
       #merge in projections
-      hitters <- left_join(hitters, hitter_projections, by = "name")
-      pitchers <- left_join(pitchers, pitcher_projections, by = "name")
+      hitters <- left_join(hitters, hitter_projections, by = "Name")
+      pitchers <- left_join(pitchers, pitcher_projections, by = "Name")
 
       #add replacement level stats for hitters
-      undrafted.hitters <- filter(hitters, name == "")
-      undrafted.pitchers <- filter(pitchers, name == "")
+      undrafted.hitters <- filter(hitters, Name == "")
+      undrafted.pitchers <- filter(pitchers, Name == "")
       
       #pull in replacement level stats to undrafted df
       undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")] <- replacement_hitters[undrafted.hitters$roster_spot,c(7,2:6)]

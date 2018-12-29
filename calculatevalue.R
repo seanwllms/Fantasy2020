@@ -36,39 +36,45 @@ names(replacement_hitters) <- c("position",
 
 #make lists of file names
 projections <- c("steamer", "depthcharts", "fans", "zips", "atc")
-# 
-# filelocs <- map(projections, function(x) list.files(paste0("./", x, "/"))) 
-#   
-
 getfiles <- function(proj) {
+  
+  #build list of paths to files
   folder <- paste0("./", proj, "/")
-  filelist <- list.files(folder)[c(1:6,8)]
-  map(filelist, function(x) paste0(folder, x))
+  filelist <- list.files(folder)
+  if (length(filelist) > 0) {
+    filelist <- map_chr(filelist, function(x) paste0(folder, x))
+  } 
+  
+  #for each path, read csv file and clean it up
+  dfs <- map(filelist, function(x) {
+    if (!str_detect(x, "pitchers"))
+    read_csv(x) %>%
+      mutate(proj=proj) %>% 
+      select(Name, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, proj, playerid) %>% 
+      mutate( 
+        HR_pa = HR/PA,
+        R_pa = R/PA,
+        RBI_pa = RBI/PA,
+        SB_pa = SB/PA,
+        playerid = as.character(playerid)
+      )
+  })
+  keep(dfs, function(x) !is.null(x))
 }
 
-files <- map(projections, getfiles) %>% 
-  modify_depth(2, read_csv) 
+#build nested list with all of the data frames.
+hitter_data_frames <- map(projections, getfiles) %>% 
+  keep(function(x) length(x) > 1) 
 
-#read in hitterdata
-hitterdata <- files %>% 
-  #modify_depth(2, read_csv) %>% 
-  modify_depth(2, select, 1, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid) %>%
-  modify_depth(2, setNames, c("name", "Team", "AB", "PA", "R","HR", "RBI", "SB", "AVG", "OBP", "playerid")) %>%
-  modify_depth(2, mutate, 
-               HR_pa = HR/PA,
-               R_pa = R/PA,
-               RBI_pa = RBI/PA,
-               SB_pa = SB/PA,
-               playerid = as.character(playerid)) 
-
-names(hitterdata) <- projections
-
-#create variable for each projection system
-hitterdata$fans <- map(hitterdata$fans, mutate, proj="fans")
-hitterdata$steam <- map(hitterdata$steam, mutate, proj="steamer")
-hitterdata$depth <- map(hitterdata$depth, mutate, proj="depthcharts")
-hitterdata$zips <- map(hitterdata$depth, mutate, proj="zips")
-hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
+#build list of all projection systems successfully read
+proj_systems <- map_chr(hitter_data_frames, function(x){
+                  pluck(x, 1) %>% 
+                    pull(proj) %>% 
+                    unique() 
+                }) 
+                
+#assign names in df list
+names(hitter_data_frames) <- proj_systems
 
 
 ####################################
@@ -76,33 +82,34 @@ hitterdata$atc <- map(hitterdata$depth, mutate, proj="atc")
 ####################################
 #read in PECOTA data and rename variables to line up
 library(readxl)
-pecotahit<- read_xls("./pecota/pecotafeb2018.xls",
+if (file.exists("./pecota/pecotafeb2018.xls")) {
+  pecotahit<- read_xls("./pecota/pecotafeb2018.xls",
                      sheet = "Hitters") %>% 
-  mutate(name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
+  mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
   rename(Team = TEAM) %>% 
-  select(name, BPID, Team, AB, PA, R,HR, RBI, SB, AVG, OBP) %>% 
+  select(Name, BPID, Team, AB, PA, R,HR, RBI, SB, AVG, OBP) %>% 
   mutate(Team = "pecotaflag")
 
-#crosswalk PECOTA to BP
-if (file.exists("./pecota/crosswalk.rda")) {
-  load("./pecota/crosswalk.rda")
-} else {
-  crosswalk <- read_csv(url("http://crunchtimebaseball.com/master.csv")) %>%
-    rename(name = fg_name, playerid=fg_id, BPID = bp_id) %>% 
-    select(name, playerid, BPID)
-  save(crosswalk, file="./pecota/crosswalk.rda")
+  #crosswalk PECOTA to BP
+  if (file.exists("./pecota/crosswalk.rda")) {
+    load("./pecota/crosswalk.rda")
+  } else {
+    crosswalk <- read_csv(url("http://crunchtimebaseball.com/master.csv")) %>%
+      rename(Name = fg_name, playerid=fg_id, BPID = bp_id) %>% 
+      select(Name, playerid, BPID)
+    save(crosswalk, file="./pecota/crosswalk.rda")
+  }
+  
+  pecotahit <- left_join(pecotahit, crosswalk) %>% 
+    select(-BPID) %>% 
+    mutate(HR_pa = HR/PA,
+           R_pa = R/PA,
+           RBI_pa = RBI/PA,
+           SB_pa = SB/PA,
+           playerid = as.character(playerid),
+           proj="pecota") %>% 
+    filter(!is.na(playerid))
 }
-
-pecotahit <- left_join(pecotahit, crosswalk) %>% 
-  select(-BPID) %>% 
-  mutate(HR_pa = HR/PA,
-         R_pa = R/PA,
-         RBI_pa = RBI/PA,
-         SB_pa = SB/PA,
-         playerid = as.character(playerid),
-         proj="pecota") %>% 
-  filter(!is.na(playerid))
-        
 
 
 ####################################
@@ -125,20 +132,31 @@ for (pos in 1:7) {
       
       position_name <- positions[pos]
       
-      #merge all of the projection systems
-      raw_pos_data <- bind_rows(
-            hitterdata[[1]][[pos]],
-            hitterdata[[2]][[pos]],
-            hitterdata[[3]][[pos]],
-            pecotahit,
-            hitterdata[[4]][[pos]],
-            hitterdata[[5]][[pos]]
-      ) %>% 
-      group_by(playerid) %>% 
-      mutate(count = n()) %>%
-      ungroup() %>% 
-      filter(count > 1 | proj !="pecota") %>% 
-      select(-count)
+      raw_pos_data <- data.frame()
+      for (system in seq_along(proj_systems)) {
+        raw_pos_data <- bind_rows(raw_pos_data, hitter_data_frames[[system]][[pos]])
+      }
+      
+      # #merge all of the projection systems
+      # raw_pos_data <- bind_rows(
+      #   hitter_data_frames[[1]][[pos]],
+      #   hitter_data_frames[[2]][[pos]],
+      #   hitter_data_frames[[3]][[pos]],
+      #   #pecotahit,
+      #   hitter_data_frames[[4]][[pos]],
+      #   hitter_data_frames[[5]][[pos]]
+      # ) 
+      
+      if (exists("pecotahit")) {
+        raw_pos_data <- bind_rows(raw_pos_data, pecotahit)
+      }
+      
+      raw_pos_data <- raw_pos_data %>% 
+        group_by(playerid) %>% 
+        mutate(count = n()) %>%
+        ungroup() %>% 
+        filter(count > 1 | proj !="pecota") %>% 
+        select(-count)
       
       #grab the plate appearances for the depth charts projections
       at_bats <- filter(raw_pos_data, proj=="depthcharts") %>%
@@ -168,7 +186,7 @@ for (pos in 1:7) {
             select(playerid, PA, AB, R, HR, RBI, SB, AVG, OBP)
       
       #join averaged data with all names in all 3 projection systems
-      results <- select(raw_pos_data, name, Team, playerid) %>% distinct %>%
+      results <- select(raw_pos_data, Name, Team, playerid) %>% distinct %>%
             left_join(temp) %>% 
         filter(Team != "pecotaflag" | is.na(Team))
       
@@ -232,7 +250,7 @@ calculate.value <- function(df) {
 }
 
 #calculate values for all of the positions
-hitter_projections <- lapply(hitter_projections, calculate.value)
+hitter_projections <- map(hitter_projections, calculate.value)
 
 #merge projections for different positions together.
 hitter_projections <- do.call(rbind, hitter_projections)
@@ -250,7 +268,7 @@ hitter_projections <- hitter_projections %>%
       left_join(best_position, by=c("playerid")) %>%
       filter(position == bestpos) %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, playerid, PA, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
+      select(Name, Team, position, playerid, PA, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
       mutate(AB=round(AB),PA = round(PA), R = round(R), HR=round(HR), RBI=round(RBI), SB=round(SB), AVG =round(AVG, 3),
              marginal.total.points = round(marginal.total.points, 2),
              dollar.value = round(dollar.value, 2)) %>%
@@ -263,46 +281,49 @@ hitter_projections <- hitter_projections %>%
 
 #read in files for all of the systems other than ZIPS (which doesn't do saves)
 projection_systems <- c("depthcharts", 
-                        "steamer",
-                        "fans",
-                        "atc"
+                        "steamer"
+                        #,
+                        #"fans",
+                       # "atc"
                         )
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
       map(read_csv) %>%
       setNames(projection_systems) %>%
       at_depth(1, select, 1, playerid, Team, IP, ERA, WHIP, SO, SV, W) %>%
-      at_depth(1, setNames, c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W"))
+      at_depth(1, setNames, c("Name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W"))
 
 
 ####################################
 ############   PECOTA   ############
 ####################################
-#read in PECOTA data and rename variables to line up
-pecotapitch <- read_xls("./pecota/pecotafeb2018.xls",
-                     sheet = "Pitchers") %>% 
-  mutate(name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
-  rename(Team = TEAM, K = SO) %>% 
-  select(name, BPID, Team, IP, ERA, WHIP, K, SV, W) %>% 
-  mutate(Team = "pecotaflag",
-         proj = "pecota") 
-
-
-
-pecotapitch <- left_join(pecotapitch, crosswalk) %>% 
-  select(-BPID) %>% 
-  filter(!is.na(playerid)) %>% 
-  mutate()
-
-
-#assign list of projection systems a name
-for (system in 1:length(projection_systems)) {
-      system_name <- projection_systems[[system]]
-      pitcher_proj[[system_name]] <- mutate(pitcher_proj[[system_name]], 
-                                            proj=system_name, 
-                                            playerid = as.character(playerid))
+if (file.exists("./pecota/pecotafeb2018.xls")) {
+  #read in PECOTA data and rename variables to line up
+  pecotapitch <- read_xls("./pecota/pecotafeb2018.xls",
+                       sheet = "Pitchers") %>% 
+    mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
+    rename(Team = TEAM, K = SO) %>% 
+    select(Name, BPID, Team, IP, ERA, WHIP, K, SV, W) %>% 
+    mutate(Team = "pecotaflag",
+           proj = "pecota") 
+  
+  
+  
+  pecotapitch <- left_join(pecotapitch, crosswalk) %>% 
+    select(-BPID) %>% 
+    filter(!is.na(playerid)) %>% 
+    mutate()
+  
+  
+  #assign list of projection systems a name
+  for (system in 1:length(projection_systems)) {
+        system_name <- projection_systems[[system]]
+        pitcher_proj[[system_name]] <- mutate(pitcher_proj[[system_name]], 
+                                              proj=system_name, 
+                                              playerid = as.character(playerid))
+  }
+  
+  pitcher_proj[["pecota"]] <- pecotapitch
 }
-
-pitcher_proj[["pecota"]] <- pecotapitch
 
 #group everything together
 pitcher_proj <- bind_rows(pitcher_proj)
@@ -318,7 +339,7 @@ pitcher_proj <- bind_rows(pitcher_proj)
 #get vector of innings pitched
 innings <- filter(pitcher_proj, proj=="depthcharts") %>%
       mutate(depthip = IP) %>%
-      select(name, Team, playerid, depthip)
+      select(Name, Team, playerid, depthip)
 
 #spread per ip numbers across depth charts IP
 pitcher_proj <- mutate(pitcher_proj,
@@ -340,7 +361,7 @@ pitcher_proj <- left_join(innings, pitcher_proj) %>%
              SV = round(SV_IP*IP, 0),
              W = round(W_IP*IP, 0), 
              position = "pitcher") %>%
-      select(name, Team, IP, W, ERA, SV, K, WHIP, playerid, position)
+      select(Name, Team, IP, W, ERA, SV, K, WHIP, playerid, position)
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
@@ -372,7 +393,7 @@ pitcher_projections <- pitcher_proj %>%
       arrange(desc(dollar.value)) %>%
       
       #select relevant columns
-      select(name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,marginal.total.points,dollar.value) %>%
+      select(Name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,marginal.total.points,dollar.value) %>%
       
       #round points and dollars columns
       mutate(marginal.total.points = round(marginal.total.points, 2), dollar.value = round(dollar.value, 2)) %>%
