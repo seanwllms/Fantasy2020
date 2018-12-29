@@ -1,6 +1,9 @@
 #write projections files to csv
 write.csv(pitcher_projections, file = "pitcher_projections.csv")
 write.csv(hitter_projections, file = "hitter_projections.csv")
+write.csv(marmaduke, file = "marmaduke.csv")
+write.csv(pasadena, file = "pasadena.csv")
+
 
 #create file for best remaining players
 hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
