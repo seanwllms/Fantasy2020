@@ -1,6 +1,5 @@
 
 library(tidyverse)
-
 ###Load the coefficients data frame
 load("coefs.rda")
 
@@ -11,7 +10,7 @@ load("coefs.rda")
 #Import and clean data on replacement levels
 
 #read in league wide csv
-replacement_hitters <- read.csv("replacement_hitters.csv", stringsAsFactors = FALSE)
+replacement_hitters <- readxl::read_xlsx("replacement_hitters.xlsx", sheet = "replacement_hitters")
 
 replacement_hitters$Position <- c("catcher",
                                   "first_base",
@@ -24,7 +23,14 @@ replacement_hitters$Position <- c("catcher",
                                   "dh"
                                   )
 
-names(replacement_hitters)[2:6] <- sapply(names(replacement_hitters[c(2:6)]), paste, ".repl", sep="")
+# replacement_hitters <- replacement_hitters %>% 
+#   rename(Runs.repl = Runs,
+#          HR.Repl = HR,
+#          RBI.repl =RBI,
+#          SB.repl = SB,
+#          AVG.repl = AVG)
+
+#names(replacement_hitters)[2:6] <- sapply(names(replacement_hitters[c(2:6)]), paste, ".repl", sep="")
 
 #rename columns
 names(replacement_hitters) <- c("position",
@@ -65,6 +71,7 @@ getfiles <- function(proj) {
 #build nested list with all of the data frames.
 hitter_data_frames <- map(projections, getfiles) %>% 
   keep(function(x) length(x) > 1) 
+
 
 #build list of all projection systems successfully read
 proj_systems <- map_chr(hitter_data_frames, function(x){
@@ -278,21 +285,28 @@ hitter_projections <- hitter_projections %>%
 ################################################################
 ################PITCHER STUFF LIVES HERE########################
 ################################################################
-
+library(stringr)
 #read in files for all of the systems other than ZIPS (which doesn't do saves)
 projection_systems <- c("depthcharts", 
-                        "steamer"
-                        #,
-                        #"fans",
-                       # "atc"
-                        )
+                        "steamer",
+                        "fans",
+                        "atc",
+                        "zips")
+
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
-      map(read_csv) %>%
-      setNames(projection_systems) %>%
-      at_depth(1, select, 1, playerid, Team, IP, ERA, WHIP, SO, SV, W) %>%
-      at_depth(1, setNames, c("Name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W"))
+      map(function(x) {if (file.exists(x)) read_csv(x) %>% mutate(proj=x)
+                          }) %>%
+      keep(function(x) !is.null(x)) %>%
+      map(select, Name, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>% 
+      map(rename, K = SO) %>% 
+      map(mutate, proj = str_remove(proj, "./"),
+                  proj = str_remove(proj, "/pitchers.csv"),
+                  playerid = as.character(playerid))
 
+system_names <- map_chr(pitcher_proj, function(x) {pull(x, proj) %>% unique()})
 
+names(pitcher_proj) <- system_names
+      
 ####################################
 ############   PECOTA   ############
 ####################################
@@ -313,28 +327,11 @@ if (file.exists("./pecota/pecotafeb2018.xls")) {
     filter(!is.na(playerid)) %>% 
     mutate()
   
-  
-  #assign list of projection systems a name
-  for (system in 1:length(projection_systems)) {
-        system_name <- projection_systems[[system]]
-        pitcher_proj[[system_name]] <- mutate(pitcher_proj[[system_name]], 
-                                              proj=system_name, 
-                                              playerid = as.character(playerid))
-  }
-  
   pitcher_proj[["pecota"]] <- pecotapitch
 }
 
 #group everything together
 pitcher_proj <- bind_rows(pitcher_proj)
-
-# #read in zips data separately
-# zips_proj <- read_csv("./zips/pitchers.csv") %>%
-#       mutate(SV=NA, proj="zips") %>%
-#       select(1, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>%
-#       setNames(c("name", "playerid", "Team", "IP", "ERA", "WHIP", "K", "SV", "W", "proj"))
-# pitcher_proj <- rbind(pitcher_proj, zips_proj)
-# remove(zips_proj)
 
 #get vector of innings pitched
 innings <- filter(pitcher_proj, proj=="depthcharts") %>%
@@ -365,11 +362,11 @@ pitcher_proj <- left_join(innings, pitcher_proj) %>%
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
-replacement.pitcher <- c(4.12,
-                         1.336,
-                         4,
-                         4,
-                         63)
+replacement.pitcher <- c(3.82,
+                         1.301,
+                         .9,
+                         2.8,
+                         57.8)
 names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
 
 #calculate marginal values and points

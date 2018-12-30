@@ -3,19 +3,19 @@
 "2","C2",0,"",NA,NA,NA,NA,400,22,6,26,1.2,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "3","1B",0,"",NA,NA,NA,NA,400,45,10,43,2,0.257,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,39,6,37,7,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,537,87,32,99,17,0.262,8.89,24.47,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,562,96,25,85,12,0.277,8.52,23.46,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,566,88,32,101,19,0.271,12.55,34.55,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,556,96,26,88,11,0.279,10.13,27.88,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,41,11,43,2,0.259,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,44,8,43,6,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",651,542,83,24,82,7,0.26,5.94,16.35,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,556,79,14,64,22,0.281,6.89,18.97,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,463,77,23,80,14,0.269,6.71,18.46,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,547,74,30,85,2,0.251,5.05,13.91,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,87,13,5,15,1,0.243,-3.23,-8.88,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,370,45,14,47,2,0.267,1.59,4.38,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",651,570,81,23,79,7,0.259,7.6,20.94,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,565,81,14,63,21,0.284,8.91,24.52,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,544,76,23,82,12,0.27,8.83,24.31,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,547,74,30,85,2,0.251,7.25,19.96,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,87,13,5,15,1,0.243,-2.79,-7.67,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,316,42,12,44,2,0.267,1.98,5.45,"drafted",NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,44,11,48,3,0.261,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,9.75,26.84,"drafted",211,3.29,1.12,0,15,230
-"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,2.83,7.8,"drafted",157,4.1,1.32,0,10,147
+"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,13.87,38.18,"drafted",211,3.45,1.11,0,15,223
+"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.7,15.68,"drafted",157,3.96,1.28,0,10,147
 "18","P3",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,4.47,1.4,4,1,102

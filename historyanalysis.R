@@ -63,16 +63,22 @@ save(results, file="historicalresults.rda")
 library(ggplot2)
 library(broom)
 
-catplot <- ggplot(results, aes(x=Value, y=Points)) +
-      geom_point() +
-      facet_wrap(~ Category, ncol=2, scales="free_x")
+catplot <- results %>% 
+  mutate(recent = ifelse(Year >2015, "Post 2015", "Pre 2015")) %>% 
+  ggplot(aes(x=Value, y=Points)) +
+  geom_point(aes(color = recent)) +
+  facet_wrap(~ Category, ncol=2, scales="free_x") +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        legend.title=element_blank())
 
 ggsave("catplot.png", catplot, width=6, height = 8)
 
 ###Regression Time####
 
 #filter out 1, 2, 17 and 18 point recipients (skew results)
-regress <- results %>% filter(Points > 2 & Points < 17)
+regress <- results %>% filter(Points > 2 & Points < 17, 
+                              Year > 2015)
 
 #run the regression for each category
 regress <- regress %>% group_by(Category) %>%
