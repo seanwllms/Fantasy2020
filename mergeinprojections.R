@@ -42,9 +42,13 @@ for (team in teams) {
       pitchers[pitchers$roster_spot %in% undrafted.pitchers$roster_spot, c("IP","ERA","WHIP","SV","W","K")] <- undrafted.pitchers[,c("IP","ERA","WHIP","SV","W","K")]
       
       #merge hitters and pitchers
-      temp <- bind_rows(hitters, pitchers)
+      temp <- bind_rows(hitters, pitchers) %>% 
+        map_at(c("R", "RBI", "HR", "SB", "K", "SV", "W"), round, 0) %>% 
+        map_at(c("ERA", "WHIP"), round, 2) %>% 
+        map_at(c("AVG"), round, 3) %>% 
+        tbl_df()
       
-      assign(team, temp)
+      assign(team, temp) 
       
       remove(hitters, pitchers, temp, undrafted.pitchers, undrafted.hitters)
       

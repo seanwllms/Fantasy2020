@@ -92,8 +92,3 @@ plot <- ggplot(standings.output, aes(x=picks.left, y=total_points)) +
 ```{r, echo = FALSE,}
 drafterrors
 ```
-
-```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-write.csv(pasadena, "pasadena.csv")
-write.csv(marmaduke, "marmaduke.csv")
-```
