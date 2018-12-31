@@ -4,48 +4,48 @@ Fantasy 2019
 #### Current Standings
 
     ##     team_name spent left picks.left total_points hit.points pitch.points
-    ## 1    pasadena   176   84         15         70.1       48.2         21.9
-    ## 2     allrise   139  121         15         70.1       31.5         38.6
-    ## 3      ottawa   116  144         15         69.3       23.7         45.6
-    ## 4    sturgeon   168   92         15         67.8       54.1         13.7
-    ## 5       rippe   158  102         15         67.5       21.5         46.0
-    ## 6       deano   174   86         16         55.0       28.1         26.9
-    ## 7       bears   123  137         15         53.5       24.7         28.8
-    ## 8   marmaduke   132  128         15         52.5       31.2         21.3
-    ## 9     dembums   137  123         15         50.5       23.1         27.4
-    ## 10   isotopes   120  140         16         50.0       32.3         17.7
-    ## 11  pkdodgers   123  137         15         49.6       23.8         25.8
-    ## 12        dsb    83  177         17         48.9       16.1         32.8
-    ## 13 bellevegas   107  153         15         40.2       14.4         25.8
-    ## 14     deener   111  149         15         39.0       14.2         24.8
-    ## 15       jobu   108  152         15         37.3       21.0         16.3
-    ## 16      balco   113  147         17         34.8       19.2         15.6
-    ## 17    chicago    82  178         16         33.2       17.6         15.6
-    ## 18   hermanos    99  161         15         26.1       12.4         13.7
+    ## 1     allrise   139  121         15         70.3       23.6         46.7
+    ## 2       rippe   158  102         15         69.3       14.4         54.9
+    ## 3      ottawa   116  144         15         69.2       18.1         51.1
+    ## 4    pasadena   176   84         15         64.9       41.3         23.6
+    ## 5    sturgeon   168   92         15         62.6       47.7         14.9
+    ## 6       deano   192   68         15         56.7       21.6         35.1
+    ## 7     dembums   159  101         14         55.5       21.4         34.1
+    ## 8   pkdodgers   123  137         15         51.4       18.8         32.6
+    ## 9       bears   123  137         15         50.0       17.5         32.5
+    ## 10  marmaduke   132  128         15         48.5       24.1         24.4
+    ## 11   isotopes   125  135         15         48.0       27.9         20.1
+    ## 12        dsb    83  177         17         47.7       10.2         37.5
+    ## 13     deener   111  149         15         36.5        8.7         27.8
+    ## 14 bellevegas   107  153         15         36.3        8.9         27.4
+    ## 15      balco   113  147         17         33.0       13.9         19.1
+    ## 16    chicago    82  178         16         30.8       12.9         17.9
+    ## 17       jobu   108  152         15         29.4       14.5         14.9
+    ## 18   hermanos    99  161         15         21.4        6.9         14.5
 
 #### Top Remaining Pitchers
 
     ##                 Name         Team  IP  ERA WHIP   K SV  W   pts   dlr
-    ## 1       Max Scherzer    Nationals 210 3.13 1.04 274  0 15 17.45 48.04
-    ## 2    Carlos Carrasco      Indians 199 3.39 1.13 217  0 14 12.97 35.71
-    ## 3    Clayton Kershaw      Dodgers 185 3.23 1.12 180  0 13 11.60 31.94
-    ## 4       Chris Archer      Pirates 194 3.64 1.23 207  0 12  9.89 27.23
-    ## 5  Stephen Strasburg    Nationals 177 3.66 1.19 192  0 12  9.70 26.70
-    ## 6    Aroldis Chapman      Yankees  65 2.77 1.12  97 30  4  9.40 25.87
-    ## 7      Kenley Jansen      Dodgers  65 3.32 1.06  77 33  4  9.12 25.10
-    ## 8          Rich Hill      Dodgers 159 3.61 1.18 175  0 11  8.80 24.22
-    ## 9  Madison Bumgarner       Giants 205 3.92 1.24 185  0 11  8.01 22.04
-    ## 10     Jose Quintana         Cubs 188 3.88 1.29 178  0 13  7.87 21.67
-    ## 11      Corey Knebel      Brewers  65 3.05 1.16  92 23  4  7.46 20.53
-    ## 12    Archie Bradley Diamondbacks  70 3.50 1.24  78 28  4  7.27 20.01
-    ## 13    Dallas Keuchel         <NA> 198 3.68 1.32 157  0 13  7.24 19.92
-    ## 14    Kyle Hendricks         Cubs 196 4.03 1.28 164  0 13  7.16 19.71
-    ## 15        Yu Darvish         Cubs 139 3.75 1.21 157  0 10  7.08 19.48
-    ## 16   Masahiro Tanaka      Yankees 153 3.95 1.20 149  0 11  6.98 19.22
-    ## 17    Brandon Morrow         Cubs  60 3.43 1.21  64 30  3  6.92 19.05
-    ## 18     Jose Alvarado         Rays  60 3.16 1.30  74 29  3  6.90 18.99
-    ## 19      Ryan Brasier      Red Sox  65 3.94 1.26  64 31  4  6.89 18.96
-    ## 20     Andrew Miller    Cardinals  60 2.95 1.13  76 24  3  6.85 18.86
+    ## 1       Max Scherzer    Nationals 210 3.13 1.04 274  0 15 17.18 47.29
+    ## 2    Carlos Carrasco      Indians 199 3.39 1.13 217  0 14 12.64 34.81
+    ## 3    Clayton Kershaw      Dodgers 185 3.23 1.12 180  0 13 11.21 30.85
+    ## 4       Chris Archer      Pirates 194 3.64 1.23 207  0 12  9.54 26.27
+    ## 5  Stephen Strasburg    Nationals 177 3.66 1.19 192  0 12  9.27 25.51
+    ## 6    Aroldis Chapman      Yankees  65 2.77 1.12  97 30  4  8.41 23.16
+    ## 7          Rich Hill      Dodgers 159 3.61 1.18 175  0 11  8.27 22.78
+    ## 8      Kenley Jansen      Dodgers  65 3.32 1.06  77 33  4  8.13 22.39
+    ## 9  Madison Bumgarner       Giants 205 3.92 1.24 185  0 11  7.71 21.22
+    ## 10     Jose Quintana         Cubs 188 3.88 1.29 178  0 13  7.49 20.62
+    ## 11    Dallas Keuchel         <NA> 198 3.68 1.32 157  0 13  6.90 19.01
+    ## 12      Corey Knebel      Brewers  65 3.05 1.16  92 23  4  6.47 17.82
+    ## 13        Yu Darvish         Cubs 139 3.75 1.21 157  0 10  6.45 17.77
+    ## 14   Masahiro Tanaka      Yankees 153 3.95 1.20 149  0 11  6.43 17.70
+    ## 15    Archie Bradley Diamondbacks  70 3.50 1.24  78 28  4  6.31 17.37
+    ## 16    Brandon Morrow         Cubs  60 3.43 1.21  64 30  3  5.91 16.26
+    ## 17      Ryan Brasier      Red Sox  65 3.94 1.26  64 31  4  5.90 16.24
+    ## 18     Jose Alvarado         Rays  60 3.16 1.30  74 29  3  5.89 16.20
+    ## 19     Andrew Miller    Cardinals  60 2.95 1.13  76 24  3  5.84 16.08
+    ## 20         Ken Giles    Blue Jays  65 3.61 1.20  73 28  3  5.81 15.98
 
 #### Top Remaining Hitters
 
@@ -65,11 +65,11 @@ Fantasy 2019
     ## 13    Salvador Perez    Royals 534 61 24  75  1 0.251  8.53 23.49
     ## 14    Anthony Rendon Nationals 644 85 23  88  5 0.287  8.52 23.45
     ## 15      Justin Upton    Angels 630 80 29  88  8 0.242  8.37 23.03
-    ## 16       Jean Segura  Phillies 637 79 14  60 20 0.284  8.34 22.96
-    ## 17        Jose Abreu White Sox 630 80 28  92  2 0.280  8.32 22.90
-    ## 18    Miguel Cabrera    Tigers 651 84 26  89  2 0.283  8.25 22.71
-    ## 19      Buster Posey    Giants 547 61 12  62  4 0.287  8.23 22.65
-    ## 20     Daniel Murphy   Rockies 616 83 22  88  4 0.306  8.04 22.14
+    ## 16        Jose Abreu White Sox 630 80 28  92  2 0.280  8.32 22.90
+    ## 17    Miguel Cabrera    Tigers 651 84 26  89  2 0.283  8.25 22.71
+    ## 18      Buster Posey    Giants 547 61 12  62  4 0.287  8.23 22.65
+    ## 19     Daniel Murphy   Rockies 616 83 22  88  4 0.306  8.04 22.14
+    ## 20    Ender Inciarte    Braves 644 75 10  57 24 0.274  8.00 22.03
 
 #### Dollars vs. projected points
 
@@ -78,24 +78,24 @@ Fantasy 2019
     ## # A tibble: 18 x 4
     ##    rowname    total_points value   delta
     ##    <chr>             <dbl> <dbl>   <dbl>
-    ##  1 ottawa             69.3  47.3  22.0  
-    ##  2 allrise            70.1  55.4  14.7  
-    ##  3 dsb                48.9  35.6  13.3  
-    ##  4 rippe              67.5  62.2   5.33 
-    ##  5 bears              53.5  49.8   3.73 
-    ##  6 sturgeon           67.8  65.7   2.09 
-    ##  7 pasadena           70.1  68.5   1.55 
-    ##  8 isotopes           50    48.7   1.29 
-    ##  9 pkdodgers          49.6  49.8  -0.173
-    ## 10 marmaduke          52.5  53.0  -0.461
-    ## 11 chicago            33.2  35.3  -2.05 
-    ## 12 bellevegas         40.2  44.1  -3.91 
-    ## 13 dembums            50.5  54.7  -4.23 
-    ## 14 deener             39    45.5  -6.52 
-    ## 15 jobu               37.3  44.5  -7.16 
-    ## 16 balco              34.8  46.2 -11.4  
-    ## 17 deano              55    67.8 -12.8  
-    ## 18 hermanos           26.1  41.3 -15.2
+    ##  1 ottawa             69.2  44.9  24.3  
+    ##  2 allrise            70.3  52.4  17.9  
+    ##  3 dsb                47.7  34.1  13.6  
+    ##  4 rippe              69.3  58.6  10.7  
+    ##  5 pkdodgers          51.4  47.2   4.24 
+    ##  6 bears              50    47.2   2.84 
+    ##  7 sturgeon           62.6  61.8   0.758
+    ##  8 pasadena           64.9  64.5   0.448
+    ##  9 isotopes           48    47.8   0.188
+    ## 10 marmaduke          48.5  50.1  -1.60 
+    ## 11 chicago            30.8  33.8  -2.98 
+    ## 12 dembums            55.5  58.9  -3.41 
+    ## 13 bellevegas         36.3  41.9  -5.64 
+    ## 14 deener             36.5  43.2  -6.74 
+    ## 15 balco              33    43.9 -10.9  
+    ## 16 jobu               29.4  42.3 -12.9  
+    ## 17 deano              56.7  69.7 -13.0  
+    ## 18 hermanos           21.4  39.3 -17.9
 
 #### Remaining Picks vs. projected points
 

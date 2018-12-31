@@ -10,7 +10,7 @@ load("coefs.rda")
 #Import and clean data on replacement levels
 
 #read in league wide csv
-replacement_hitters <- readxl::read_xlsx("replacement_hitters.xlsx", sheet = "replacement_hitters")
+replacement_hitters <- readxl::read_xlsx("./replacement/replacement_hitters.xlsx", sheet = "replacement_hitters")
 
 replacement_hitters$Position <- c("catcher",
                                   "first_base",
@@ -362,21 +362,23 @@ pitcher_proj <- left_join(innings, pitcher_proj) %>%
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
-replacement.pitcher <- c(3.82,
-                         1.301,
-                         .9,
-                         2.8,
-                         57.8)
-names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
+
+replacement.pitcher <- readxl::read_xlsx("./replacement/replacement_pitchers.xlsx",
+                                         sheet="replacement") %>% 
+  select(-IP) 
+
+new_colnames <- map_chr(names(replacement.pitcher), paste0, ".repl")
+
+names(replacement.pitcher) <- new_colnames
 
 #calculate marginal values and points
 pitcher_projections <- pitcher_proj %>%
       mutate(
-            marginal.ERA = ERA - replacement.pitcher["ERA.repl"],
-            marginal.WHIP = WHIP - replacement.pitcher["WHIP.repl"],
-            marginal.W = W - replacement.pitcher["W.repl"],
-            marginal.SV = SV - replacement.pitcher["SV.repl"],
-            marginal.K = K - replacement.pitcher["K.repl"],
+            marginal.ERA = ERA - replacement.pitcher[["ERA.repl"]],
+            marginal.WHIP = WHIP - replacement.pitcher[["WHIP.repl"]],
+            marginal.W = W - replacement.pitcher[["W.repl"]],
+            marginal.SV = SV - replacement.pitcher[["SV.repl"]],
+            marginal.K = K - replacement.pitcher[["K.repl"]],
             ERA.points = (marginal.ERA *coefs.for.calc[["era"]])*(IP/1464),
             WHIP.points = (marginal.WHIP*coefs.for.calc[["whip"]])*(IP/1464),
             W.points = marginal.W*coefs.for.calc[["w"]],

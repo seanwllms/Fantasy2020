@@ -2,14 +2,15 @@ batter_positions <- c("C1","C2","1B","2B","SS","3B","CI","MI","OF1","OF2","OF3",
 pitcher_positions <- c("P1","P2","P3","P4","P5","P6","P7","P8","P9","P10")
 
 #read in replacement level hitters
-replacement_hitters <- read.csv("replacement_hitters.csv")
+replacement_hitters <- readxl::read_xlsx("./replacement/replacement_hitters.xlsx")
 rownames(replacement_hitters) <- c("C","1B","2B","SS","3B","MI","CI","OF","DH")
 replacement_hitters$AB <- c(400)
 replacement_hitters[c("C1","C2"),] <- replacement_hitters["C",]
 replacement_hitters[c("OF1","OF2","OF3","OF4","OF5","OF6"),] <- replacement_hitters["OF",]
 
 #read in replacement level pitchers
-replacement_pitcher <- c(150,4.47,1.4,4,1,102)
+replacement_pitcher <- readxl::read_xlsx("./replacement/replacement_pitchers.xlsx",
+                                         sheet="replacement")
 
 
 #####################################################################
@@ -34,7 +35,7 @@ for (team in teams) {
       
       #pull in replacement level stats to undrafted df
       undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")] <- replacement_hitters[undrafted.hitters$roster_spot,c(7,2:6)]
-      undrafted.pitchers[,c("IP","ERA","WHIP","SV","W","K")] <- sapply(replacement_pitcher, rep, nrow(undrafted.pitchers))
+      undrafted.pitchers[,c("IP", "W","SV","K","ERA","WHIP")] <- sapply(replacement_pitcher, rep, nrow(undrafted.pitchers))
       
       #insert replacement level stats in hitters and pitchers df
       hitters[hitters$roster_spot %in% undrafted.hitters$roster_spot, c("AB","R","HR","RBI","SB","AVG")] <- undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")]
