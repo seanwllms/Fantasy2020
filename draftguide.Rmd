@@ -8,12 +8,14 @@ source("compileleague.R")
 ```
 
 ####Current Standings
-```{r, echo = FALSE}
-standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
+```{r, echo = FALSE, warning=FALSE}
+library(knitr)
+standings <- standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
                             pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points) %>%
                             select(team_name, spent, left, picks.left, total_points, hit.points,
                               pitch.points)
 
+kable(standings)
 ```
 
 ####Top Remaining Pitchers
@@ -21,9 +23,10 @@ standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_
 
 toppitch <- filter(pitcher_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-      select(Name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
+      select(Name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr) %>% 
+      filter(row_number() < 16)
 
-data.frame(toppitch[1:20,])
+kable(toppitch)
 ```
 
 ####Top Remaining Hitters
@@ -31,9 +34,11 @@ data.frame(toppitch[1:20,])
 topdh <- filter(hitter_projections, status != "drafted") %>%
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
-      arrange(-dlr)
+      arrange(-dlr) %>% 
+      filter(row_number() < 16)
 
-data.frame(topdh)[1:20,]
+kable(topdh)
+
 ```
 
 ```{r, echo = FALSE}

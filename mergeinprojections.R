@@ -43,7 +43,7 @@ for (team in teams) {
       
       #merge hitters and pitchers
       temp <- bind_rows(hitters, pitchers) %>% 
-        map_at(c("R", "RBI", "HR", "SB", "K", "SV", "W"), round, 0) %>% 
+        map_at(c("R", "RBI", "HR", "SB", "K", "SV", "W", "IP"), round, 1) %>% 
         map_at(c("ERA", "WHIP"), round, 2) %>% 
         map_at(c("AVG"), round, 3) %>% 
         tbl_df()
