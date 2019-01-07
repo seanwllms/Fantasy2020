@@ -87,6 +87,7 @@ drafterrors <- select(draftpicks, player, team) %>%
       ) %>%
       filter(error == "not matched")
 
+
 #draft everything in the draft csv
 for (pick in 1:nrow(draftpicks)) {
       

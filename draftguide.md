@@ -1,28 +1,67 @@
 Fantasy 2019
 ================
 
+#### Today's auction
+
+| Name               |  marginal.total.points|  dollar.value|
+|:-------------------|----------------------:|-------------:|
+| Max Scherzer       |                  17.18|         47.29|
+| Giancarlo Stanton  |                  11.22|         30.88|
+| Paul Goldschmidt   |                  10.10|         27.81|
+| Aroldis Chapman    |                   8.41|         23.16|
+| Buster Posey       |                   8.23|         22.65|
+| Kenley Jansen      |                   8.13|         22.39|
+| Shin-Soo Choo      |                   6.62|         18.22|
+| Willians Astudillo |                   2.32|          6.38|
+
+#### Draft Status
+
+| position     |  remaining|   max|   avg|
+|:-------------|----------:|-----:|-----:|
+| catcher      |         45|  23.5|   9.2|
+| dh           |         14|  30.2|  16.0|
+| first\_base  |         21|  28.4|  14.9|
+| outfield     |         79|  33.5|  12.9|
+| second\_base |         16|  23.6|  12.1|
+| shortstop    |         19|  19.6|   9.7|
+| third\_base  |         15|  23.4|  11.7|
+| pitcher      |        121|  47.3|   9.2|
+
+| Position |  Still\_to\_be\_Drafted|
+|:---------|-----------------------:|
+| 1B       |                       9|
+| 2B       |                       9|
+| 3B       |                       5|
+| CI       |                      16|
+| DH       |                      17|
+| MI       |                      14|
+| SS       |                       5|
+| C        |                      32|
+| OF       |                     153|
+| P        |                     171|
+
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|--------------:|-----------:|-------------:|
-| allrise    |    139|   121|          15|           70.0|        23.4|          46.6|
-| rippe      |    158|   102|          15|           69.1|        14.3|          54.8|
-| ottawa     |    116|   144|          15|           69.0|        18.0|          51.0|
-| pasadena   |    176|    84|          15|           64.6|        41.3|          23.3|
-| sturgeon   |    168|    92|          15|           62.3|        47.7|          14.6|
-| deano      |    192|    68|          15|           56.5|        21.5|          35.0|
-| dembums    |    159|   101|          14|           55.0|        21.3|          33.7|
-| pkdodgers  |    123|   137|          15|           51.3|        18.8|          32.5|
-| bears      |    123|   137|          15|           49.7|        17.4|          32.3|
-| marmaduke  |    132|   128|          15|           48.2|        24.0|          24.2|
-| isotopes   |    125|   135|          15|           47.8|        27.9|          19.9|
-| dsb        |     83|   177|          17|           47.6|        10.1|          37.5|
-| deener     |    111|   149|          15|           36.3|         8.6|          27.7|
-| bellevegas |    107|   153|          15|           36.0|         8.7|          27.3|
-| balco      |    113|   147|          17|           32.9|        13.9|          19.0|
-| chicago    |     82|   178|          16|           30.7|        12.9|          17.8|
-| jobu       |    108|   152|          15|           29.0|        14.4|          14.6|
-| hermanos   |     99|   161|          15|           21.3|         6.9|          14.4|
+| allrise    |    139|   121|          15|           63.8|        17.2|          46.6|
+| rippe      |    158|   102|          15|           63.5|         8.7|          54.8|
+| ottawa     |    116|   144|          15|           62.5|        11.5|          51.0|
+| sturgeon   |    168|    92|          15|           60.0|        45.4|          14.6|
+| pasadena   |    176|    84|          15|           53.6|        30.3|          23.3|
+| deano      |    192|    68|          15|           52.2|        17.2|          35.0|
+| dembums    |    159|   101|          14|           50.3|        16.6|          33.7|
+| pkdodgers  |    123|   137|          15|           45.9|        13.4|          32.5|
+| bears      |    123|   137|          15|           44.3|        12.0|          32.3|
+| marmaduke  |    132|   128|          15|           43.4|        19.2|          24.2|
+| dsb        |     88|   172|          16|           42.6|         5.1|          37.5|
+| isotopes   |    125|   135|          15|           42.1|        22.2|          19.9|
+| balco      |    123|   137|          15|           36.1|         9.3|          26.8|
+| deener     |    111|   149|          15|           33.0|         5.3|          27.7|
+| bellevegas |    107|   153|          15|           32.6|         5.3|          27.3|
+| chicago    |     77|   183|          16|           25.2|         7.4|          17.8|
+| jobu       |    108|   152|          15|           23.8|         9.2|          14.6|
+| hermanos   |     99|   161|          15|           19.4|         5.0|          14.4|
 
 #### Top Remaining Pitchers
 
@@ -43,11 +82,6 @@ Fantasy 2019
 | Yu Darvish        | Cubs         |  139|  3.75|  1.21|  157|    0|   10|   6.45|  17.77|
 | Masahiro Tanaka   | Yankees      |  153|  3.95|  1.20|  149|    0|   11|   6.43|  17.70|
 | Archie Bradley    | Diamondbacks |   70|  3.50|  1.24|   78|   28|    4|   6.31|  17.37|
-| Brandon Morrow    | Cubs         |   60|  3.43|  1.21|   64|   30|    3|   5.91|  16.26|
-| Ryan Brasier      | Red Sox      |   65|  3.94|  1.26|   64|   31|    4|   5.90|  16.24|
-| Jose Alvarado     | Rays         |   60|  3.16|  1.30|   74|   29|    3|   5.89|  16.20|
-| Andrew Miller     | Cardinals    |   60|  2.95|  1.13|   76|   24|    3|   5.84|  16.08|
-| Ken Giles         | Blue Jays    |   65|  3.61|  1.20|   73|   28|    3|   5.81|  15.98|
 
 #### Top Remaining Hitters
 
@@ -68,43 +102,16 @@ Fantasy 2019
 | Salvador Perez    | Royals    |  534|   61|   24|   75|    1|  0.251|   8.53|  23.49|
 | Anthony Rendon    | Nationals |  644|   85|   23|   88|    5|  0.287|   8.52|  23.45|
 | Justin Upton      | Angels    |  630|   80|   29|   88|    8|  0.242|   8.37|  23.03|
-| Jose Abreu        | White Sox |  630|   80|   28|   92|    2|  0.280|   8.32|  22.90|
-| Miguel Cabrera    | Tigers    |  651|   84|   26|   89|    2|  0.283|   8.25|  22.71|
-| Buster Posey      | Giants    |  547|   61|   12|   62|    4|  0.287|   8.23|  22.65|
-| Daniel Murphy     | Rockies   |  616|   83|   22|   88|    4|  0.306|   8.04|  22.14|
-| Ender Inciarte    | Braves    |  644|   75|   10|   57|   24|  0.274|   8.00|  22.03|
 
 #### Dollars vs. projected points
 
-![](draftguide_files/figure-markdown_github/unnamed-chunk-6-1.png)
-
-    ## # A tibble: 18 x 4
-    ##    rowname    total_points value   delta
-    ##    <chr>             <dbl> <dbl>   <dbl>
-    ##  1 ottawa             69    44.7  24.3  
-    ##  2 allrise            70    52.1  17.9  
-    ##  3 dsb                47.6  33.9  13.7  
-    ##  4 rippe              69.1  58.3  10.8  
-    ##  5 pkdodgers          51.3  46.9   4.36 
-    ##  6 bears              49.7  46.9   2.76 
-    ##  7 sturgeon           62.3  61.5   0.755
-    ##  8 pasadena           64.6  64.1   0.458
-    ##  9 isotopes           47.8  47.6   0.215
-    ## 10 marmaduke          48.2  49.9  -1.66 
-    ## 11 chicago            30.7  33.6  -2.92 
-    ## 12 dembums            55    58.6  -3.62 
-    ## 13 bellevegas         36    41.7  -5.74 
-    ## 14 deener             36.3  43.0  -6.74 
-    ## 15 balco              32.9  43.7 -10.8  
-    ## 16 deano              56.5  69.3 -12.8  
-    ## 17 jobu               29    42.1 -13.1  
-    ## 18 hermanos           21.3  39.1 -17.8
+![](draftguide_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 #### Remaining Picks vs. projected points
 
 #### Unmatched Draft Picks
 
-    ## # A tibble: 14 x 3
+    ## # A tibble: 15 x 3
     ##    player                team      error      
     ##    <chr>                 <chr>     <chr>      
     ##  1 Luis Robert           allrise   not matched
@@ -121,3 +128,4 @@ Fantasy 2019
     ## 12 Yusei Kikuchi         rippe     not matched
     ## 13 Bo Bichette           sturgeon  not matched
     ## 14 Nick Senzel           marmaduke not matched
+    ## 15 Michael Kopech        deano     not matched

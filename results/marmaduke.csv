@@ -1,19 +1,19 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","C1",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",0,"",NA,NA,NA,NA,400,36.1,11.8,39.8,1.9,0.237,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"4","2B",0,"",NA,NA,NA,NA,400,40.5,8.7,37.9,5.5,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","2B",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,566,88,32,101,19,0.271,12.55,34.55,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",13,"Alex Bregman","Astros","third_base","17678",651,556,96,26,88,11,0.279,10.13,27.88,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",0,"",NA,NA,NA,NA,400,37.5,8.1,35.8,5,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",651,570,81,23,79,7,0.259,7.6,20.94,"drafted",NA,NA,NA,NA,NA,NA
 "10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,565,81,14,63,21,0.284,8.91,24.52,"drafted",NA,NA,NA,NA,NA,NA
 "11","OF3",22,"David Dahl","Rockies","outfield","13744",609,544,76,23,82,12,0.27,8.83,24.31,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,547,74,30,85,2,0.251,7.25,19.96,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,87,13,5,15,1,0.243,-2.79,-7.67,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,316,42,12,44,2,0.267,1.98,5.45,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,32.9,8.5,33.3,3.6,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,13.6,37.44,"drafted",211,3.45,1.11,0,15,223
 "17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.16,14.21,"drafted",157,3.96,1.28,0,10,147
 "18","P3",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5

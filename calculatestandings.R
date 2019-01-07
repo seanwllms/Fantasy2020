@@ -71,3 +71,4 @@ standings <- mutate(standings, total_points =
 rownames(standings) <- standings$team_name
 
 
+
