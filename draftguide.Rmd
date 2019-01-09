@@ -10,14 +10,14 @@ source("compileleague.R")
 
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
-today <- c("Max Scherzer",
-           "Giancarlo Stanton",
-           "Shin-Soo Choo",
-           "Paul Goldschmidt",
-           "Aroldis Chapman",
-           "Kenley Jansen",
-           "Buster Posey",
-           "Willians Astudillo") %>% 
+today <- c("Tyler Austin",
+           "Kenta Maeda",
+           "Anthony Rendon",
+           "Elvis Andrus",
+           "Clayton Kershaw",
+           "Anthony Rizzo",
+           "Yasiel Puig",
+           "Nelson Cruz") %>% 
   tbl_df() %>% 
   set_names("Name")
 
@@ -84,8 +84,9 @@ kable(big_team_df)
 ```{r, echo = FALSE, warning=FALSE}
 library(knitr)
 standings <- standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
-                            pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points) %>%
-                            select(team_name, spent, left, picks.left, total_points, hit.points,
+                            pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points,
+                            max_bid = left - picks.left + 1) %>%
+                            select(team_name, spent, left, picks.left, max_bid, total_points, hit.points,
                               pitch.points)
 
 kable(standings)
