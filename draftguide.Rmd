@@ -12,23 +12,21 @@ source("compileleague.R")
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
 
-"Tyler White",
-"Jake Arrieta",
-"Carlos Carrasco",
-"Marcell Ozuna",
-"Madison Bumgarner",
-"Josh Donaldson",
-"Jon Lester",
-"Stephen Strasburg"
-
+"Eric Hosmer",
+"Robinson Cano",
+"Albert Pujols",
+"Dallas Keuchel",
+"Joshua James",
+"Jonathan Schoop",
+"Edwin Encarnacion",
+"Asdrubal Cabrera"
 ) %>% 
   tbl_df() %>% 
   set_names("Name")
 
 
 kable(left_join(today, hitterpitcher) %>% 
-        select(Name, marginal.total.points, dollar.value) %>% 
-        arrange(-dollar.value))
+        select(Name, marginal.total.points, dollar.value))
 ```
 
 ####Draft Status
@@ -74,8 +72,8 @@ big_team_df <- filter(big_team_df, Name=="") %>%
   spread(roster_spot, remaining) %>%
   mutate_all(function(x) x-1) %>% 
   mutate(C = C1 + C2,
-         OF = sum(OF1:OF6),
-         P = sum(P1:P10)) %>% 
+         OF = OF1 + OF2 + OF3 +OF4 + OF5 + OF6,
+         P = P1+P2+P3+P4+P5+P6+P7+P8+P9+P10) %>% 
   select(-(P1:P9), -(OF1:OF6), -(C1:C2)) %>% 
   gather(Position, Still_to_be_Drafted)
 
