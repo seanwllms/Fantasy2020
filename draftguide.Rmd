@@ -12,14 +12,14 @@ source("compileleague.R")
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
 
-"Eric Hosmer",
-"Robinson Cano",
-"Albert Pujols",
-"Dallas Keuchel",
-"Joshua James",
-"Jonathan Schoop",
-"Edwin Encarnacion",
-"Asdrubal Cabrera"
+"Ryan Brasier",
+"Jason Heyward",
+"Kyler Murray",
+"Joey Votto",
+"Andrew Toles",
+"Jose Quintana",
+"Will Smith",
+"Nate Jones"
 ) %>% 
   tbl_df() %>% 
   set_names("Name")

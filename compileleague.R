@@ -1,5 +1,8 @@
 library(tidyverse)
 
+#Load parameters file
+source("parameters.R")
+
 #load in coefficients file
 if (!file.exists("coefs.rda")) {
   source("historyanalysis.R")
