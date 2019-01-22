@@ -12,14 +12,16 @@ source("compileleague.R")
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
 
-"Jon Gray",
-"Starlin Castro",
-"Daniel Murphy",
-"Max Kepler",
-"Dylan Bundy",
-"Salvador Perez",
-"Joc Pederson",
-"Yu Darvish"
+"Russell Martin",
+"Jackie Bradley Jr.",
+"Kyle Seager",
+"Matt Wieters",
+"Miguel Sano",
+"Cody Allen",
+"Yan Gomes",
+"Mitch Garver"
+
+
 ) %>% 
   tbl_df() %>% 
   set_names("Name")
@@ -165,7 +167,7 @@ plot <- ggplot(standings.output, aes(x=picks.left, y=total_points)) +
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=picks.left, y=total_points, label = team_name)) 
 
-#plot
+plot
   
 ```
 

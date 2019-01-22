@@ -1,5 +1,5 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",25,"Buster Posey","Giants","catcher","9166",547,483,61,12,62,4,0.287,8.23,22.65,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",20,"Buster Posey","Giants","catcher","9166",547,483,61,12,62,4,0.287,8.23,22.65,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,564,84,26,89,2,0.283,8.25,22.71,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
