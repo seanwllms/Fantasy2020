@@ -144,7 +144,9 @@ plot1
 model <- predict(lm(total_points ~ spent, data = standings.output)) %>% 
   tbl_df() %>% 
   add_rownames() 
-  
+
+
+
 # delta <- select(standings.output, total_points) %>% 
 #   add_rownames() %>% 
 #   left_join(model) %>% 

@@ -408,38 +408,32 @@ save(hitter_projections, pitcher_projections, file = "projections.rda")
 ########################################
 ########### CALIBRATE VALUES ###########
 ########################################
-# hitter_points <- filter(hitter_projections, dollar.value > 0) %>% 
-#   summarise(marginal.total.points = sum(marginal.total.points),
-#             players = n())
-# 
-# hitter_points
-# 
-# sum(1:18)
-# 
+
+
 
 
 #function to calculate number of pitchers above replacement level
 calc_positive_pitchers <- function() {
-  positive_pitchers <- filter(pitcher_projections, dollar.value > 0) %>% 
-  summarise(players = n()) %>% 
+  positive_pitchers <- filter(pitcher_projections, dollar.value >= 1) %>%
+  summarise(players = n()) %>%
   pull(players)
-  
+
   positive_pitchers
 }
 
-#Adjust marginal points 
+#Adjust marginal points
 while (abs(calc_positive_pitchers()-NUMBER_OF_PITCHERS*NUMBER_OF_TEAMS) > 5) {
-  
+
   if (calc_positive_pitchers() > NUMBER_OF_PITCHERS*NUMBER_OF_TEAMS) {
-    adjusted_pitcher_projections <- mutate(pitcher_projections, 
+    adjusted_pitcher_projections <- mutate(pitcher_projections,
                                   marginal.total.points =marginal.total.points - .1,
-                                  dollar.value = marginal.total.points*(4680/1700)) 
+                                  dollar.value = marginal.total.points*(4680/1700))
   } else {
-    adjusted_pitcher_projections <- mutate(pitcher_projections, 
+    adjusted_pitcher_projections <- mutate(pitcher_projections,
                                            marginal.total.points = marginal.total.points + .1,
-                                           dollar.value = marginal.total.points*(4680/1700)) 
+                                           dollar.value = marginal.total.points*(4680/1700))
   }
-  
+
   pitcher_projections <- adjusted_pitcher_projections
   remove(adjusted_pitcher_projections)
 }
@@ -448,122 +442,158 @@ while (abs(calc_positive_pitchers()-NUMBER_OF_PITCHERS*NUMBER_OF_TEAMS) > 5) {
 
 #function to calculate number of hitters above replacement level
 calc_positive_hitters <- function(pos) {
-  
+
   #get list of acceptable positions for the roster spot
-  acceptable_positions <- POSITION_ELIGIBILITY %>% 
-    filter(roster_spot == !!pos) %>% 
+  acceptable_positions <- POSITION_ELIGIBILITY %>%
+    filter(roster_spot == !!pos) %>%
     pull(position)
-  
-  positive_hitters <- filter(hitter_projections, dollar.value > 1, position %in% acceptable_positions) %>% 
-    summarise(players = n()) %>% 
+
+  positive_hitters <- filter(hitter_projections, dollar.value > 1, position %in% acceptable_positions) %>%
+    summarise(players = n()) %>%
     pull(players)
-  
+
   positive_hitters
 }
 
-
-hitter_projections <- mutate(hitter_projections, adjusted = FALSE)
-
-#Adjust marginal points 
-for (pos in HITTER_SPOTS) {
+for (position in HITTER_SPOTS) {
   
-  #build target for number of replacement value players
-  if ((pos %in% c("1B", "2B", "3B", "SS", "CI","MI", "DH"))) {
-    target <- NUMBER_OF_TEAMS
-  } else if (pos == "OF") {
-    target <- NUMBER_OF_TEAMS * 6
-  } else if (pos == "C") {
-    target <- NUMBER_OF_TEAMS * 2
-  }
+  print(paste0(position, ": ", as.character(calc_positive_hitters(position))))
   
-  #get list of acceptable positions for the roster spot
-  acceptable_positions <- POSITION_ELIGIBILITY %>% 
-    filter(roster_spot == !!pos) %>% 
-    pull(position)
-  
-  
-  #Get hitter projections for guys with relevant skills
-  adjusted_hitter_projections <- hitter_projections %>% 
-    filter(position %in% acceptable_positions,
-           adjusted == FALSE)
-  
-  
-  positive_value_dudes <- filter(adjusted_hitter_projections, dollar.value>1) %>% 
-    nrow()
-  
-
-  
-  while (abs(positive_value_dudes - target) > 2)  {
-      print(pos)
-      print(positive_value_dudes)
-      print("Positive Value dudes: ")
-      
-       
-      #increase point values if too many > replacement hitters
-      #decrease point values if too few > replacement hitters
-      if (positive_value_dudes > target) {
-        adjusted_hitter_projections <- adjusted_hitter_projections %>% 
-          mutate(marginal.total.points =marginal.total.points - .2,
-                 dollar.value = marginal.total.points*(4680/1700), 
-                 adjusted = ifelse(row_number() <= target, TRUE, FALSE))
-      } else {
-        adjusted_hitter_projections <- adjusted_hitter_projections %>% 
-          mutate(marginal.total.points =marginal.total.points + .2,
-                 dollar.value = marginal.total.points*(4680/1700), 
-                 adjusted = ifelse(row_number() <= target, TRUE, FALSE))
-      }
-    
-      positive_value_dudes <- filter(adjusted_hitter_projections, dollar.value>1) %>% 
-      nrow()
-    
-  }
-      
-      #get vector of guys whose names changed
-      changed <- adjusted_hitter_projections %>% 
-        filter(position %in% acceptable_positions) %>% 
-        pull(Name)
-      
-      
-      new_hitter_projections <- hitter_projections %>% 
-        filter(!(Name %in% changed)) 
-      
-      new_hitter_projections <- new_hitter_projections %>% 
-        rbind(adjusted_hitter_projections) %>% 
-        arrange(-dollar.value)
-    
-      
-      hitter_projections <- new_hitter_projections
-      
 }
-        
 
 
-#
+
+
+
+###########################################################
+############calculate total dollars in forecast############
+###########################################################
+calc_positive_pitchers()
+
 hitter_points <- filter(hitter_projections, dollar.value > 0) %>%
-  summarise(name = "HITTER CALIBRATION",
-            marginal.total.points = sum(marginal.total.points),
-            dollars = sum(dollar.value),
+  summarise(marginal.total.points = sum(marginal.total.points),
             players = n())
 
 hitter_points
 
+sum(1:18)
+
+hitterbucks <- pull(hitter_points, marginal.total.points) * 4680/1700
+pitcher_bucks <- pitcher_projections %>% 
+  filter(dollar.value>=1) %>% 
+  summarise(bucks = sum(dollar.value))
 
 
-pitcher_points <- filter(pitcher_projections, dollar.value > 0) %>%
-  summarise(name = "PITCHER CALIBRATION",
-            marginal.total.points = sum(marginal.total.points),
-            dollars = sum(dollar.value),
-            players = n())
+alternate_hitter_projections <- hitter_projections %>% 
+  mutate(dollar.value = dollar.value/1.3)
 
-pitcher_points
+alternate_pitcher_projections <- pitcher_projections %>% 
+  mutate(dollar.value = dollar.value/1.3)
 
 
-#calculate Equity Adjustment
-slimmed_hitters <- select(hitter_projections, Name, dollar.value)
-slimmed_pitchers <- select(pitcher_projections, Name, dollar.value)
-
-dollar_all <- bind_rows(slimmed_pitchers, slimmed_hitters) %>% 
-  arrange(-dollar.value)
-
-keepers <- readxl::read_xlsx("draftpicks.xlsx") %>% 
-  filter(drafted < START_OF_AUCTION)
+# 
+# hitter_projections <- mutate(hitter_projections, adjusted = FALSE)
+# 
+# #Adjust marginal points 
+# for (pos in HITTER_SPOTS) {
+#   
+#   #build target for number of replacement value players
+#   if ((pos %in% c("1B", "2B", "3B", "SS", "CI","MI", "DH"))) {
+#     target <- NUMBER_OF_TEAMS
+#   } else if (pos == "OF") {
+#     target <- NUMBER_OF_TEAMS * 6
+#   } else if (pos == "C") {
+#     target <- NUMBER_OF_TEAMS * 2
+#   }
+#   
+#   #get list of acceptable positions for the roster spot
+#   acceptable_positions <- POSITION_ELIGIBILITY %>% 
+#     filter(roster_spot == !!pos) %>% 
+#     pull(position)
+#   
+#   
+#   #Get hitter projections for guys with relevant skills
+#   adjusted_hitter_projections <- hitter_projections %>% 
+#     filter(position %in% acceptable_positions,
+#            adjusted == FALSE)
+#   
+#   
+#   positive_value_dudes <- filter(adjusted_hitter_projections, dollar.value>1) %>% 
+#     nrow()
+#   
+# 
+#   
+#   while (abs(positive_value_dudes - target) > 2)  {
+#       print(pos)
+#       print(positive_value_dudes)
+#       print("Positive Value dudes: ")
+#       
+#        
+#       #increase point values if too many > replacement hitters
+#       #decrease point values if too few > replacement hitters
+#       if (positive_value_dudes > target) {
+#         adjusted_hitter_projections <- adjusted_hitter_projections %>% 
+#           mutate(marginal.total.points =marginal.total.points - .2,
+#                  dollar.value = marginal.total.points*(4680/1700), 
+#                  adjusted = ifelse(row_number() <= target, TRUE, FALSE))
+#       } else {
+#         adjusted_hitter_projections <- adjusted_hitter_projections %>% 
+#           mutate(marginal.total.points =marginal.total.points + .2,
+#                  dollar.value = marginal.total.points*(4680/1700), 
+#                  adjusted = ifelse(row_number() <= target, TRUE, FALSE))
+#       }
+#     
+#       positive_value_dudes <- filter(adjusted_hitter_projections, dollar.value>1) %>% 
+#       nrow()
+#     
+#   }
+#       
+#       #get vector of guys whose names changed
+#       changed <- adjusted_hitter_projections %>% 
+#         filter(position %in% acceptable_positions) %>% 
+#         pull(Name)
+#       
+#       
+#       new_hitter_projections <- hitter_projections %>% 
+#         filter(!(Name %in% changed)) 
+#       
+#       new_hitter_projections <- new_hitter_projections %>% 
+#         rbind(adjusted_hitter_projections) %>% 
+#         arrange(-dollar.value)
+#     
+#       
+#       hitter_projections <- new_hitter_projections
+#       
+# }
+#         
+# 
+# 
+# #
+# hitter_points <- filter(hitter_projections, dollar.value > 0) %>%
+#   summarise(name = "HITTER CALIBRATION",
+#             marginal.total.points = sum(marginal.total.points),
+#             dollars = sum(dollar.value),
+#             players = n())
+# 
+# hitter_points
+# 
+# 
+# 
+# pitcher_points <- filter(pitcher_projections, dollar.value > 0) %>%
+#   summarise(name = "PITCHER CALIBRATION",
+#             marginal.total.points = sum(marginal.total.points),
+#             dollars = sum(dollar.value),
+#             players = n())
+# 
+# pitcher_points
+# 
+# 
+# #calculate Equity Adjustment
+# slimmed_hitters <- select(hitter_projections, Name, dollar.value)
+# slimmed_pitchers <- select(pitcher_projections, Name, dollar.value)
+# 
+# dollar_all <- bind_rows(slimmed_pitchers, slimmed_hitters) %>% 
+#   arrange(-dollar.value)
+# 
+# keepers <- readxl::read_xlsx("draftpicks.xlsx") %>% 
+#   filter(drafted < START_OF_AUCTION)

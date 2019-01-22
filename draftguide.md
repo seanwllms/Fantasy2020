@@ -5,26 +5,26 @@ Fantasy 2019
 
 | Name               |  marginal.total.points|  dollar.value|
 |:-------------------|----------------------:|-------------:|
-| Russell Martin     |                   0.30|          0.82|
-| Jackie Bradley Jr. |                   7.51|         20.68|
-| Kyle Seager        |                   5.96|         16.41|
-| Matt Wieters       |                   2.89|          7.95|
-| Miguel Sano        |                   6.57|         18.10|
+| Russell Martin     |                  -1.73|         -4.77|
+| Jackie Bradley Jr. |                   6.93|         19.07|
+| Kyle Seager        |                   5.38|         14.80|
+| Matt Wieters       |                   0.86|          2.36|
+| Miguel Sano        |                   5.99|         16.49|
 | Cody Allen         |                  -0.17|         -0.45|
-| Yan Gomes          |                   3.20|          8.81|
-| Mitch Garver       |                   1.10|          3.02|
+| Yan Gomes          |                   1.17|          3.23|
+| Mitch Garver       |                  -0.93|         -2.57|
 
 #### Draft Status
 
 | position     |  remaining|   max|   avg|
 |:-------------|----------:|-----:|-----:|
-| catcher      |         41|  14.5|   8.3|
-| dh           |          9|  20.4|  13.5|
-| first\_base  |         13|  18.1|  10.9|
-| outfield     |         62|  23.7|  10.4|
-| second\_base |          9|  23.6|   9.2|
-| shortstop    |         15|  16.3|   8.4|
-| third\_base  |         13|  16.4|  10.4|
+| catcher      |         27|   8.9|   5.2|
+| dh           |          9|  18.8|  11.9|
+| first\_base  |         12|  16.4|  10.0|
+| outfield     |         53|  22.1|  10.2|
+| second\_base |          8|  20.9|   7.3|
+| shortstop    |         10|  13.5|   8.5|
+| third\_base  |         12|  14.8|   9.4|
 | pitcher      |         92|  17.8|   6.4|
 
 | Position |  Still\_to\_be\_Drafted|
@@ -44,24 +44,24 @@ Fantasy 2019
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
-| allrise    |    219|    41|          12|        30|           80.7|        32.5|          48.2|
-| marmaduke  |    216|    44|          11|        34|           77.2|        37.0|          40.2|
-| rippe      |    219|    41|          11|        31|           77.1|        22.3|          54.8|
-| isotopes   |    208|    52|          11|        42|           73.6|        37.2|          36.4|
-| ottawa     |    192|    68|          12|        57|           73.3|        22.3|          51.0|
-| pkdodgers  |    220|    40|           6|        35|           72.2|        21.8|          50.4|
-| sturgeon   |    194|    66|          13|        54|           71.9|        45.4|          26.5|
-| deener     |    238|    22|           7|        16|           67.3|        11.3|          56.0|
-| dembums    |    217|    43|          13|        31|           66.1|        24.4|          41.7|
-| pasadena   |    206|    54|          13|        42|           65.7|        38.1|          27.6|
-| jobu       |    241|    19|           7|        13|           62.8|        22.0|          40.8|
-| chicago    |    190|    70|           9|        62|           61.2|        32.3|          28.9|
-| deano      |    213|    47|          13|        35|           56.8|        18.3|          38.5|
-| dsb        |    199|    61|          12|        50|           56.2|        10.9|          45.3|
-| bears      |    166|    94|          12|        83|           53.5|        15.0|          38.5|
-| bellevegas |    188|    72|          10|        63|           48.8|        21.5|          27.3|
-| balco      |    198|    62|          11|        52|           42.7|        15.8|          26.9|
-| hermanos   |    202|    58|           9|        50|           37.0|        12.5|          24.5|
+| allrise    |    219|    41|          12|        30|           90.1|        41.9|          48.2|
+| rippe      |    219|    41|          11|        31|           84.6|        29.8|          54.8|
+| ottawa     |    192|    68|          12|        57|           81.9|        30.9|          51.0|
+| marmaduke  |    216|    44|          11|        34|           81.5|        41.3|          40.2|
+| isotopes   |    208|    52|          11|        42|           79.6|        43.2|          36.4|
+| sturgeon   |    194|    66|          13|        54|           77.7|        51.2|          26.5|
+| pkdodgers  |    220|    40|           6|        35|           75.4|        25.0|          50.4|
+| dembums    |    217|    43|          13|        31|           74.5|        32.8|          41.7|
+| deener     |    238|    22|           7|        16|           74.1|        18.1|          56.0|
+| pasadena   |    206|    54|          13|        42|           72.9|        45.3|          27.6|
+| jobu       |    241|    19|           7|        13|           69.9|        29.1|          40.8|
+| chicago    |    190|    70|           9|        62|           66.2|        37.3|          28.9|
+| dsb        |    199|    61|          12|        50|           63.6|        18.3|          45.3|
+| deano      |    213|    47|          13|        35|           62.1|        23.6|          38.5|
+| bears      |    166|    94|          12|        83|           59.6|        21.1|          38.5|
+| bellevegas |    188|    72|          10|        63|           53.7|        26.4|          27.3|
+| balco      |    198|    62|          11|        52|           50.8|        23.9|          26.9|
+| hermanos   |    202|    58|           9|        50|           44.3|        19.8|          24.5|
 
 #### Top Remaining Pitchers
 
@@ -87,21 +87,21 @@ Fantasy 2019
 
 | Name               | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
 |:-------------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Andrew McCutchen   | Phillies     |  595|   81|   26|   76|   11|  0.263|  8.60|  23.68|
-| Rougned Odor       | Rangers      |  644|   79|   28|   86|   16|  0.249|  8.58|  23.62|
-| Jarrod Dyson       | Diamondbacks |  596|   61|    7|   52|   33|  0.253|  7.57|  20.84|
-| Jackie Bradley Jr. | Red Sox      |  630|   79|   19|   75|   13|  0.248|  7.51|  20.68|
-| Kendrys Morales    | Blue Jays    |  630|   78|   28|   86|    3|  0.249|  7.43|  20.45|
-| Corey Dickerson    | Pirates      |  595|   72|   21|   76|    6|  0.275|  7.24|  19.94|
-| Mark Trumbo        | Orioles      |  595|   70|   29|   83|    1|  0.247|  6.60|  18.16|
-| Miguel Sano        | Twins        |  595|   76|   29|   84|    1|  0.236|  6.57|  18.10|
-| Justin Smoak       | Blue Jays    |  644|   81|   29|   86|    1|  0.239|  6.56|  18.06|
-| Odubel Herrera     | Phillies     |  616|   71|   18|   71|    8|  0.267|  6.52|  17.96|
-| Kevin Kiermaier    | Rays         |  609|   71|   15|   62|   18|  0.238|  6.43|  17.70|
-| Kevin Pillar       | Blue Jays    |  609|   67|   15|   66|   14|  0.258|  6.41|  17.64|
-| Hunter Renfroe     | Padres       |  567|   66|   28|   80|    3|  0.246|  6.37|  17.54|
-| Adam Duvall        | Braves       |  658|   71|   26|   85|    5|  0.226|  6.28|  17.29|
-| Josh Bell          | Pirates      |  616|   73|   19|   76|    5|  0.270|  6.21|  17.09|
+| Andrew McCutchen   | Phillies     |  595|   81|   26|   76|   11|  0.263|  8.02|  22.07|
+| Rougned Odor       | Rangers      |  644|   79|   28|   86|   16|  0.249|  7.57|  20.85|
+| Jarrod Dyson       | Diamondbacks |  596|   61|    7|   52|   33|  0.253|  6.98|  19.23|
+| Jackie Bradley Jr. | Red Sox      |  630|   79|   19|   75|   13|  0.248|  6.93|  19.07|
+| Kendrys Morales    | Blue Jays    |  630|   78|   28|   86|    3|  0.249|  6.84|  18.84|
+| Corey Dickerson    | Pirates      |  595|   72|   21|   76|    6|  0.275|  6.66|  18.33|
+| Mark Trumbo        | Orioles      |  595|   70|   29|   83|    1|  0.247|  6.01|  16.55|
+| Miguel Sano        | Twins        |  595|   76|   29|   84|    1|  0.236|  5.99|  16.49|
+| Justin Smoak       | Blue Jays    |  644|   81|   29|   86|    1|  0.239|  5.98|  16.45|
+| Odubel Herrera     | Phillies     |  616|   71|   18|   71|    8|  0.267|  5.94|  16.35|
+| Kevin Kiermaier    | Rays         |  609|   71|   15|   62|   18|  0.238|  5.84|  16.09|
+| Kevin Pillar       | Blue Jays    |  609|   67|   15|   66|   14|  0.258|  5.82|  16.03|
+| Hunter Renfroe     | Padres       |  567|   66|   28|   80|    3|  0.246|  5.79|  15.93|
+| Adam Duvall        | Braves       |  658|   71|   26|   85|    5|  0.226|  5.70|  15.68|
+| Josh Bell          | Pirates      |  616|   73|   19|   76|    5|  0.270|  5.62|  15.48|
 
 #### Dollars vs. projected points
 

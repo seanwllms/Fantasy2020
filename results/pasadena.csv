@@ -1,19 +1,19 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",20,"J.T. Realmuto","Marlins","catcher","11739",547,498,60,17,62,5,0.267,8.21,22.59,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",8,"Matt Olson","Athletics","first_base","14344",651,549,86,33,93,2,0.244,8.07,22.21,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",35,"Jose Altuve","Astros","second_base","5417",644,580,88,17,81,17,0.302,9.49,26.13,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",18,"Carlos Correa","Astros","shortstop","14162",644,557,85,26,92,4,0.265,8.3,22.84,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",13,"Eugenio Suarez","Reds","third_base","12552",651,552,82,29,92,4,0.257,8.09,22.27,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",28,"J.D. Martinez","Red Sox","outfield","6184",651,568,101,39,117,4,0.297,13.29,36.58,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",18,"Whit Merrifield","Royals","second_base","11281",637,588,78,11,57,30,0.275,8.33,22.92,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",23,"Kris Bryant","Cubs","third_base","15429",651,548,98,29,87,7,0.275,9.74,26.82,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,453,61,16,61,18,0.244,6.15,16.94,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",0,"",NA,NA,NA,NA,400,35.2,10.6,37.6,2.5,0.243,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"14","OF6",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,14.2,4.2,15.1,0.7,0.231,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","C1",20,"J.T. Realmuto","Marlins","catcher","11739",547,498,60,17,62,5,0.267,6.18,17.01,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",8,"Matt Olson","Athletics","first_base","14344",651,549,86,33,93,2,0.244,7.48,20.6,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",35,"Jose Altuve","Astros","second_base","5417",644,580,88,17,81,17,0.302,8.48,23.35,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",18,"Carlos Correa","Astros","shortstop","14162",644,557,85,26,92,4,0.265,7.29,20.07,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",13,"Eugenio Suarez","Reds","third_base","12552",651,552,82,29,92,4,0.257,7.5,20.66,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",28,"J.D. Martinez","Red Sox","outfield","6184",651,568,101,39,117,4,0.297,12.7,34.97,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",18,"Whit Merrifield","Royals","second_base","11281",637,588,78,11,57,30,0.275,7.32,20.15,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",23,"Kris Bryant","Cubs","third_base","15429",651,548,98,29,87,7,0.275,9.16,25.21,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,453,61,16,61,18,0.244,5.57,15.33,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",8,"Trevor Bauer","Indians","pitcher","12703",NA,NA,NA,NA,NA,NA,NA,11.39,31.35,"drafted",195,3.54,1.2,0,14,221
 "17","P2",5,"Jose Leclerc","Rangers","pitcher","14524",NA,NA,NA,NA,NA,NA,NA,4.87,13.4,"drafted",65,3.64,1.33,24,3,86
 "18","P3",15,"Yu Darvish","Cubs","pitcher","13074",NA,NA,NA,NA,NA,NA,NA,6.45,17.77,"drafted",139,3.75,1.21,0,10,157
