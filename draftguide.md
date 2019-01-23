@@ -3,42 +3,42 @@ Fantasy 2019
 
 #### Today's auction
 
-| Name               |  marginal.total.points|  dollar.value|
-|:-------------------|----------------------:|-------------:|
-| Russell Martin     |                  -1.73|         -4.77|
-| Jackie Bradley Jr. |                   6.93|         19.07|
-| Kyle Seager        |                   5.38|         14.80|
-| Matt Wieters       |                   0.86|          2.36|
-| Miguel Sano        |                   5.99|         16.49|
-| Cody Allen         |                  -0.17|         -0.45|
-| Yan Gomes          |                   1.17|          3.23|
-| Mitch Garver       |                  -0.93|         -2.57|
+| Name             |  marginal.total.points|  dollar.value|
+|:-----------------|----------------------:|-------------:|
+| Adam Duvall      |                   5.70|         15.68|
+| Brandon Crawford |                   3.77|         10.38|
+| Brad Peacock     |                   4.84|         13.32|
+| Kyle Gibson      |                   4.87|         13.41|
+| Peter Alonso     |                     NA|            NA|
+| Odubel Herrera   |                   5.94|         16.35|
+| Jakob Junis      |                   4.90|         13.48|
+| Andrew Miller    |                   5.84|         16.08|
 
 #### Draft Status
 
 | position     |  remaining|   max|   avg|
 |:-------------|----------:|-----:|-----:|
-| catcher      |         27|   8.9|   5.2|
-| dh           |          9|  18.8|  11.9|
+| catcher      |         25|   8.9|   5.3|
+| dh           |          8|  18.8|  11.4|
 | first\_base  |         12|  16.4|  10.0|
-| outfield     |         53|  22.1|  10.2|
+| outfield     |         52|  22.1|  10.0|
 | second\_base |          8|  20.9|   7.3|
 | shortstop    |         10|  13.5|   8.5|
-| third\_base  |         12|  14.8|   9.4|
+| third\_base  |         11|  13.9|   8.9|
 | pitcher      |         92|  17.8|   6.4|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
 | 1B       |                       3|
 | 2B       |                       5|
-| 3B       |                       3|
+| 3B       |                       1|
 | CI       |                      11|
 | DH       |                      15|
 | MI       |                       9|
 | SS       |                       3|
-| C        |                      27|
-| OF       |                      39|
-| P        |                      77|
+| C        |                      23|
+| OF       |                      38|
+| P        |                      76|
 
 #### Current Standings
 
@@ -50,16 +50,16 @@ Fantasy 2019
 | marmaduke  |    216|    44|          11|        34|           81.5|        41.3|          40.2|
 | isotopes   |    208|    52|          11|        42|           79.6|        43.2|          36.4|
 | sturgeon   |    194|    66|          13|        54|           77.7|        51.2|          26.5|
-| pkdodgers  |    220|    40|           6|        35|           75.4|        25.0|          50.4|
+| pkdodgers  |    234|    26|           5|        22|           75.5|        25.0|          50.5|
+| deener     |    245|    15|           6|        10|           74.8|        18.8|          56.0|
 | dembums    |    217|    43|          13|        31|           74.5|        32.8|          41.7|
-| deener     |    238|    22|           7|        16|           74.1|        18.1|          56.0|
+| dsb        |    225|    35|          10|        26|           74.2|        28.9|          45.3|
 | pasadena   |    206|    54|          13|        42|           72.9|        45.3|          27.6|
-| jobu       |    241|    19|           7|        13|           69.9|        29.1|          40.8|
-| chicago    |    190|    70|           9|        62|           66.2|        37.3|          28.9|
-| dsb        |    199|    61|          12|        50|           63.6|        18.3|          45.3|
-| deano      |    213|    47|          13|        35|           62.1|        23.6|          38.5|
+| chicago    |    201|    59|           8|        52|           72.8|        43.9|          28.9|
+| jobu       |    244|    16|           6|        11|           68.7|        27.9|          40.8|
+| deano      |    219|    41|          12|        30|           61.4|        22.9|          38.5|
 | bears      |    166|    94|          12|        83|           59.6|        21.1|          38.5|
-| bellevegas |    188|    72|          10|        63|           53.7|        26.4|          27.3|
+| bellevegas |    192|    68|           9|        60|           51.5|        24.2|          27.3|
 | balco      |    198|    62|          11|        52|           50.8|        23.9|          26.9|
 | hermanos   |    202|    58|           9|        50|           44.3|        19.8|          24.5|
 
@@ -85,23 +85,23 @@ Fantasy 2019
 
 #### Top Remaining Hitters
 
-| Name               | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
-|:-------------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Andrew McCutchen   | Phillies     |  595|   81|   26|   76|   11|  0.263|  8.02|  22.07|
-| Rougned Odor       | Rangers      |  644|   79|   28|   86|   16|  0.249|  7.57|  20.85|
-| Jarrod Dyson       | Diamondbacks |  596|   61|    7|   52|   33|  0.253|  6.98|  19.23|
-| Jackie Bradley Jr. | Red Sox      |  630|   79|   19|   75|   13|  0.248|  6.93|  19.07|
-| Kendrys Morales    | Blue Jays    |  630|   78|   28|   86|    3|  0.249|  6.84|  18.84|
-| Corey Dickerson    | Pirates      |  595|   72|   21|   76|    6|  0.275|  6.66|  18.33|
-| Mark Trumbo        | Orioles      |  595|   70|   29|   83|    1|  0.247|  6.01|  16.55|
-| Miguel Sano        | Twins        |  595|   76|   29|   84|    1|  0.236|  5.99|  16.49|
-| Justin Smoak       | Blue Jays    |  644|   81|   29|   86|    1|  0.239|  5.98|  16.45|
-| Odubel Herrera     | Phillies     |  616|   71|   18|   71|    8|  0.267|  5.94|  16.35|
-| Kevin Kiermaier    | Rays         |  609|   71|   15|   62|   18|  0.238|  5.84|  16.09|
-| Kevin Pillar       | Blue Jays    |  609|   67|   15|   66|   14|  0.258|  5.82|  16.03|
-| Hunter Renfroe     | Padres       |  567|   66|   28|   80|    3|  0.246|  5.79|  15.93|
-| Adam Duvall        | Braves       |  658|   71|   26|   85|    5|  0.226|  5.70|  15.68|
-| Josh Bell          | Pirates      |  616|   73|   19|   76|    5|  0.270|  5.62|  15.48|
+| Name             | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
+|:-----------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
+| Andrew McCutchen | Phillies     |  595|   81|   26|   76|   11|  0.263|  8.02|  22.07|
+| Rougned Odor     | Rangers      |  644|   79|   28|   86|   16|  0.249|  7.57|  20.85|
+| Jarrod Dyson     | Diamondbacks |  596|   61|    7|   52|   33|  0.253|  6.98|  19.23|
+| Kendrys Morales  | Blue Jays    |  630|   78|   28|   86|    3|  0.249|  6.84|  18.84|
+| Corey Dickerson  | Pirates      |  595|   72|   21|   76|    6|  0.275|  6.66|  18.33|
+| Mark Trumbo      | Orioles      |  595|   70|   29|   83|    1|  0.247|  6.01|  16.55|
+| Justin Smoak     | Blue Jays    |  644|   81|   29|   86|    1|  0.239|  5.98|  16.45|
+| Odubel Herrera   | Phillies     |  616|   71|   18|   71|    8|  0.267|  5.94|  16.35|
+| Kevin Kiermaier  | Rays         |  609|   71|   15|   62|   18|  0.238|  5.84|  16.09|
+| Kevin Pillar     | Blue Jays    |  609|   67|   15|   66|   14|  0.258|  5.82|  16.03|
+| Hunter Renfroe   | Padres       |  567|   66|   28|   80|    3|  0.246|  5.79|  15.93|
+| Adam Duvall      | Braves       |  658|   71|   26|   85|    5|  0.226|  5.70|  15.68|
+| Josh Bell        | Pirates      |  616|   73|   19|   76|    5|  0.270|  5.62|  15.48|
+| Kole Calhoun     | Angels       |  630|   79|   21|   71|    6|  0.243|  5.53|  15.21|
+| Ryan McMahon     | Rockies      |  583|   68|   17|   72|    7|  0.270|  5.32|  14.64|
 
 #### Dollars vs. projected points
 
