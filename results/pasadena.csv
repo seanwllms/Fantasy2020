@@ -1,22 +1,22 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",20,"J.T. Realmuto","Marlins","catcher","11739",547,498,60,17,62,5,0.267,6.18,17.01,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",8,"Matt Olson","Athletics","first_base","14344",651,549,86,33,93,2,0.244,7.48,20.6,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",35,"Jose Altuve","Astros","second_base","5417",644,580,88,17,81,17,0.302,8.48,23.35,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",18,"Carlos Correa","Astros","shortstop","14162",644,557,85,26,92,4,0.265,7.29,20.07,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",13,"Eugenio Suarez","Reds","third_base","12552",651,552,82,29,92,4,0.257,7.5,20.66,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",20,"J.T. Realmuto","Marlins","catcher","11739",547,489,61,17,63,6,0.268,6.88,18.93,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",8,"Matt Olson","Athletics","first_base","14344",651,558,87,33,96,3,0.243,7.81,21.51,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",35,"Jose Altuve","Astros","second_base","5417",644,582,93,18,83,20,0.312,9.75,26.85,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",18,"Carlos Correa","Astros","shortstop","14162",644,530,89,27,95,5,0.274,8.27,22.76,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",13,"Eugenio Suarez","Reds","third_base","12552",651,566,86,31,99,4,0.263,8.54,23.5,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",28,"J.D. Martinez","Red Sox","outfield","6184",651,568,101,39,117,4,0.297,12.7,34.97,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",18,"Whit Merrifield","Royals","second_base","11281",637,588,78,11,57,30,0.275,7.32,20.15,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",23,"Kris Bryant","Cubs","third_base","15429",651,548,98,29,87,7,0.275,9.16,25.21,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,453,61,16,61,18,0.244,5.57,15.33,"drafted",NA,NA,NA,NA,NA,NA
+"8","MI",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",28,"J.D. Martinez","Red Sox","outfield","6184",651,546,104,41,123,4,0.302,13.68,37.67,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",18,"Whit Merrifield","Royals","second_base","11281",637,544,78,12,60,29,0.275,7.42,20.43,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",23,"Kris Bryant","Cubs","third_base","15429",651,547,99,30,95,6,0.28,9.79,26.95,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,457,61,15,56,21,0.242,5.76,15.84,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"14","OF6",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",8,"Trevor Bauer","Indians","pitcher","12703",NA,NA,NA,NA,NA,NA,NA,11.39,31.35,"drafted",195,3.54,1.2,0,14,221
-"17","P2",5,"Jose Leclerc","Rangers","pitcher","14524",NA,NA,NA,NA,NA,NA,NA,4.87,13.4,"drafted",65,3.64,1.33,24,3,86
-"18","P3",15,"Yu Darvish","Cubs","pitcher","13074",NA,NA,NA,NA,NA,NA,NA,6.45,17.77,"drafted",139,3.75,1.21,0,10,157
+"14","OF6",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","P1",8,"Trevor Bauer","Indians","pitcher","12703",NA,NA,NA,NA,NA,NA,NA,11.31,31.12,"drafted",195,3.56,1.2,0,14,220
+"17","P2",5,"Jose Leclerc","Rangers","pitcher","14524",NA,NA,NA,NA,NA,NA,NA,5.89,16.2,"drafted",65,3.64,1.32,29,3,86
+"18","P3",15,"Yu Darvish","Cubs","pitcher","13074",NA,NA,NA,NA,NA,NA,NA,6.44,17.72,"drafted",139,3.76,1.21,0,10,157
 "19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5

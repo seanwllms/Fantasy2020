@@ -41,16 +41,18 @@ names(replacement_hitters) <- c("position",
                                 "avg")
 
 #make lists of file names
-projections <- c("steamer", "depthcharts", "fans", "zips", "atc")
+projections <- c("steamer", "depthcharts", "fans", "zips", "atc", "thebat")
 getfiles <- function(proj) {
-  
+
   #build list of paths to files
   folder <- paste0("./", proj, "/")
-  filelist <- list.files(folder)
+  
+  filelist <- list.files(folder) 
+  filelist <- filelist[filelist != "pitcher.csv"]
+
   if (length(filelist) > 0) {
     filelist <- map_chr(filelist, function(x) paste0(folder, x))
   } 
-  
   #for each path, read csv file and clean it up
   dfs <- map(filelist, function(x) {
     if (!str_detect(x, "pitchers"))
@@ -292,7 +294,8 @@ projection_systems <- c("depthcharts",
                         "steamer",
                         "fans",
                         "atc",
-                        "zips")
+                        "zips",
+                        "thebat")
 
 pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
       map(function(x) {if (file.exists(x)) read_csv(x) %>% mutate(proj=x)

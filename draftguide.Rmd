@@ -12,14 +12,14 @@ source("compileleague.R")
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
 
-"Rougned Odor",
-"Andrew McCutchen",
-"Alex Verdugo",
-"Avisail Garcia",
-"Hunter Renfroe",
-"Tyler Flowers",
-"Corey Knebel",
-"Mike Zunino"
+"Adam Ottavino",
+"Anthony Swarzak",
+"Manuel Margot",
+"Chad Green",
+"Robinson Chirinos",
+"Ian Happ",
+"Michael Wacha",
+"Dustin Pedroia"
 
 
 ) %>% 

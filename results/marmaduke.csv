@@ -1,22 +1,22 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",20,"Buster Posey","Giants","catcher","9166",547,483,61,12,62,4,0.287,6.2,17.07,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,564,84,26,89,2,0.283,7.67,21.1,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",20,"Buster Posey","Giants","catcher","9166",547,478,63,12,63,4,0.291,6.81,18.76,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,527,83,24,87,2,0.283,7.23,19.9,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,566,88,32,101,19,0.271,11.54,31.77,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,556,96,26,88,11,0.279,9.54,26.28,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,573,94,34,103,20,0.272,12.22,33.64,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,566,98,27,95,11,0.284,10.36,28.52,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",3,"J.P. Crawford","Mariners","third_base","15491",630,516,66,14,61,8,0.228,2.89,7.96,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",651,570,81,23,79,7,0.259,7.02,19.33,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,565,81,14,63,21,0.284,8.32,22.91,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,544,76,23,82,12,0.27,8.25,22.7,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,547,74,30,85,2,0.251,6.67,18.35,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,87,13,5,15,1,0.243,-3.37,-9.28,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,316,42,12,44,2,0.267,1.39,3.84,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,21.2,7.2,22.1,2.2,0.251,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,13.6,37.44,"drafted",211,3.45,1.11,0,15,223
-"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.16,14.21,"drafted",157,3.96,1.28,0,10,147
-"18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,17.18,47.29,"drafted",210,3.13,1.04,0,15,274
+"8","MI",3,"J.P. Crawford","Mariners","third_base","15491",490,387,51,11,46,6,0.225,0.54,1.49,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",644,566,88,25,85,7,0.267,8.22,22.63,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,558,89,14,61,23,0.291,9.21,25.35,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,518,79,25,82,11,0.269,8.4,23.11,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,521,73,29,86,2,0.251,6.63,18.26,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,103,12,5,15,1,0.241,-3.43,-9.43,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,306,41,12,44,2,0.263,1.23,3.38,"drafted",NA,NA,NA,NA,NA,NA
+"15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,13.43,36.97,"drafted",211,3.46,1.12,0,15,223
+"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.5,15.13,"drafted",157,3.97,1.28,0,11,147
+"18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,17.21,47.38,"drafted",210,3.13,1.04,0,15,275
 "19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
