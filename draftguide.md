@@ -3,29 +3,29 @@ Fantasy 2019
 
 #### Today's auction
 
-| Name              |  marginal.total.points|  dollar.value|
-|:------------------|----------------------:|-------------:|
-| Adam Ottavino     |                   1.59|          4.38|
-| Anthony Swarzak   |                   3.63|          9.99|
-| Manuel Margot     |                   3.99|         10.97|
-| Chad Green        |                   2.28|          6.27|
-| Robinson Chirinos |                   2.21|          6.08|
-| Ian Happ          |                   3.30|          9.09|
-| Michael Wacha     |                   0.61|          1.67|
-| Dustin Pedroia    |                   2.24|          6.16|
+| Name               |  marginal.total.points|  dollar.value|
+|:-------------------|----------------------:|-------------:|
+| Kurt Suzuki        |                   2.64|          7.26|
+| Welington Castillo |                   3.78|         10.41|
+| Gregory Polanco    |                   3.68|         10.13|
+| Marco Gonzales     |                   5.78|         15.92|
+| Enrique Hernandez  |                   4.10|         11.28|
+| Austin Hedges      |                   1.61|          4.43|
+| Yuli Gurriel       |                   4.76|         13.09|
+| Jorge Alfaro       |                   2.48|          6.82|
 
 #### Draft Status
 
 | position     |  remaining|   max|   avg|
 |:-------------|----------:|-----:|-----:|
-| catcher      |         23|  11.1|   5.8|
-| dh           |          5|  17.2|   8.2|
-| first\_base  |         13|  17.0|  10.3|
-| outfield     |         49|  18.7|   9.1|
-| second\_base |          7|  10.6|   5.5|
-| shortstop    |         11|  12.0|   7.0|
-| third\_base  |         10|  14.1|   7.6|
-| pitcher      |         85|  14.9|   5.7|
+| catcher      |         22|  11.1|   5.8|
+| dh           |          5|  17.1|   8.4|
+| first\_base  |         12|  17.0|  11.0|
+| outfield     |         49|  18.2|   8.9|
+| second\_base |          6|  10.6|   5.6|
+| shortstop    |         11|  12.2|   7.0|
+| third\_base  |         10|  14.0|   7.6|
+| pitcher      |         91|  15.9|   5.3|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
@@ -34,74 +34,74 @@ Fantasy 2019
 | 3B       |                       1|
 | CI       |                      10|
 | DH       |                      15|
-| MI       |                       8|
+| MI       |                       7|
 | SS       |                       2|
-| C        |                      21|
-| OF       |                      32|
-| P        |                      71|
+| C        |                      20|
+| OF       |                      30|
+| P        |                      67|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
-| allrise    |    219|    41|          12|        30|           98.3|        43.5|          54.8|
-| ottawa     |    214|    46|          10|        37|           85.6|        34.9|          50.7|
-| pkdodgers  |    242|    18|           4|        15|           85.5|        31.3|          54.2|
-| rippe      |    219|    41|          11|        31|           84.6|        30.8|          53.8|
-| marmaduke  |    216|    44|          11|        34|           82.3|        42.0|          40.3|
-| dsb        |    238|    22|           9|        14|           81.5|        35.7|          45.8|
-| isotopes   |    208|    52|          11|        42|           81.2|        45.0|          36.2|
-| pasadena   |    206|    54|          13|        42|           77.5|        49.0|          28.5|
-| sturgeon   |    208|    52|          11|        42|           77.4|        50.8|          26.6|
-| deener     |    250|    10|           5|         6|           76.4|        19.5|          56.9|
-| chicago    |    204|    56|           7|        50|           76.2|        47.0|          29.2|
-| dembums    |    217|    43|          13|        31|           76.1|        32.8|          43.3|
-| jobu       |    248|    12|           5|         8|           74.4|        33.9|          40.5|
-| deano      |    243|    17|          10|         8|           68.4|        23.2|          45.2|
-| bears      |    189|    71|          11|        61|           65.1|        27.1|          38.0|
-| bellevegas |    209|    51|           7|        45|           61.2|        27.4|          33.8|
-| balco      |    207|    53|          10|        44|           57.2|        25.5|          31.7|
-| hermanos   |    221|    39|           8|        32|           51.3|        28.6|          22.7|
+| allrise    |    219|    41|          12|        30|           98.3|        44.2|          54.1|
+| marmaduke  |    228|    32|           9|        24|           90.0|        41.7|          48.3|
+| rippe      |    223|    37|          10|        28|           89.6|        31.4|          58.2|
+| ottawa     |    214|    46|          10|        37|           87.0|        35.9|          51.1|
+| pkdodgers  |    249|    11|           3|         9|           85.0|        30.3|          54.7|
+| isotopes   |    215|    45|          10|        36|           84.8|        46.0|          38.8|
+| dsb        |    238|    22|           9|        14|           84.1|        36.0|          48.1|
+| deener     |    250|    10|           5|         6|           79.7|        18.7|          61.0|
+| chicago    |    204|    56|           7|        50|           78.4|        46.2|          32.2|
+| pasadena   |    206|    54|          13|        42|           77.9|        50.0|          27.9|
+| jobu       |    252|     8|           4|         5|           77.0|        31.9|          45.1|
+| dembums    |    217|    43|          13|        31|           76.7|        33.9|          42.8|
+| sturgeon   |    208|    52|          11|        42|           74.8|        51.0|          23.8|
+| bellevegas |    227|    33|           5|        29|           71.6|        33.7|          37.9|
+| deano      |    243|    17|          10|         8|           70.4|        24.0|          46.4|
+| bears      |    189|    71|          11|        61|           66.0|        27.8|          38.2|
+| balco      |    207|    53|          10|        44|           58.6|        25.7|          32.9|
+| hermanos   |    221|    39|           8|        32|           52.6|        28.7|          23.9|
 
 #### Top Remaining Pitchers
 
-| Name               | Team     |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
-|:-------------------|:---------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
-| Marco Gonzales     | Mariners |  180|  4.08|  1.28|  149|    0|   11|  5.42|  14.93|
-| Drew Steckenrider  | Marlins  |   65|  3.53|  1.25|   74|   26|    3|  5.29|  14.57|
-| Steven Matz        | Mets     |  162|  4.03|  1.29|  155|    0|   10|  5.21|  14.33|
-| Mychal Givens      | Orioles  |   65|  4.05|  1.30|   69|   29|    3|  5.06|  13.93|
-| Joe Musgrove       | Pirates  |  162|  4.02|  1.27|  141|    0|   10|  4.97|  13.68|
-| Brandon Morrow     | Cubs     |   55|  3.44|  1.21|   59|   25|    3|  4.68|  12.87|
-| Shane Greene       | Tigers   |   65|  4.24|  1.35|   62|   28|    3|  4.25|  11.69|
-| Danny Duffy        | Royals   |  185|  4.36|  1.33|  162|    0|   10|  4.25|  11.69|
-| Collin McHugh      | Astros   |  151|  4.29|  1.29|  142|    0|   10|  4.24|  11.67|
-| Caleb Smith        | Marlins  |  141|  3.98|  1.29|  145|    0|    8|  4.18|  11.50|
-| Sonny Gray         | Reds     |  145|  3.89|  1.33|  141|    0|    9|  4.17|  11.49|
-| Dellin Betances    | Yankees  |   75|  2.84|  1.11|  112|    1|    5|  3.93|  10.81|
-| Anthony DeSclafani | Reds     |  153|  4.34|  1.29|  142|    0|    9|  3.79|  10.43|
-| Vince Velasquez    | Phillies |  150|  4.41|  1.33|  156|    0|    9|  3.73|  10.26|
-| Blake Parker       | Twins    |   65|  4.21|  1.29|   64|   23|    3|  3.64|  10.01|
+| Name               | Team      |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
+|:-------------------|:----------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
+| Marco Gonzales     | Mariners  |  180|  4.02|  1.27|  152|    0|   11|  5.78|  15.92|
+| Collin McHugh      | Astros    |  151|  4.07|  1.25|  153|    0|   10|  5.44|  14.99|
+| Joe Musgrove       | Pirates   |  162|  4.01|  1.25|  141|    0|   10|  5.21|  14.35|
+| Steven Matz        | Mets      |  162|  4.03|  1.29|  153|    0|    9|  4.78|  13.17|
+| Danny Duffy        | Royals    |  185|  4.31|  1.33|  164|    0|   10|  4.43|  12.20|
+| Mike Minor         | Rangers   |  175|  4.49|  1.30|  160|    0|   10|  4.29|  11.82|
+| Sonny Gray         | Reds      |  145|  3.92|  1.31|  140|    0|    9|  4.28|  11.79|
+| Marcus Stroman     | Blue Jays |  177|  4.06|  1.36|  138|    0|   11|  4.11|  11.30|
+| Dellin Betances    | Yankees   |   75|  2.84|  1.12|  116|    3|    4|  4.05|  11.14|
+| Caleb Smith        | Marlins   |  141|  3.99|  1.28|  145|    0|    7|  3.90|  10.74|
+| Vince Velasquez    | Phillies  |  150|  4.36|  1.33|  158|    0|    9|  3.89|  10.70|
+| Alex Wood          | Reds      |  137|  4.02|  1.29|  123|    0|    9|  3.69|  10.17|
+| Drew Steckenrider  | Marlins   |   65|  3.43|  1.25|   76|   17|    3|  3.69|  10.16|
+| Jeff Samardzija    | Giants    |  165|  4.34|  1.29|  134|    0|    9|  3.50|   9.65|
+| Anthony DeSclafani | Reds      |  153|  4.44|  1.30|  142|    0|    9|  3.49|   9.61|
 
 #### Top Remaining Hitters
 
-| Name              | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
-|:------------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Corey Dickerson   | Pirates      |  595|   72|   21|   78|    6|  0.276|  6.78|  18.68|
-| Kevin Kiermaier   | Rays         |  609|   72|   16|   62|   19|  0.240|  6.29|  17.31|
-| Kendrys Morales   | Blue Jays    |  630|   75|   27|   82|    3|  0.249|  6.26|  17.22|
-| Justin Smoak      | Blue Jays    |  644|   82|   28|   87|    1|  0.243|  6.19|  17.04|
-| Brandon Belt      | Giants       |  630|   80|   21|   80|    4|  0.260|  5.93|  16.33|
-| Wilmer Flores     | Diamondbacks |  604|   71|   22|   81|    2|  0.278|  5.87|  16.17|
-| Domingo Santana   | Mariners     |  609|   73|   22|   75|    7|  0.246|  5.86|  16.12|
-| Kevin Pillar      | Blue Jays    |  609|   67|   15|   65|   14|  0.257|  5.83|  16.04|
-| Mark Trumbo       | Orioles      |  595|   68|   28|   80|    1|  0.245|  5.67|  15.60|
-| Josh Bell         | Pirates      |  616|   73|   19|   76|    5|  0.268|  5.58|  15.35|
-| Kole Calhoun      | Angels       |  630|   78|   21|   72|    6|  0.242|  5.48|  15.09|
-| Steven Souza Jr.  | Diamondbacks |  560|   67|   20|   66|   11|  0.240|  5.41|  14.88|
-| Enrique Hernandez | Dodgers      |  583|   71|   23|   73|    4|  0.246|  5.17|  14.24|
-| Hernan Perez      | Brewers      |  545|   58|   15|   61|   15|  0.253|  5.17|  14.23|
-| Evan Longoria     | Giants       |  630|   68|   21|   79|    4|  0.256|  5.11|  14.06|
+| Name             | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
+|:-----------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
+| Corey Dickerson  | Pirates      |  595|   72|   21|   75|    6|  0.277|  6.61|  18.19|
+| Kevin Kiermaier  | Rays         |  609|   74|   16|   61|   19|  0.241|  6.40|  17.62|
+| Kendrys Morales  | Blue Jays    |  630|   74|   26|   82|    2|  0.250|  6.20|  17.05|
+| Justin Smoak     | Blue Jays    |  644|   81|   29|   87|    1|  0.244|  6.16|  16.97|
+| Kevin Pillar     | Blue Jays    |  609|   68|   15|   65|   14|  0.258|  5.98|  16.45|
+| Domingo Santana  | Mariners     |  609|   73|   22|   74|    7|  0.248|  5.91|  16.27|
+| Brandon Belt     | Giants       |  630|   79|   21|   79|    4|  0.259|  5.85|  16.11|
+| Mark Trumbo      | Orioles      |  595|   69|   28|   80|    1|  0.246|  5.65|  15.57|
+| Wilmer Flores    | Diamondbacks |  604|   69|   22|   80|    2|  0.275|  5.63|  15.50|
+| Josh Bell        | Pirates      |  616|   74|   20|   76|    4|  0.268|  5.61|  15.43|
+| Kole Calhoun     | Angels       |  630|   78|   21|   71|    6|  0.241|  5.43|  14.94|
+| Hernan Perez     | Brewers      |  545|   58|   15|   60|   16|  0.254|  5.40|  14.86|
+| Steven Souza Jr. | Diamondbacks |  560|   66|   21|   67|   11|  0.239|  5.38|  14.82|
+| Leonys Martin    | Indians      |  525|   64|   15|   55|   16|  0.249|  5.30|  14.59|
+| Evan Longoria    | Giants       |  630|   68|   21|   78|    4|  0.256|  5.07|  13.96|
 
 #### Dollars vs. projected points
 
@@ -113,7 +113,7 @@ Fantasy 2019
 
 #### Unmatched Draft Picks
 
-    ## # A tibble: 16 x 3
+    ## # A tibble: 14 x 3
     ##    player                team      error      
     ##    <chr>                 <chr>     <chr>      
     ##  1 Luis Robert           allrise   not matched
@@ -124,11 +124,9 @@ Fantasy 2019
     ##  6 Forest Whitley        dembums   not matched
     ##  7 Sixto Sanchez         hermanos  not matched
     ##  8 Vladimir Guerrero Jr. ottawa    not matched
-    ##  9 Brendan Rodgers       pasadena  not matched
-    ## 10 Austin Riley          pasadena  not matched
-    ## 11 Yusei Kikuchi         rippe     not matched
-    ## 12 Bo Bichette           sturgeon  not matched
-    ## 13 Nick Senzel           marmaduke not matched
-    ## 14 Michael Kopech        deano     not matched
-    ## 15 Kyler Murray          bears     not matched
-    ## 16 Peter Alonso          sturgeon  not matched
+    ##  9 Austin Riley          pasadena  not matched
+    ## 10 Yusei Kikuchi         rippe     not matched
+    ## 11 Nick Senzel           marmaduke not matched
+    ## 12 Michael Kopech        deano     not matched
+    ## 13 Kyler Murray          bears     not matched
+    ## 14 Peter Alonso          sturgeon  not matched

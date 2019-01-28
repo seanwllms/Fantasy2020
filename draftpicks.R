@@ -103,6 +103,4 @@ for (pick in 1:nrow(draftpicks)) {
             pick_salary, 
             pick_position)
       
-      #remove leftover variable that isn't needed
-      remove(a)
 }

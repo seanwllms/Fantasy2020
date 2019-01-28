@@ -1,24 +1,24 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",20,"Buster Posey","Giants","catcher","9166",547,478,63,12,63,4,0.291,6.81,18.76,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",20,"Buster Posey","Giants","catcher","9166",547,473,63,12,62,4,0.291,6.64,18.27,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,527,83,24,87,2,0.283,7.23,19.9,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,494,81,24,87,1,0.283,7.03,19.36,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,573,94,34,103,20,0.272,12.22,33.64,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,566,98,27,95,11,0.284,10.36,28.52,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,571,92,34,103,20,0.272,12.11,33.34,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",13,"Alex Bregman","Astros","third_base","17678",651,569,99,27,95,11,0.284,10.35,28.49,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",3,"J.P. Crawford","Mariners","third_base","15491",490,387,51,11,46,6,0.225,0.54,1.49,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",644,566,88,25,85,7,0.267,8.22,22.63,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,558,89,14,61,23,0.291,9.21,25.35,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,518,79,25,82,11,0.269,8.4,23.11,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,521,73,29,86,2,0.251,6.63,18.26,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,103,12,5,15,1,0.241,-3.43,-9.43,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,306,41,12,44,2,0.263,1.23,3.38,"drafted",NA,NA,NA,NA,NA,NA
+"8","MI",3,"J.P. Crawford","Mariners","third_base","15491",490,388,52,10,45,6,0.227,0.65,1.78,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",12,"Mitch Haniger","Mariners","outfield","14274",644,567,86,24,85,7,0.268,8.14,22.4,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",22,"Lorenzo Cain","Brewers","outfield","9077",630,555,89,13,59,23,0.291,9.22,25.39,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",22,"David Dahl","Rockies","outfield","13744",609,514,79,25,84,12,0.271,8.75,24.08,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,507,76,29,87,2,0.253,6.85,18.85,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,132,13,5,15,1,0.242,-3.36,-9.25,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,314,41,12,43,2,0.262,1.1,3.02,"drafted",NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,13.43,36.97,"drafted",211,3.46,1.12,0,15,223
-"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.5,15.13,"drafted",157,3.97,1.28,0,11,147
-"18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,17.21,47.38,"drafted",210,3.13,1.04,0,15,275
-"19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
-"20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,14.8,40.74,"drafted",211,3.36,1.08,0,16,228
+"17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.77,15.88,"drafted",157,3.94,1.27,0,11,150
+"18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,18.3,50.37,"drafted",210,3.03,1.01,0,16,276
+"19","P4",7,"Anthony Swarzak","Mariners","pitcher","7466",NA,NA,NA,NA,NA,NA,NA,3.08,8.48,"drafted",65,3.93,1.27,18,3,67
+"20","P5",5,"Chad Green","Yankees","pitcher","15552",NA,NA,NA,NA,NA,NA,NA,2.13,5.87,"drafted",70,3.32,1.12,1,4,88
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5

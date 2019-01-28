@@ -49,6 +49,7 @@ getfiles <- function(proj) {
   
   filelist <- list.files(folder) 
   filelist <- filelist[filelist != "pitcher.csv"]
+  filelist <- filelist[filelist != "pitchers.csv"]
 
   if (length(filelist) > 0) {
     filelist <- map_chr(filelist, function(x) paste0(folder, x))
