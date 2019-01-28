@@ -172,6 +172,24 @@ plot
   
 ```
 
+####Best Draft Picks
+```{r, echo = FALSE}
+library(lubridate)
+valuepicks <- draftpicks %>% 
+  left_join(hitter_projections, by=c("player"="Name")) %>% 
+  left_join(pitcher_projections, by=c("player"="Name")) %>%
+  mutate(drafted=ymd(drafted)) %>% 
+  filter(year(drafted)==2019) %>% 
+  select(team, player, salary, dollar.value.x, dollar.value.y) %>% 
+  mutate(dollar_value = pmax(dollar.value.x, dollar.value.y, na.rm=TRUE),
+         equity = dollar_value - salary) %>% 
+  arrange(-equity) %>% 
+  select(team, player, salary, dollar_value, equity) %>% 
+  filter(row_number() <21)
+
+kable(valuepicks)
+```
+
 ####Unmatched Draft Picks
 ```{r, echo = FALSE,}
 drafterrors

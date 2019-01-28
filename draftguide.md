@@ -109,9 +109,40 @@ Fantasy 2019
 
 #### Remaining Picks vs. projected points
 
-![](draftguide_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](draftguide_files/figure-markdown_github/unnamed-chunk-9-1.png) \#\#\#\#Best Draft Picks
 
-#### Unmatched Draft Picks
+    ## Warning: package 'lubridate' was built under R version 3.4.4
+
+    ## 
+    ## Attaching package: 'lubridate'
+
+    ## The following object is masked from 'package:base':
+    ## 
+    ##     date
+
+| team              | player             |  salary|  dollar\_value|  equity|
+|:------------------|:-------------------|-------:|--------------:|-------:|
+| balco             | Jose Alvarado      |       5|          15.73|   10.73|
+| sturgeon          | Brad Peacock       |       5|          15.57|   10.57|
+| bellevegas        | Asdrubal Cabrera   |       5|          14.08|    9.08|
+| pkdodgers         | Rich Hill          |      15|          23.02|    8.02|
+| deener            | Marcus Semien      |       9|          16.45|    7.45|
+| chicago           | Miguel Sano        |      11|          18.32|    7.32|
+| chicago           | Ryan Braun         |      15|          22.26|    7.26|
+| bellevegas        | Kyle Gibson        |       8|          14.95|    6.95|
+| marmaduke         | Miguel Cabrera     |      13|          19.36|    6.36|
+| bellevegas        | Jakob Junis        |       9|          15.15|    6.15|
+| jobu              | Brandon Crawford   |       4|           9.72|    5.72|
+| chicago           | Chris Archer       |      20|          25.64|    5.64|
+| dsb               | Jackie Bradley Jr. |      15|          20.43|    5.43|
+| deener            | Ryan Brasier       |       3|           8.38|    5.38|
+| allrise           | David Robertson    |       8|          13.37|    5.37|
+| bears             | Jose Quintana      |      14|          19.26|    5.26|
+| jobu              | Dylan Bundy        |       6|          10.96|    4.96|
+| chicago           | Adam Eaton         |      13|          17.93|    4.93|
+| chicago           | Adam Jones         |      11|          15.91|    4.91|
+| dsb               | Odubel Herrera     |      13|          17.68|    4.68|
+| \#\#\#\#Unmatched | Draft Picks        |        |               |        |
 
     ## # A tibble: 14 x 3
     ##    player                team      error      
