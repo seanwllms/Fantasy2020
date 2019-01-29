@@ -67,8 +67,18 @@ standings <- mutate(standings, total_points =
       mutate(total_points = round(total_points,1)) %>%
       arrange(desc(total_points))
 
-#Rownames
-rownames(standings) <- standings$team_name
 
 
+bench_bucks <- draftpicks %>% 
+  filter(position == "B", salary >0) %>% 
+  group_by(team) %>% 
+  summarise(bench_dollars = sum(salary)) 
+
+
+standings <- standings %>% 
+  left_join(bench_bucks, by=c("team_name" = "team")) %>% 
+  mutate(
+    bench_dollars = ifelse(is.na(bench_dollars), 0, bench_dollars),
+    spent = spent + bench_dollars,
+    left = left - bench_dollars)
 

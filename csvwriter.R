@@ -24,5 +24,7 @@ standings.output <- select(standings,
                            total_points, R_points, HR_points, RBI_points, 
                            SB_points, AVG_points, ERA_points, WHIP_points, K_points, SV_points, W_points)
 
+
+
 write.csv(standings.output, file="./results/standings.csv")
 
