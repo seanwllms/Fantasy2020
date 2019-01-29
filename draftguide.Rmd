@@ -11,15 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-
-"Kurt Suzuki",
-"Welington Castillo",
-"Gregory Polanco",
-"Marco Gonzales",
-"Enrique Hernandez",
-"Austin Hedges", 
-"Yuli Gurriel",
-"Jorge Alfaro" 
+"Pedro Strop",
+"Didi Gregorius",
+"Jeimer Candelario",
+"Drew Steckenrider",
+"Aaron Altherr",
+"Jonathan Lucroy",
+"Joe Musgrove",
+"Domingo Santana"
 
 ) %>% 
   tbl_df() %>% 
@@ -173,7 +172,7 @@ plot
 ```
 
 ####Best Draft Picks
-```{r, echo = FALSE}
+```{r, echo = FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(lubridate)
 valuepicks <- draftpicks %>% 
   left_join(hitter_projections, by=c("player"="Name")) %>% 
@@ -191,6 +190,6 @@ kable(valuepicks)
 ```
 
 ####Unmatched Draft Picks
-```{r, echo = FALSE,}
+```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 drafterrors
 ```

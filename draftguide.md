@@ -3,71 +3,70 @@ Fantasy 2019
 
 #### Today's auction
 
-| Name               |  marginal.total.points|  dollar.value|
-|:-------------------|----------------------:|-------------:|
-| Kurt Suzuki        |                   2.64|          7.26|
-| Welington Castillo |                   3.78|         10.41|
-| Gregory Polanco    |                   3.68|         10.13|
-| Marco Gonzales     |                   5.78|         15.92|
-| Enrique Hernandez  |                   4.10|         11.28|
-| Austin Hedges      |                   1.61|          4.43|
-| Yuli Gurriel       |                   4.76|         13.09|
-| Jorge Alfaro       |                   2.48|          6.82|
+| Name              |  marginal.total.points|  dollar.value|
+|:------------------|----------------------:|-------------:|
+| Pedro Strop       |                   0.96|          2.65|
+| Didi Gregorius    |                   0.74|          2.04|
+| Jeimer Candelario |                   4.04|         11.12|
+| Drew Steckenrider |                   3.69|         10.16|
+| Aaron Altherr     |                     NA|            NA|
+| Jonathan Lucroy   |                   2.28|          6.28|
+| Joe Musgrove      |                   5.21|         14.35|
+| Domingo Santana   |                   5.91|         16.27|
 
 #### Draft Status
 
 | position     |  remaining|   max|   avg|
 |:-------------|----------:|-----:|-----:|
-| catcher      |         22|  11.1|   5.8|
+| catcher      |         18|  11.1|   5.4|
 | dh           |          5|  17.1|   8.4|
-| first\_base  |         12|  17.0|  11.0|
-| outfield     |         49|  18.2|   8.9|
+| first\_base  |         11|  17.0|  10.8|
+| outfield     |         47|  18.2|   8.8|
 | second\_base |          6|  10.6|   5.6|
 | shortstop    |         11|  12.2|   7.0|
 | third\_base  |         10|  14.0|   7.6|
-| pitcher      |         91|  15.9|   5.3|
+| pitcher      |         90|  15.0|   5.2|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
 | 1B       |                       3|
-| 2B       |                       5|
+| 2B       |                       4|
 | 3B       |                       1|
 | CI       |                      10|
-| DH       |                      15|
+| DH       |                      14|
 | MI       |                       7|
 | SS       |                       2|
-| C        |                      20|
-| OF       |                      30|
-| P        |                      67|
+| C        |                      16|
+| OF       |                      29|
+| P        |                      66|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
-| allrise    |    219|    41|          12|        30|           98.3|        44.2|          54.1|
-| marmaduke  |    228|    32|           9|        24|           90.0|        41.7|          48.3|
+| allrise    |    228|    32|          11|        22|          102.2|        48.1|          54.1|
+| marmaduke  |    240|    20|           7|        14|           95.6|        43.8|          51.8|
+| pkdodgers  |    256|     4|           2|         3|           90.4|        35.7|          54.7|
 | rippe      |    223|    37|          10|        28|           89.6|        31.4|          58.2|
 | ottawa     |    214|    46|          10|        37|           87.0|        35.9|          51.1|
-| pkdodgers  |    249|    11|           3|         9|           85.0|        30.3|          54.7|
 | isotopes   |    215|    45|          10|        36|           84.8|        46.0|          38.8|
 | dsb        |    238|    22|           9|        14|           84.1|        36.0|          48.1|
+| pasadena   |    215|    45|          12|        34|           80.1|        52.2|          27.9|
 | deener     |    250|    10|           5|         6|           79.7|        18.7|          61.0|
 | chicago    |    204|    56|           7|        50|           78.4|        46.2|          32.2|
-| pasadena   |    206|    54|          13|        42|           77.9|        50.0|          27.9|
 | jobu       |    252|     8|           4|         5|           77.0|        31.9|          45.1|
 | dembums    |    217|    43|          13|        31|           76.7|        33.9|          42.8|
 | sturgeon   |    208|    52|          11|        42|           74.8|        51.0|          23.8|
 | bellevegas |    227|    33|           5|        29|           71.6|        33.7|          37.9|
+| bears      |    200|    60|          10|        51|           70.8|        32.6|          38.2|
 | deano      |    243|    17|          10|         8|           70.4|        24.0|          46.4|
-| bears      |    189|    71|          11|        61|           66.0|        27.8|          38.2|
-| balco      |    207|    53|          10|        44|           58.6|        25.7|          32.9|
-| hermanos   |    221|    39|           8|        32|           52.6|        28.7|          23.9|
+| balco      |    212|    48|           9|        40|           58.0|        25.1|          32.9|
+| hermanos   |    230|    30|           7|        24|           55.7|        31.8|          23.9|
 
 #### Top Remaining Pitchers
 
 | Name               | Team      |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
 |:-------------------|:----------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
-| Marco Gonzales     | Mariners  |  180|  4.02|  1.27|  152|    0|   11|  5.78|  15.92|
 | Collin McHugh      | Astros    |  151|  4.07|  1.25|  153|    0|   10|  5.44|  14.99|
 | Joe Musgrove       | Pirates   |  162|  4.01|  1.25|  141|    0|   10|  5.21|  14.35|
 | Steven Matz        | Mets      |  162|  4.03|  1.29|  153|    0|    9|  4.78|  13.17|
@@ -82,6 +81,7 @@ Fantasy 2019
 | Drew Steckenrider  | Marlins   |   65|  3.43|  1.25|   76|   17|    3|  3.69|  10.16|
 | Jeff Samardzija    | Giants    |  165|  4.34|  1.29|  134|    0|    9|  3.50|   9.65|
 | Anthony DeSclafani | Reds      |  153|  4.44|  1.30|  142|    0|    9|  3.49|   9.61|
+| Mychal Givens      | Orioles   |   65|  3.89|  1.27|   69|   19|    3|  3.38|   9.30|
 
 #### Top Remaining Hitters
 
@@ -109,40 +109,34 @@ Fantasy 2019
 
 #### Remaining Picks vs. projected points
 
-![](draftguide_files/figure-markdown_github/unnamed-chunk-9-1.png) \#\#\#\#Best Draft Picks
+![](draftguide_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
-    ## Warning: package 'lubridate' was built under R version 3.4.4
+#### Best Draft Picks
 
-    ## 
-    ## Attaching package: 'lubridate'
+| team       | player             |  salary|  dollar\_value|  equity|
+|:-----------|:-------------------|-------:|--------------:|-------:|
+| balco      | Jose Alvarado      |       5|          15.73|   10.73|
+| sturgeon   | Brad Peacock       |       5|          15.57|   10.57|
+| bellevegas | Asdrubal Cabrera   |       5|          14.08|    9.08|
+| pkdodgers  | Rich Hill          |      15|          23.02|    8.02|
+| marmaduke  | Marco Gonzales     |       8|          15.92|    7.92|
+| deener     | Marcus Semien      |       9|          16.45|    7.45|
+| chicago    | Miguel Sano        |      11|          18.32|    7.32|
+| chicago    | Ryan Braun         |      15|          22.26|    7.26|
+| bellevegas | Kyle Gibson        |       8|          14.95|    6.95|
+| marmaduke  | Miguel Cabrera     |      13|          19.36|    6.36|
+| bellevegas | Jakob Junis        |       9|          15.15|    6.15|
+| jobu       | Brandon Crawford   |       4|           9.72|    5.72|
+| chicago    | Chris Archer       |      20|          25.64|    5.64|
+| dsb        | Jackie Bradley Jr. |      15|          20.43|    5.43|
+| deener     | Ryan Brasier       |       3|           8.38|    5.38|
+| allrise    | David Robertson    |       8|          13.37|    5.37|
+| bears      | Jose Quintana      |      14|          19.26|    5.26|
+| jobu       | Dylan Bundy        |       6|          10.96|    4.96|
+| chicago    | Adam Eaton         |      13|          17.93|    4.93|
+| chicago    | Adam Jones         |      11|          15.91|    4.91|
 
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     date
-
-| team              | player             |  salary|  dollar\_value|  equity|
-|:------------------|:-------------------|-------:|--------------:|-------:|
-| balco             | Jose Alvarado      |       5|          15.73|   10.73|
-| sturgeon          | Brad Peacock       |       5|          15.57|   10.57|
-| bellevegas        | Asdrubal Cabrera   |       5|          14.08|    9.08|
-| pkdodgers         | Rich Hill          |      15|          23.02|    8.02|
-| deener            | Marcus Semien      |       9|          16.45|    7.45|
-| chicago           | Miguel Sano        |      11|          18.32|    7.32|
-| chicago           | Ryan Braun         |      15|          22.26|    7.26|
-| bellevegas        | Kyle Gibson        |       8|          14.95|    6.95|
-| marmaduke         | Miguel Cabrera     |      13|          19.36|    6.36|
-| bellevegas        | Jakob Junis        |       9|          15.15|    6.15|
-| jobu              | Brandon Crawford   |       4|           9.72|    5.72|
-| chicago           | Chris Archer       |      20|          25.64|    5.64|
-| dsb               | Jackie Bradley Jr. |      15|          20.43|    5.43|
-| deener            | Ryan Brasier       |       3|           8.38|    5.38|
-| allrise           | David Robertson    |       8|          13.37|    5.37|
-| bears             | Jose Quintana      |      14|          19.26|    5.26|
-| jobu              | Dylan Bundy        |       6|          10.96|    4.96|
-| chicago           | Adam Eaton         |      13|          17.93|    4.93|
-| chicago           | Adam Jones         |      11|          15.91|    4.91|
-| dsb               | Odubel Herrera     |      13|          17.68|    4.68|
-| \#\#\#\#Unmatched | Draft Picks        |        |               |        |
+#### Unmatched Draft Picks
 
     ## # A tibble: 14 x 3
     ##    player                team      error      

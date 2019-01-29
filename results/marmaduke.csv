@@ -1,6 +1,6 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
 "1","C1",20,"Buster Posey","Giants","catcher","9166",547,473,63,12,62,4,0.291,6.64,18.27,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","C2",4,"Kurt Suzuki","Nationals","catcher","8259",307,271,35,10,40,1,0.267,2.64,7.26,"drafted",NA,NA,NA,NA,NA,NA
 "3","1B",13,"Miguel Cabrera","Tigers","first_base","1744",651,494,81,24,87,1,0.283,7.03,19.36,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "5","SS",13,"Trevor Story","Rockies","shortstop","12564",644,571,92,34,103,20,0.272,12.11,33.34,"drafted",NA,NA,NA,NA,NA,NA
@@ -19,7 +19,7 @@
 "18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,18.3,50.37,"drafted",210,3.03,1.01,0,16,276
 "19","P4",7,"Anthony Swarzak","Mariners","pitcher","7466",NA,NA,NA,NA,NA,NA,NA,3.08,8.48,"drafted",65,3.93,1.27,18,3,67
 "20","P5",5,"Chad Green","Yankees","pitcher","15552",NA,NA,NA,NA,NA,NA,NA,2.13,5.87,"drafted",70,3.32,1.12,1,4,88
-"21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"21","P6",8,"Marco Gonzales","Mariners","pitcher","15467",NA,NA,NA,NA,NA,NA,NA,5.78,15.92,"drafted",180,4.02,1.27,0,11,152
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
