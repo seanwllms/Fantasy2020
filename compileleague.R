@@ -31,3 +31,4 @@ source("calculatestandings.R")
 source("csvwriter.R")
 
 standings.output
+
