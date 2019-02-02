@@ -11,14 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-"Mychal Givens",
-"Brandon Morrow",
-"Shane Greene",
-"Isiah Kiner-Falefa",
-"Ketel Marte",
-"John Hicks",
-"Troy Tulowitzki",
-"Lou Trivino"
+"Caleb Ferguson",
+"Jorge Soler",
+"Francisco Cervelli",
+"Chris Iannetta",
+"Josh Bell",
+"Dellin Betances",
+"Omar Narvaez",
+"Jeremy Jeffress"
 
 ) %>% 
   tbl_df() %>% 
@@ -76,6 +76,13 @@ big_team_df <- filter(big_team_df, Name=="") %>%
          P = P1+P2+P3+P4+P5+P6+P7+P8+P9+P10) %>% 
   select(-(P1:P9), -(OF1:OF6), -(C1:C2)) %>% 
   gather(Position, Still_to_be_Drafted)
+
+
+tot_picks <- data.frame(Position = "Total",
+                        Still_to_be_Drafted=sum(big_team_df$Still_to_be_Drafted))
+
+
+big_team_df <- rbind(big_team_df, tot_picks)
 
 kable(big_team_df)
 
