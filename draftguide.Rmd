@@ -11,14 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-"Caleb Ferguson",
-"Jorge Soler",
-"Francisco Cervelli",
-"Chris Iannetta",
-"Josh Bell",
-"Dellin Betances",
-"Omar Narvaez",
-"Jeremy Jeffress"
+"Dexter Fowler",
+"Teoscar Hernandez",
+"Robbie Erlin",
+"Brandon Woodruff",
+"Yoenis Cespedes",
+"Mike Leake",
+"Trevor May",
+"Cheslor Cuthbert"
 
 ) %>% 
   tbl_df() %>% 
