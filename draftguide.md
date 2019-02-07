@@ -3,16 +3,16 @@ Fantasy 2019
 
 #### Today's auction
 
-| Name              |  marginal.total.points|  dollar.value|
-|:------------------|----------------------:|-------------:|
-| Dexter Fowler     |                   0.32|          0.87|
-| Teoscar Hernandez |                   2.54|          7.00|
-| Robbie Erlin      |                   2.18|          6.01|
-| Brandon Woodruff  |                   2.31|          6.36|
-| Yoenis Cespedes   |                     NA|            NA|
-| Mike Leake        |                   2.46|          6.76|
-| Trevor May        |                   1.15|          3.16|
-| Cheslor Cuthbert  |                     NA|            NA|
+| Name            |  marginal.total.points|  dollar.value|
+|:----------------|----------------------:|-------------:|
+| Kevin Pillar    |                   5.98|         16.45|
+| Joey Wendle     |                   1.93|          5.31|
+| Dustin Fowler   |                     NA|            NA|
+| Jose Castillo   |                  -0.21|         -0.57|
+| Matt Barnes     |                   2.34|          6.45|
+| Steven Matz     |                   4.78|         13.17|
+| Touki Toussaint |                  -0.88|         -2.42|
+| Mark Trumbo     |                   5.65|         15.57|
 
 #### Draft Status
 
@@ -21,48 +21,48 @@ Fantasy 2019
 | catcher      |         11|   7.3|  4.2|
 | dh           |          4|  12.6|  6.2|
 | first\_base  |          7|  16.1|  9.5|
-| outfield     |         39|  16.4|  7.6|
+| outfield     |         37|  16.4|  7.8|
 | second\_base |          6|  10.6|  5.6|
 | shortstop    |          7|  11.7|  7.4|
 | third\_base  |          9|  14.0|  7.2|
-| pitcher      |         77|  15.0|  4.8|
+| pitcher      |         71|  15.0|  4.8|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
 | 1B       |                       2|
 | 2B       |                       4|
 | 3B       |                       1|
-| CI       |                       6|
+| CI       |                       5|
 | DH       |                      12|
 | MI       |                       4|
 | SS       |                       1|
-| C        |                       9|
-| OF       |                      22|
-| P        |                      51|
-| Total    |                     112|
+| C        |                       8|
+| OF       |                      18|
+| P        |                      41|
+| Total    |                      96|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
-| ottawa     |    243|    17|           6|        12|          105.0|        53.9|          51.1|
-| allrise    |    232|    28|          10|        19|          100.9|        46.8|          54.1|
-| bellevegas |    253|     7|           2|         6|          100.7|        50.8|          49.9|
-| isotopes   |    237|    23|           7|        17|           97.3|        55.3|          42.0|
+| ottawa     |    244|    16|           5|        12|          106.3|        53.9|          52.4|
+| allrise    |    240|    20|           8|        13|          102.9|        46.8|          56.1|
+| bellevegas |    259|     1|           1|         1|          100.4|        50.8|          49.6|
+| isotopes   |    243|    17|           6|        12|           98.5|        55.3|          43.2|
+| rippe      |    232|    28|           8|        21|           96.3|        35.3|          61.0|
 | marmaduke  |    247|    13|           7|         7|           95.6|        43.8|          51.8|
 | pasadena   |    240|    20|           9|        12|           93.1|        56.7|          36.4|
-| rippe      |    227|    33|           9|        25|           92.4|        31.4|          61.0|
-| pkdodgers  |    256|     4|           2|         3|           90.4|        35.7|          54.7|
-| chicago    |    230|    30|           3|        28|           87.3|        48.7|          38.6|
+| pkdodgers  |    257|     3|           1|         3|           87.8|        35.7|          52.1|
+| chicago    |    242|    18|           1|        18|           85.1|        48.7|          36.4|
 | deener     |    258|     2|           2|         1|           84.5|        23.5|          61.0|
-| dsb        |    242|    18|           8|        11|           83.8|        35.7|          48.1|
-| balco      |    244|    16|           4|        13|           83.5|        50.6|          32.9|
 | bears      |    232|    28|           7|        22|           83.4|        42.2|          41.2|
-| dembums    |    229|    31|          12|        20|           79.5|        36.7|          42.8|
-| jobu       |    254|     6|           3|         4|           77.2|        31.9|          45.3|
+| balco      |    245|    15|           3|        13|           81.9|        49.0|          32.9|
+| dsb        |    244|    16|           7|        10|           80.6|        32.5|          48.1|
+| dembums    |    235|    25|          11|        15|           80.6|        37.8|          42.8|
 | sturgeon   |    225|    35|           9|        27|           76.5|        51.0|          25.5|
-| deano      |    248|    12|           8|         5|           72.7|        25.1|          47.6|
-| hermanos   |    250|    10|           4|         7|           64.9|        36.6|          28.3|
+| jobu       |    255|     5|           2|         4|           76.1|        31.9|          44.2|
+| deano      |    252|     8|           6|         3|           74.0|        25.4|          48.6|
+| hermanos   |    251|     9|           3|         7|           60.0|        31.7|          28.3|
 
 #### Top Remaining Pitchers
 
@@ -139,7 +139,7 @@ Fantasy 2019
 
 #### Unmatched Draft Picks
 
-    ## # A tibble: 14 x 3
+    ## # A tibble: 17 x 3
     ##    player                team      error      
     ##    <chr>                 <chr>     <chr>      
     ##  1 Luis Robert           allrise   not matched
@@ -156,3 +156,6 @@ Fantasy 2019
     ## 12 Michael Kopech        deano     not matched
     ## 13 Kyler Murray          bears     not matched
     ## 14 Peter Alonso          sturgeon  not matched
+    ## 15 Cheslor Cuthbert      hermanos  not matched
+    ## 16 Pedro Báez            pkdodgers not matched
+    ## 17 Mike Soroka           chicago   not matched
