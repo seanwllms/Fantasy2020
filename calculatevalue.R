@@ -91,12 +91,12 @@ names(hitter_data_frames) <- proj_systems
 ############   PECOTA   ############
 ####################################
 #read in PECOTA data and rename variables to line up
-library(readxl)
-if (file.exists("./pecota/pecotafeb2018.xls")) {
-  pecotahit<- read_xls("./pecota/pecotafeb2018.xls",
-                     sheet = "Hitters") %>% 
+
+if (file.exists("./pecota/pecota_bat1_2019-02-04_60742.csv")) {
+  pecotahit<- read_csv("./pecota/pecota_bat1_2019-02-04_60742.csv") %>% 
   mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
-  rename(Team = TEAM) %>% 
+  rename(Team = TEAM, 
+         BPID=ID) %>% 
   select(Name, BPID, Team, AB, PA, R,HR, RBI, SB, AVG, OBP) %>% 
   mutate(Team = "pecotaflag")
 
@@ -315,12 +315,11 @@ names(pitcher_proj) <- system_names
 ####################################
 ############   PECOTA   ############
 ####################################
-if (file.exists("./pecota/pecotafeb2018.xls")) {
+if (file.exists("./pecota/pecota_pit1_2019-02-04_60742.csv")) {
   #read in PECOTA data and rename variables to line up
-  pecotapitch <- read_xls("./pecota/pecotafeb2018.xls",
-                       sheet = "Pitchers") %>% 
+  pecotapitch <- read_csv("./pecota/pecota_pit1_2019-02-04_60742.csv") %>% 
     mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
-    rename(Team = TEAM, K = SO) %>% 
+    rename(Team = TEAM, K = SO, BPID=ID) %>% 
     select(Name, BPID, Team, IP, ERA, WHIP, K, SV, W) %>% 
     mutate(Team = "pecotaflag",
            proj = "pecota") 
