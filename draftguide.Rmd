@@ -11,14 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-"Matt Adams",
-"Brandon Belt",
-"Wander Franco",
-"Zack Cozart",
-"Brent Honeywell",
-"Freddy Peralta",
-"Grayson Greiner",
-"Hunter Strickland"
+"Ronald Guzman",
+"Hector Rondon",
+"Leonys Martin",
+"Jose Urena",
+"Ryan O'Hearn",
+"Marcus Stroman",
+"Steven Souza Jr.",
+"Josh Reddick"
 
 ) %>% 
   tbl_df() %>% 
@@ -198,5 +198,5 @@ kable(valuepicks)
 
 ####Unmatched Draft Picks
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
-drafterrors
+kable(drafterrors)
 ```
