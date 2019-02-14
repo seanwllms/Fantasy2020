@@ -11,7 +11,7 @@
 "10","OF2",18,"Whit Merrifield","Royals","second_base","11281",637,581,81,13,61,31,0.278,8.1,22.31,"drafted",NA,NA,NA,NA,NA,NA
 "11","OF3",23,"Kris Bryant","Cubs","third_base","15429",651,545,98,28,91,6,0.278,9.29,25.59,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,440,62,15,54,22,0.24,5.69,15.68,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","OF5",4,"Steven Souza Jr.","Diamondbacks","outfield","5667",560,448,67,20,66,11,0.24,5.45,14.99,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",8,"Trevor Bauer","Indians","pitcher","12703",NA,NA,NA,NA,NA,NA,NA,11.88,32.71,"drafted",195,3.42,1.19,0,14,223
@@ -19,7 +19,7 @@
 "18","P3",15,"Yu Darvish","Cubs","pitcher","13074",NA,NA,NA,NA,NA,NA,NA,5.8,15.98,"drafted",139,3.81,1.23,0,9,157
 "19","P4",8,"Joe Musgrove","Pirates","pitcher","12970",NA,NA,NA,NA,NA,NA,NA,5.49,15.12,"drafted",162,3.96,1.24,0,10,143
 "20","P5",9,"Dellin Betances","Yankees","pitcher","6216",NA,NA,NA,NA,NA,NA,NA,4.26,11.74,"drafted",75,2.78,1.12,4,4,115
-"21","P6",3,"Merrill Kelley",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","P6",3,"Merrill Kelly",NA,"pitcher","sa552177",NA,NA,NA,NA,NA,NA,NA,-1.89,-5.19,"drafted",67,4.42,1.38,0,2,61
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
