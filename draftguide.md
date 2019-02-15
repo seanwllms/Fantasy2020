@@ -3,16 +3,16 @@ Fantasy 2019
 
 #### Today's auction
 
-| Name          |  marginal.total.points|  dollar.value|
-|:--------------|----------------------:|-------------:|
-| Adam Frazier  |                   4.62|         12.71|
-| Caleb Smith   |                   4.03|         11.10|
-| Clint Frazier |                     NA|            NA|
-| Scott Kingery |                  -0.01|         -0.04|
-| Danny Duffy   |                   4.30|         11.85|
-| Collin McHugh |                   6.33|         17.43|
-| Joey Bart     |                     NA|            NA|
-| Moronta Reyes |                     NA|            NA|
+| Name            |  marginal.total.points|  dollar.value|
+|:----------------|----------------------:|-------------:|
+| Joe Jimenez     |                   1.29|          3.56|
+| Franchy Cordero |                  -1.67|         -4.59|
+| Derek Holland   |                   2.46|          6.77|
+| Kelvin Herrera  |                   0.66|          1.81|
+| Ryan Pressly    |                   2.15|          5.93|
+| Wilmer Flores   |                   5.51|         15.17|
+| A.J. Puk        |                   0.16|          0.45|
+| Daniel Palka    |                   3.16|          8.69|
 
 #### Draft Status
 
@@ -21,56 +21,53 @@ Fantasy 2019
 | catcher      |          8|   7.2|  4.0|
 | dh           |          3|   4.8|  3.9|
 | first\_base  |          4|  15.2|  9.5|
-| outfield     |         32|  13.0|  6.7|
+| outfield     |         31|  13.0|  6.5|
 | second\_base |          5|  10.8|  5.7|
 | shortstop    |          6|  10.3|  6.8|
 | third\_base  |          9|  13.7|  7.3|
-| pitcher      |         62|  17.4|  4.7|
+| pitcher      |         59|  10.3|  4.2|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
 | 1B       |                       0|
-| 2B       |                       3|
+| 2B       |                       2|
 | 3B       |                       1|
 | CI       |                       3|
 | DH       |                       6|
-| MI       |                       4|
+| MI       |                       3|
 | SS       |                       1|
-| C        |                       5|
-| OF       |                       9|
-| P        |                      23|
-| Total    |                      55|
+| C        |                       4|
+| OF       |                       8|
+| P        |                      19|
+| Total    |                      47|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
-| allrise    |    251|     9|           6|         4|          111.4|        50.2|          61.2|
+| allrise    |    253|     7|           5|         3|          112.8|        51.6|          61.2|
 | isotopes   |    252|     8|           3|         6|          109.2|        62.7|          46.5|
 | ottawa     |    253|     7|           3|         5|          106.7|        53.5|          53.2|
+| marmaduke  |    256|     4|           4|         1|          102.9|        49.3|          53.6|
 | bellevegas |    260|     0|           0|         1|          101.1|        48.9|          52.2|
+| bears      |    256|     4|           2|         3|          101.0|        50.9|          50.1|
 | chicago    |    260|     0|           0|         1|          100.3|        59.7|          40.6|
-| marmaduke  |    253|     7|           5|         3|          100.2|        49.3|          50.9|
 | rippe      |    257|     3|           3|         1|           96.7|        35.2|          61.5|
 | pasadena   |    247|    13|           7|         7|           95.0|        59.5|          35.5|
-| bears      |    244|    16|           4|        13|           92.1|        47.5|          44.6|
 | deener     |    260|     0|           0|         1|           87.0|        23.7|          63.3|
+| dembums    |    244|    16|           8|         9|           86.1|        37.1|          49.0|
 | pkdodgers  |    260|     0|           0|         1|           83.7|        31.4|          52.3|
-| dembums    |    242|    18|           9|        10|           83.1|        37.1|          46.0|
-| dsb        |    249|    11|           4|         8|           82.9|        35.2|          47.7|
-| balco      |    251|     9|           2|         8|           81.3|        47.6|          33.7|
+| balco      |    252|     8|           1|         8|           80.4|        46.7|          33.7|
 | jobu       |    260|     0|           0|         1|           80.3|        34.7|          45.6|
+| dsb        |    250|    10|           3|         8|           80.1|        35.2|          44.9|
 | deano      |    253|     7|           5|         3|           76.6|        26.1|          50.5|
-| sturgeon   |    244|    16|           4|        13|           75.3|        50.4|          24.9|
+| sturgeon   |    248|    12|           3|        10|           73.1|        48.2|          24.9|
 | hermanos   |    260|     0|           0|         1|           66.5|        36.4|          30.1|
 
 #### Top Remaining Pitchers
 
 | Name               | Team      |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
 |:-------------------|:----------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
-| Collin McHugh      | Astros    |  151|  3.97|  1.23|  157|    0|   11|  6.33|  17.43|
-| Danny Duffy        | Royals    |  185|  4.35|  1.33|  163|    0|   10|  4.30|  11.85|
-| Caleb Smith        | Marlins   |  141|  3.99|  1.27|  146|    0|    7|  4.03|  11.10|
 | Mike Minor         | Rangers   |  175|  4.61|  1.32|  159|    0|   10|  3.76|  10.34|
 | Tyler Anderson     | Rockies   |  155|  4.44|  1.33|  145|    0|   10|  3.62|   9.98|
 | Jeff Samardzija    | Giants    |  165|  4.34|  1.29|  135|    0|    9|  3.54|   9.74|
@@ -83,6 +80,9 @@ Fantasy 2019
 | Derek Holland      | Giants    |  145|  4.25|  1.37|  132|    0|    8|  2.46|   6.77|
 | Trevor Rosenthal   | Nationals |   65|  3.18|  1.27|   86|    6|    4|  2.36|   6.50|
 | Antonio Senzatela  | Rockies   |  169|  4.59|  1.39|  136|    0|   10|  2.23|   6.15|
+| Clay Buchholz      | NA        |  170|  4.58|  1.35|  131|    0|    9|  2.19|   6.02|
+| Tanner Roark       | Reds      |  143|  4.49|  1.33|  124|    0|    8|  2.16|   5.95|
+| Ryan Pressly       | Astros    |   65|  3.21|  1.17|   79|    4|    4|  2.15|   5.93|
 
 #### Top Remaining Hitters
 
@@ -92,7 +92,6 @@ Fantasy 2019
 | Evan Longoria   | Giants       |  630|   68|   20|   77|    4|  0.256|  4.98|  13.71|
 | Greg Allen      | Indians      |  490|   56|    6|   43|   25|  0.250|  4.72|  12.99|
 | Scott Schebler  | Reds         |  520|   63|   22|   68|    5|  0.245|  4.70|  12.95|
-| Adam Frazier    | Pirates      |  568|   68|   11|   55|    9|  0.273|  4.62|  12.71|
 | Roman Quinn     | Phillies     |  449|   50|    8|   40|   26|  0.243|  4.34|  11.95|
 | Tyler Naquin    | Indians      |  560|   64|   15|   64|    6|  0.258|  4.29|  11.81|
 | Alex Gordon     | Royals       |  623|   65|   15|   62|    9|  0.236|  3.96|  10.91|
@@ -103,6 +102,7 @@ Fantasy 2019
 | David Fletcher  | Angels       |  602|   68|    7|   56|   10|  0.269|  3.64|  10.02|
 | Steven Duggar   | Giants       |  616|   61|    8|   53|   15|  0.239|  3.57|   9.82|
 | JaCoby Jones    | Tigers       |  560|   60|   14|   53|   15|  0.220|  3.53|   9.72|
+| Jordan Luplow   | Indians      |  490|   59|   15|   58|    7|  0.244|  3.41|   9.38|
 
 #### Dollars vs. projected points
 
@@ -124,18 +124,18 @@ Fantasy 2019
 | ottawa     | Hernan Perez     |       5|          15.64|   10.64|
 | marmaduke  | Ryan O'Hearn     |       2|          12.60|   10.60|
 | bears      | Brandon Belt     |       5|          15.54|   10.54|
+| dembums    | Danny Duffy      |       2|          11.85|    9.85|
 | deener     | Ryan McMahon     |       4|          13.75|    9.75|
 | pkdodgers  | Will Smith       |       3|          12.59|    9.59|
+| bears      | Collin McHugh    |       8|          17.43|    9.43|
 | dembums    | Marcus Stroman   |       2|          11.36|    9.36|
 | balco      | Jose Alvarado    |       5|          14.27|    9.27|
 | balco      | Kevin Kiermaier  |       9|          18.26|    9.26|
 | hermanos   | Mark Trumbo      |       6|          15.01|    9.01|
 | pasadena   | Kendrys Morales  |       8|          16.89|    8.89|
 | isotopes   | Kole Calhoun     |       6|          14.78|    8.78|
+| bears      | Adam Frazier     |       4|          12.71|    8.71|
 | bellevegas | Asdrubal Cabrera |       5|          13.62|    8.62|
-| sturgeon   | Ronald Guzman    |       3|          11.35|    8.35|
-| pkdodgers  | Rich Hill        |      15|          23.13|    8.13|
-| marmaduke  | Zack Cozart      |       4|          12.09|    8.09|
 
 #### Unmatched Draft Picks
 
@@ -160,3 +160,5 @@ Fantasy 2019
 | Jo Adell              | rippe     | not matched |
 | Yusniel Diaz          | hermanos  | not matched |
 | Daulton Varsho        | sturgeon  | not matched |
+| Joey Bart             | sturgeon  | not matched |
+| Moronta Reyes         | dsb       | not matched |
