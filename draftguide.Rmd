@@ -24,8 +24,8 @@ today <- c(
   set_names("Name")
 
 
-kable(left_join(today, hitterpitcher) %>% 
-        select(Name, marginal.total.points, dollar.value))
+#kable(left_join(today, hitterpitcher) %>% 
+#       select(Name, marginal.total.points, dollar.value))
 ```
 
 ####Draft Status
@@ -120,6 +120,16 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
       filter(row_number() < 16)
 
 kable(topdh)
+```
+####Top OF
+```{r, echo = FALSE}
+topof <- filter(hitter_projections, status != "drafted", position =="outfield") %>% 
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
+      arrange(-dlr) %>% 
+      filter(row_number() < 16)
+
+kable(topof)
 
 ```
 
@@ -131,8 +141,9 @@ kable(topdh)
 #   filter(row_number() <21)
 ```
 
-####Dollars vs. projected points
+
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
+####Dollars vs. projected points
 library(ggplot2)
 library(ggrepel)
 plot1 <- ggplot(standings.output, aes(x=spent, y=total_points)) + 
@@ -143,7 +154,7 @@ plot1 <- ggplot(standings.output, aes(x=spent, y=total_points)) +
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
 
-plot1 
+#plot1 
 
 model <- predict(lm(total_points ~ spent, data = standings.output)) %>% 
   tbl_df() %>% 
@@ -161,7 +172,6 @@ model <- predict(lm(total_points ~ spent, data = standings.output)) %>%
 ```
 
 ####Remaining Picks vs. projected points
-
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 library(ggplot2)
 library(ggrepel)
