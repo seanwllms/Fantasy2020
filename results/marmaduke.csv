@@ -13,7 +13,7 @@
 "12","OF4",5,"Franmil Reyes","Padres","outfield","14566",630,507,76,29,87,2,0.253,6.85,18.85,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",5,"Tyler O'Neill","Cardinals","outfield","15711",100,132,13,5,15,1,0.242,-3.36,-9.25,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",5,"Willie Calhoun","Rangers","outfield","17838",364,329,41,12,43,2,0.259,1.03,2.83,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",1,"Raimel Tapia","Rockies","outfield","14350",326,299,39,6,37,9,0.279,1.9,5.24,"drafted",NA,NA,NA,NA,NA,NA
 "16","P1",29,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,NA,14.41,39.66,"drafted",211,3.36,1.1,0,16,225
 "17","P2",6,"Tyler Skaggs","Angels","pitcher","10190",NA,NA,NA,NA,NA,NA,NA,5.58,15.35,"drafted",157,4,1.28,0,11,151
 "18","P3",48,"Max Scherzer","Nationals","pitcher","3137",NA,NA,NA,NA,NA,NA,NA,18.2,50.11,"drafted",210,3.04,1.01,0,16,274
@@ -22,5 +22,5 @@
 "21","P6",8,"Marco Gonzales","Mariners","pitcher","15467",NA,NA,NA,NA,NA,NA,NA,5.73,15.77,"drafted",180,4.06,1.27,0,11,153
 "22","P7",3,"Caleb Smith","Marlins","pitcher","14875",NA,NA,NA,NA,NA,NA,NA,4.03,11.1,"drafted",141,3.99,1.27,0,7,146
 "23","P8",1,"Nick Kingham","Pirates","pitcher","11694",NA,NA,NA,NA,NA,NA,NA,0.4,1.09,"drafted",119,4.57,1.36,0,6,100
-"24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
-"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"24","P9",1,"Jace Fry","White Sox","pitcher","16159",NA,NA,NA,NA,NA,NA,NA,0.21,0.58,"drafted",50,3.53,1.29,4,3,60
+"25","P10",1,"Fernando Romero","Twins","pitcher","15885",NA,NA,NA,NA,NA,NA,NA,-1.39,-3.84,"drafted",63,4.2,1.34,0,3,54
