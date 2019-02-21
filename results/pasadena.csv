@@ -13,7 +13,7 @@
 "12","OF4",15,"Byron Buxton","Twins","outfield","14161",525,440,62,15,54,22,0.24,5.69,15.68,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",4,"Steven Souza Jr.","Diamondbacks","outfield","5667",560,448,67,20,66,11,0.24,5.45,14.99,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",3,"Jay Bruce","Mariners","outfield","9892",420,408,48,17,54,3,0.238,1.89,5.2,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","DH",1,"Greg Allen","Indians","outfield","16623",490,384,56,6,43,25,0.25,4.72,12.99,"drafted",NA,NA,NA,NA,NA,NA
 "16","P1",8,"Trevor Bauer","Indians","pitcher","12703",NA,NA,NA,NA,NA,NA,NA,11.88,32.71,"drafted",195,3.42,1.19,0,14,223
 "17","P2",5,"Jose Leclerc","Rangers","pitcher","14524",NA,NA,NA,NA,NA,NA,NA,5.12,14.11,"drafted",65,3.43,1.29,23,3,89
 "18","P3",15,"Yu Darvish","Cubs","pitcher","13074",NA,NA,NA,NA,NA,NA,NA,5.8,15.98,"drafted",139,3.81,1.23,0,9,157
@@ -23,4 +23,4 @@
 "22","P7",3,"Ryan Pressly","Astros","pitcher","7005",NA,NA,NA,NA,NA,NA,NA,2.15,5.93,"drafted",65,3.21,1.17,4,4,79
 "23","P8",1,"Jeff Samardzija","Giants","pitcher","3254",NA,NA,NA,NA,NA,NA,NA,3.54,9.74,"drafted",165,4.34,1.29,0,9,135
 "24","P9",3,"Mitch Keller","Pirates","pitcher","sa828700",NA,NA,NA,NA,NA,NA,NA,-0.65,-1.78,"drafted",92,4.52,1.4,0,5,79
-"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"25","P10",1,"Casey Mize",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

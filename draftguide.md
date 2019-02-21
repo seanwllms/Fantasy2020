@@ -13,41 +13,41 @@ Fantasy 2019
 | outfield     |         24|  11.9|  6.1|
 | second\_base |          3|   4.3|  3.3|
 | shortstop    |          4|   8.3|  5.5|
-| third\_base  |          7|  10.3|  7.2|
+| third\_base  |          6|  10.3|  7.0|
 | pitcher      |         47|  10.0|  3.7|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
 | 1B       |                       0|
-| 2B       |                       1|
+| 2B       |                       0|
 | 3B       |                       0|
 | CI       |                       0|
-| DH       |                       3|
-| MI       |                       1|
+| DH       |                       0|
+| MI       |                       0|
 | SS       |                       0|
 | C        |                       0|
-| OF       |                       1|
-| P        |                       2|
-| Total    |                       8|
+| OF       |                       0|
+| P        |                       0|
+| Total    |                       0|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
+| ottawa     |    260|     0|           0|         1|          116.9|        61.8|          55.1|
 | isotopes   |    260|     0|           0|         1|          116.3|        66.3|          50.0|
-| ottawa     |    259|     1|           1|         1|          113.3|        58.2|          55.1|
-| allrise    |    257|     3|           2|         2|          110.3|        49.1|          61.2|
+| pasadena   |    260|     0|           0|         1|          110.0|        73.6|          36.4|
 | bears      |    260|     0|           0|         1|          109.8|        57.1|          52.7|
-| pasadena   |    258|     2|           2|         1|          107.0|        67.9|          39.1|
+| allrise    |    259|     1|           0|         2|          105.9|        47.2|          58.7|
 | marmaduke  |    260|     0|           0|         1|          105.1|        52.3|          52.8|
 | bellevegas |    260|     0|           0|         1|          101.1|        48.9|          52.2|
 | chicago    |    260|     0|           0|         1|          100.3|        59.7|          40.6|
 | rippe      |    260|     0|           0|         1|           99.0|        34.9|          64.1|
-| dembums    |    257|     3|           1|         3|           89.6|        42.9|          46.7|
+| deano      |    260|     0|           0|         1|           92.4|        40.6|          51.8|
+| dembums    |    258|     2|           0|         3|           92.2|        45.5|          46.7|
+| dsb        |    260|     0|           0|         1|           90.7|        45.8|          44.9|
 | deener     |    260|     0|           0|         1|           87.0|        23.7|          63.3|
-| deano      |    258|     2|           1|         2|           85.3|        33.5|          51.8|
 | pkdodgers  |    260|     0|           0|         1|           83.7|        31.4|          52.3|
-| dsb        |    253|     7|           1|         7|           83.7|        38.8|          44.9|
 | balco      |    253|     7|           0|         8|           80.4|        46.7|          33.7|
 | jobu       |    260|     0|           0|         1|           80.3|        34.7|          45.6|
 | sturgeon   |    253|     7|           0|         8|           76.1|        46.2|          29.9|
@@ -87,11 +87,11 @@ Fantasy 2019
 | JaCoby Jones    | Tigers    |  560|   60|   14|   53|   15|  0.220|  3.53|   9.72|
 | Jordan Luplow   | Indians   |  490|   59|   15|   58|    7|  0.244|  3.41|   9.38|
 | Renato Nunez    | Orioles   |  588|   62|   23|   70|    1|  0.232|  3.32|   9.13|
-| Josh Harrison   | NA        |  525|   61|   11|   51|    9|  0.260|  3.13|   8.61|
 | Kevin Newman    | Pirates   |  602|   55|    5|   53|   15|  0.260|  3.03|   8.35|
 | Chris Davis     | Orioles   |  588|   64|   25|   70|    2|  0.205|  2.92|   8.04|
 | Mikie Mahtook   | Tigers    |  490|   53|   15|   54|    8|  0.240|  2.80|   7.70|
 | Austin Slater   | Giants    |  499|   52|    9|   49|   10|  0.256|  2.79|   7.68|
+| Logan Morrison  | NA        |  490|   58|   21|   65|    2|  0.231|  2.79|   7.67|
 | \#\#\#\#Top OF  |           |     |     |     |     |     |       |      |       |
 
 | Name              | Team      |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
@@ -168,3 +168,6 @@ Fantasy 2019
 | Moronta Reyes         | dsb       | not matched |
 | Sean Manaea           | dembums   | not matched |
 | Alex Kirilloff        | sturgeon  | not matched |
+| Victor Mesa           | allrise   | not matched |
+| Casey Mize            | pasadena  | not matched |
+| Mark Melancon         | allrise   | not matched |
