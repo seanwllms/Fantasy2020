@@ -8,13 +8,13 @@ Fantasy 2019
 | position     |  remaining|   max|  avg|
 |:-------------|----------:|-----:|----:|
 | catcher      |          7|   7.2|  4.4|
-| dh           |          3|   4.8|  3.9|
-| first\_base  |          3|   8.0|  7.6|
-| outfield     |         24|  11.9|  6.1|
+| dh           |          2|   4.8|  4.2|
+| first\_base  |          2|   7.7|  7.3|
+| outfield     |         20|  11.9|  6.0|
 | second\_base |          3|   4.3|  3.3|
 | shortstop    |          4|   8.3|  5.5|
-| third\_base  |          6|  10.3|  7.0|
-| pitcher      |         47|  10.0|  3.7|
+| third\_base  |          5|  10.3|  6.6|
+| pitcher      |         45|  10.0|  3.8|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
@@ -75,32 +75,30 @@ Fantasy 2019
 
 #### Top Remaining Hitters
 
-| Name            | Team      |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
-|:----------------|:----------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Roman Quinn     | Phillies  |  449|   50|    8|   40|   26|  0.243|  4.34|  11.95|
-| Tyler Naquin    | Indians   |  560|   64|   15|   64|    6|  0.258|  4.29|  11.81|
-| Alex Gordon     | Royals    |  623|   65|   15|   62|    9|  0.236|  3.96|  10.91|
-| Carlos Gonzalez | NA        |  525|   60|   17|   66|    4|  0.252|  3.88|  10.69|
-| Yolmer Sanchez  | White Sox |  616|   67|   12|   56|   12|  0.244|  3.73|  10.27|
-| David Fletcher  | Angels    |  602|   68|    7|   56|   10|  0.269|  3.64|  10.02|
-| Steven Duggar   | Giants    |  616|   61|    8|   53|   15|  0.239|  3.57|   9.82|
-| JaCoby Jones    | Tigers    |  560|   60|   14|   53|   15|  0.220|  3.53|   9.72|
-| Jordan Luplow   | Indians   |  490|   59|   15|   58|    7|  0.244|  3.41|   9.38|
-| Renato Nunez    | Orioles   |  588|   62|   23|   70|    1|  0.232|  3.32|   9.13|
-| Kevin Newman    | Pirates   |  602|   55|    5|   53|   15|  0.260|  3.03|   8.35|
-| Chris Davis     | Orioles   |  588|   64|   25|   70|    2|  0.205|  2.92|   8.04|
-| Mikie Mahtook   | Tigers    |  490|   53|   15|   54|    8|  0.240|  2.80|   7.70|
-| Austin Slater   | Giants    |  499|   52|    9|   49|   10|  0.256|  2.79|   7.68|
-| Logan Morrison  | NA        |  490|   58|   21|   65|    2|  0.231|  2.79|   7.67|
-| \#\#\#\#Top OF  |           |     |     |     |     |     |       |      |       |
+| Name              | Team      |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
+|:------------------|:----------|----:|----:|----:|----:|----:|------:|-----:|------:|
+| Roman Quinn       | Phillies  |  449|   50|    8|   40|   26|  0.243|  4.34|  11.95|
+| Tyler Naquin      | Indians   |  560|   64|   15|   64|    6|  0.258|  4.29|  11.81|
+| Alex Gordon       | Royals    |  623|   65|   15|   62|    9|  0.236|  3.96|  10.91|
+| Yolmer Sanchez    | White Sox |  616|   67|   12|   56|   12|  0.244|  3.73|  10.27|
+| David Fletcher    | Angels    |  602|   68|    7|   56|   10|  0.269|  3.64|  10.02|
+| JaCoby Jones      | Tigers    |  560|   60|   14|   53|   15|  0.220|  3.53|   9.72|
+| Jordan Luplow     | Indians   |  490|   59|   15|   58|    7|  0.244|  3.41|   9.38|
+| Kevin Newman      | Pirates   |  602|   55|    5|   53|   15|  0.260|  3.03|   8.35|
+| Mikie Mahtook     | Tigers    |  490|   53|   15|   54|    8|  0.240|  2.80|   7.70|
+| Austin Slater     | Giants    |  499|   52|    9|   49|   10|  0.256|  2.79|   7.68|
+| Logan Morrison    | NA        |  490|   58|   21|   65|    2|  0.231|  2.79|   7.67|
+| Jose Iglesias     | NA        |  525|   52|    7|   50|   13|  0.260|  2.62|   7.21|
+| Josh Phegley      | Athletics |  448|   47|   11|   48|    2|  0.228|  2.61|   7.18|
+| Hunter Dozier     | Royals    |  595|   60|   16|   63|    5|  0.229|  2.53|   6.96|
+| Christian Vazquez | Red Sox   |  384|   41|    6|   37|    5|  0.252|  2.45|   6.73|
+| \#\#\#\#Top OF    |           |     |     |     |     |     |       |      |       |
 
 | Name              | Team      |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
 |:------------------|:----------|----:|----:|----:|----:|----:|------:|-----:|------:|
 | Roman Quinn       | Phillies  |  449|   50|    8|   40|   26|  0.243|  4.34|  11.95|
 | Tyler Naquin      | Indians   |  560|   64|   15|   64|    6|  0.258|  4.29|  11.81|
 | Alex Gordon       | Royals    |  623|   65|   15|   62|    9|  0.236|  3.96|  10.91|
-| Carlos Gonzalez   | NA        |  525|   60|   17|   66|    4|  0.252|  3.88|  10.69|
-| Steven Duggar     | Giants    |  616|   61|    8|   53|   15|  0.239|  3.57|   9.82|
 | JaCoby Jones      | Tigers    |  560|   60|   14|   53|   15|  0.220|  3.53|   9.72|
 | Jordan Luplow     | Indians   |  490|   59|   15|   58|    7|  0.244|  3.41|   9.38|
 | Mikie Mahtook     | Tigers    |  490|   53|   15|   54|    8|  0.240|  2.80|   7.70|
@@ -111,6 +109,8 @@ Fantasy 2019
 | Albert Almora Jr. | Cubs      |  470|   49|    8|   48|    3|  0.275|  1.96|   5.39|
 | Steve Pearce      | Red Sox   |  343|   44|   14|   47|    1|  0.267|  1.69|   4.66|
 | Billy McKinney    | Blue Jays |  420|   50|   15|   47|    3|  0.242|  1.58|   4.36|
+| Joey Rickard      | Orioles   |  441|   47|   10|   41|    8|  0.246|  1.46|   4.02|
+| Chris Owings      | Royals    |  371|   40|    7|   36|   12|  0.251|  1.35|   3.73|
 
 #### Remaining Picks vs. projected points
 
@@ -129,45 +129,73 @@ Fantasy 2019
 | dembums   | Evan Longoria    |       2|          13.71|   11.71|
 | rippe     | Kevin Pillar     |       5|          16.61|   11.61|
 | pasadena  | Steven Souza Jr. |       4|          14.99|   10.99|
+| dsb       | Carlos Gonzalez  |       0|          10.69|   10.69|
 | ottawa    | Hernan Perez     |       5|          15.64|   10.64|
 | marmaduke | Ryan O'Hearn     |       2|          12.60|   10.60|
 | bears     | Brandon Belt     |       5|          15.54|   10.54|
 | dembums   | Danny Duffy      |       2|          11.85|    9.85|
+| dsb       | Steven Duggar    |       0|           9.82|    9.82|
 | deener    | Ryan McMahon     |       4|          13.75|    9.75|
 | pkdodgers | Will Smith       |       3|          12.59|    9.59|
 | bears     | Collin McHugh    |       8|          17.43|    9.43|
 | dembums   | Marcus Stroman   |       2|          11.36|    9.36|
 | bears     | Mike Minor       |       1|          10.34|    9.34|
-| balco     | Jose Alvarado    |       5|          14.27|    9.27|
-| balco     | Kevin Kiermaier  |       9|          18.26|    9.26|
 
 #### Unmatched Draft Picks
 
-| player                | team      | error       |
-|:----------------------|:----------|:------------|
-| Luis Robert           | allrise   | not matched |
-| Royce Lewis           | bears     | not matched |
-| Brendan McKay         | chicago   | not matched |
-| Keston Hiura          | chicago   | not matched |
-| Taylor Trammell       | deano     | not matched |
-| Forest Whitley        | dembums   | not matched |
-| Sixto Sanchez         | hermanos  | not matched |
-| Vladimir Guerrero Jr. | ottawa    | not matched |
-| Austin Riley          | pasadena  | not matched |
-| Yusei Kikuchi         | rippe     | not matched |
-| Nick Senzel           | marmaduke | not matched |
-| Michael Kopech        | deano     | not matched |
-| Kyler Murray          | bears     | not matched |
-| Peter Alonso          | sturgeon  | not matched |
-| Pedro Báez            | pkdodgers | not matched |
-| Wander Franco         | rippe     | not matched |
-| Jo Adell              | rippe     | not matched |
-| Yusniel Diaz          | hermanos  | not matched |
-| Daulton Varsho        | sturgeon  | not matched |
-| Joey Bart             | sturgeon  | not matched |
-| Moronta Reyes         | dsb       | not matched |
-| Sean Manaea           | dembums   | not matched |
-| Alex Kirilloff        | sturgeon  | not matched |
-| Victor Mesa           | allrise   | not matched |
-| Casey Mize            | pasadena  | not matched |
-| Mark Melancon         | allrise   | not matched |
+| player                | team       | error       |
+|:----------------------|:-----------|:------------|
+| Luis Robert           | allrise    | not matched |
+| Royce Lewis           | bears      | not matched |
+| Brendan McKay         | chicago    | not matched |
+| Keston Hiura          | chicago    | not matched |
+| Taylor Trammell       | deano      | not matched |
+| Forest Whitley        | dembums    | not matched |
+| Sixto Sanchez         | hermanos   | not matched |
+| Vladimir Guerrero Jr. | ottawa     | not matched |
+| Austin Riley          | pasadena   | not matched |
+| Yusei Kikuchi         | rippe      | not matched |
+| Nick Senzel           | marmaduke  | not matched |
+| Michael Kopech        | deano      | not matched |
+| Kyler Murray          | bears      | not matched |
+| Peter Alonso          | sturgeon   | not matched |
+| Pedro Báez            | pkdodgers  | not matched |
+| Wander Franco         | rippe      | not matched |
+| Jo Adell              | rippe      | not matched |
+| Yusniel Diaz          | hermanos   | not matched |
+| Daulton Varsho        | sturgeon   | not matched |
+| Joey Bart             | sturgeon   | not matched |
+| Moronta Reyes         | dsb        | not matched |
+| Sean Manaea           | dembums    | not matched |
+| Alex Kirilloff        | sturgeon   | not matched |
+| Victor Mesa           | allrise    | not matched |
+| Casey Mize            | pasadena   | not matched |
+| Mark Melancon         | allrise    | not matched |
+| Jonathan India        | balco      | not matched |
+| Evan Gattis           | jobu       | not matched |
+| MacKenzie Gore        | balco      | not matched |
+| Nick Madrigal         | isotopes   | not matched |
+| Yordan Alvarez        | dembums    | not matched |
+| Gavin Lux             | pkdodgers  | not matched |
+| Nate Pearson          | isotopes   | not matched |
+| Ke'Bryan Hayes        | balco      | not matched |
+| PLACEHOLDER           | dsb        | not matched |
+| PLACEHOLDER           | pasadena   | not matched |
+| PLACEHOLDER           | dsb        | not matched |
+| PLACEHOLDER           | dsb        | not matched |
+| PLACEHOLDER           | bears      | not matched |
+| PLACEHOLDER           | deano      | not matched |
+| PLACEHOLDER           | jobu       | not matched |
+| PLACEHOLDER           | balco      | not matched |
+| PLACEHOLDER           | chicago    | not matched |
+| PLACEHOLDER           | dsb        | not matched |
+| PLACEHOLDER           | hermanos   | not matched |
+| PLACEHOLDER           | bellevegas | not matched |
+| PLACEHOLDER           | isotopes   | not matched |
+| PLACEHOLDER           | allrise    | not matched |
+| PLACEHOLDER           | ottawa     | not matched |
+| PLACEHOLDER           | dembums    | not matched |
+| PLACEHOLDER           | dsb        | not matched |
+| PLACEHOLDER           | marmaduke  | not matched |
+| PLACEHOLDER           | pkdodgers  | not matched |
+| PLACEHOLDER           | rippe      | not matched |
