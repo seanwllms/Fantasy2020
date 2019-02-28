@@ -8,13 +8,13 @@ Fantasy 2019
 | position     |  remaining|   max|  avg|
 |:-------------|----------:|-----:|----:|
 | catcher      |          7|   7.2|  4.4|
-| dh           |          2|   4.8|  4.2|
+| dh           |          1|   3.6|  3.6|
 | first\_base  |          2|   7.7|  7.3|
 | outfield     |         20|  11.9|  6.0|
 | second\_base |          3|   4.3|  3.3|
 | shortstop    |          4|   8.3|  5.5|
 | third\_base  |          5|  10.3|  6.6|
-| pitcher      |         45|  10.0|  3.8|
+| pitcher      |         44|  10.0|  3.7|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
@@ -179,14 +179,7 @@ Fantasy 2019
 | Gavin Lux             | pkdodgers  | not matched |
 | Nate Pearson          | isotopes   | not matched |
 | Ke'Bryan Hayes        | balco      | not matched |
-| PLACEHOLDER           | dsb        | not matched |
-| PLACEHOLDER           | pasadena   | not matched |
-| PLACEHOLDER           | dsb        | not matched |
-| PLACEHOLDER           | dsb        | not matched |
-| PLACEHOLDER           | bears      | not matched |
-| PLACEHOLDER           | deano      | not matched |
-| PLACEHOLDER           | jobu       | not matched |
-| PLACEHOLDER           | balco      | not matched |
+| Jazz Chisholm         | allrise    | not matched |
 | PLACEHOLDER           | chicago    | not matched |
 | PLACEHOLDER           | dsb        | not matched |
 | PLACEHOLDER           | hermanos   | not matched |
