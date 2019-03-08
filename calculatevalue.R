@@ -298,9 +298,20 @@ projection_systems <- c("depthcharts",
                         "zips",
                         "thebat")
 
-pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) %>%
+#read in the list of pitcher projections and set list item names
+pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitchers.csv", sep="")) 
+names(pitcher_proj) <- projection_systems
+
+
+pitcher_proj <- pitcher_proj %>% 
       map(function(x) {if (file.exists(x)) read_csv(x) %>% mutate(proj=x)
-                          }) %>%
+        }) 
+
+#mutate zips data frame to deal with missing saves
+pitcher_proj[["zips"]] <- mutate(pitcher_proj[["zips"]], SV = NA)
+
+
+pitcher_proj <- pitcher_proj %>% 
       keep(function(x) !is.null(x)) %>%
       map(select, Name, playerid, Team, IP, ERA, WHIP, SO, SV, W, proj) %>% 
       map(rename, K = SO) %>% 
@@ -308,9 +319,6 @@ pitcher_proj <- map_chr(projection_systems, function(x) paste("./", x, "/pitcher
                   proj = str_remove(proj, "/pitchers.csv"),
                   playerid = as.character(playerid))
 
-system_names <- map_chr(pitcher_proj, function(x) {pull(x, proj) %>% unique()})
-
-names(pitcher_proj) <- system_names
       
 ####################################
 ############   PECOTA   ############
@@ -324,15 +332,14 @@ if (file.exists("./pecota/pecota_pit1_2019-02-04_60742.csv")) {
     mutate(Team = "pecotaflag",
            proj = "pecota") 
   
-  
-  
   pecotapitch <- left_join(pecotapitch, crosswalk) %>% 
     select(-BPID) %>% 
     filter(!is.na(playerid)) %>% 
-    mutate()
+    select(-name)
   
   pitcher_proj[["pecota"]] <- pecotapitch
 }
+
 
 #group everything together
 pitcher_proj <- bind_rows(pitcher_proj)

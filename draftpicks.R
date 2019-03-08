@@ -1,5 +1,6 @@
 #read csv of draft picks
-draftpicks <- readxl::read_xlsx("draftpicks.xlsx", sheet = "draftpicks")
+draftpicks <- readxl::read_xlsx("draftpicks.xlsx", sheet = "draftpicks") %>% 
+  mutate(player = trimws(player))
 
 #########################################################################
 ## Create draft function to add a player to the team in the draft. ######
