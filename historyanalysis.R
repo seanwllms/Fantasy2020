@@ -1,61 +1,59 @@
 #set up file
-library(dplyr)
-library(reshape2)
+library(tidyverse)
+library(readxl)
 
 #read in results from pre-2014
-results <- read.csv("./history/historicalresults.csv") %>%
-      select(1:4)
+results <- read_xlsx("./history/historicalresults.xlsx") %>% 
+  mutate(Category = tolower(Category))
 
 #fill in results for years that it is missing
 results[1:540, 4] <- c(rep(2010, 18), rep(2011, 18), rep(2012, 18))
 
-#convert to lowercase
-results$Category <- tolower(results$Category) 
-
-#reorder columsn to match 2014 and 2015
+#reorder columns to match 2014 and 2015
 results <- select(results, Category, Value, Year, Points)
+
+sb <- filter(results, Category == "sb")
 
 ######################################
 #####read in the 2014 results#########
 ######################################
-standings.2014 <- read.csv("./history/results2014.csv",stringsAsFactors = FALSE) %>% 
-      select(R, HR, RBI, SB, Avg, W, K, Sv, ERA, WHIP) 
-
-standings.2014[,c("R","K")] <- sapply(standings.2014[,c("R","K")], gsub,pattern=",",replacement="")
-
-standings.2014 <- sapply(standings.2014, as.numeric)
-
-standings.2014 <- melt(standings.2014) %>% mutate(Category = tolower(Var2), Value = value, Year=2014) %>% select(4:6) %>%
-      group_by(Category) %>%
-      arrange(desc(Value)) %>%
-      mutate(Points=min_rank(Value)) 
-
-standings.2014[standings.2014$Category %in% c("era", "whip"),"Points"] <- 19-standings.2014[standings.2014$Category %in% c("era", "whip"),"Points"]
+standings.2014 <- read_csv("./history/results2014.csv") %>% 
+      select(R, HR, RBI, SB, Avg, W, K, Sv, ERA, WHIP) %>% 
+  rename_all(.funs = tolower) %>% 
+  gather("Category", "Value") %>%
+  mutate(Value = as.numeric(Value)) %>% 
+  group_by(Category) %>% 
+  arrange(desc(Value)) %>%
+  mutate(Points = min_rank(Value)) %>% 
+  mutate(Points = ifelse(Category %in% c("era", "whip"), 
+                         19-Points, 
+                         Points), 
+         Year = 2014)
 
 ######################################
 #####read in the 2015 results#########
 ######################################
-standings.2015 <- read.csv("./history/results2015.csv",stringsAsFactors = FALSE) %>% 
-      select(R, HR, RBI, SB, Avg, W, K, Sv, ERA, WHIP) 
-
-standings.2015 <- sapply(standings.2015, as.numeric)
-
-standings.2015 <- melt(standings.2015) %>% mutate(Category = tolower(Var2), Value = value, Year=2015) %>% select(4:6) %>%
-      group_by(Category) %>%
-      arrange(desc(Value)) %>%
-      mutate(Points=min_rank(Value)) 
-
-
-standings.2015[standings.2015$Category %in% c("era", "whip"),"Points"] <- 19-standings.2015[standings.2015$Category %in% c("era", "whip"),"Points"]
+standings.2015 <- read_csv("./history/results2015.csv") %>% 
+  select(R, HR, RBI, SB, Avg, W, K, Sv, ERA, WHIP) %>% 
+  rename_all(.funs = tolower) %>% 
+  gather("Category", "Value") %>% 
+  group_by(Category) %>% 
+  arrange(desc(Value)) %>%
+  mutate(Points = min_rank(Value)) %>% 
+  mutate(Points = ifelse(Category %in% c("era", "whip"), 
+                         19-Points, 
+                         Points), 
+         Year = 2015)
 
 ######################################
 ##### Merge All Results Together######
 ######################################
-results <- bind_rows(results, standings.2014, standings.2015) %>%
+all_results <- bind_rows(results, standings.2014, standings.2015) %>%
       #filter out rows from 2013 that seem to be outliers
-      filter(!(Year==2013 & Category %in% c("r", "rbi", "hr")))
+      filter(!(Year==2013 & Category %in% c("r", "rbi", "hr"))) %>% 
+  arrange(Category, Year, -Value) 
 
-save(results, file="historicalresults.rda")
+save(all_results, file="historicalresults.rda")
 
 ######################################
 #####Graphs and Analysis go Here######
@@ -63,10 +61,10 @@ save(results, file="historicalresults.rda")
 library(ggplot2)
 library(broom)
 
-catplot <- results %>% 
-  mutate(recent = ifelse(Year >2015, "Post 2015", "Pre 2015")) %>% 
+catplot <- all_results %>% 
+  mutate(LastYear = ifelse(Year >2018, "2019", "Earlier Years")) %>% 
   ggplot(aes(x=Value, y=Points)) +
-  geom_point(aes(color = recent)) +
+  geom_point(aes(color = LastYear)) +
   facet_wrap(~ Category, ncol=2, scales="free_x") +
   theme_minimal() +
   theme(legend.position = "bottom",
@@ -77,12 +75,11 @@ ggsave("catplot.png", catplot, width=6, height = 8)
 ###Regression Time####
 
 #filter out 1, 2, 17 and 18 point recipients (skew results)
-regress <- results %>% filter(Points > 2 & Points < 17, 
-                              Year > 2015)
+regress <- results %>% filter(Points > 2 & Points < 17)
 
 #run the regression for each category
 regress <- regress %>% group_by(Category) %>%
-      do(regresults = lm(Points ~ Value, data=.))
+      do(regresults = lm(Points ~ Value + factor(Year), data=.))
 
 #organize regression results in to tidy df for calculating value 
 coefs <- tidy(regress, regresults) %>%
