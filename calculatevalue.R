@@ -86,11 +86,10 @@ proj_systems <- map_chr(hitter_data_frames, function(x){
 #assign names in df list
 names(hitter_data_frames) <- proj_systems
 
-
 ####################################
 ############   PECOTA   ############
 ####################################
-#read in PECOTA data and rename variables to line up
+#read in PECOTA data and rname variables to line up
 
 if (file.exists("./pecota/pecota_bat1_2019-02-04_60742.csv")) {
   pecotahit<- read_csv("./pecota/pecota_bat1_2019-02-04_60742.csv") %>% 
@@ -308,7 +307,9 @@ pitcher_proj <- pitcher_proj %>%
         }) 
 
 #mutate zips data frame to deal with missing saves
-pitcher_proj[["zips"]] <- mutate(pitcher_proj[["zips"]], SV = NA)
+if (!is.null(pitcher_proj[["zips"]])) {
+  pitcher_proj[["zips"]] <- mutate(pitcher_proj[["zips"]], SV = NA)
+} 
 
 
 pitcher_proj <- pitcher_proj %>% 
