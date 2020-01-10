@@ -10,18 +10,18 @@ source("compileleague.R")
 
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
-today <- c(
-"Joe Jimenez",
-"Franchy Cordero",
-"Derek Holland",
-"Kelvin Herrera",
-"Ryan Pressly",
-"Wilmer Flores",
-"A.J. Puk",
-"Daniel Palka"
-) %>% 
-  tbl_df() %>% 
-  set_names("Name")
+# today <- c(
+# "Joe Jimenez",
+# "Franchy Cordero",
+# "Derek Holland",
+# "Kelvin Herrera",
+# "Ryan Pressly",
+# "Wilmer Flores",
+# "A.J. Puk",
+# "Daniel Palka"
+# ) %>% 
+#   tbl_df() %>% 
+#   set_names("Name")
 
 
 #kable(left_join(today, hitterpitcher) %>% 

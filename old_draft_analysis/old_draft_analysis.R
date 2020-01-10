@@ -1,4 +1,4 @@
-library(tidyr)
+library(tidyverse)
 library(xlsx)
 library(lubridate)
 
@@ -101,3 +101,17 @@ pitcher_value_graph <- pitcher_results %>%
   geom_boxplot()
 
 pitcher_value_graph
+
+
+
+scatterplot_hit <- ggplot(hitter_results, aes(x=salary,y=equity)) +
+  geom_point() +
+  geom_smooth()
+
+scatterplot_hit
+
+scatterplot_pitch <- ggplot(pitcher_results, aes(x=salary,y=equity)) +
+  geom_point() +
+  geom_smooth()
+
+scatterplot_pitch
