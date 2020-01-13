@@ -33,60 +33,44 @@ load("standingscoefs.rda")
 #calculate points
 stats <- c("R", "HR", "RBI", "SB", "AVG", "ERA", "WHIP", "K","SV","W")
 
-
+#function to calculate points based on historical regression coefficients and intercepts
 calc_points <- function(baseball_stat, team) {
   
-  stat_amount <- filter(standings, team_name == team) %>% pull(stat) 
+  #grab total for team
+  stat_amount <- filter(standings, team_name == team) %>% pull(baseball_stat) 
   
-  standings_data <- filter(coefs.standings, Category == tolower(stat)) 
+  #get coefficients
+  standings_data <- filter(coefs.standings, Category == tolower(baseball_stat)) 
   
+  #grab values
   intercept <- pull(standings_data, yint)
   coef <- pull(standings_data, coef)
   
+  #calculate value
   value <- intercept + coef * stat_amount
   value
 }
 
-
-map(stats, function(x) {
+#calculate points for each team and each statistical category
+walk(stats, function(x) {
   label = paste0(x, "_points")
-  standings <<- mutate(standings, !!label := calc_points(x, team_name))
+  standings <<- mutate(standings, !!label := calc_points(x, team_name)) 
 })
 
 
-
-for (stat in stats) {
-      # column_name <- paste(stat,"_points", sep="")
-      # standings[column.name] <- coefs.standings[coefs.standings$Category==tolower(stat),2] +
-      #                           coefs.standings[coefs.standings$Category==tolower(stat),3]*
-      #                           standings[stat]
-       
-      column_name <- paste(stat,"_points", sep="")
-      
-      stat_amount <- pull(standings, stat) 
-      
-      standings_data <- filter(coefs.standings, Category == tolower(stat)) 
-      
-      intercept <- pull(standings_data, yint)
-      coef <- pull(standings_data, coef)
-      
-      standings <- mutate(standings,
-                          !!column_name := intercept + coef * stat_amount)
+#limit points to 1 to 18, and round to nearest tenth
+rational_points <- function(x) {
+  y <- pmax(x,1)
+  y <- pmin(y,18)
+  y <- round(y, 1)
+  y
 }
 
-points.var.names <- paste(stats, "_points", sep="")
+standings <- standings %>% 
+  mutate_at(vars(matches("_points")), rational_points) 
+  
 
-#create function to fix impossible numbers
-rational.points <- function(vector) {
-      column <- vector %>%
-            sapply(max, 1) %>%
-            sapply(min, 18) %>%
-            sapply(round, 1)
-      column
-}
-
-standings[points.var.names] <- lapply(standings[points.var.names], rational.points)
-
+#calculate and round total points
 standings <- mutate(standings, total_points = 
                           R_points +
                           HR_points+

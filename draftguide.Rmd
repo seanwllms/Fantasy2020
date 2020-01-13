@@ -154,7 +154,7 @@ plot1 <- ggplot(standings.output, aes(x=spent, y=total_points)) +
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
 
-#plot1 
+plot1 
 
 model <- predict(lm(total_points ~ spent, data = standings.output)) %>% 
   tbl_df() %>% 

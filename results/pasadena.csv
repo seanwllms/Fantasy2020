@@ -1,22 +1,22 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",-2207001600,"J.T. Realmuto","Phillies","catcher","11739",539,487,70,23,74,6,0.269,9.55,26.3,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",24,"J.T. Realmuto","Phillies","catcher","11739",539,487,69,23,75,6,0.269,9.56,26.31,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",12,"Matt Olson","Athletics","first_base","14344",658,572,93,39,105,1,0.255,10.2,28.09,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"5","SS",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"6","3B",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","SS",22,"Carlos Correa","Astros","shortstop","14162",644,560,94,34,106,3,0.273,10.51,28.94,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",5,"Yandy Diaz","Rays","third_base","16578",637,552,74,14,70,5,0.274,5.44,14.98,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"10","OF2",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"11","OF3",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","OF1",5,"J.D. Davis","Mets","outfield","16219",504,452,61,21,67,3,0.264,5.3,14.59,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",32,"J.D. Martinez","Red Sox","outfield","6184",658,578,103,40,121,3,0.301,14.97,41.21,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",5,"Victor Robles","Nationals","outfield","18363",658,590,76,18,76,29,0.262,10.78,29.67,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "13","OF5",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"16","P1",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
-"17","P2",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
-"18","P3",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"16","P1",5,"Griffin Canning","Angels","pitcher","19867",NA,NA,NA,NA,NA,NA,NA,3.33,9.18,"drafted",135,4.36,1.28,0,9,139
+"17","P2",15,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,8.43,23.2,"drafted",173,3.8,1.17,0,12,189
+"18","P3",5,"Taylor Rogers","Twins","pitcher","13449",NA,NA,NA,NA,NA,NA,NA,7.24,19.93,"drafted",65,3.44,1.17,31,4,77
 "19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5

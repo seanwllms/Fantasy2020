@@ -1,5 +1,11 @@
 #read csv of draft picks
-draftpicks <- readxl::read_xlsx("draftpicks.xlsx", sheet = "draftpicks") %>% 
+draftpicks <- readxl::read_xlsx("draftpicks.xlsx", 
+                                sheet = "draftpicks",
+                                col_types = c("text", 
+                                              "text",
+                                              "numeric",
+                                              "text",
+                                              "date")) %>% 
   mutate(player = trimws(player))
 
 #########################################################################
