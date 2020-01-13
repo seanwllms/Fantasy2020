@@ -89,8 +89,10 @@ coefs <- tidy(regress, regresults) %>%
 save(coefs, file="coefs.rda")
 
 #organize regression results in to tidy df for calculating standings
-coefs.standings <- tidy(regress, regresults) %>% select(Category, term, estimate) %>%
-  dcast(Category ~ term) 
+coefs.standings <- tidy(regress, regresults) %>% select(Category, term, estimate)  %>% 
+  filter(!str_detect(term, "factor")) %>% 
+  spread(term, estimate)
+
 
 names(coefs.standings)[2:3] <- c("yint", "coef")
 

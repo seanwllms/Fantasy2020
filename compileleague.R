@@ -6,13 +6,15 @@ source("parameters.R")
 #load in coefficients file
 if (!file.exists("coefs.rda")) {
   source("historyanalysis.R")
+} else {
+  source("coefs.rda")
 }
 
 #load hitter and pitcher projections
 if (!file.exists("projections.rda")) {
   source("calculatevalue.R")
 } else{
-  load("projections.rda")
+  source("projections.rda")
 }
 
 #Build league
