@@ -1,5 +1,5 @@
 library(tidyverse)
-library(xlsx)
+library(readxl)
 library(lubridate)
 
 #Load coefficients for marginal stats, as well as replacement values
@@ -14,13 +14,22 @@ replacement_hitters <- readxl::read_xlsx("./replacement/replacement_hitters.xlsx
 draft <- read_xlsx("./old_draft_analysis/draftpicks.xlsx") %>% 
   mutate(drafted = ymd(drafted),
           kept = ifelse(drafted < mdy("1/1/2019"), TRUE, FALSE))
+#########################
+##### READ DRAFT REZ ####
+#########################
+
+
+hitters2019 <- read_csv("./old_draft_analysis/hitters.csv") %>% 
+  select(Name, PA, R, HR, RBI, SB, AVG)
+
+pitchers2019 <- read_csv("./old_draft_analysis/pitchers.csv") %>%
+  mutate(WHIP = (H+BB)/IP) %>% 
+  select(Name, IP, W, SV, SO, ERA, WHIP)
+
 
 #########################
 ##### HITTERS  HERE #####
 #########################
-
-hitters2019 <- read_csv("./old_draft_analysis/hitters.csv") %>% 
-  select(Name, PA, R, HR, RBI, SB, AVG)
 
 #merge in 2019 results for each pick, merge in replacment levels.
 hitter_results <- left_join(draft, hitters2019, by =c("player" ="Name")) %>% 
@@ -41,26 +50,33 @@ hitter_results <- left_join(draft, hitters2019, by =c("player" ="Name")) %>%
     equity = dollar_value - salary
   )
 
-hitter_value_targets <- hitter_results %>% 
+hitter_value_targets_cost <- hitter_results %>% 
   filter(!kept) %>% 
   group_by(salary) %>% 
   summarise(mean_equity = mean(equity, na.rm = TRUE),
             equity_sd = sd(equity,  na.rm = TRUE)) 
 
 
-hitter_value_graph <- hitter_results %>% 
+hitter_value_graph_cost <- hitter_results %>% 
   filter(!kept) %>% 
   ggplot(aes(x=factor(salary), y = equity)) +
-  geom_boxplot()
+  geom_point() +
+  gemo
 
-hitter_value_graph
+hitter_value_graph_cost
+
+hitter_value_targets_day <- hitter_results %>% 
+  mutate(drafted = lubridate::ymd(drafted)) %>% 
+  filter(!kept & position != "B") %>% 
+  ggplot(aes(x=drafted, y = equity)) +
+  geom_point() +
+  geom_smooth()
+
+hitter_value_targets_day
 
 #########################
 ##### PITCHERS HERE #####
 #########################
-pitchers2019 <- read_csv("./old_draft_analysis/pitchers.csv") %>%
-  mutate(WHIP = (H+BB)/IP) %>% 
-  select(Name, IP, W, SV, SO, ERA, WHIP)
 
 replacement_pitchers <- readxl::read_xlsx("./replacement/replacement_pitchers.xlsx",
                                          sheet="replacement") %>% 
@@ -102,11 +118,19 @@ pitcher_value_graph <- pitcher_results %>%
 
 pitcher_value_graph
 
+pitcher_value_graph_day <- pitcher_results %>% 
+  filter(!kept & position != "B") %>% 
+  mutate(drafted = lubridate::ymd(drafted)) %>% 
+  ggplot(aes(x=drafted, y = equity)) +
+  geom_point() +
+  geom_smooth(span = 5)
+
+pitcher_value_graph_day
 
 
 scatterplot_hit <- ggplot(hitter_results, aes(x=salary,y=equity)) +
   geom_point() +
-  geom_smooth()
+  geom_smooth(span = 3)
 
 scatterplot_hit
 

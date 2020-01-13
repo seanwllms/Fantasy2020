@@ -33,11 +33,45 @@ load("standingscoefs.rda")
 #calculate points
 stats <- c("R", "HR", "RBI", "SB", "AVG", "ERA", "WHIP", "K","SV","W")
 
+
+calc_points <- function(baseball_stat, team) {
+  
+  stat_amount <- filter(standings, team_name == team) %>% pull(stat) 
+  
+  standings_data <- filter(coefs.standings, Category == tolower(stat)) 
+  
+  intercept <- pull(standings_data, yint)
+  coef <- pull(standings_data, coef)
+  
+  value <- intercept + coef * stat_amount
+  value
+}
+
+
+map(stats, function(x) {
+  label = paste0(x, "_points")
+  standings <<- mutate(standings, !!label := calc_points(x, team_name))
+})
+
+
+
 for (stat in stats) {
-      column.name <- paste(stat,"_points", sep="")
-      standings[column.name] <- coefs.standings[coefs.standings$Category==tolower(stat),2] +
-                                coefs.standings[coefs.standings$Category==tolower(stat),3]*
-                                standings[stat]
+      # column_name <- paste(stat,"_points", sep="")
+      # standings[column.name] <- coefs.standings[coefs.standings$Category==tolower(stat),2] +
+      #                           coefs.standings[coefs.standings$Category==tolower(stat),3]*
+      #                           standings[stat]
+       
+      column_name <- paste(stat,"_points", sep="")
+      
+      stat_amount <- pull(standings, stat) 
+      
+      standings_data <- filter(coefs.standings, Category == tolower(stat)) 
+      
+      intercept <- pull(standings_data, yint)
+      coef <- pull(standings_data, coef)
+      
+      standings <- mutate(standings,
+                          !!column_name := intercept + coef * stat_amount)
 }
 
 points.var.names <- paste(stats, "_points", sep="")
