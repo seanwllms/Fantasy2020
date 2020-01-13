@@ -7,14 +7,14 @@ source("parameters.R")
 if (!file.exists("coefs.rda")) {
   source("historyanalysis.R")
 } else {
-  source("coefs.rda")
+  load("coefs.rda")
 }
 
 #load hitter and pitcher projections
 if (!file.exists("projections.rda")) {
   source("calculatevalue.R")
 } else{
-  source("projections.rda")
+  load("projections.rda")
 }
 
 #Build league
