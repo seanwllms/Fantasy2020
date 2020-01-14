@@ -10,22 +10,22 @@ source("compileleague.R")
 
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
-# today <- c(
-# "Joe Jimenez",
-# "Franchy Cordero",
-# "Derek Holland",
-# "Kelvin Herrera",
-# "Ryan Pressly",
-# "Wilmer Flores",
-# "A.J. Puk",
-# "Daniel Palka"
-# ) %>% 
-#   tbl_df() %>% 
-#   set_names("Name")
+today <- c(
+"Madison Bumgarner",
+"Tommy La Stella",
+"Khris Davis",
+"Jean Segura",
+"Craig Kimbrel",
+"Lorenzo Cain",
+"Edwin Diaz",
+"Jorge Alfaro"
+) %>%
+  tbl_df() %>%
+  set_names("Name")
 
 
-#kable(left_join(today, hitterpitcher) %>% 
-#       select(Name, marginal.total.points, dollar.value))
+kable(left_join(today, hitterpitcher) %>%
+      select(Name, marginal.total.points, dollar.value))
 ```
 
 ####Draft Status
@@ -154,7 +154,7 @@ plot1 <- ggplot(standings.output, aes(x=spent, y=total_points)) +
   geom_smooth(method = lm, se = FALSE, size = .4)+
   geom_text_repel(aes(x=spent, y=total_points, label = team_name)) 
 
-#plot1 
+plot1 
 
 model <- predict(lm(total_points ~ spent, data = standings.output)) %>% 
   tbl_df() %>% 
