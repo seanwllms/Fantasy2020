@@ -3,6 +3,17 @@ Fantasy 2019
 
 \#\#\#\#Today’s auction
 
+| Name              | marginal.total.points | dollar.value |
+| :---------------- | --------------------: | -----------: |
+| Madison Bumgarner |                  5.40 |        14.87 |
+| Tommy La Stella   |                  4.17 |        11.49 |
+| Khris Davis       |                  9.50 |        26.16 |
+| Jean Segura       |                  8.09 |        22.26 |
+| Craig Kimbrel     |                  8.18 |        22.53 |
+| Lorenzo Cain      |                  8.83 |        24.32 |
+| Edwin Diaz        |                  8.87 |        24.42 |
+| Jorge Alfaro      |                  3.93 |        10.81 |
+
 \#\#\#\#Draft Status
 
 | position     | remaining |  max |  avg |
@@ -41,7 +52,7 @@ Standings
 | dsb        |   208 |   52 |         12 |       41 |          84.7 |       27.2 |         57.5 |
 | bellevegas |   205 |   55 |          8 |       48 |          82.9 |       40.8 |         42.1 |
 | ds9        |   185 |   75 |         13 |       63 |          81.3 |       23.5 |         57.8 |
-| ottawa     |   164 |   96 |         15 |       82 |          75.6 |       30.3 |         45.3 |
+| ottawa     |   165 |   95 |         15 |       81 |          75.6 |       30.3 |         45.3 |
 | pasadena   |   172 |   88 |         13 |       76 |          75.3 |       40.5 |         34.8 |
 | isotopes   |   182 |   78 |         13 |       66 |          75.0 |       30.5 |         44.5 |
 | deano      |   215 |   45 |         13 |       33 |          72.6 |       50.9 |         21.7 |
