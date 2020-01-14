@@ -1,10 +1,10 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","C1",8,"Yadier Molina","Cardinals","catcher","7007",448,413,47,13,53,4,0.263,5.2,14.3,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1B",19,"Carlos Santana","Indians","first_base","2396",658,548,92,30,94,3,0.26,8.94,24.61,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",12,"Ozzie Albies","Braves","second_base","16556",665,601,91,24,84,14,0.287,9.64,26.53,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",9,"Adalberto Mondesi","Royals","shortstop","13769",637,593,80,20,74,48,0.253,13.34,36.73,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","3B",6,"Travis Shaw","Brewers","third_base","11982",595,512,73,28,82,4,0.233,5.55,15.28,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "9","OF1",5,"Aristides Aquino","Reds","outfield","15482",560,514,69,33,88,7,0.241,7.97,21.94,"drafted",NA,NA,NA,NA,NA,NA
@@ -12,7 +12,7 @@
 "11","OF3",5,"Oscar Mercado","Indians","outfield","16375",602,546,75,15,66,22,0.256,8.14,22.42,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",15,"Eddie Rosario","Twins","outfield","12155",637,597,85,30,102,5,0.284,11.09,30.53,"drafted",NA,NA,NA,NA,NA,NA
 "13","OF5",8,"Nick Senzel","Reds","outfield","19293",584,525,72,17,61,17,0.261,7.37,20.28,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","OF6",34,"Giancarlo Stanton","Yankees","outfield","4949",616,535,101,49,115,3,0.268,13.99,38.52,"drafted",NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",12,"Tyler Glasnow","Rays","pitcher","14374",NA,NA,NA,NA,NA,NA,NA,7.76,21.36,"drafted",163,3.7,1.23,0,11,202
 "17","P2",5,"Dinelson Lamet","Padres","pitcher","17186",NA,NA,NA,NA,NA,NA,NA,7.85,21.6,"drafted",162,3.74,1.22,0,11,204

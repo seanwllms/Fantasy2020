@@ -2,7 +2,7 @@
 "1","C1",24,"J.T. Realmuto","Phillies","catcher","11739",539,487,69,23,75,6,0.269,9.56,26.31,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "3","1B",12,"Matt Olson","Athletics","first_base","14344",658,572,93,39,105,1,0.255,10.2,28.09,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","2B",25,"Jose Altuve","Astros","second_base","5417",658,587,97,24,90,12,0.295,10.32,28.42,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",22,"Carlos Correa","Astros","shortstop","14162",644,560,94,34,106,3,0.273,10.51,28.94,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",5,"Yandy Diaz","Rays","third_base","16578",637,552,74,14,70,5,0.274,5.44,14.98,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -17,7 +17,7 @@
 "16","P1",5,"Griffin Canning","Angels","pitcher","19867",NA,NA,NA,NA,NA,NA,NA,3.33,9.18,"drafted",135,4.36,1.28,0,9,139
 "17","P2",15,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,8.43,23.2,"drafted",173,3.8,1.17,0,12,189
 "18","P3",5,"Taylor Rogers","Twins","pitcher","13449",NA,NA,NA,NA,NA,NA,NA,7.24,19.93,"drafted",65,3.44,1.17,31,4,77
-"19","P4",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"19","P4",16,"Andrew Heaney","Angels","pitcher","15423",NA,NA,NA,NA,NA,NA,NA,7.61,20.95,"drafted",168,4.01,1.18,0,12,183
 "20","P5",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5

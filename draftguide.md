@@ -7,113 +7,113 @@ Fantasy 2019
 
 | position     | remaining |  max |  avg |
 | :----------- | --------: | ---: | ---: |
-| catcher      |        32 | 21.4 |  7.7 |
+| catcher      |        27 | 12.0 |  6.0 |
 | dh           |         5 | 34.9 | 18.4 |
-| first\_base  |        19 | 35.3 | 16.4 |
-| outfield     |        79 | 38.5 | 14.1 |
-| second\_base |        15 | 28.4 | 11.2 |
-| shortstop    |        13 | 22.3 | 11.9 |
-| third\_base  |        19 | 32.2 | 12.8 |
-| pitcher      |       120 | 43.1 |  8.9 |
+| first\_base  |        14 | 27.1 | 11.5 |
+| outfield     |        70 | 31.5 | 12.8 |
+| second\_base |        12 | 18.0 |  9.5 |
+| shortstop    |        12 | 22.3 | 11.0 |
+| third\_base  |        16 | 23.2 | 10.7 |
+| pitcher      |       107 | 24.4 |  7.0 |
 
 | Position | Still\_to\_be\_Drafted |
 | :------- | ---------------------: |
-| 1B       |                     10 |
-| 2B       |                      9 |
-| 3B       |                      4 |
-| CI       |                     14 |
+| 1B       |                      6 |
+| 2B       |                      7 |
+| 3B       |                      3 |
+| CI       |                     13 |
 | DH       |                     16 |
-| MI       |                     10 |
-| SS       |                      3 |
-| C        |                     27 |
-| OF       |                     58 |
-| P        |                    117 |
-| Total    |                    268 |
+| MI       |                      8 |
+| SS       |                      1 |
+| C        |                     22 |
+| OF       |                     50 |
+| P        |                    102 |
+| Total    |                    228 |
 
 \#\#\#\#Current
 Standings
 
 | team\_name | spent | left | picks.left | max\_bid | total\_points | hit.points | pitch.points |
 | :--------- | ----: | ---: | ---------: | -------: | ------------: | ---------: | -----------: |
-| rippe      |   144 |  116 |         15 |      102 |          78.3 |       31.6 |         46.7 |
+| sturgeon   |   202 |   58 |         12 |       47 |          94.0 |       58.5 |         35.5 |
+| marmaduke  |   166 |   94 |         11 |       84 |          88.9 |       55.4 |         33.5 |
+| rippe      |   172 |   88 |         13 |       76 |          87.2 |       33.9 |         53.3 |
+| dsb        |   208 |   52 |         12 |       41 |          84.7 |       27.2 |         57.5 |
+| bellevegas |   205 |   55 |          8 |       48 |          82.9 |       40.8 |         42.1 |
+| ds9        |   185 |   75 |         13 |       63 |          81.3 |       23.5 |         57.8 |
 | ottawa     |   164 |   96 |         15 |       82 |          75.6 |       30.3 |         45.3 |
-| sturgeon   |   130 |  130 |         15 |      116 |          63.9 |       48.0 |         15.9 |
-| isotopes   |   148 |  112 |         14 |       99 |          63.2 |       18.7 |         44.5 |
-| dsb        |   130 |  130 |         15 |      116 |          62.7 |       20.8 |         41.9 |
-| marmaduke  |    99 |  161 |         15 |      147 |          61.0 |       27.5 |         33.5 |
-| pasadena   |   131 |  129 |         15 |      115 |          60.0 |       31.9 |         28.1 |
-| ds9        |   112 |  148 |         15 |      134 |          59.4 |       15.5 |         43.9 |
-| dembums    |   139 |  121 |         15 |      107 |          55.5 |       32.2 |         23.3 |
-| balco      |   119 |  141 |         14 |      128 |          55.4 |       34.8 |         20.6 |
-| deano      |   165 |   95 |         16 |       80 |          54.1 |       32.4 |         21.7 |
-| bellevegas |   115 |  145 |         14 |      132 |          53.8 |       26.7 |         27.1 |
-| chicago    |   110 |  150 |         15 |      136 |          52.6 |       15.1 |         37.5 |
-| bears      |   134 |  126 |         15 |      112 |          50.2 |       15.0 |         35.2 |
-| pkdodgers  |    92 |  168 |         15 |      154 |          46.8 |       15.0 |         31.8 |
-| drjames    |   126 |  134 |         15 |      120 |          41.3 |       14.4 |         26.9 |
+| pasadena   |   172 |   88 |         13 |       76 |          75.3 |       40.5 |         34.8 |
+| isotopes   |   182 |   78 |         13 |       66 |          75.0 |       30.5 |         44.5 |
+| deano      |   215 |   45 |         13 |       33 |          72.6 |       50.9 |         21.7 |
+| bears      |   196 |   64 |         12 |       53 |          69.1 |       33.9 |         35.2 |
+| chicago    |   164 |   96 |         12 |       85 |          67.6 |       30.1 |         37.5 |
+| pkdodgers  |   133 |  127 |         12 |      116 |          62.5 |       23.4 |         39.1 |
+| balco      |   139 |  121 |         13 |      109 |          61.7 |       34.8 |         26.9 |
+| dembums    |   169 |   91 |         14 |       78 |          61.4 |       32.2 |         29.2 |
+| drjames    |   155 |  105 |         14 |       92 |          46.8 |       19.9 |         26.9 |
 | perpetual  |   116 |  144 |         15 |      130 |          36.6 |       12.6 |         24.0 |
-| deener     |   116 |  144 |         15 |      130 |          33.7 |       10.9 |         22.8 |
+| deener     |   140 |  120 |         13 |      108 |          33.8 |       12.5 |         21.3 |
 
 \#\#\#\#Top Remaining
 Pitchers
 
-| Name            | Team      |  IP |  ERA | WHIP |   K | SV |  W |   pts |   dlr |
-| :-------------- | :-------- | --: | ---: | ---: | --: | -: | -: | ----: | ----: |
-| Max Scherzer    | Nationals | 205 | 3.28 | 1.04 | 272 |  0 | 15 | 15.66 | 43.10 |
-| Chris Sale      | Red Sox   | 177 | 3.19 | 1.03 | 233 |  0 | 14 | 13.65 | 37.59 |
-| Clayton Kershaw | Dodgers   | 204 | 3.55 | 1.16 | 209 |  0 | 14 | 10.93 | 30.10 |
-| Aaron Nola      | Phillies  | 211 | 3.83 | 1.24 | 235 |  0 | 13 |  9.44 | 25.99 |
-| Yu Darvish      | Cubs      | 185 | 3.86 | 1.19 | 221 |  0 | 12 |  9.10 | 25.05 |
-| Aroldis Chapman | Yankees   |  65 | 3.01 | 1.12 |  94 | 34 |  4 |  8.90 | 24.51 |
-| Edwin Diaz      | Mets      |  65 | 2.90 | 1.05 |  98 | 31 |  4 |  8.87 | 24.42 |
-| Liam Hendriks   | Athletics |  70 | 3.17 | 1.08 |  92 | 30 |  4 |  8.29 | 22.82 |
-| Craig Kimbrel   | Cubs      |  65 | 3.57 | 1.19 |  90 | 35 |  4 |  8.18 | 22.53 |
-| Kenley Jansen   | Dodgers   |  65 | 3.87 | 1.14 |  75 | 37 |  3 |  7.82 | 21.53 |
-| Andrew Heaney   | Angels    | 168 | 4.01 | 1.18 | 183 |  0 | 12 |  7.61 | 20.95 |
-| Zack Wheeler    | Phillies  | 189 | 4.13 | 1.23 | 195 |  0 | 12 |  7.20 | 19.81 |
-| Ken Giles       | Blue Jays |  65 | 3.56 | 1.16 |  82 | 30 |  4 |  7.14 | 19.65 |
-| Zack Greinke    | Astros    | 202 | 4.26 | 1.24 | 182 |  0 | 14 |  7.10 | 19.55 |
-| Raisel Iglesias | Reds      |  65 | 3.87 | 1.21 |  78 | 31 |  3 |  6.39 | 17.58 |
+| Name              | Team         |  IP |  ERA | WHIP |   K | SV |  W |  pts |   dlr |
+| :---------------- | :----------- | --: | ---: | ---: | --: | -: | -: | ---: | ----: |
+| Edwin Diaz        | Mets         |  65 | 2.90 | 1.05 |  98 | 31 |  4 | 8.87 | 24.42 |
+| Liam Hendriks     | Athletics    |  70 | 3.17 | 1.08 |  92 | 30 |  4 | 8.29 | 22.82 |
+| Craig Kimbrel     | Cubs         |  65 | 3.57 | 1.19 |  90 | 35 |  4 | 8.18 | 22.53 |
+| Ken Giles         | Blue Jays    |  65 | 3.56 | 1.16 |  82 | 30 |  4 | 7.14 | 19.65 |
+| Chris Archer      | Pirates      | 180 | 4.18 | 1.29 | 196 |  0 | 11 | 5.89 | 16.21 |
+| Keone Kela        | Pirates      |  65 | 3.63 | 1.22 |  81 | 27 |  3 | 5.84 | 16.07 |
+| David Price       | Red Sox      | 164 | 4.15 | 1.26 | 167 |  0 | 12 | 5.81 | 16.00 |
+| Ian Kennedy       | Royals       |  65 | 4.34 | 1.25 |  67 | 31 |  3 | 5.49 | 15.13 |
+| Carlos Martinez   | Cardinals    |  78 | 3.84 | 1.30 |  79 | 26 |  4 | 5.41 | 14.90 |
+| Madison Bumgarner | Diamondbacks | 202 | 4.50 | 1.27 | 195 |  0 | 11 | 5.40 | 14.87 |
+| Joe Jimenez       | Tigers       |  65 | 4.19 | 1.27 |  76 | 29 |  3 | 5.38 | 14.81 |
+| Jon Gray          | Rockies      | 186 | 4.32 | 1.32 | 190 |  0 | 12 | 5.31 | 14.61 |
+| Garrett Richards  | Padres       | 165 | 3.89 | 1.33 | 171 |  0 | 11 | 5.24 | 14.43 |
+| Miles Mikolas     | Cardinals    | 195 | 4.21 | 1.26 | 155 |  0 | 11 | 5.13 | 14.11 |
+| Dylan Bundy       | Angels       | 178 | 4.47 | 1.26 | 177 |  0 | 11 | 5.12 | 14.08 |
 
 \#\#\#\#Top Remaining
 Hitters
 
-| Name              | Team      |  PA |   R | HR | RBI | SB |   AVG |   pts |   dlr |
-| :---------------- | :-------- | --: | --: | -: | --: | -: | ----: | ----: | ----: |
-| Giancarlo Stanton | Yankees   | 616 | 101 | 49 | 115 |  3 | 0.268 | 13.99 | 38.52 |
-| Bryce Harper      | Phillies  | 665 | 103 | 41 | 103 | 11 | 0.259 | 13.29 | 36.60 |
-| Freddie Freeman   | Braves    | 672 |  99 | 34 | 105 |  6 | 0.293 | 12.82 | 35.29 |
-| Nelson Cruz       | Twins     | 637 |  95 | 40 | 112 |  1 | 0.282 | 12.67 | 34.88 |
-| Starling Marte    | Pirates   | 630 |  82 | 21 |  78 | 26 | 0.287 | 12.43 | 34.23 |
-| Anthony Rizzo     | Cubs      | 672 |  98 | 32 | 101 |  6 | 0.284 | 11.77 | 32.42 |
-| Manny Machado     | Padres    | 679 |  96 | 38 | 100 |  7 | 0.271 | 11.71 | 32.23 |
-| Marcell Ozuna     | NA        | 644 |  84 | 33 | 103 |  7 | 0.276 | 11.44 | 31.50 |
-| Peter Alonso      | Mets      | 665 |  99 | 44 | 105 |  2 | 0.252 | 11.22 | 30.88 |
-| Kris Bryant       | Cubs      | 658 |  99 | 31 |  90 |  4 | 0.273 | 10.48 | 28.84 |
-| Paul Goldschmidt  | Cardinals | 679 |  93 | 32 |  94 |  5 | 0.273 | 10.36 | 28.53 |
-| Jose Altuve       | Astros    | 658 |  97 | 24 |  90 | 12 | 0.295 | 10.32 | 28.42 |
-| Jose Abreu        | White Sox | 644 |  85 | 31 |  99 |  3 | 0.275 |  9.84 | 27.09 |
-| Khris Davis       | Athletics | 637 |  86 | 39 | 104 |  1 | 0.243 |  9.50 | 26.16 |
-| Josh Donaldson    | NA        | 644 |  98 | 35 |  87 |  4 | 0.257 |  9.36 | 25.76 |
-| \#\#\#\#Top OF    |           |     |     |    |     |    |       |       |       |
+| Name                 | Team      |  PA |  R | HR | RBI | SB |   AVG |   pts |   dlr |
+| :------------------- | :-------- | --: | -: | -: | --: | -: | ----: | ----: | ----: |
+| Nelson Cruz          | Twins     | 637 | 95 | 40 | 112 |  1 | 0.282 | 12.67 | 34.88 |
+| Marcell Ozuna        | NA        | 644 | 84 | 33 | 103 |  7 | 0.276 | 11.44 | 31.50 |
+| Jose Abreu           | White Sox | 644 | 85 | 31 |  99 |  3 | 0.275 |  9.84 | 27.09 |
+| Khris Davis          | Athletics | 637 | 86 | 39 | 104 |  1 | 0.243 |  9.50 | 26.16 |
+| Yasiel Puig          | NA        | 560 | 70 | 25 |  81 | 14 | 0.268 |  9.30 | 25.61 |
+| Nicholas Castellanos | NA        | 644 | 86 | 26 |  87 |  3 | 0.275 |  8.90 | 24.51 |
+| Lorenzo Cain         | Brewers   | 630 | 81 | 15 |  62 | 19 | 0.277 |  8.83 | 24.32 |
+| David Dahl           | Rockies   | 581 | 75 | 23 |  79 |  9 | 0.275 |  8.62 | 23.74 |
+| Edwin Encarnacion    | White Sox | 581 | 81 | 35 |  93 |  2 | 0.246 |  8.45 | 23.27 |
+| Justin Turner        | Dodgers   | 609 | 86 | 26 |  84 |  3 | 0.280 |  8.43 | 23.21 |
+| Ryan Braun           | Brewers   | 539 | 70 | 25 |  81 |  9 | 0.268 |  8.38 | 23.07 |
+| Michael Conforto     | Mets      | 602 | 82 | 31 |  85 |  5 | 0.251 |  8.34 | 22.97 |
+| Adam Eaton           | Nationals | 630 | 86 | 15 |  63 | 12 | 0.282 |  8.12 | 22.34 |
+| Jean Segura          | Phillies  | 651 | 82 | 16 |  69 | 13 | 0.288 |  8.09 | 22.26 |
+| Justin Upton         | Angels    | 623 | 81 | 30 |  91 |  5 | 0.240 |  7.87 | 21.65 |
+| \#\#\#\#Top OF       |           |     |    |    |     |    |       |       |       |
 
-| Name                 | Team      |  PA |   R | HR | RBI | SB |   AVG |   pts |   dlr |
-| :------------------- | :-------- | --: | --: | -: | --: | -: | ----: | ----: | ----: |
-| Giancarlo Stanton    | Yankees   | 616 | 101 | 49 | 115 |  3 | 0.268 | 13.99 | 38.52 |
-| Bryce Harper         | Phillies  | 665 | 103 | 41 | 103 | 11 | 0.259 | 13.29 | 36.60 |
-| Starling Marte       | Pirates   | 630 |  82 | 21 |  78 | 26 | 0.287 | 12.43 | 34.23 |
-| Marcell Ozuna        | NA        | 644 |  84 | 33 | 103 |  7 | 0.276 | 11.44 | 31.50 |
-| Kris Bryant          | Cubs      | 658 |  99 | 31 |  90 |  4 | 0.273 | 10.48 | 28.84 |
-| Khris Davis          | Athletics | 637 |  86 | 39 | 104 |  1 | 0.243 |  9.50 | 26.16 |
-| Yasiel Puig          | NA        | 560 |  70 | 25 |  81 | 14 | 0.268 |  9.30 | 25.61 |
-| Michael Brantley     | Astros    | 609 |  83 | 20 |  85 |  5 | 0.289 |  8.95 | 24.63 |
-| Nicholas Castellanos | NA        | 644 |  86 | 26 |  87 |  3 | 0.275 |  8.90 | 24.51 |
-| Lorenzo Cain         | Brewers   | 630 |  81 | 15 |  62 | 19 | 0.277 |  8.83 | 24.32 |
-| David Dahl           | Rockies   | 581 |  75 | 23 |  79 |  9 | 0.275 |  8.62 | 23.74 |
-| Ryan Braun           | Brewers   | 539 |  70 | 25 |  81 |  9 | 0.268 |  8.38 | 23.07 |
-| Michael Conforto     | Mets      | 602 |  82 | 31 |  85 |  5 | 0.251 |  8.34 | 22.97 |
-| Adam Eaton           | Nationals | 630 |  86 | 15 |  63 | 12 | 0.282 |  8.12 | 22.34 |
-| Justin Upton         | Angels    | 623 |  81 | 30 |  91 |  5 | 0.240 |  7.87 | 21.65 |
+| Name                 | Team         |  PA |  R | HR | RBI | SB |   AVG |   pts |   dlr |
+| :------------------- | :----------- | --: | -: | -: | --: | -: | ----: | ----: | ----: |
+| Marcell Ozuna        | NA           | 644 | 84 | 33 | 103 |  7 | 0.276 | 11.44 | 31.50 |
+| Khris Davis          | Athletics    | 637 | 86 | 39 | 104 |  1 | 0.243 |  9.50 | 26.16 |
+| Yasiel Puig          | NA           | 560 | 70 | 25 |  81 | 14 | 0.268 |  9.30 | 25.61 |
+| Nicholas Castellanos | NA           | 644 | 86 | 26 |  87 |  3 | 0.275 |  8.90 | 24.51 |
+| Lorenzo Cain         | Brewers      | 630 | 81 | 15 |  62 | 19 | 0.277 |  8.83 | 24.32 |
+| David Dahl           | Rockies      | 581 | 75 | 23 |  79 |  9 | 0.275 |  8.62 | 23.74 |
+| Ryan Braun           | Brewers      | 539 | 70 | 25 |  81 |  9 | 0.268 |  8.38 | 23.07 |
+| Michael Conforto     | Mets         | 602 | 82 | 31 |  85 |  5 | 0.251 |  8.34 | 22.97 |
+| Adam Eaton           | Nationals    | 630 | 86 | 15 |  63 | 12 | 0.282 |  8.12 | 22.34 |
+| Justin Upton         | Angels       | 623 | 81 | 30 |  91 |  5 | 0.240 |  7.87 | 21.65 |
+| Andrew McCutchen     | Phillies     | 567 | 80 | 26 |  71 |  8 | 0.258 |  7.73 | 21.29 |
+| Mallex Smith         | Mariners     | 560 | 63 |  7 |  45 | 37 | 0.249 |  7.69 | 21.16 |
+| Joc Pederson         | Dodgers      | 497 | 76 | 31 |  75 |  3 | 0.256 |  7.43 | 20.44 |
+| David Peralta        | Diamondbacks | 595 | 76 | 21 |  76 |  3 | 0.279 |  7.34 | 20.22 |
+| Jackie Bradley Jr.   | Red Sox      | 637 | 80 | 22 |  79 | 12 | 0.240 |  7.34 | 20.20 |
 
 ![](draftguide_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
@@ -171,7 +171,5 @@ Hitters
 | Gio Urshela       | pkdodgers | not matched |
 | Keibert Ruiz      | pkdodgers | not matched |
 | Wander Franco     | rippe     | not matched |
-| Lance McCullers   | rippe     | not matched |
-| Pete Alonso       | sturgeon  | not matched |
 | Xavier Edwards    | sturgeon  | not matched |
 | Andrew Vaughn     | marmaduke | not matched |
