@@ -11,14 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-"David Price",
-"Nicholas Castellanos",
-"Corey Knebel",
-"Ryon Healy",
-"Jose Urquidy",
-"David Dahl",
-"Tom Murphy",
-"Jose Quintana"
+"Edwin Encarnacion",
+"Justin Turner",
+"Will Smith",
+"Omar Narvaez",
+"Kyle Hendricks",
+"Kwang-Hyun Kim",
+"Nelson Cruz",
+"Adam Eaton"
 ) %>%
   tbl_df() %>%
   set_names("Name")
@@ -194,7 +194,7 @@ valuepicks <- draftpicks %>%
   left_join(hitter_projections, by=c("player"="Name")) %>% 
   left_join(pitcher_projections, by=c("player"="Name")) %>%
   mutate(drafted=ymd(drafted)) %>% 
-  filter(year(drafted)==2019) %>% 
+  filter(year(drafted)==2020) %>% 
   select(team, player, salary, dollar.value.x, dollar.value.y) %>% 
   mutate(dollar_value = pmax(dollar.value.x, dollar.value.y, na.rm=TRUE),
          equity = dollar_value - salary) %>% 
