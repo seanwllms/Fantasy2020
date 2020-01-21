@@ -1,5 +1,5 @@
 ---
-title: "Fantasy 2019"
+title: "Fantasy 2020"
 output: github_document 
 ---
 
@@ -11,14 +11,14 @@ source("compileleague.R")
 ####Today's auction
 ```{r, echo = FALSE, warning=FALSE, message = FALSE}
 today <- c(
-"Edwin Encarnacion",
-"Justin Turner",
-"Will Smith",
-"Omar Narvaez",
-"Kyle Hendricks",
-"Kwang-Hyun Kim",
-"Nelson Cruz",
-"Adam Eaton"
+"Chris Taylor",
+"Francisco Mejia",
+"Andrew McCutchen",
+"Tucker Barnhart",
+"Michael Conforto",
+"Yasiel Puig",
+"Willy Adames",
+"Chris Archer"
 ) %>%
   tbl_df() %>%
   set_names("Name")
@@ -121,26 +121,42 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 
 kable(topdh)
 ```
+
 ####Top OF
 ```{r, echo = FALSE}
 topof <- filter(hitter_projections, status != "drafted", position =="outfield") %>% 
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
       arrange(-dlr) %>% 
-      filter(row_number() < 16)
+      filter(row_number() < 12)
 
 kable(topof)
 
 ```
 
+####Top MI
 ```{r, echo = FALSE}
-# filter(hitter_projections, status != "drafted" & position == "outfield") %>%
-#       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
-#       select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
-#       arrange(-dlr) %>% 
-#   filter(row_number() <21)
+topmi <- filter(hitter_projections, status != "drafted" & position %in% c("second_base","shortstop")) %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
+      arrange(-dlr) %>%
+      filter(row_number() <12)
+
+kable(topmi)
+
 ```
 
+####Top catchers
+```{r, echo = FALSE}
+topcatch <- filter(hitter_projections, status != "drafted", position =="catcher") %>% 
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
+      arrange(-dlr) %>% 
+      filter(row_number() < 12)
+
+kable(topcatch)
+
+```
 
 ```{r, echo = FALSE,warning=FALSE, error = FALSE, message = FALSE}
 ####Dollars vs. projected points
