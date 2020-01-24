@@ -3,16 +3,16 @@ Fantasy 2020
 
 \#\#\#\#Today’s auction
 
-| Name              | marginal.total.points | dollar.value |
-| :---------------- | --------------------: | -----------: |
-| Ross Stripling    |                  1.71 |         4.71 |
-| Corey Dickerson   |                  6.41 |        17.64 |
-| Merrill Kelly     |                  0.53 |         1.45 |
-| Justin Upton      |                  7.87 |        21.67 |
-| Daniel Murphy     |                  7.22 |        19.88 |
-| Anthony Santander |                  6.47 |        17.81 |
-| Joey Votto        |                  6.92 |        19.06 |
-| Rougned Odor      |                  6.18 |        17.02 |
+| Name            | marginal.total.points | dollar.value |
+| :-------------- | --------------------: | -----------: |
+| Miles Mikolas   |                  5.98 |        16.45 |
+| Matt Carpenter  |                  3.70 |        10.18 |
+| Evan White      |                    NA |           NA |
+| Mauricio Dubon  |                  5.61 |        15.43 |
+| Alex Wood       |                  3.12 |         8.59 |
+| Jacoby Jones    |                    NA |           NA |
+| Ryan Yarbrough  |                  1.95 |         5.37 |
+| Jacob Stallings |                  2.12 |         5.84 |
 
 \#\#\#\#Draft Status
 
@@ -20,49 +20,49 @@ Fantasy 2020
 | :----------- | --------: | ---: | ---: |
 | catcher      |        17 | 12.0 |  5.0 |
 | dh           |         4 | 15.8 | 10.8 |
-| first\_base  |        13 | 19.9 |  8.9 |
-| outfield     |        55 | 21.7 | 10.2 |
-| second\_base |         7 | 17.0 | 11.5 |
+| first\_base  |        11 | 10.8 |  7.0 |
+| outfield     |        52 | 19.6 |  9.7 |
+| second\_base |         6 | 14.6 | 10.5 |
 | shortstop    |         9 | 15.4 |  7.7 |
 | third\_base  |        12 | 15.1 |  7.4 |
-| pitcher      |       100 | 16.4 |  5.2 |
+| pitcher      |        98 | 16.4 |  5.2 |
 
 | Position | Still\_to\_be\_Drafted |
 | :------- | ---------------------: |
 | 1B       |                      5 |
 | 2B       |                      5 |
 | 3B       |                      2 |
-| CI       |                     10 |
-| DH       |                     10 |
-| MI       |                      5 |
+| CI       |                      8 |
+| DH       |                      9 |
+| MI       |                      4 |
 | SS       |                      0 |
 | C        |                     14 |
-| OF       |                     34 |
-| P        |                     82 |
-| Total    |                    167 |
+| OF       |                     31 |
+| P        |                     80 |
+| Total    |                    158 |
 
 \#\#\#\#Current Standings
 
 | team\_name | spent | left | picks.left | max\_bid | total\_points | hit.points | pitch.points |
 | :--------- | ----: | ---: | ---------: | -------: | ------------: | ---------: | -----------: |
 | marmaduke  |   235 |   25 |          6 |       20 |         112.8 |       60.7 |         52.1 |
+| rippe      |   229 |   31 |          8 |       24 |         112.1 |       53.2 |         58.9 |
+| chicago    |   229 |   31 |          7 |       25 |         104.0 |       63.1 |         40.9 |
 | dsb        |   243 |   17 |          8 |       10 |         100.3 |       41.4 |         58.9 |
-| chicago    |   221 |   39 |          8 |       32 |          99.5 |       58.6 |         40.9 |
+| ds9        |   218 |   42 |         10 |       33 |         100.1 |       38.9 |         61.2 |
+| isotopes   |   211 |   49 |         12 |       38 |          99.2 |       48.0 |         51.2 |
 | sturgeon   |   202 |   58 |         12 |       47 |          97.7 |       60.9 |         36.8 |
 | pkdodgers  |   234 |   26 |          3 |       24 |          96.7 |       47.1 |         49.6 |
 | ottawa     |   215 |   45 |         10 |       36 |          94.8 |       46.9 |         47.9 |
-| isotopes   |   199 |   61 |         13 |       49 |          93.5 |       42.3 |         51.2 |
 | bellevegas |   246 |   14 |          5 |       10 |          92.2 |       45.5 |         46.7 |
-| ds9        |   205 |   55 |         11 |       45 |          91.9 |       30.7 |         61.2 |
 | pasadena   |   215 |   45 |         10 |       36 |          89.4 |       50.4 |         39.0 |
 | balco      |   206 |   54 |          9 |       46 |          86.7 |       49.5 |         37.2 |
 | dembums    |   231 |   29 |         10 |       20 |          85.8 |       33.2 |         52.6 |
-| rippe      |   176 |   84 |         12 |       73 |          85.7 |       28.4 |         57.3 |
 | deano      |   246 |   14 |         10 |        5 |          84.7 |       61.7 |         23.0 |
 | bears      |   229 |   31 |         10 |       22 |          82.8 |       39.8 |         43.0 |
 | drjames    |   245 |   15 |          9 |        7 |          80.4 |       38.7 |         41.7 |
-| perpetual  |   194 |   66 |         11 |       56 |          54.2 |       25.6 |         28.6 |
-| deener     |   188 |   72 |         10 |       63 |          40.4 |       17.7 |         22.7 |
+| perpetual  |   194 |   66 |         11 |       56 |          56.9 |       28.3 |         28.6 |
+| deener     |   204 |   56 |          8 |       49 |          44.2 |       20.9 |         23.3 |
 
 \#\#\#\#Top Remaining Pitchers
 
@@ -88,43 +88,42 @@ Fantasy 2020
 
 | Name               | Team         |  PA |  R | HR | RBI | SB |   AVG |  pts |   dlr |
 | :----------------- | :----------- | --: | -: | -: | --: | -: | ----: | ---: | ----: |
-| Justin Upton       | Angels       | 623 | 83 | 30 |  92 |  4 | 0.240 | 7.87 | 21.67 |
-| Daniel Murphy      | Rockies      | 560 | 71 | 20 |  81 |  2 | 0.288 | 7.22 | 19.88 |
 | David Peralta      | Diamondbacks | 595 | 74 | 21 |  76 |  3 | 0.280 | 7.14 | 19.65 |
 | Jackie Bradley Jr. | Red Sox      | 637 | 80 | 21 |  77 | 12 | 0.238 | 6.95 | 19.14 |
-| Joey Votto         | Reds         | 651 | 87 | 21 |  71 |  4 | 0.270 | 6.92 | 19.06 |
 | Randal Grichuk     | Blue Jays    | 560 | 72 | 30 |  83 |  3 | 0.244 | 6.81 | 18.74 |
 | Hunter Renfroe     | Rays         | 574 | 72 | 33 |  82 |  4 | 0.232 | 6.77 | 18.63 |
-| Anthony Santander  | Orioles      | 588 | 67 | 24 |  77 |  4 | 0.258 | 6.47 | 17.81 |
-| Corey Dickerson    | Marlins      | 567 | 66 | 20 |  71 |  4 | 0.276 | 6.41 | 17.64 |
 | Gregory Polanco    | Pirates      | 560 | 70 | 21 |  71 | 10 | 0.248 | 6.38 | 17.57 |
 | Kevin Kiermaier    | Rays         | 574 | 67 | 17 |  63 | 19 | 0.240 | 6.33 | 17.43 |
-| Rougned Odor       | Rangers      | 595 | 75 | 30 |  81 | 13 | 0.231 | 6.18 | 17.02 |
 | Nick Markakis      | Braves       | 609 | 71 | 13 |  76 |  2 | 0.284 | 6.13 | 16.88 |
 | Ender Inciarte     | Braves       | 553 | 65 | 10 |  52 | 16 | 0.266 | 5.75 | 15.82 |
 | Miguel Cabrera     | Tigers       | 595 | 65 | 18 |  75 |  0 | 0.276 | 5.73 | 15.78 |
+| Victor Reyes       | Tigers       | 525 | 61 |  9 |  51 | 16 | 0.274 | 5.64 | 15.52 |
+| Mauricio Dubon     | Giants       | 588 | 61 | 15 |  60 | 14 | 0.267 | 5.61 | 15.43 |
+| Giovanny Urshela   | Yankees      | 581 | 70 | 19 |  75 |  2 | 0.272 | 5.48 | 15.07 |
+| Jonathan Schoop    | Tigers       | 588 | 71 | 28 |  81 |  2 | 0.261 | 5.31 | 14.63 |
+| Kole Calhoun       | Diamondbacks | 581 | 74 | 23 |  69 |  4 | 0.240 | 5.23 | 14.40 |
+| Dexter Fowler      | Cardinals    | 637 | 75 | 19 |  68 |  9 | 0.234 | 5.22 | 14.36 |
 
 \#\#\#\#Top OF
 
 | Name               | Team         |  PA |  R | HR | RBI | SB |   AVG |  pts |   dlr |
 | :----------------- | :----------- | --: | -: | -: | --: | -: | ----: | ---: | ----: |
-| Justin Upton       | Angels       | 623 | 83 | 30 |  92 |  4 | 0.240 | 7.87 | 21.67 |
 | David Peralta      | Diamondbacks | 595 | 74 | 21 |  76 |  3 | 0.280 | 7.14 | 19.65 |
 | Jackie Bradley Jr. | Red Sox      | 637 | 80 | 21 |  77 | 12 | 0.238 | 6.95 | 19.14 |
 | Randal Grichuk     | Blue Jays    | 560 | 72 | 30 |  83 |  3 | 0.244 | 6.81 | 18.74 |
 | Hunter Renfroe     | Rays         | 574 | 72 | 33 |  82 |  4 | 0.232 | 6.77 | 18.63 |
-| Anthony Santander  | Orioles      | 588 | 67 | 24 |  77 |  4 | 0.258 | 6.47 | 17.81 |
-| Corey Dickerson    | Marlins      | 567 | 66 | 20 |  71 |  4 | 0.276 | 6.41 | 17.64 |
 | Gregory Polanco    | Pirates      | 560 | 70 | 21 |  71 | 10 | 0.248 | 6.38 | 17.57 |
 | Kevin Kiermaier    | Rays         | 574 | 67 | 17 |  63 | 19 | 0.240 | 6.33 | 17.43 |
 | Nick Markakis      | Braves       | 609 | 71 | 13 |  76 |  2 | 0.284 | 6.13 | 16.88 |
 | Ender Inciarte     | Braves       | 553 | 65 | 10 |  52 | 16 | 0.266 | 5.75 | 15.82 |
+| Victor Reyes       | Tigers       | 525 | 61 |  9 |  51 | 16 | 0.274 | 5.64 | 15.52 |
+| Kole Calhoun       | Diamondbacks | 581 | 74 | 23 |  69 |  4 | 0.240 | 5.23 | 14.40 |
+| Dexter Fowler      | Cardinals    | 637 | 75 | 19 |  68 |  9 | 0.234 | 5.22 | 14.36 |
 
 \#\#\#\#Top MI
 
 | Name             | Team     |  PA |  R | HR | RBI | SB |   AVG |  pts |   dlr |
 | :--------------- | :------- | --: | -: | -: | --: | -: | ----: | ---: | ----: |
-| Rougned Odor     | Rangers  | 595 | 75 | 30 |  81 | 13 | 0.231 | 6.18 | 17.02 |
 | Mauricio Dubon   | Giants   | 588 | 61 | 15 |  60 | 14 | 0.267 | 5.61 | 15.43 |
 | Jonathan Schoop  | Tigers   | 588 | 71 | 28 |  81 |  2 | 0.261 | 5.31 | 14.63 |
 | Niko Goodrum     | Tigers   | 637 | 73 | 19 |  70 | 15 | 0.242 | 5.04 | 13.88 |
@@ -135,6 +134,7 @@ Fantasy 2020
 | Jurickson Profar | Padres   | 560 | 66 | 19 |  68 |  9 | 0.244 | 3.39 |  9.32 |
 | J.P. Crawford    | Mariners | 644 | 73 | 14 |  63 |  8 | 0.232 | 2.98 |  8.22 |
 | Nicky Lopez      | Royals   | 567 | 60 |  6 |  51 |  9 | 0.270 | 2.85 |  7.86 |
+| Brandon Crawford | Giants   | 595 | 59 | 14 |  64 |  4 | 0.246 | 2.36 |  6.50 |
 
 \#\#\#\#Top catchers
 
@@ -161,7 +161,9 @@ Fantasy 2020
 
 | team       | player            | salary | dollar\_value | equity |
 | :--------- | :---------------- | -----: | ------------: | -----: |
+| chicago    | Joey Votto        |      8 |         19.06 |  11.06 |
 | chicago    | Jason Heyward     |      7 |         17.55 |  10.55 |
+| rippe      | Daniel Murphy     |     10 |         19.88 |   9.88 |
 | chicago    | Nelson Cruz       |     26 |         35.12 |   9.12 |
 | chicago    | Jean Segura       |     13 |         22.11 |   9.11 |
 | bears      | Adam Eaton        |     14 |         23.02 |   9.02 |
@@ -172,15 +174,13 @@ Fantasy 2020
 | dembums    | Carlos Martinez   |     16 |         23.79 |   7.79 |
 | pkdodgers  | Jorge Polanco     |     15 |         21.84 |   6.84 |
 | ottawa     | Dee Gordon        |      5 |         11.82 |   6.82 |
+| deener     | Anthony Santander |     11 |         17.81 |   6.81 |
 | dsb        | Ryan Braun        |     17 |         23.66 |   6.66 |
 | deano      | Buster Posey      |      8 |         14.33 |   6.33 |
 | rippe      | Kolten Wong       |      8 |         14.30 |   6.30 |
 | bellevegas | Michael Brantley  |     19 |         25.13 |   6.13 |
 | marmaduke  | Yadier Molina     |      8 |         13.97 |   5.97 |
 | ds9        | Kyle Seager       |      9 |         14.76 |   5.76 |
-| dsb        | Harrison Bader    |      5 |         10.72 |   5.72 |
-| perpetual  | Marcell Ozuna     |     26 |         31.52 |   5.52 |
-| pasadena   | Mallex Smith      |     17 |         22.37 |   5.37 |
 
 \#\#\#\#Unmatched Draft Picks
 
@@ -200,7 +200,6 @@ Fantasy 2020
 | Luis Patino       | isotopes  | not matched |
 | Marco Luciano     | ottawa    | not matched |
 | Casey Mize        | pasadena  | not matched |
-| Nate Lowe         | perpetual | not matched |
 | Ian Anderson      | perpetual | not matched |
 | Nate Pearson      | perpetual | not matched |
 | Gio Urshela       | pkdodgers | not matched |
