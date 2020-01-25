@@ -42,12 +42,15 @@ names(replacement_hitters) <- c("position",
 
 #make lists of file names
 projections <- c("steamer", "depthcharts", "fans", "zips", "atc", "thebat")
+
+
+  
 getfiles <- function(proj) {
 
   #build list of paths to files
   folder <- paste0("./", proj, "/")
   
-  filelist <- list.files(folder) 
+  filelist <- list.files(folder)
   filelist <- filelist[filelist != "pitcher.csv"]
   filelist <- filelist[filelist != "pitchers.csv"]
 

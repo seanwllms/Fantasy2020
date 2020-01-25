@@ -104,21 +104,27 @@ Fantasy 2020
 | Nick Markakis      | Braves       |  609|   71|   13|   76|    2|  0.284|  6.13|  16.88|
 | Ender Inciarte     | Braves       |  553|   65|   10|   52|   16|  0.266|  5.75|  15.82|
 
-#### Top OF
+#### Top CI
 
-| Name               | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
-|:-------------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Justin Upton       | Angels       |  623|   83|   30|   92|    4|  0.240|  7.87|  21.67|
-| Shin-Soo Choo      | Rangers      |  630|   86|   22|   64|   10|  0.255|  7.25|  19.96|
-| David Peralta      | Diamondbacks |  595|   74|   21|   76|    3|  0.280|  7.14|  19.65|
-| Jackie Bradley Jr. | Red Sox      |  637|   80|   21|   77|   12|  0.238|  6.95|  19.14|
-| Randal Grichuk     | Blue Jays    |  560|   72|   30|   83|    3|  0.244|  6.81|  18.74|
-| Hunter Renfroe     | Rays         |  574|   72|   33|   82|    4|  0.232|  6.77|  18.63|
-| Anthony Santander  | Orioles      |  588|   67|   24|   77|    4|  0.258|  6.47|  17.81|
-| Corey Dickerson    | Marlins      |  567|   66|   20|   71|    4|  0.276|  6.41|  17.64|
-| Gregory Polanco    | Pirates      |  560|   70|   21|   71|   10|  0.248|  6.38|  17.57|
-| Kevin Kiermaier    | Rays         |  574|   67|   17|   63|   19|  0.240|  6.33|  17.43|
-| Nick Markakis      | Braves       |  609|   71|   13|   76|    2|  0.284|  6.13|  16.88|
+| Name             | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
+|:-----------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
+| Daniel Murphy    | Rockies      |  560|   71|   20|   81|    2|  0.288|  7.22|  19.88|
+| Joey Votto       | Reds         |  651|   87|   21|   71|    4|  0.270|  6.92|  19.06|
+| Giovanny Urshela | Yankees      |  581|   70|   19|   75|    2|  0.272|  5.48|  15.07|
+| Hanser Alberto   | Orioles      |  595|   65|   13|   60|    5|  0.287|  5.09|  14.00|
+| Evan Longoria    | Giants       |  574|   63|   21|   74|    3|  0.253|  4.65|  12.79|
+| Brandon Belt     | Giants       |  560|   68|   18|   61|    4|  0.250|  3.92|  10.79|
+| Todd Frazier     | Rangers      |  511|   64|   22|   69|    3|  0.240|  3.86|  10.63|
+| Matt Carpenter   | Cardinals    |  525|   70|   20|   58|    5|  0.238|  3.70|  10.18|
+| Colin Moran      | Pirates      |  525|   55|   16|   67|    2|  0.268|  3.67|  10.11|
+| Mitch Moreland   | NA           |  455|   58|   22|   67|    2|  0.242|  3.50|   9.63|
+| Maikel Franco    | Royals       |  476|   56|   19|   64|    0|  0.260|  3.41|   9.40|
+| Justin Smoak     | Brewers      |  475|   60|   23|   66|    0|  0.236|  3.14|   8.66|
+| Wilmer Flores    | NA           |  357|   42|   14|   49|    0|  0.286|  2.86|   7.86|
+| Jesus Aguilar    | Marlins      |  455|   53|   20|   63|    0|  0.244|  2.61|   7.18|
+| Ronald Guzman    | Rangers      |  476|   56|   17|   58|    3|  0.244|  2.48|   6.83|
+| Ryan Zimmerman   | NA           |  364|   44|   17|   53|    0|  0.260|  2.04|   5.62|
+| Jake Lamb        | Diamondbacks |  480|   58|   17|   62|    3|  0.232|  1.98|   5.46|
 
 #### Top MI
 

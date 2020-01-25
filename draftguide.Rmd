@@ -122,15 +122,15 @@ topdh <- filter(hitter_projections, status != "drafted") %>%
 kable(topdh)
 ```
 
-####Top OF
+####Top CI
 ```{r, echo = FALSE}
-topof <- filter(hitter_projections, status != "drafted", position =="outfield") %>% 
+topci <- filter(hitter_projections, status != "drafted", position %in% c("first_base","third_base")) %>% 
       mutate(pts = marginal.total.points, dlr = dollar.value) %>%
       select(Name, Team, PA, R, HR, RBI, SB, AVG, pts, dlr)  %>%
       arrange(-dlr) %>% 
-      filter(row_number() < 12)
+      filter(row_number() < 18)
 
-kable(topof)
+kable(topci)
 
 ```
 
