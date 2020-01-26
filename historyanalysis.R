@@ -75,11 +75,12 @@ ggsave("catplot.png", catplot, width=6, height = 8)
 ###Regression Time####
 
 #filter out 1, 2, 17 and 18 point recipients (skew results)
-regress <- results %>% filter(Points > 2 & Points < 17)
+regress <- results %>% filter(Points > 2 & Points < 17) %>% 
+  filter(Year > 2017)
 
 #run the regression for each category
 regress <- regress %>% group_by(Category) %>%
-      do(regresults = lm(Points ~ Value + factor(Year), data=.))
+      do(regresults = lm(Points ~ Value , data=.))
 
 #organize regression results in to tidy df for calculating value 
 coefs <- tidy(regress, regresults) %>%
