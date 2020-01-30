@@ -3,16 +3,16 @@ Fantasy 2020
 
 #### Today's auction
 
-| Name               |  marginal.total.points|  dollar.value|
-|:-------------------|----------------------:|-------------:|
-| Giovanny Gallegos  |                   3.43|          9.45|
-| Keone Kela         |                   7.51|         20.69|
-| Rick Porcello      |                   4.76|         13.11|
-| Anthony DeSclafani |                   4.96|         13.66|
-| Gregory Polanco    |                   5.06|         13.93|
-| Jon Gray           |                   7.34|         20.20|
-| Dylan Bundy        |                   6.94|         19.10|
-| Ender Inciarte     |                   5.37|         14.78|
+| Name             |  marginal.total.points|  dollar.value|
+|:-----------------|----------------------:|-------------:|
+| Mark Melancon    |                   5.62|         15.48|
+| Adam Frazier     |                   3.87|         10.66|
+| Jon Lester       |                   4.25|         11.69|
+| Hunter Renfroe   |                   4.60|         12.67|
+| Brandon Kintzler |                  -1.49|         -4.11|
+| Niko Goodrum     |                   4.49|         12.35|
+| Randal Grichuk   |                   4.66|         12.82|
+| Matt Barnes      |                   2.49|          6.84|
 
 #### Draft Status
 
@@ -21,11 +21,11 @@ Fantasy 2020
 | catcher      |         16|   9.2|   3.6|
 | dh           |          3|  11.4|  10.0|
 | first\_base  |         13|   8.8|   4.9|
-| outfield     |         47|  15.7|   7.4|
+| outfield     |         44|  15.7|   7.0|
 | second\_base |          5|  12.3|   8.2|
 | shortstop    |          8|   9.6|   5.7|
 | third\_base  |          9|  11.2|   5.8|
-| pitcher      |        104|  20.7|   7.1|
+| pitcher      |         98|  17.1|   6.5|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
@@ -37,72 +37,72 @@ Fantasy 2020
 | MI       |                       4|
 | SS       |                       0|
 | C        |                      13|
-| OF       |                      28|
-| P        |                      74|
-| Total    |                     143|
+| OF       |                      26|
+| P        |                      68|
+| Total    |                     135|
 
 #### Current Standings
 
 | team\_name |  spent|  left|  picks.left|  max\_bid|  total\_points|  hit.points|  pitch.points|
 |:-----------|------:|-----:|-----------:|---------:|--------------:|-----------:|-------------:|
 | marmaduke  |    235|    25|           6|        20|          113.2|        62.1|          51.1|
-| rippe      |    229|    31|           8|        24|          109.1|        52.4|          56.7|
+| ds9        |    233|    27|           8|        20|          112.3|        46.5|          65.8|
+| rippe      |    241|    19|           7|        13|          112.2|        52.4|          59.8|
 | isotopes   |    227|    33|          10|        24|          107.0|        59.7|          47.3|
-| ds9        |    223|    37|           9|        29|          107.0|        46.5|          60.5|
-| sturgeon   |    213|    47|          11|        37|          101.3|        61.9|          39.4|
+| sturgeon   |    218|    42|          10|        33|          100.4|        61.9|          38.5|
 | chicago    |    229|    31|           7|        25|           98.9|        63.1|          35.8|
+| ottawa     |    237|    23|           7|        17|           98.3|        47.5|          50.8|
 | dsb        |    243|    17|           8|        10|           98.2|        38.6|          59.6|
 | pkdodgers  |    255|     5|           0|         6|           97.0|        43.6|          53.4|
-| ottawa     |    227|    33|           8|        26|           94.4|        47.5|          46.9|
 | dembums    |    243|    17|           8|        10|           88.1|        38.6|          49.5|
 | bellevegas |    249|    11|           4|         8|           87.1|        40.5|          46.6|
+| balco      |    211|    49|           8|        42|           85.8|        51.7|          34.1|
+| bears      |    240|    20|           9|        12|           83.9|        40.4|          43.5|
 | pasadena   |    215|    45|          10|        36|           83.7|        50.0|          33.7|
-| balco      |    206|    54|           9|        46|           81.7|        47.6|          34.1|
-| bears      |    229|    31|          10|        22|           77.0|        40.4|          36.6|
 | drjames    |    245|    15|           9|         7|           76.5|        39.0|          37.5|
 | deano      |    246|    14|          10|         5|           73.2|        54.7|          18.5|
-| perpetual  |    197|    63|          10|        54|           52.0|        26.5|          25.5|
+| perpetual  |    209|    51|           8|        44|           60.3|        30.6|          29.7|
 | deener     |    220|    40|           6|        35|           42.8|        22.4|          20.4|
 
 #### Top Remaining Pitchers
 
-| Name               | Team     |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
-|:-------------------|:---------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
-| Keone Kela         | Pirates  |   65|  3.38|  1.19|   80|   24|    4|  7.51|  20.69|
-| Jon Gray           | Rockies  |  186|  4.34|  1.33|  190|    0|   12|  7.34|  20.20|
-| Dylan Bundy        | Angels   |  178|  4.50|  1.27|  179|    0|   11|  6.94|  19.10|
-| Garrett Richards   | Padres   |  165|  4.01|  1.34|  172|    0|   10|  6.21|  17.09|
-| Josh Lindblom      | Brewers  |  178|  4.50|  1.31|  173|    0|   10|  5.74|  15.79|
-| Mark Melancon      | Braves   |   65|  3.76|  1.29|   61|   24|    3|  5.62|  15.48|
-| Steven Matz        | Mets     |  169|  4.28|  1.33|  163|    0|   10|  5.53|  15.23|
-| Johnny Cueto       | Giants   |  182|  4.21|  1.32|  155|    0|   10|  5.46|  15.04|
-| Nathan Eovaldi     | Red Sox  |  160|  4.37|  1.32|  153|    0|   10|  5.15|  14.17|
-| Anthony DeSclafani | Reds     |  153|  4.42|  1.28|  151|    0|    9|  4.96|  13.66|
-| Adrian Houser      | Brewers  |  165|  4.29|  1.36|  155|    0|   10|  4.88|  13.43|
-| Marco Gonzales     | Mariners |  196|  4.54|  1.34|  150|    0|   11|  4.81|  13.25|
-| Rick Porcello      | Mets     |  165|  4.62|  1.30|  148|    0|   10|  4.76|  13.11|
-| Kevin Gausman      | Giants   |  155|  4.11|  1.29|  148|    0|    8|  4.75|  13.08|
-| Jakob Junis        | Royals   |  182|  4.75|  1.33|  161|    0|   10|  4.56|  12.56|
+| Name             | Team     |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
+|:-----------------|:---------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
+| Garrett Richards | Padres   |  165|  4.01|  1.34|  172|    0|   10|  6.21|  17.09|
+| Josh Lindblom    | Brewers  |  178|  4.50|  1.31|  173|    0|   10|  5.74|  15.79|
+| Mark Melancon    | Braves   |   65|  3.76|  1.29|   61|   24|    3|  5.62|  15.48|
+| Steven Matz      | Mets     |  169|  4.28|  1.33|  163|    0|   10|  5.53|  15.23|
+| Johnny Cueto     | Giants   |  182|  4.21|  1.32|  155|    0|   10|  5.46|  15.04|
+| Nathan Eovaldi   | Red Sox  |  160|  4.37|  1.32|  153|    0|   10|  5.15|  14.17|
+| Adrian Houser    | Brewers  |  165|  4.29|  1.36|  155|    0|   10|  4.88|  13.43|
+| Marco Gonzales   | Mariners |  196|  4.54|  1.34|  150|    0|   11|  4.81|  13.25|
+| Kevin Gausman    | Giants   |  155|  4.11|  1.29|  148|    0|    8|  4.75|  13.08|
+| Jakob Junis      | Royals   |  182|  4.75|  1.33|  161|    0|   10|  4.56|  12.56|
+| Nick Anderson    | Rays     |   65|  3.21|  1.07|   93|    6|    5|  4.28|  11.78|
+| Jon Lester       | Cubs     |  176|  4.69|  1.40|  159|    0|   11|  4.25|  11.69|
+| Tony Watson      | Giants   |   68|  3.83|  1.26|   62|   18|    3|  4.15|  11.44|
+| Danny Duffy      | Royals   |  184|  4.68|  1.37|  160|    0|   10|  4.12|  11.35|
+| Pablo Lopez      | Marlins  |  157|  4.21|  1.29|  135|    0|    8|  4.11|  11.33|
 
 #### Top Remaining Hitters
 
-| Name               | Team      |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
-|:-------------------|:----------|----:|----:|----:|----:|----:|------:|-----:|------:|
-| Jackie Bradley Jr. | Red Sox   |  637|   80|   21|   77|   12|  0.238|  5.69|  15.66|
-| Ender Inciarte     | Braves    |  553|   65|   10|   52|   16|  0.266|  5.37|  14.78|
-| Victor Reyes       | Tigers    |  525|   61|    9|   51|   16|  0.274|  5.28|  14.53|
-| Gregory Polanco    | Pirates   |  560|   70|   21|   71|   10|  0.248|  5.06|  13.93|
-| Randal Grichuk     | Blue Jays |  560|   72|   30|   83|    3|  0.244|  4.66|  12.82|
-| Hunter Renfroe     | Rays      |  574|   72|   33|   82|    4|  0.232|  4.60|  12.67|
-| Nick Markakis      | Braves    |  609|   71|   13|   76|    2|  0.284|  4.56|  12.55|
-| Niko Goodrum       | Tigers    |  637|   73|   19|   70|   15|  0.242|  4.49|  12.35|
-| Miguel Cabrera     | Tigers    |  595|   65|   18|   75|    0|  0.276|  4.14|  11.40|
-| Dexter Fowler      | Cardinals |  637|   75|   19|   68|    9|  0.234|  4.13|  11.37|
-| Giovanny Urshela   | Yankees   |  581|   70|   19|   75|    2|  0.272|  4.07|  11.20|
-| Kevin Pillar       | NA        |  476|   54|   14|   58|   10|  0.262|  3.97|  10.93|
-| Steven Souza Jr.   | NA        |  504|   62|   21|   66|    9|  0.242|  3.95|  10.88|
-| Adam Frazier       | Pirates   |  567|   68|   10|   54|    7|  0.276|  3.87|  10.66|
-| JaCoby Jones       | Tigers    |  581|   67|   16|   59|   12|  0.234|  3.87|  10.65|
+| Name               | Team         |   PA|    R|   HR|  RBI|   SB|    AVG|   pts|    dlr|
+|:-------------------|:-------------|----:|----:|----:|----:|----:|------:|-----:|------:|
+| Jackie Bradley Jr. | Red Sox      |  637|   80|   21|   77|   12|  0.238|  5.69|  15.66|
+| Victor Reyes       | Tigers       |  525|   61|    9|   51|   16|  0.274|  5.28|  14.53|
+| Randal Grichuk     | Blue Jays    |  560|   72|   30|   83|    3|  0.244|  4.66|  12.82|
+| Hunter Renfroe     | Rays         |  574|   72|   33|   82|    4|  0.232|  4.60|  12.67|
+| Nick Markakis      | Braves       |  609|   71|   13|   76|    2|  0.284|  4.56|  12.55|
+| Niko Goodrum       | Tigers       |  637|   73|   19|   70|   15|  0.242|  4.49|  12.35|
+| Miguel Cabrera     | Tigers       |  595|   65|   18|   75|    0|  0.276|  4.14|  11.40|
+| Dexter Fowler      | Cardinals    |  637|   75|   19|   68|    9|  0.234|  4.13|  11.37|
+| Giovanny Urshela   | Yankees      |  581|   70|   19|   75|    2|  0.272|  4.07|  11.20|
+| Kevin Pillar       | NA           |  476|   54|   14|   58|   10|  0.262|  3.97|  10.93|
+| Steven Souza Jr.   | NA           |  504|   62|   21|   66|    9|  0.242|  3.95|  10.88|
+| Adam Frazier       | Pirates      |  567|   68|   10|   54|    7|  0.276|  3.87|  10.66|
+| Austin Hays        | Orioles      |  462|   56|   19|   60|    8|  0.255|  3.71|  10.22|
+| Ian Happ           | Cubs         |  504|   64|   22|   65|    7|  0.239|  3.70|  10.18|
+| Kole Calhoun       | Diamondbacks |  581|   74|   23|   69|    4|  0.240|  3.66|  10.08|
 
 #### Top CI
 
@@ -170,12 +170,17 @@ Fantasy 2020
 |:-----------|:----------------|-------:|--------------:|-------:|
 | dembums    | Carlos Martinez |      16|          32.30|   16.30|
 | pkdodgers  | Miles Mikolas   |       7|          21.15|   14.15|
+| sturgeon   | Dylan Bundy     |       5|          19.10|   14.10|
 | ds9        | Max Scherzer    |      39|          50.81|   11.81|
 | dembums    | Jose Quintana   |       7|          17.55|   10.55|
+| ds9        | Jon Gray        |      10|          20.20|   10.20|
 | bellevegas | Clayton Kershaw |      28|          38.01|   10.01|
+| balco      | Ender Inciarte  |       5|          14.78|    9.78|
+| bears      | Keone Kela      |      11|          20.69|    9.69|
 | pkdodgers  | Ian Kennedy     |      10|          19.62|    9.62|
 | drjames    | Edwin Diaz      |      20|          29.48|    9.48|
 | dsb        | Chris Sale      |      33|          42.21|    9.21|
+| perpetual  | Rick Porcello   |       4|          13.11|    9.11|
 | ottawa     | Dee Gordon      |       5|          14.09|    9.09|
 | pkdodgers  | Kenley Jansen   |      20|          28.80|    8.80|
 | ds9        | Mauricio Dubon  |       5|          13.79|    8.79|
@@ -183,11 +188,6 @@ Fantasy 2020
 | pasadena   | Mallex Smith    |      17|          25.21|    8.21|
 | sturgeon   | Yu Darvish      |      24|          32.15|    8.15|
 | isotopes   | Kevin Kiermaier |       8|          16.03|    8.03|
-| pasadena   | Andrew Heaney   |      16|          23.82|    7.82|
-| marmaduke  | Craig Kimbrel   |      20|          27.76|    7.76|
-| marmaduke  | Jose Urquidy    |      13|          20.76|    7.76|
-| marmaduke  | Chris Archer    |      12|          19.69|    7.69|
-| sturgeon   | Aroldis Chapman |      26|          33.47|    7.47|
 
 #### Unmatched Draft Picks
 
@@ -216,5 +216,4 @@ Fantasy 2020
 | Andrew Vaughn      | marmaduke | not matched |
 | Kwang-Hyun Kim     | pkdodgers | not matched |
 | Evan White         | deener    | not matched |
-| Jacoby Jones       | dsb       | not matched |
 | Yoshitomo Tsutsugo | ottawa    | not matched |
