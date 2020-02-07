@@ -11,7 +11,7 @@
 "10","OF2",32,"J.D. Martinez","Red Sox","dh","6184",658,563,102,40,119,3,0.302,10.96,30.17,"drafted",NA,NA,NA,NA,NA,NA
 "11","OF3",5,"Victor Robles","Nationals","outfield","18363",658,568,81,18,74,32,0.263,10.86,29.89,"drafted",NA,NA,NA,NA,NA,NA
 "12","OF4",17,"Mallex Smith","Mariners","outfield","13608",560,486,63,6,43,40,0.25,9.16,25.21,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","OF5",3,"Trent Grisham","Padres","outfield","18564",518,420,65,17,56,8,0.246,3.38,9.3,"drafted",NA,NA,NA,NA,NA,NA
 "14","OF6",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "15","DH",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "16","P1",5,"Griffin Canning","Angels","pitcher","19867",NA,NA,NA,NA,NA,NA,NA,4.67,12.84,"drafted",135,4.34,1.28,0,9,140
@@ -19,7 +19,7 @@
 "18","P3",5,"Taylor Rogers","Twins","pitcher","13449",NA,NA,NA,NA,NA,NA,NA,8.95,24.65,"drafted",65,3.3,1.12,30,3,78
 "19","P4",16,"Andrew Heaney","Angels","pitcher","15423",NA,NA,NA,NA,NA,NA,NA,8.65,23.82,"drafted",168,4.11,1.2,0,11,185
 "20","P5",16,"David Price","Red Sox","pitcher","3184",NA,NA,NA,NA,NA,NA,NA,7.98,21.98,"drafted",164,4.12,1.25,0,12,171
-"21","P6",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"21","P6",6,"Forrest Whitley",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "22","P7",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "23","P8",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
 "24","P9",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
