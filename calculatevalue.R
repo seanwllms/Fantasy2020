@@ -93,13 +93,10 @@ names(hitter_data_frames) <- proj_systems
 ############   PECOTA   ############
 ####################################
 #read in PECOTA data and rname variables to line up
-
-if (file.exists("./pecota/pecota_bat1_2019-02-04_60742.csv")) {
-  pecotahit<- read_csv("./pecota/pecota_bat1_2019-02-04_60742.csv") %>% 
-  mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
-  rename(Team = TEAM, 
-         BPID=ID) %>% 
-  select(Name, BPID, Team, AB, PA, R,HR, RBI, SB, AVG, OBP) %>% 
+library(readxl)
+if (file.exists("./pecota/pecota2020_hitting_feb06.xlsx")) {
+  pecotahit<- read_xlsx("./pecota/pecota2020_hitting_feb06.xlsx") %>% 
+  select(name, bpid, team, pa, r, hr, rbi, sb, avg, oba) %>% 
   mutate(Team = "pecotaflag")
 
   #crosswalk PECOTA to BP
@@ -107,13 +104,14 @@ if (file.exists("./pecota/pecota_bat1_2019-02-04_60742.csv")) {
     load("./pecota/crosswalk.rda")
   } else {
     crosswalk <- read_csv(url("http://crunchtimebaseball.com/master.csv")) %>%
-      rename(Name = fg_name, playerid=fg_id, BPID = bp_id) %>% 
-      select(Name, playerid, BPID)
+      rename(Name = fg_name, playerid=fg_id, bpid = bp_id) %>% 
+      select(Name, playerid, bpid)
     save(crosswalk, file="./pecota/crosswalk.rda")
   }
   
   pecotahit <- left_join(pecotahit, crosswalk) %>% 
-    select(-BPID) %>% 
+    select(-bpid) %>% 
+    rename(PA=pa, R=r, HR=hr, RBI=rbi, SB=sb, AVG = avg, OBP = oba) %>% 
     mutate(HR_pa = HR/PA,
            R_pa = R/PA,
            RBI_pa = RBI/PA,
@@ -177,7 +175,7 @@ for (pos in 1:7) {
       
       #average across projection systems
       temp <- group_by(raw_pos_data, playerid) %>%
-            summarise(AB = mean(AB),
+            summarise(AB = mean(AB, na.rm = TRUE),
                   PA = mean(PA),
                    R_ab = mean(R_pa),
                    HR_ab = mean(HR_pa),
@@ -327,19 +325,17 @@ pitcher_proj <- pitcher_proj %>%
 ####################################
 ############   PECOTA   ############
 ####################################
-if (file.exists("./pecota/pecota_pit1_2019-02-04_60742.csv")) {
+if (file.exists("./pecota/pecota2020_pitching_feb06.xlsx")) {
   #read in PECOTA data and rename variables to line up
-  pecotapitch <- read_csv("./pecota/pecota_pit1_2019-02-04_60742.csv") %>% 
-    mutate(Name = paste(FIRSTNAME, LASTNAME, sep=" ")) %>% 
-    rename(Team = TEAM, K = SO, BPID=ID) %>% 
-    select(Name, BPID, Team, IP, ERA, WHIP, K, SV, W) %>% 
+  pecotapitch <- read_xlsx("./pecota/pecota2020_pitching_feb06.xlsx") %>% 
+    rename(Name = name, K = so, BPID = bpid, IP=ip, ERA = era, WHIP = whip, SV = sv, W = w) %>% 
+    select(Name, BPID, IP, ERA, WHIP, K, SV, W) %>% 
     mutate(Team = "pecotaflag",
            proj = "pecota") 
   
   pecotapitch <- left_join(pecotapitch, crosswalk) %>% 
     select(-BPID) %>% 
-    filter(!is.na(playerid)) %>% 
-    select(-name)
+    filter(!is.na(playerid)) 
   
   pitcher_proj[["pecota"]] <- pecotapitch
 }
