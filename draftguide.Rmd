@@ -23,9 +23,9 @@ today <- c(
   tbl_df() %>%
   set_names("Name")
 
-
-kable(left_join(today, hitterpitcher) %>%
-      select(Name, marginal.total.points, dollar.value))
+# 
+# kable(left_join(today, hitterpitcher) %>%
+#       select(Name, marginal.total.points, dollar.value))
 ```
 
 ####Draft Status
