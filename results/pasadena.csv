@@ -1,26 +1,26 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",24,"J.T. Realmuto","Phillies","catcher","11739",532,490,70,23,74,6,0.271,7.79,21.44,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",10,"Francisco Mejia","Padres","catcher","16403",390,354,43,14,48,2,0.254,3.07,8.46,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",12,"Matt Olson","Athletics","first_base","14344",658,560,92,39,106,1,0.254,7.36,20.26,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",25,"Jose Altuve","Astros","second_base","5417",658,585,95,25,90,14,0.297,9.02,24.83,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",22,"Carlos Correa","Astros","shortstop","14162",644,541,91,33,104,5,0.271,7.71,21.24,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",5,"Yandy Diaz","Rays","third_base","16578",588,489,70,15,65,4,0.271,3.74,10.29,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",3,"Eric Thames","Nationals","first_base","3711",456,382,60,22,63,4,0.241,2.94,8.1,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",24,"J.T. Realmuto","Phillies","catcher","11739",532,492,70,23,74,6,0.272,7.87,21.67,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",10,"Francisco Mejia","Padres","catcher","16403",390,359,43,14,48,2,0.254,3.05,8.39,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",12,"Matt Olson","Athletics","first_base","14344",658,561,91,40,106,1,0.253,7.32,20.16,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",25,"Jose Altuve","Astros","second_base","5417",658,577,94,26,89,15,0.298,9.23,25.42,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",22,"Carlos Correa","Astros","shortstop","14162",644,534,90,33,103,6,0.271,7.76,21.35,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",5,"Yandy Diaz","Rays","third_base","16578",588,479,70,16,65,3,0.27,3.69,10.15,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",3,"Eric Thames","Nationals","first_base","3711",456,383,61,23,64,4,0.242,3.17,8.72,"drafted",NA,NA,NA,NA,NA,NA
 "8","MI",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"9","OF1",5,"J.D. Davis","Mets","outfield","16219",511,443,63,23,70,3,0.266,4.07,11.19,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",32,"J.D. Martinez","Red Sox","dh","6184",658,569,100,40,118,3,0.302,10.99,30.27,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",5,"Victor Robles","Nationals","outfield","18363",658,561,78,18,75,30,0.26,10.29,28.34,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",17,"Mallex Smith","Mariners","outfield","13608",588,510,64,7,48,40,0.25,9.4,25.88,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",3,"Trent Grisham","Padres","outfield","18564",539,448,66,19,61,10,0.242,4.12,11.33,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",4,"Sam Hilliard","Rockies","outfield","17954",385,328,44,15,49,10,0.243,2.39,6.57,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",5,"Brandon Nimmo","Mets","outfield","12927",511,416,64,15,53,7,0.235,2.26,6.23,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",5,"Griffin Canning","Angels","pitcher","19867",NA,NA,NA,NA,NA,NA,NA,4.96,13.66,"drafted",135,4.22,1.27,0,9,141
-"17","P2",15,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,10.98,30.24,"drafted",173,3.61,1.16,0,12,197
-"18","P3",5,"Taylor Rogers","Twins","pitcher","13449",NA,NA,NA,NA,NA,NA,NA,10.37,28.56,"drafted",65,3.31,1.14,34,4,77
-"19","P4",16,"Andrew Heaney","Angels","pitcher","15423",NA,NA,NA,NA,NA,NA,NA,8.85,24.35,"drafted",168,4.04,1.2,0,11,187
-"20","P5",16,"David Price","Dodgers","pitcher","3184",NA,NA,NA,NA,NA,NA,NA,9.63,26.51,"drafted",164,3.7,1.2,0,12,181
+"9","OF1",5,"J.D. Davis","Mets","outfield","16219",511,444,64,23,70,2,0.267,4.12,11.34,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",32,"J.D. Martinez","Red Sox","dh","6184",686,581,104,42,122,3,0.302,11.52,31.73,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",5,"Victor Robles","Nationals","outfield","18363",658,568,78,18,74,30,0.259,10.31,28.37,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",17,"Mallex Smith","Mariners","outfield","13608",581,500,63,6,48,40,0.25,9.34,25.72,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",3,"Trent Grisham","Padres","outfield","18564",539,438,66,19,62,11,0.241,4.14,11.4,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",4,"Sam Hilliard","Rockies","outfield","17954",385,328,44,14,48,10,0.242,2.2,6.05,"drafted",NA,NA,NA,NA,NA,NA
+"15","DH",5,"Brandon Nimmo","Mets","outfield","12927",511,415,65,15,54,6,0.237,2.36,6.49,"drafted",NA,NA,NA,NA,NA,NA
+"16","P1",5,"Griffin Canning","Angels","pitcher","19867",NA,NA,NA,NA,NA,NA,NA,5.05,13.91,"drafted",135,4.18,1.27,0,9,142
+"17","P2",15,"Carlos Carrasco","Indians","pitcher","6632",NA,NA,NA,NA,NA,NA,NA,11.16,30.73,"drafted",173,3.55,1.16,0,12,199
+"18","P3",5,"Taylor Rogers","Twins","pitcher","13449",NA,NA,NA,NA,NA,NA,NA,9.89,27.23,"drafted",65,3.26,1.14,34,3,76
+"19","P4",16,"Andrew Heaney","Angels","pitcher","15423",NA,NA,NA,NA,NA,NA,NA,8.77,24.14,"drafted",168,4.06,1.21,0,11,189
+"20","P5",16,"David Price","Dodgers","pitcher","3184",NA,NA,NA,NA,NA,NA,NA,9.65,26.57,"drafted",164,3.71,1.2,0,12,182
 "21","P6",6,"Forrest Whitley",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"22","P7",5,"Mychal Givens","Orioles","pitcher","10430",NA,NA,NA,NA,NA,NA,NA,3.82,10.52,"drafted",65,3.99,1.25,15,3,77
+"22","P7",5,"Mychal Givens","Orioles","pitcher","10430",NA,NA,NA,NA,NA,NA,NA,3.91,10.76,"drafted",65,3.98,1.24,15,3,78
 "23","P8",5,"Josh James",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"24","P9",1,"Kyle Gibson","Rangers","pitcher","10123",NA,NA,NA,NA,NA,NA,NA,3.69,10.17,"drafted",174,4.6,1.43,0,10,162
-"25","P10",3,"Pablo Lopez","Marlins","pitcher","17085",NA,NA,NA,NA,NA,NA,NA,5.02,13.82,"drafted",157,4.08,1.28,0,9,138
+"24","P9",1,"Kyle Gibson","Rangers","pitcher","10123",NA,NA,NA,NA,NA,NA,NA,3.68,10.13,"drafted",174,4.65,1.43,0,10,164
+"25","P10",3,"Pablo Lopez","Marlins","pitcher","17085",NA,NA,NA,NA,NA,NA,NA,4.75,13.09,"drafted",157,4.04,1.27,0,8,139

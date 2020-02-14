@@ -1,26 +1,26 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",8,"Yadier Molina","Cardinals","catcher","7007",435,397,45,12,51,4,0.262,3.94,10.84,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",0,"",NA,NA,NA,NA,400,20.2,7.2,21.1,1.7,0.246,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"3","1B",19,"Carlos Santana","Indians","first_base","2396",658,547,92,29,93,4,0.26,6.92,19.04,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",12,"Ozzie Albies","Braves","second_base","16556",665,601,89,23,83,16,0.284,8.11,22.33,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",9,"Adalberto Mondesi","Royals","shortstop","13769",644,571,79,20,77,48,0.252,13.58,37.38,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",6,"Travis Shaw","Blue Jays","third_base","11982",448,389,56,21,61,3,0.234,1.67,4.59,"drafted",NA,NA,NA,NA,NA,NA
+"1","C1",8,"Yadier Molina","Cardinals","catcher","7007",435,399,45,12,51,4,0.262,3.92,10.8,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",1,"Stephen Vogt","Diamondbacks","catcher","5000",280,248,31,11,37,2,0.245,1.38,3.79,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",2,"Todd Frazier","Rangers","third_base","785",525,428,64,23,70,5,0.237,3.21,8.83,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",12,"Ozzie Albies","Braves","second_base","16556",665,607,88,23,82,17,0.283,8.13,22.37,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",9,"Adalberto Mondesi","Royals","shortstop","13769",644,554,78,20,78,47,0.252,13.49,37.14,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",6,"Travis Shaw","Blue Jays","third_base","11982",448,396,56,21,62,3,0.234,1.72,4.72,"drafted",NA,NA,NA,NA,NA,NA
 "7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"8","MI",1,"Wilmer Flores",NA,"first_base","5827",355,317,39,13,45,1,0.278,1.46,4.01,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",5,"Aristides Aquino","Reds","outfield","15482",422,389,54,26,68,5,0.245,3.58,9.86,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",9,"Willie Calhoun","Rangers","outfield","17838",560,505,73,27,81,2,0.27,5.22,14.36,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",5,"Oscar Mercado","Indians","outfield","16375",602,549,74,16,65,24,0.255,7.99,21.99,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",15,"Eddie Rosario","Twins","outfield","12155",637,584,86,31,101,6,0.282,8.55,23.53,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",8,"Nick Senzel","Reds","outfield","19293",500,447,61,16,56,13,0.258,4.81,13.24,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",34,"Giancarlo Stanton","Yankees","outfield","4949",602,515,94,44,108,3,0.265,8.69,23.92,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",16,"Shin-Soo Choo","Rangers","dh","3174",630,534,84,22,68,9,0.254,5.89,16.21,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",12,"Tyler Glasnow","Rays","pitcher","14374",NA,NA,NA,NA,NA,NA,NA,9.32,25.64,"drafted",163,3.72,1.24,0,11,199
-"17","P2",5,"Dinelson Lamet","Padres","pitcher","17186",NA,NA,NA,NA,NA,NA,NA,7.53,20.74,"drafted",144,3.77,1.23,0,9,181
-"18","P3",19,"James Paxton","Yankees","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,6.67,18.36,"drafted",126,3.68,1.19,0,9,150
-"19","P4",20,"Craig Kimbrel","Cubs","pitcher","6655",NA,NA,NA,NA,NA,NA,NA,11.16,30.73,"drafted",65,3.49,1.19,36,4,93
-"20","P5",13,"Jose Urquidy","Astros","pitcher","18413",NA,NA,NA,NA,NA,NA,NA,8.2,22.56,"drafted",168,4.15,1.22,0,12,168
-"21","P6",12,"Chris Archer","Pirates","pitcher","6345",NA,NA,NA,NA,NA,NA,NA,7.73,21.29,"drafted",180,4.11,1.29,0,10,201
-"22","P7",8,"Cole Hamels","Braves","pitcher","4972",NA,NA,NA,NA,NA,NA,NA,5.4,14.87,"drafted",164,4.25,1.34,0,10,161
-"23","P8",13,"Nick Anderson","Rays","pitcher","18337",NA,NA,NA,NA,NA,NA,NA,7.02,19.33,"drafted",65,3.01,1.06,17,4,95
-"24","P9",1,"Johnny Cueto","Giants","pitcher","6893",NA,NA,NA,NA,NA,NA,NA,5.94,16.36,"drafted",182,4.12,1.31,0,10,160
-"25","P10",0,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75.9,4.02,1.34,0.5,4.3,73.5
+"8","MI",1,"Wilmer Flores","Giants","first_base","5827",355,320,39,13,45,1,0.278,1.39,3.84,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",5,"Aristides Aquino","Reds","outfield","15482",422,393,55,27,69,6,0.246,3.8,10.46,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",9,"Willie Calhoun","Rangers","outfield","17838",560,510,73,27,81,1,0.27,5.17,14.24,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",5,"Oscar Mercado","Indians","outfield","16375",588,537,72,15,63,24,0.255,7.84,21.57,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",15,"Eddie Rosario","Twins","outfield","12155",637,580,86,32,101,6,0.282,8.61,23.69,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",8,"Nick Senzel","Reds","outfield","19293",500,440,61,16,57,13,0.257,4.74,13.06,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",34,"Giancarlo Stanton","Yankees","outfield","4949",602,506,92,42,107,3,0.264,8.38,23.07,"drafted",NA,NA,NA,NA,NA,NA
+"15","DH",16,"Shin-Soo Choo","Rangers","dh","3174",630,520,82,22,68,9,0.254,5.84,16.08,"drafted",NA,NA,NA,NA,NA,NA
+"16","P1",12,"Tyler Glasnow","Rays","pitcher","14374",NA,NA,NA,NA,NA,NA,NA,9.38,25.81,"drafted",163,3.73,1.23,0,11,198
+"17","P2",5,"Dinelson Lamet","Padres","pitcher","17186",NA,NA,NA,NA,NA,NA,NA,7.42,20.42,"drafted",144,3.78,1.24,0,9,181
+"18","P3",19,"James Paxton","Yankees","pitcher","11828",NA,NA,NA,NA,NA,NA,NA,7.14,19.65,"drafted",126,3.62,1.2,0,10,150
+"19","P4",20,"Craig Kimbrel","Cubs","pitcher","6655",NA,NA,NA,NA,NA,NA,NA,11.26,31.01,"drafted",65,3.46,1.18,36,4,94
+"20","P5",13,"Jose Urquidy","Astros","pitcher","18413",NA,NA,NA,NA,NA,NA,NA,8.58,23.61,"drafted",168,4.04,1.21,0,12,170
+"21","P6",12,"Chris Archer","Pirates","pitcher","6345",NA,NA,NA,NA,NA,NA,NA,7.86,21.64,"drafted",180,4.08,1.29,0,10,203
+"22","P7",8,"Cole Hamels","Braves","pitcher","4972",NA,NA,NA,NA,NA,NA,NA,4.34,11.95,"drafted",146,4.25,1.34,0,9,144
+"23","P8",13,"Nick Anderson","Rays","pitcher","18337",NA,NA,NA,NA,NA,NA,NA,6.88,18.95,"drafted",65,2.92,1.06,16,4,97
+"24","P9",1,"Johnny Cueto","Giants","pitcher","6893",NA,NA,NA,NA,NA,NA,NA,6.05,16.66,"drafted",182,4.1,1.31,0,10,162
+"25","P10",7,"Wade Davis","Rockies","pitcher","7441",NA,NA,NA,NA,NA,NA,NA,1.93,5.31,"drafted",65,4.84,1.46,15,3,67
