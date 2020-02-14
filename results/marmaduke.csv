@@ -1,11 +1,11 @@
 "","roster_spot","salary","Name","Team","position","playerid","PA","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
 "1","C1",8,"Yadier Molina","Cardinals","catcher","7007",435,399,45,12,51,4,0.262,3.92,10.8,"drafted",NA,NA,NA,NA,NA,NA
 "2","C2",1,"Stephen Vogt","Diamondbacks","catcher","5000",280,248,31,11,37,2,0.245,1.38,3.79,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",2,"Todd Frazier","Rangers","third_base","785",525,428,64,23,70,5,0.237,3.21,8.83,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",19,"Carlos Santana","Indians","first_base","2396",665,552,93,29,94,4,0.261,7.07,19.47,"drafted",NA,NA,NA,NA,NA,NA
 "4","2B",12,"Ozzie Albies","Braves","second_base","16556",665,607,88,23,82,17,0.283,8.13,22.37,"drafted",NA,NA,NA,NA,NA,NA
 "5","SS",9,"Adalberto Mondesi","Royals","shortstop","13769",644,554,78,20,78,47,0.252,13.49,37.14,"drafted",NA,NA,NA,NA,NA,NA
 "6","3B",6,"Travis Shaw","Blue Jays","third_base","11982",448,396,56,21,62,3,0.234,1.72,4.72,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",0,"",NA,NA,NA,NA,400,37.2,11.6,39.6,3,0.248,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","CI",2,"Todd Frazier","Rangers","third_base","785",525,428,64,23,70,5,0.237,3.21,8.83,"drafted",NA,NA,NA,NA,NA,NA
 "8","MI",1,"Wilmer Flores","Giants","first_base","5827",355,320,39,13,45,1,0.278,1.39,3.84,"drafted",NA,NA,NA,NA,NA,NA
 "9","OF1",5,"Aristides Aquino","Reds","outfield","15482",422,393,55,27,69,6,0.246,3.8,10.46,"drafted",NA,NA,NA,NA,NA,NA
 "10","OF2",9,"Willie Calhoun","Rangers","outfield","17838",560,510,73,27,81,1,0.27,5.17,14.24,"drafted",NA,NA,NA,NA,NA,NA
