@@ -74,7 +74,7 @@ big_team_df <- filter(big_team_df, Name=="") %>%
          OF = OF1 + OF2 + OF3 +OF4 + OF5 + OF6,
          P = P1+P2+P3+P4+P5+P6+P7+P8+P9+P10) %>% 
   select(-(P1:P9), -(OF1:OF6), -(C1:C2)) %>% 
-  gather(Position, Still_to_be_Drafted)
+  gather(Position, Still_to_be_Drafted) 
 
 
 tot_picks <- data.frame(Position = "Total",
@@ -91,13 +91,21 @@ kable(big_team_df)
 ####Current Standings
 ```{r, echo = FALSE, warning=FALSE}
 library(knitr)
-standings <- standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
-                            pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points,
-                            max_bid = left - picks.left + 1) %>%
-                            select(team_name, spent, left, picks.left, max_bid, total_points, hit.points,
-                              pitch.points)
+standings <- standings.output %>% 
+  mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
+         pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points,
+         max_bid = left - picks.left + 1) %>%
+  select(team_name, 
+         #spent, 
+         #left, 
+         #picks.left, 
+         #max_bid, 
+         total_points, 
+         hit.points,
+         pitch.points) %>% 
+  kable()
 
-kable(standings)
+standings
 ```
 
 ####Top Remaining Pitchers
