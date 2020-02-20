@@ -50,6 +50,7 @@ getfiles <- function(proj) {
   #build list of paths to files
   folder <- paste0("./", proj, "/")
   
+  
   filelist <- list.files(folder)
   filelist <- filelist[filelist != "pitcher.csv"]
   filelist <- filelist[filelist != "pitchers.csv"]
