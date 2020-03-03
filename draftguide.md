@@ -9,9 +9,9 @@ Fantasy 2020
 |:------------|----------:|-----:|----:|
 | catcher     |          3|   3.4|  2.2|
 | first\_base |          1|   4.2|  4.2|
-| outfield    |          4|   3.6|  2.3|
+| outfield    |          3|   3.3|  1.9|
 | shortstop   |          1|   6.0|  6.0|
-| pitcher     |         29|  11.8|  4.8|
+| pitcher     |         25|  11.2|  4.6|
 
 | Position |  Still\_to\_be\_Drafted|
 |:---------|-----------------------:|
@@ -37,10 +37,10 @@ Fantasy 2020
 | chicago    |          113.7|        63.2|          50.5|
 | pasadena   |          113.1|        66.2|          46.9|
 | sturgeon   |          113.0|        68.2|          44.8|
-| ottawa     |          107.5|        54.3|          53.2|
+| ottawa     |          110.7|        54.3|          56.4|
 | isotopes   |          106.8|        64.5|          42.3|
+| pkdodgers  |          103.7|        48.3|          55.4|
 | dsb        |          101.4|        36.4|          65.0|
-| pkdodgers  |           99.3|        48.3|          51.0|
 | bears      |           99.1|        48.2|          50.9|
 | balco      |           94.9|        52.0|          42.9|
 | drjames    |           91.5|        49.4|          42.1|
@@ -52,23 +52,23 @@ Fantasy 2020
 
 #### Top Remaining Pitchers
 
-| Name            | Team         |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
-|:----------------|:-------------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
-| Jakob Junis     | Royals       |  180|  4.82|  1.35|  163|    0|   10|  4.27|  11.75|
-| Danny Duffy     | Royals       |  177|  4.68|  1.37|  157|    0|   10|  4.08|  11.22|
-| Eric Lauer      | Brewers      |  160|  4.66|  1.38|  149|    0|   10|  3.85|  10.60|
-| Chase Anderson  | Blue Jays    |  169|  4.92|  1.36|  148|    0|    9|  3.04|   8.38|
-| Matt Shoemaker  | Blue Jays    |  139|  4.64|  1.33|  131|    0|    8|  2.94|   8.11|
-| Trevor Williams | Pirates      |  165|  4.62|  1.36|  130|    0|    9|  2.92|   8.04|
-| Mike Leake      | Diamondbacks |  174|  4.73|  1.34|  112|    0|   10|  2.71|   7.46|
-| Adam Wainwright | Cardinals    |  155|  4.53|  1.41|  131|    0|    9|  2.63|   7.24|
-| Daniel Norris   | Tigers       |  160|  4.85|  1.40|  141|    0|    9|  2.54|   7.00|
-| Brad Keller     | Royals       |  179|  4.59|  1.44|  134|    0|   10|  2.49|   6.84|
-| Drew Smyly      | Giants       |  132|  4.46|  1.34|  133|    0|    6|  2.25|   6.20|
-| Jose Urena      | Marlins      |  133|  4.42|  1.35|  106|    3|    6|  2.01|   5.54|
-| Martin Perez    | Red Sox      |  165|  4.75|  1.46|  128|    0|   10|  1.95|   5.36|
-| Gio Gonzalez    | White Sox    |  139|  4.63|  1.43|  123|    0|    8|  1.68|   4.64|
-| Homer Bailey    | Twins        |  132|  5.01|  1.42|  111|    0|    9|  1.39|   3.83|
+| Name              | Team         |   IP|   ERA|  WHIP|    K|   SV|    W|   pts|    dlr|
+|:------------------|:-------------|----:|-----:|-----:|----:|----:|----:|-----:|------:|
+| Danny Duffy       | Royals       |  177|  4.68|  1.37|  157|    0|   10|  4.08|  11.22|
+| Eric Lauer        | Brewers      |  160|  4.66|  1.38|  149|    0|   10|  3.85|  10.60|
+| Chase Anderson    | Blue Jays    |  169|  4.92|  1.36|  148|    0|    9|  3.04|   8.38|
+| Matt Shoemaker    | Blue Jays    |  139|  4.64|  1.33|  131|    0|    8|  2.94|   8.11|
+| Trevor Williams   | Pirates      |  165|  4.62|  1.36|  130|    0|    9|  2.92|   8.04|
+| Mike Leake        | Diamondbacks |  174|  4.73|  1.34|  112|    0|   10|  2.71|   7.46|
+| Adam Wainwright   | Cardinals    |  155|  4.53|  1.41|  131|    0|    9|  2.63|   7.24|
+| Daniel Norris     | Tigers       |  160|  4.85|  1.40|  141|    0|    9|  2.54|   7.00|
+| Drew Smyly        | Giants       |  132|  4.46|  1.34|  133|    0|    6|  2.25|   6.20|
+| Jose Urena        | Marlins      |  133|  4.42|  1.35|  106|    3|    6|  2.01|   5.54|
+| Martin Perez      | Red Sox      |  165|  4.75|  1.46|  128|    0|   10|  1.95|   5.36|
+| Gio Gonzalez      | White Sox    |  139|  4.63|  1.43|  123|    0|    8|  1.68|   4.64|
+| Homer Bailey      | Twins        |  132|  5.01|  1.42|  111|    0|    9|  1.39|   3.83|
+| Elieser Hernandez | Marlins      |  115|  4.65|  1.32|  115|    0|    5|  1.12|   3.10|
+| Mike Montgomery   | Royals       |  160|  4.79|  1.47|  118|    0|    9|  1.00|   2.75|
 
 #### Top Remaining Hitters
 
@@ -76,7 +76,6 @@ Fantasy 2020
 |:-------------------|:----------|----:|----:|----:|----:|----:|------:|-----:|-----:|
 | Miguel Rojas       | Marlins   |  539|   53|    8|   50|    7|  0.270|  2.18|  5.99|
 | Darin Ruf          | Giants    |  541|   59|   19|   63|    1|  0.232|  1.52|  4.18|
-| Steven Souza Jr.   | Cubs      |  363|   45|   15|   47|    7|  0.236|  1.32|  3.62|
 | Tony Wolters       | Rockies   |  384|   39|    4|   36|    1|  0.249|  1.24|  3.40|
 | Derek Fisher       | Blue Jays |  364|   46|   15|   43|    9|  0.227|  1.21|  3.32|
 | Pedro Severino     | Orioles   |  288|   29|    9|   32|    2|  0.236|  0.58|  1.59|
@@ -89,6 +88,7 @@ Fantasy 2020
 | Ryan Zimmerman     | Nationals |  285|   34|   12|   42|    1|  0.260|  0.18|  0.49|
 | Jose Osuna         | Pirates   |  321|   37|   10|   40|    2|  0.257|  0.15|  0.41|
 | Curt Casali        | Reds      |  257|   27|    8|   30|    0|  0.237|  0.11|  0.31|
+| Jake Marisnick     | Mets      |  319|   39|   11|   35|   10|  0.218|  0.00|  0.01|
 
 #### Top CI
 
@@ -162,6 +162,7 @@ Fantasy 2020
 | marmaduke  | Johnny Cueto     |       1|          13.02|   12.02|
 | perpetual  | Masahiro Tanaka  |       9|          20.83|   11.83|
 | chicago    | Garrett Richards |       6|          17.80|   11.80|
+| deano      | Jakob Junis      |       0|          11.75|   11.75|
 | perpetual  | Marco Gonzales   |       2|          13.54|   11.54|
 | deano      | Tanner Roark     |       1|          12.19|   11.19|
 | pasadena   | Joshua James     |       5|          15.85|   10.85|
@@ -173,7 +174,6 @@ Fantasy 2020
 | ottawa     | Jeff Samardzija  |       2|          12.23|   10.23|
 | sturgeon   | Josh Lindblom    |       4|          14.19|   10.19|
 | dsb        | Miguel Cabrera   |       0|          10.17|   10.17|
-| perpetual  | Steven Matz      |       3|          12.90|    9.90|
 
 #### Unmatched Draft Picks
 
@@ -192,12 +192,10 @@ Fantasy 2020
 | Ian Anderson       | perpetual | not matched |
 | Nate Pearson       | perpetual | not matched |
 | Andrew Vaughn      | marmaduke | not matched |
-| Kwang-Hyun Kim     | pkdodgers | not matched |
 | Evan White         | deener    | not matched |
 | Yoshitomo Tsutsugo | ottawa    | not matched |
 | Shogo Akiyama      | ds9       | not matched |
 | Jasson Dominguez   | sturgeon  | not matched |
-| Brad Keller        | ottawa    | not matched |
 | Spencer Howard     | isotopes  | not matched |
 | Ke'Bryan Hays      | ds9       | not matched |
 | Matthew Strahm     | deano     | not matched |
@@ -212,18 +210,13 @@ Fantasy 2020
 | Heston Kjerstad    | deener    | not matched |
 | Oscar Colas        | deano     | not matched |
 | Lewin Diaz         | pkdodgers | not matched |
-| Steven Souza       | dembums   | not matched |
 | Logan Gilbert      | chicago   | not matched |
-| Jake Junis         | deano     | not matched |
 | Tyler Nevin        | pkdodgers | not matched |
 | PLACEHOLDER        | deener    | not matched |
 | PLACEHOLDER        | deener    | not matched |
 | Michael Busch      | pkdodgers | not matched |
 | Spencer Torkelson  | dembums   | not matched |
-| PLACEHOLDER        | isotopes  | not matched |
-| PLACEHOLDER        | dsb       | not matched |
-| PLACEHOLDER        | ds9       | not matched |
-| PLACEHOLDER        | pkdodgers | not matched |
+| Andy Young         | pkdodgers | not matched |
 | PLACEHOLDER        | perpetual | not matched |
 | PLACEHOLDER        | marmaduke | not matched |
 | PLACEHOLDER        | deener    | not matched |
